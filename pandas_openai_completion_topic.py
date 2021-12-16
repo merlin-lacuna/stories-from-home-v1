@@ -75,10 +75,11 @@ for index, row in df.iterrows():
     shortvariant = poemvariant.replace("\n", " ").replace("ELEMENT: ","").replace("ElementalPoem:","")
     stats = f"[LM:{avghist[counter-1]},CM:{average},INC:{increases},ST:{state}, Element:{shortvariant}] "
     generations.append(stats + story)
-            
+
     print(stats,story)
     counter = counter + 1
 
+data =generations
 finalfile = dt_string + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
