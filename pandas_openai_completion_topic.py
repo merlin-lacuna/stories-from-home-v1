@@ -27,7 +27,7 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 for index, row in df.iterrows():
-    if (counter == 9):
+    if (counter == 3):
          break
     normavg = int(row['average']/10)
     year = int(row['year'])
