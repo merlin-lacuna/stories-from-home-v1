@@ -60,7 +60,7 @@ for index, row in df.iterrows():
 
     # print the completion
     story = completion.choices[0].text
-    stats = f"[LM:{avghist[counter-1]},CM:{average},INC:{increases}, Tone:{judgement}] "
+    stats = f"[LM:{avghist[counter-1]},CM:{average},INC:{increases}, Element:{poemvariant}] "
     print(stats,story)
     counter = counter + 1
 
