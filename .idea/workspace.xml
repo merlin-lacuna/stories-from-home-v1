@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c12085ef-7145-45ac-8d45-291196a608b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pandas_openai_completion_topic.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_openai_completion_topic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
