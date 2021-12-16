@@ -33,22 +33,23 @@ for index, row in df.iterrows():
 
     if (counter > 0):
         if (average == avghist[counter-1]):
-            judgement = "Peace"
+            poemvariant = "\nELEMENT: AIR\nElementalPoem:"
             increases = 0
         elif (average > avghist[counter-1]):
             increases = increases + 1
-            judgement = "Fear"
+            poemvariant = "\nELEMENT: EARTH\nElementalPoem:"
         elif(average < avghist[counter-1]):
-            judgement = "Happiness"
+            poemvariant = "\nELEMENT: WATER\nElementalPoem:"
             increases = 0
 
     if (increases > 4):
-        judgement = "Violence"
+        poemvariant = "\nELEMENT: FIRE\nElementalPoem:"
         increases = 0
 
+    finalprompt = poems + poemvariant
     completion=oa.Completion.create(
         engine="davinci",
-        prompt=f"Topic: Peace\nShortFable: Gaia is sleeping, the mountain, the clouds, and the oceans whisper soothing poems into her ear.  The air is calm . It embraces all of her children  and caresses them gently.\n###\nTopic: Happiness\nShortFable:  Slowly Gaia wakes up, the sun is talking to her. He brings good news: \"The air gave you a gift today\" he says. He shows her a beautify blue sky that the air has painted. Gaia smiles.\n###\nTopic: Fear\nShortFable: Deep in her bed of stone, Gaia is tossing and turning. The sun has forsaken her. The air is angry at Gaia and everyone else. Everyone is afraid of the air's temper.\n###\nTopic: Violence\nShortFable: Suddenly, the air turns violent. She begins to strangle Gaia. The air has been angry for five long months, and Gaia has done nothing to appease her. The air starts to poison her children and hold the sun as her prisoner.\n###\nTopic: {judgement}\nShortFable:",
+        prompt=finalprompt,
         temperature=0.7,
         max_tokens=60,
         top_p=1,
