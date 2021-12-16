@@ -79,7 +79,7 @@ for index, row in df.iterrows():
     print(stats,story)
     counter = counter + 1
 
-data =generations
+data = '\n'.join(generations)
 finalfile = dt_string + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
