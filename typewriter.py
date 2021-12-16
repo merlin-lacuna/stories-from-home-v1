@@ -1,6 +1,6 @@
 import sys, time
 
-text = "I wanna be adopted my michael jordan"
+text = "I wanna be adopted by michael jordan"
 
 def typewriter(message):
     for char in message:
