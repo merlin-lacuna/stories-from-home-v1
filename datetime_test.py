@@ -1,3 +1,3 @@
-import datetime
+import datetime_test
 #and the access its now method simpler
-d1 = datetime.now()
+d1 = datetime_test.now()
