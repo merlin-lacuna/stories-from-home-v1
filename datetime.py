@@ -1,7 +1,4 @@
-from datetime import date
+import datetime
 
-# current date and time
-now = datetime.now()
-
-timestamp = datetime.timestamp(now)
-print("timestamp =", timestamp)
+datetime_object = datetime.datetime.now()
+print(datetime_object)
