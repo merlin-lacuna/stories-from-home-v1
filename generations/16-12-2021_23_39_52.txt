@@ -1,1 +1,3 @@
-data
+[LM:369,CM:369,INC:0,ST:, Element: FIRE ]  the alchemy of the earth and the sky. i am the most complex of my children. an intriguing mixture of elements and ideas. i move in a perpetual flux. without a fixed point of reference. solid, liquid and gas are simultaneous in my nature. i am not an object that can be
+[LM:369,CM:369,INC:0,ST:nochange, Element: AIR ]  the touch that soars. i am an invisible shirt of gossamer threads. i wrap, embrace and connect. my winds caress the body, the mind and the spirit. from the sensual to the sublime, i play with my weightless substance. i offer voluptuousness as
+[LM:369,CM:370,INC:1,ST:increase, Element: EARTH ]  i am the one who turns. the one that is turned. i am the axis that joins and separates. i touch two sides of a coin at once. i fuse, divide, blend and transform. i am in constant motion and stillness. breath as a vortex of time. i come to
