@@ -10,6 +10,6 @@ def typewriter(message):
         if char != "\n":
             time.sleep(0.05)
         else:
-            time.sleep(1)
+            time.sleep(0.05)
 
 typewriter(text)
