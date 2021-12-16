@@ -13,7 +13,8 @@ extras = ""
 increases = 0
 
 oa = openai
-oa.api_key = os.getenv("OPENAI_API_KEY")
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 for index, row in df.iterrows():
     if (counter == 3):
