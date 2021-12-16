@@ -83,5 +83,5 @@ data = '\n'.join(generations)
 finalfile = './generations/' + dt_string + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
-        print('data')
+        print(data)
 
