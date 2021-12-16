@@ -80,7 +80,7 @@ for index, row in df.iterrows():
     counter = counter + 1
 
 data = '\n'.join(generations)
-finalfile = dt_string + '.txt'
+finalfile = './generations/' + dt_string + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
         print('data')
