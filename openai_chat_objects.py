@@ -19,7 +19,7 @@ response = openai.Completion.create(
 )
 
 utterance = response.choices[0].text
-print(utterance)
+print("UTTERANCE:", utterance)
 
 ##
 
@@ -38,4 +38,4 @@ response = openai.Completion.create(
 )
 
 utterance = response.choices[0].text
-print(utterance)
+print("UTTERANCE:", utterance)
