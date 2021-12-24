@@ -23,7 +23,6 @@ conversation = ["The following is a conversation between two dwarves who are ang
 
 
 while x < 11:
-    index = len(turns) - 1
     if(nextspeaker == "bob"):
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
