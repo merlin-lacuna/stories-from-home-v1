@@ -16,3 +16,5 @@ response = openai.Completion.create(
   presence_penalty=0.6,
   stop=["\n", "Bob:", "Barry:"]
 )
+
+print("R:", response.choices[0])
