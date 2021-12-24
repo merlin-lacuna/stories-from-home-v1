@@ -20,7 +20,7 @@ completion=oa.Completion.create(
 )
 
 utterance = completion.choices[0].text
-print("UTTERANCE:", utterance)
+print("UTTERANCE1:", utterance)
 
 ##
 
@@ -39,4 +39,4 @@ completion=oa.Completion.create(
 )
 
 utterance = completion.choices[0].text
-print("UTTERANCE:", utterance)
+print("UTTERANCE2:", utterance)
