@@ -44,7 +44,7 @@ for index, row in df.iterrows():
 
     if (increases > 4):
         state = "steady increase"
-        extras = "And the Co2 levels have increased 5 months in a row."
+        extras = " And the Co2 levels have increased 5 months in a row."
         increases = 0
 
     print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. {judgement}{extras}")
