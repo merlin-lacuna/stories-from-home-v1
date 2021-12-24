@@ -6,6 +6,7 @@ avghist = []
 judgement = ""
 extras = ""
 increases = 0
+degree = 0
 
 for index, row in df.iterrows():
     # if (counter == 5):
@@ -21,9 +22,11 @@ for index, row in df.iterrows():
 
     if (counter > 0):
         if (average == avghist[counter-1]):
+            degree = 0
             judgement = "We had the same level of Co2 as last month"
             increases = 0
         elif (average > avghist[counter-1]):
+            degree = 
             increases = increases + 1
             judgement = f"There was more Co2 than last month"
         elif(average < avghist[counter-1]):
