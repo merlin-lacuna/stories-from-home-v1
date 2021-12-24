@@ -48,6 +48,7 @@ while x < 11:
     )
 
     theanswer = completion.choices[0].text
+    print(theanswer)
 
     conversation.append(theanswer + restart_sequence)
 
