@@ -3,12 +3,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.Engine.list()
-
-import os
-import openai
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 start_sequence = "\nBob:"
 restart_sequence = "\nBarry: "
