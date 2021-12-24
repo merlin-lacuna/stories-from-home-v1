@@ -12,7 +12,7 @@ x = 0
 bobsanswer = ""
 barrysanswer = ""
 theanswer = ""
-turns = ["bob","barry","bob","barry"]
+nextspeaker = "bob"
 
 conversation = ["The following is a conversation between two dwarves who are angry about the price of gold.\n",
                 "\nBob: The price of gold is too damn high! Don't you agree Barry?",
@@ -24,14 +24,14 @@ conversation = ["The following is a conversation between two dwarves who are ang
 
 while x < 11:
     index = len(turns) - 1
-    if(turns[index]) == "bob":
+    if(nextspeaker == "bob"):
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
-        turns.append("barry")
-    elif(turns[index]) == "barry":
+        nextspeaker= "barry"
+    elif(nextspeaker == == "barry"):
         start_sequence = "\nBob:"
         restart_sequence = "\nBarry:"
-        turns.append("bob")
+        nextspeaker= "bob"
     else:
         start_sequence = "\nGarry:"
         restart_sequence = "\Murray:"
