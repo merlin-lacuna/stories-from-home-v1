@@ -14,7 +14,9 @@ barrysanswer = ""
 theanswer = ""
 nextspeaker = "bob"
 
-conversation = ["The following is a conversation between two dwarves who are angry about the price of gold.\n",
+scenario = "The following is a conversation between two dwarves who are angry about the price of gold.\n"
+
+conversation = [
                 "\nBob: The price of gold is too damn high! Don't you agree Barry?",
                 "\nBarry: Totally mate, I can't afford any more gold for my treasury.",
                 "\nBob: What do you think we should do about it?"
