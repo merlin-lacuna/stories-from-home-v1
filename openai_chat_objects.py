@@ -58,6 +58,7 @@ while x < 11:
 for c in conversation:
     print(c.strip())
 
+print(turns)
 
 
 ##
