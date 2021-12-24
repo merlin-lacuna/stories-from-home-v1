@@ -24,7 +24,10 @@ response = openai.Completion.create(
   stop=["\n", "Bob:", "Barry:"]
 )
 
-## 
+utterance = response.choices[0].text
+print(utterance)
+
+##
 
 start_sequence = "\nBarry:"
 restart_sequence = "\nBob: "
@@ -39,3 +42,6 @@ response = openai.Completion.create(
   presence_penalty=0.6,
   stop=["\n", "Bob:", "Barry:"]
 )
+
+utterance = response.choices[0].text
+print(utterance)
