@@ -23,6 +23,7 @@ for index, row in df.iterrows():
 
     if (counter > 0):
         if (average == avghist[counter-1]):
+            state = "didn't change"
             degree = 0
             judgement = "We had the same level of Co2 as last month"
             increases = 0
