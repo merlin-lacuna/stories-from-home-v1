@@ -7,6 +7,7 @@ judgement = ""
 extras = ""
 increases = 0
 degree = 0
+state = "nochange"
 
 for index, row in df.iterrows():
     # if (counter == 5):
@@ -26,14 +27,18 @@ for index, row in df.iterrows():
             judgement = "We had the same level of Co2 as last month"
             increases = 0
         elif (average > avghist[counter-1]):
-            degree = 
+            state = "increased"
+            degree = avghist[counter-1] / average
             increases = increases + 1
             judgement = f"There was more Co2 than last month"
         elif(average < avghist[counter-1]):
+            state = "decreased"
+            degree = average / avghist[counter-1]
             judgement = "The average is actually lower than last month"
             increases = 0
 
     if (increases > 4):
+        state = "steady increase"
         extras = ". Holy shit, the Co2 levels increased 5 months in a row."
         increases = 0
 
