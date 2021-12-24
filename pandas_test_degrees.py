@@ -43,7 +43,7 @@ for index, row in df.iterrows():
         extras = ". Holy shit, the Co2 levels increased 5 months in a row."
         increases = 0
 
-    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. The levels {state} . {judgement}{extras}")
+    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. The levels {state} by {degree} percent. {judgement}{extras}")
     extras=""
     counter = counter + 1
 
