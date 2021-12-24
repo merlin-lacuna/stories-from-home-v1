@@ -51,7 +51,7 @@ while x < 11:
 
     theanswer = completion.choices[0].text
 
-    conversation.append(bobsanswer + restart_sequence)
+    conversation.append(theanswer + restart_sequence)
 
 
 print("".join(conversation))
