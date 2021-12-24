@@ -36,7 +36,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.typewriter">
+  <component name="RunManager" selected="Python.openai_test">
     <configuration name="datetime_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="stories-from-home-v1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.openai_test" />
         <item itemvalue="Python.typewriter" />
         <item itemvalue="Python.pandas_openai_completion_topic" />
         <item itemvalue="Python.datetime_test (1)" />
         <item itemvalue="Python.datetime_test" />
-        <item itemvalue="Python.openai_test" />
       </list>
     </recent_temporary>
   </component>
