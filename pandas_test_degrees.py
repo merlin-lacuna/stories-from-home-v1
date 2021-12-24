@@ -34,12 +34,12 @@ for index, row in df.iterrows():
             reldegree = round((1 -(avghist[counter-1] / average)) * 100, 2)
             totaldegree = round((1 -(avghist[0] / average)) * 100, 2)
             increases = increases + 1
-            judgement = f"There was a {reldegree}% increase in Co2 compared to last month. It has increased by {totaldegree} percent since the start of this data."
+            judgement = f"There was a {reldegree}% increase in Co2 compared to last month. It has increased by {totaldegree}% since the start of this data."
         elif(average < avghist[counter-1]):
             state = "decreased"
             reldegree =  round((1 -(average / avghist[counter-1])) * 100, 2)
             totaldegree = round((1 - (avghist[0] / average)) * 100, 2)
-            judgement = f"There was a {reldegree}% decrease in Co2 compared to last month, but it has increased by {totaldegree} percent since the start of this data."
+            judgement = f"There was a {reldegree}% decrease in Co2 compared to last month, but it has increased by {totaldegree}% since the start of this data."
             increases = 0
 
     if (increases > 4):
