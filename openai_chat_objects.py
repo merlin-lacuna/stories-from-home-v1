@@ -11,6 +11,7 @@ restart_sequence = "\nBarry:"
 x = 0
 bobsanswer = ""
 barrysanswer = ""
+theanswer = ""
 turns = ["bob","barry","bob","barry"]
 
 conversation = ["The following is a conversation between two dwarves who are angry about the price of gold.\n",
@@ -20,7 +21,7 @@ conversation = ["The following is a conversation between two dwarves who are ang
                 "\nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
                 ]
 
-theprompt = "".join(conversation)
+
 
 while x < 11:
     if(len(turns) - 1) == "bob":
