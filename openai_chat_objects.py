@@ -37,7 +37,7 @@ bobsanswer = completion.choices[0].text
 
 conversation.append(bobsanswer + restart_sequence)
 
-print("Bob:", bobsanswer)
+print("".join(conversation))
 
 
 
