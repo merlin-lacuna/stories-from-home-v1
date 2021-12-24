@@ -29,12 +29,12 @@ for index, row in df.iterrows():
             increases = 0
         elif (average > avghist[counter-1]):
             state = "increased"
-            degree = avghist[counter-1] / average
+            degree = (1 -(avghist[counter-1] / average)) * 100
             increases = increases + 1
             judgement = f"There was more Co2 than last month"
         elif(average < avghist[counter-1]):
             state = "decreased"
-            degree = average / avghist[counter-1]
+            degree =  (1 -(average / avghist[counter-1])) * 100
             judgement = "The average is actually lower than last month"
             increases = 0
 
@@ -43,7 +43,7 @@ for index, row in df.iterrows():
         extras = ". Holy shit, the Co2 levels increased 5 months in a row."
         increases = 0
 
-    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. The levels {state}. {judgement}{extras}")
+    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. The levels {state} . {judgement}{extras}")
     extras=""
     counter = counter + 1
 
