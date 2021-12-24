@@ -18,4 +18,4 @@ response = openai.Completion.create(
   stop=["\n", "Bob:", "Barry:"]
 )
 
-print("R:", response.choices[0])
+print("R:", response.choices)
