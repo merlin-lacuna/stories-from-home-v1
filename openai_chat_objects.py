@@ -19,7 +19,7 @@ completion=oa.Completion.create(
   stop=["\n", "Bob:", "Barry:"]
 )
 
-print("UTTERANCE:", completion.choices)
+print("UTTERANCE:", completion.choices[0])
 
 # ##
 #
