@@ -26,9 +26,11 @@ while x < 11:
     if(len(turns) - 1) == "bob":
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
+        turns.append("barry")
     elif(len(turns) - 1) == "barry":
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
+        turns.append("bob")
     else:
         start_sequence = "\nGarry:"
         restart_sequence = "\Murray:"
