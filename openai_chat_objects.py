@@ -51,6 +51,7 @@ while x < 11:
     print(theanswer)
 
     conversation.append(theanswer + restart_sequence)
+    x = x + 1
 
 
 print("".join(conversation))
