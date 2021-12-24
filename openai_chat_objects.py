@@ -53,8 +53,8 @@ while x < 11:
     conversation.append(theanswer + restart_sequence)
     x = x + 1
 
-
-print("".join(conversation))
+for c in conversation
+    print(c)
 
 
 
