@@ -6,7 +6,8 @@ avghist = []
 judgement = ""
 extras = ""
 increases = 0
-degree = 0
+reldegree = 0
+totaldegree = 0
 state = "didn't change"
 
 for index, row in df.iterrows():
@@ -24,17 +25,20 @@ for index, row in df.iterrows():
     if (counter > 0):
         if (average == avghist[counter-1]):
             state = "didn't change"
-            degree = 0
-            judgement = "We had the same level of Co2 as last month"
+            reldegree = 0
+            totaldegree = round((1 -(avghist[0] / average)) * 100, 2)
+            judgement = "We had the same level of Co2 as last month. It's still"
             increases = 0
         elif (average > avghist[counter-1]):
             state = "increased"
-            degree = round((1 -(avghist[counter-1] / average)) * 100, 2)
+            reldegree = round((1 -(avghist[counter-1] / average)) * 100, 2)
+            totaldegree = round((1 -(avghist[0] / average)) * 100, 2)
             increases = increases + 1
-            judgement = f"There was more Co2 than last month"
+            judgement = f"There was more Co2 than last month. It has increased by {degree} percent since the start of this data."
         elif(average < avghist[counter-1]):
             state = "decreased"
-            degree =  round((1 -(average / avghist[counter-1])) * 100, 2)
+            reldegree =  round((1 -(average / avghist[counter-1])) * 100, 2)
+            totaldegree = round((1 - (avghist[0] / average)) * 100, 2)
             judgement = "The average is actually lower than last month"
             increases = 0
 
@@ -43,7 +47,7 @@ for index, row in df.iterrows():
         extras = ". Holy shit, the Co2 levels increased 5 months in a row."
         increases = 0
 
-    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. The levels {state} by {degree} percent. {judgement}{extras}")
+    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. {judgement}{extras}")
     extras=""
     counter = counter + 1
 
