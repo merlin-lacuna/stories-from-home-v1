@@ -31,7 +31,7 @@ print("Bob:", utterance)
 ##
 
 start_sequence = "\nBarry:"
-restart_sequence = "\nBob: "
+restart_sequence = "\nBob:"
 
 completion=oa.Completion.create(
   engine="davinci",
