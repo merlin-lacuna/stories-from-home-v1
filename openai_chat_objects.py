@@ -11,6 +11,7 @@ restart_sequence = "\nBarry:"
 x = 0
 bobsanswer = ""
 barrysanswer = ""
+turns = ["bob","barry","bob","barry"]
 
 conversation = ["The following is a conversation between two dwarves who are angry about the price of gold.\n",
                 "\nBob: The price of gold is too damn high! Don't you agree Barry?",
@@ -22,20 +23,26 @@ conversation = ["The following is a conversation between two dwarves who are ang
 
 theprompt = "".join(conversation)
 
-completion=oa.Completion.create(
-  engine="davinci",
-  prompt=theprompt,
-  temperature=0.9,
-  max_tokens=150,
-  top_p=1,
-  frequency_penalty=0,
-  presence_penalty=0.6,
-  stop=["\n", "Bob:", "Barry:"]
-)
+while x < 11:
+    if(len(turns) - 1) == "bob":
+        start_sequence = "\nBarry:"
+        restart_sequence = "\nBob:"
+    
+    completion=oa.Completion.create(
+      engine="davinci",
+      prompt=theprompt,
+      temperature=0.9,
+      max_tokens=150,
+      top_p=1,
+      frequency_penalty=0,
+      presence_penalty=0.6,
+      stop=["\n", "Bob:", "Barry:"]
+    )
 
-bobsanswer = completion.choices[0].text
+    bobsanswer = completion.choices[0].text
 
-conversation.append(bobsanswer + restart_sequence)
+    conversation.append(bobsanswer + restart_sequence)
+
 
 print("".join(conversation))
 
