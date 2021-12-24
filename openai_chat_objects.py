@@ -21,8 +21,6 @@ conversation = ["The following is a conversation between two dwarves who are ang
                 "\nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
                 ]
 
-
-
 while x < 11:
     if(len(turns) - 1) == "bob":
         start_sequence = "\nBarry:"
