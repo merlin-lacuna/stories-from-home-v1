@@ -49,7 +49,7 @@ while x < 11:
       stop=["\n", "Bob:", "Barry:"]
     )
 
-    bobsanswer = completion.choices[0].text
+    theanswer = completion.choices[0].text
 
     conversation.append(bobsanswer + restart_sequence)
 
