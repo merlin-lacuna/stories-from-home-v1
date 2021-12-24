@@ -29,12 +29,12 @@ for index, row in df.iterrows():
             increases = 0
         elif (average > avghist[counter-1]):
             state = "increased"
-            degree = (1 -(avghist[counter-1] / average)) * 100
+            degree = round((1 -(avghist[counter-1] / average)) * 100, 2)
             increases = increases + 1
             judgement = f"There was more Co2 than last month"
         elif(average < avghist[counter-1]):
             state = "decreased"
-            degree =  (1 -(average / avghist[counter-1])) * 100
+            degree =  round((1 -(average / avghist[counter-1])) * 100, 2)
             judgement = "The average is actually lower than last month"
             increases = 0
 
