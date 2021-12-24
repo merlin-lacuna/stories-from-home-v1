@@ -56,7 +56,7 @@ while x < 11:
     x = x + 1
 
 for c in conversation:
-    print(strip(c))
+    print(c.strip())
 
 
 
