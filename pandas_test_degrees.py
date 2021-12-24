@@ -7,7 +7,7 @@ judgement = ""
 extras = ""
 increases = 0
 degree = 0
-state = "nochange"
+state = "didn't change"
 
 for index, row in df.iterrows():
     # if (counter == 5):
@@ -42,7 +42,7 @@ for index, row in df.iterrows():
         extras = ". Holy shit, the Co2 levels increased 5 months in a row."
         increases = 0
 
-    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. {judgement}{extras}")
+    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. The levels {state} {judgement}{extras}")
     extras=""
     counter = counter + 1
 
