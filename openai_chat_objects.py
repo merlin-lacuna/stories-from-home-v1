@@ -27,7 +27,7 @@ while x < 11:
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
         nextspeaker= "barry"
-    elif(nextspeaker == == "barry"):
+    elif(nextspeaker == "barry"):
         start_sequence = "\nBob:"
         restart_sequence = "\nBarry:"
         nextspeaker= "bob"
