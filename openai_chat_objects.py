@@ -21,12 +21,14 @@ conversation = ["The following is a conversation between two dwarves who are ang
                 "\nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
                 ]
 
+
 while x < 11:
-    if(len(turns) - 1) == "bob":
+    index = len(turns) - 1
+    if(turns[index]) == "bob":
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
         turns.append("barry")
-    elif(len(turns) - 1) == "barry":
+    elif(turns[index]) == "barry":
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
         turns.append("bob")
