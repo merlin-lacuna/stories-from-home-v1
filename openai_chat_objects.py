@@ -29,8 +29,8 @@ while x < 11:
         restart_sequence = "\nBob:"
         turns.append("barry")
     elif(turns[index]) == "barry":
-        start_sequence = "\nBarry:"
-        restart_sequence = "\nBob:"
+        start_sequence = "\nBob:"
+        restart_sequence = "\nBarry:"
         turns.append("bob")
     else:
         start_sequence = "\nGarry:"
@@ -52,7 +52,7 @@ while x < 11:
     theanswer = completion.choices[0].text
     print(theanswer)
 
-    conversation.append(start_sequence + " " + theanswer)
+    conversation.append(start_sequence + "" + theanswer)
     x = x + 1
 
 for c in conversation:
