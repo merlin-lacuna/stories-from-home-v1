@@ -52,7 +52,7 @@ while x < 11:
     theanswer = completion.choices[0].text
     print(theanswer)
 
-    conversation.append(theanswer + restart_sequence)
+    conversation.append(start_sequence + " " + theanswer)
     x = x + 1
 
 for c in conversation:
