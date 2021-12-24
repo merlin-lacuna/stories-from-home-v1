@@ -18,7 +18,6 @@ conversation = ["The following is a conversation between two dwarves who are ang
                 "\nBarry: Totally mate, I can't afford any more gold for my treasury.",
                 "\nBob: What do you think we should do about it?"
                 "\nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
-                start_sequence
                 ]
 
 theprompt = "".join(conversation)
@@ -27,7 +26,15 @@ while x < 11:
     if(len(turns) - 1) == "bob":
         start_sequence = "\nBarry:"
         restart_sequence = "\nBob:"
-    
+    elif(len(turns) - 1) == "barry":
+        start_sequence = "\nBarry:"
+        restart_sequence = "\nBob:"
+    else:
+        start_sequence = "\nGarry:"
+        restart_sequence = "\Murray:"
+
+    theprompt = "".join(conversation) + start_sequence
+
     completion=oa.Completion.create(
       engine="davinci",
       prompt=theprompt,
