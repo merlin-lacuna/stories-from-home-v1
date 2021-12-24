@@ -54,7 +54,7 @@ while x < 11:
 
     conversation.append(start_sequence + "" + theanswer)
     x = x + 1
-
+print("------------------------------")
 for c in conversation:
     print(c.strip())
 
