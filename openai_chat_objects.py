@@ -58,8 +58,6 @@ print("------------------------------")
 for c in conversation:
     print(c.strip())
 
-print(turns)
-
 
 ##
 
