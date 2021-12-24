@@ -37,7 +37,7 @@ while x < 11:
         start_sequence = "\nGarry:"
         restart_sequence = "\Murray:"
 
-    theprompt = "".join(conversation) + start_sequence
+    theprompt = scenario + "".join(conversation) + start_sequence
 
     completion=oa.Completion.create(
       engine="davinci",
