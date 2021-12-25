@@ -8,7 +8,6 @@ from datetime import datetime
 now = datetime.now()
 dt_string = now.strftime("%d-%m-%Y_%H_%M_%S")
 
-
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
