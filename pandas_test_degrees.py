@@ -46,8 +46,8 @@ for index, row in df.iterrows():
         state = "steady increase"
         extras = " And the Co2 levels have increased 5 months in a row."
         increases = 0
-    stats = f"[LM:{avghist[counter - 1]},CM:{average},INC:{increases},STATUS:{state}]"
-    print(f"In the year {year}, the {monthtext} Co2 levels at Manu Loa were {average} units on average. {judgement}{extras}")
+    stats = f"[LM:{avghist[counter - 1]},CM:{average},INC:{increases},TD:{totaldegree}%,RD:{reldegree}%,STATUS:{state}]"
+    print(stats)
     extras=""
     counter = counter + 1
 
