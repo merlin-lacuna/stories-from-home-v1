@@ -14,7 +14,7 @@ entityb_answer = ""
 theanswer = ""
 nextspeaker = "entity-a"
 
-scenario = "The following is a conversation the EntityA and the EntityB who converse in a delirious, poetic manner. The EntityB feels sick and the EntityA is trying to find out what is wrong.\n"
+scenario = "The following is a conversation the EntityA and the EntityB who converse in a delirious, poetic manner. The EntityA feels sick and the EntityB is trying to find out what is wrong.\n"
 
 conversation = [
                 "\nEntityA: Flowing lymph and resting soil. I cover to protect and unveil to embrace. Layers of sedimented history stratify the present. My soul is a rocky concretion but my skin is a delicate crust that is being ravaged by an unknown virus.",
