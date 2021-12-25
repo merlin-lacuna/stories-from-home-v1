@@ -20,6 +20,7 @@ conversation = [
                 "\nEntityA: Flowing lymph and resting soil. I cover to protect and unveil to embrace. Layers of sedimented history stratify the present. My soul is a rocky concretion but my skin is a delicate crust that is being ravaged by a billion tiny ants.",
                 "\nEntityB: What is it that ravages you my dear? I have failed to protect you. Every day I become more opaque... a whisper, a flutter, a gust from the unknown. I have become a weapon that is turned against you, suffocating you like a lover whose body has become hot with fever. Do you feel the fever too? Do you feel my sweat raining down upon your brow?",
                 ]
+conversatiolhtml =[]
 # scenario = "The following is a conversation the EntityA and the EntityB who converse in a delirious, poetic manner.\n"
 #
 # conversation = [
@@ -62,8 +63,9 @@ while x < 11:
 print("------------------------------")
 for c in conversation:
     print(c.strip())
-    
-data = '\n'.join(generations)
+    conversatiolhtml.append("<p>"+c.strip()+"</p>")
+
+data = '\n'.join(conversatiolhtml)
 finalfile = './generations/' + dt_string + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
