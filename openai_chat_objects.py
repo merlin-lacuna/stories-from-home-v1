@@ -14,7 +14,7 @@ entityb_answer = ""
 theanswer = ""
 nextspeaker = "entity-a"
 
-scenario = "The following is a conversation the earth and the entity-a. The earth feels sick and the entity-a is trying to find out what is wrong.\n"
+scenario = "The following is a conversation the EntityA and the EntityB. The EntityB feels sick and the EntityA is trying to find out what is wrong.\n"
 
 conversation = [
                 "\nEntityA: The price of gold is too damn high! Don't you agree EntityB?",
