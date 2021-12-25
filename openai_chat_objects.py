@@ -26,7 +26,7 @@ conversationhtml = []
 #
 # conversation = [
 #                 "\nEntityA: Because of a set of ecological catastrophes we no longer have the luxury of believing in a clear division between the humanities and science. Do you think we are seeing, as a result of this  collapse, a broader epistemic shift in the sciences towards alternate world-making  devices, such as narration and storytelling?",
-#                 "\nEntityB: I think it’s wishful thinking on the part of the people from the humanities that the sciences have changed that much. But it is a useful kind of wishful thinking because it is a way to move the argument out of the standard  situation where you have people like us in science studies saying that science and politics have always been intermingled.",
+#                 "\nEntityB: I think it’s wishful thinking on the part of the people from the humanities that the sciences have changed that much. But it is a useful kind of wishful thinking because it is a way to move the argument out of the standard situation where you have people like us in science studies saying that science and politics have always been intermingled.",
 #                 ]
 
 while x < 11:
