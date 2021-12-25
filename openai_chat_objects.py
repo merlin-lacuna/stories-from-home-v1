@@ -18,9 +18,7 @@ scenario = "The following is a conversation the EntityA and the EntityB. The Ent
 
 conversation = [
                 "\nEntityA: Flowing lymph and resting soil. I cover to protect and unveil to embrace. Layers of sedimented history stratify the present. My soul is a rocky concretion but my skin is a delicate crust that is being ravaged by an unknown virus.",
-                "\nEntityB: Totally mate, I can't afford any more gold for my treasury.",
-                "\nEntityA: What do you think we should do about it?"
-                "\nEntityB: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
+                "\nEntityB: What is it that ravages you my dear? I have failed to protect you. Every day I become more opaque... a whisper, a flutter, a gust from the unknown. I have become a weapon that is turned against you, suffocating you like a lover whose body has become hot with fever. Do you feel the fever too?  Do you feel my sweat raining down upon your brow?",
                 ]
 
 
