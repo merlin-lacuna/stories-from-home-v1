@@ -24,7 +24,7 @@ for index, row in df.iterrows():
 
     if (counter > 0):
         if (average == avghist[counter-1]):
-            state = "didn't change"
+            state = "didn't ch"
             reldegree = 0
             totaldegree = round((1 -(avghist[0] / average)) * 100, 2)
             judgement = f"We had the same level of Co2 as last month. It's still {totaldegree}% higher since the start of this data."
