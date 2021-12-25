@@ -1,6 +1,14 @@
 import openai
 import os
 from dotenv import load_dotenv
+from contextlib import redirect_stdout
+from datetime import datetime
+
+# datetime object containing current date and time
+now = datetime.now()
+dt_string = now.strftime("%d-%m-%Y_%H_%M_%S")
+
+
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
