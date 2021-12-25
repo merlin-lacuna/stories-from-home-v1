@@ -18,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="22NttsbWMeshqo5iRP1j8dSDTWl" />
   <component name="ProjectViewState">
@@ -188,5 +189,9 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1899" height="356" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1640394630821" />
+    <state x="777" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1640395067208">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="777" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050@0.30.1920.1050" timestamp="1640395067208" />
   </component>
 </project>
