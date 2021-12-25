@@ -43,7 +43,7 @@ for index, row in df.iterrows():
             increases = 0
 
     if (increases > 4):
-        state = "steady inc"
+        state = "steadyinc"
         extras = " And the Co2 levels have increased 5 months in a row."
         increases = 0
     stats = f"[LM:{avghist[counter - 1]},CM:{average},INC:{increases},STATUS:{state} ----------TD:{totaldegree}%,RD:{reldegree}%]"
