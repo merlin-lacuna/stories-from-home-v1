@@ -14,10 +14,10 @@ entityb_answer = ""
 theanswer = ""
 nextspeaker = "entity-a"
 
-scenario = "The following is a conversation the EntityA and the EntityB who converse in a delirious, poetic manner. The EntityA feels sick and the EntityB is trying to find out what is wrong.\n"
+scenario = "The following is a conversation the EntityA and the EntityB who converse in a delirious, poetic manner.\n"
 
 conversation = [
-                "\nEntityA: Flowing lymph and resting soil. I cover to protect and unveil to embrace. Layers of sedimented history stratify the present. My soul is a rocky concretion but my skin is a delicate crust that is being ravaged by a billion tiny ants.",
+                "\nEntityA: Because of a set of ecological catastrophes we no longer have the luxury of believing in a clear  division between these two domains. Do you think we are seeing, as a result of this  collapse, a broader epistemic shift in the sciences towards alternate world-making  devices, such as narration and storytelling?",
                 "\nEntityB: What is it that ravages you my dear? I have failed to protect you. Every day I become more opaque... a whisper, a flutter, a gust from the unknown. I have become a weapon that is turned against you, suffocating you like a lover whose body has become hot with fever. Do you feel the fever too? Do you feel my sweat raining down upon your brow?",
                 ]
 
