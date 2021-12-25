@@ -6,33 +6,33 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 oa = openai
 
-start_sequence = "\nBob:"
-restart_sequence = "\nBarry:"
+start_sequence = "\nEntityA:"
+restart_sequence = "\nEntityB:"
 x = 0
-bobsanswer = ""
-barrysanswer = ""
+entitya_answer = ""
+entityb_answer = ""
 theanswer = ""
-nextspeaker = "bob"
+nextspeaker = "entity-a"
 
-scenario = "The following is a conversation between two dwarves who are angry about the price of gold.\n"
+scenario = "The following is a conversation the earth and the entity-a. The earth feels sick and the entity-a is trying to find out what is wrong.\n"
 
 conversation = [
-                "\nBob: The price of gold is too damn high! Don't you agree Barry?",
-                "\nBarry: Totally mate, I can't afford any more gold for my treasury.",
-                "\nBob: What do you think we should do about it?"
-                "\nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
+                "\nEntityA: The price of gold is too damn high! Don't you agree EntityB?",
+                "\nEntityB: Totally mate, I can't afford any more gold for my treasury.",
+                "\nEntityA: What do you think we should do about it?"
+                "\nEntityB: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
                 ]
 
 
 while x < 11:
-    if(nextspeaker == "bob"):
-        start_sequence = "\nBarry:"
-        restart_sequence = "\nBob:"
-        nextspeaker= "barry"
-    elif(nextspeaker == "barry"):
-        start_sequence = "\nBob:"
-        restart_sequence = "\nBarry:"
-        nextspeaker= "bob"
+    if(nextspeaker == "entity-a"):
+        start_sequence = "\nEntityB:"
+        restart_sequence = "\nEntityA:"
+        nextspeaker= "entity-b"
+    elif(nextspeaker == "entity-b"):
+        start_sequence = "\nEntityA:"
+        restart_sequence = "\nEntityB:"
+        nextspeaker= "entity-a"
     else:
         start_sequence = "\nGarry:"
         restart_sequence = "\Murray:"
@@ -47,7 +47,7 @@ while x < 11:
       top_p=1,
       frequency_penalty=0,
       presence_penalty=0.6,
-      stop=["\n", "Bob:", "Barry:"]
+      stop=["\n", "EntityA:", "EntityB:"]
     )
 
     theanswer = completion.choices[0].text
@@ -63,51 +63,51 @@ for c in conversation:
 
 ##
 
-# start_sequence = "\nBarry:"
-# restart_sequence = "\nBob:"
+# start_sequence = "\nEntityB:"
+# restart_sequence = "\nEntityA:"
 #
 # completion=oa.Completion.create(
 #   engine="davinci",
-#   prompt="The following is a conversation between two dwarves who are angry about the price of gold.\n\nBob: The price of gold is too damn high! Don't you agree Barry?\nBarry: Totally mate, I can't afford any more gold for my treasury.\nBob: What do you think we should do about it?\nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants." + restart_sequence + bobsanswer + start_sequence,
+#   prompt="The following is a conversation between two dwarves who are angry about the price of gold.\n\nEntityA: The price of gold is too damn high! Don't you agree EntityB?\nEntityB: Totally mate, I can't afford any more gold for my treasury.\nEntityA: What do you think we should do about it?\nEntityB: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants." + restart_sequence + entity-asanswer + start_sequence,
 #   temperature=0.9,
 #   max_tokens=150,
 #   top_p=1,
 #   frequency_penalty=0,
 #   presence_penalty=0.6,
-#   stop=["\n", "Bob:", "Barry:"]
+#   stop=["\n", "EntityA:", "EntityB:"]
 # )
 #
-# barrysanswer = completion.choices[0].text
-# print("Barry:", barrysanswer)
+# entity-bsanswer = completion.choices[0].text
+# print("EntityB:", entity-bsanswer)
 
 # while x < 11:
 #   x = x+1
 #   completion = oa.Completion.create(
 #     engine="davinci",
-#     prompt="The following is a conversation between two dwarves who are angry about the price of gold.\n\nBob: The price of gold is too damn high! Don't you agree Barry?\nBarry: Totally mate, I can't afford any more gold for my treasury.\nBob: What do you think we should do about it? \nBarry: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.\nBob:" + bobsanswer,
+#     prompt="The following is a conversation between two dwarves who are angry about the price of gold.\n\nEntityA: The price of gold is too damn high! Don't you agree EntityB?\nEntityB: Totally mate, I can't afford any more gold for my treasury.\nEntityA: What do you think we should do about it? \nEntityB: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.\nEntityA:" + entity-asanswer,
 #     temperature=0.9,
 #     max_tokens=150,
 #     top_p=1,
 #     frequency_penalty=0,
 #     presence_penalty=0.6,
-#     stop=["\n", "Bob:", "Barry:"]
+#     stop=["\n", "EntityA:", "EntityB:"]
 #   )
 #
 #   utterance = completion.choices[0].text
-#   print("Bob:", utterance)
+#   print("EntityA:", utterance)
 #
 #   ##
 #
-#   start_sequence = "\nBarry:"
-#   restart_sequence = "\nBob: "
+#   start_sequence = "\nEntityB:"
+#   restart_sequence = "\nEntityA: "
 #
 #   completion = oa.Completion.create(
 #     engine="davinci",
-#     prompt="The following is a conversation between two dwarves who are angry about the price of gold.\n\nBob: The price of gold is too damn high! Don't you agree Barry?\nBarry: Totally mate, I can't afford any more gold for my treasury.\nBob: What do you think we should do about it?\nBarry:" + barrysanswer,
+#     prompt="The following is a conversation between two dwarves who are angry about the price of gold.\n\nEntityA: The price of gold is too damn high! Don't you agree EntityB?\nEntityB: Totally mate, I can't afford any more gold for my treasury.\nEntityA: What do you think we should do about it?\nEntityB:" + entity-bsanswer,
 #     temperature=0.9,
 #     max_tokens=150,
 #     top_p=1,
 #     frequency_penalty=0,
 #     presence_penalty=0.6,
-#     stop=["\n", "Bob:", "Barry:"]
+#     stop=["\n", "EntityA:", "EntityB:"]
 #   )
