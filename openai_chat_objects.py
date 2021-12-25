@@ -17,7 +17,7 @@ nextspeaker = "entity-a"
 scenario = "The following is a conversation the EntityA and the EntityB. The EntityB feels sick and the EntityA is trying to find out what is wrong.\n"
 
 conversation = [
-                "\nEntityA: The price of gold is too damn high! Don't you agree EntityB?",
+                "\nEntityA: Flowing lymph and resting soil. I cover to protect and unveil to embrace. Layers of sedimented history stratify the present. My soul is a rocky concretion but my skin is a delicate crust that is being ravaged by an unknown virus.",
                 "\nEntityB: Totally mate, I can't afford any more gold for my treasury.",
                 "\nEntityA: What do you think we should do about it?"
                 "\nEntityB: Let's form a miners guild, we'll get the best miners in our lands and put pressure on the gold merchants.",
