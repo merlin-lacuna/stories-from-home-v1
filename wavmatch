@@ -4,12 +4,12 @@ import numpy as np
 
 from scipy.spatial.distance import euclidean
 from fastdtw import fastdtw
-D:\_GIT\_MY_PROJECTS\stories_from_home\localdata\
+
 # Read stored audio files for comparison
-fs1, data1 = wavfile.read("/dbfs/mnt/tardis6/samples/soundbites/doors-and-corners-kid_thats-where-they-get-you.wav")
-fs2, data2 = wavfile.read("/dbfs/mnt/tardis6/samples/soundbites/doors-and-corners-kid_thats-where-they-get-you-2.wav")
-fs3, data3 = wavfile.read("/dbfs/mnt/tardis6/samples/soundbites/you-walk-into-a-room-too-fast_the-room-eats-you.wav")
-fs4, data4 = wavfile.read("/dbfs/mnt/tardis6/samples/soundbites/doors-and-corners-kid.wav")
+fs1, data1 = wavfile.read("D:/_GIT/_MY_PROJECTS/stories_from_home/localdata/doors-and-corners-kid_thats-where-they-get-you.wav")
+fs2, data2 = wavfile.read("D:/_GIT/_MY_PROJECTS/stories_from_home/localdata/doors-and-corners-kid_thats-where-they-get-you-2.wav")
+fs3, data3 = wavfile.read("D:/_GIT/_MY_PROJECTS/stories_from_home/localdata/you-walk-into-a-room-too-fast_the-room-eats-you.wav")
+fs4, data4 = wavfile.read("D:/_GIT/_MY_PROJECTS/stories_from_home/localdata/doors-and-corners-kid.wav")
 
 # Take the max values along axis
 data1 = np.amax(data1, axis=1)
