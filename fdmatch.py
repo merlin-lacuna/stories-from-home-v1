@@ -9,5 +9,5 @@ distance, path = fastdtw(x, y, dist=euclidean)
 print(distance)
 print(path)
 
-# 5.0
+# 5.0pip
 # [(0, 0), (1, 1), (1, 2), (1, 3), (1, 4), (2, 5), (3, 6), (4, 7)]
