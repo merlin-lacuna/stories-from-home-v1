@@ -118,11 +118,11 @@ ax.set_xticklabels([])
 # print(fastdtw(data1, data2)[0])
 
 # Configure matplotlib
-plt.gcf().clear()
-plt.style.use('seaborn-whitegrid')
+# plt.gcf().clear()
+# plt.style.use('seaborn-whitegrid')
+#
+# plt.plot(data1, color='#67A0DA')
+# plt.plot(data3, color='#3FBF7F', alpha=0.5)
+# fig=plt.show()
 
-plt.plot(data1, color='#67A0DA')
-plt.plot(data3, color='#3FBF7F', alpha=0.5)
-fig=plt.show()
-
-print(fastdtw(data1, data3)[0])
+comp = fastdtw(data1, data3)[0]
