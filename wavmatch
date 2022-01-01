@@ -115,7 +115,7 @@ ax.set_xticklabels([])
 # fig=plt.show()
 
 # Distance between clip 1 and clip 2
-fastdtw(data1, data2)[0]
+print(fastdtw(data1, data2)[0])
 
 # Configure matplotlib
 plt.gcf().clear()
