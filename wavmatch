@@ -126,3 +126,4 @@ ax.set_xticklabels([])
 # fig=plt.show()
 
 comp = fastdtw(data1, data3)[0]
+print(comp)
