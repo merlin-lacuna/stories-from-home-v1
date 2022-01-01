@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c12085ef-7145-45ac-8d45-291196a608b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fdmatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/fdmatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wavmatch" beforeDir="false" afterPath="$PROJECT_DIR$/wavmatch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
