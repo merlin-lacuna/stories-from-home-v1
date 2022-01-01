@@ -107,12 +107,20 @@ ax.set_xticklabels([])
 #fig=plt.show()
 
 # Configure matplotlib
+# plt.gcf().clear()
+# plt.style.use('seaborn-whitegrid')
+#
+# plt.plot(data1, color='#67A0DA')
+# plt.plot(data2, color='#DAA067', alpha=0.5)
+# fig=plt.show()
+
+# Distance between clip 1 and clip 2
+fastdtw(data1, data2)[0]
+
+# Configure matplotlib
 plt.gcf().clear()
 plt.style.use('seaborn-whitegrid')
 
 plt.plot(data1, color='#67A0DA')
-plt.plot(data2, color='#DAA067', alpha=0.5)
+plt.plot(data3, color='#3FBF7F', alpha=0.5)
 fig=plt.show()
-
-# Distance between clip 1 and clip 2
-fastdtw(data1, data2)[0]
