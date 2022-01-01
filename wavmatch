@@ -4,7 +4,7 @@ import numpy as np
 
 from scipy.spatial.distance import euclidean
 from fastdtw import fastdtw
-
+D:\_GIT\_MY_PROJECTS\stories_from_home\localdata\
 # Read stored audio files for comparison
 fs1, data1 = wavfile.read("/dbfs/mnt/tardis6/samples/soundbites/doors-and-corners-kid_thats-where-they-get-you.wav")
 fs2, data2 = wavfile.read("/dbfs/mnt/tardis6/samples/soundbites/doors-and-corners-kid_thats-where-they-get-you-2.wav")
