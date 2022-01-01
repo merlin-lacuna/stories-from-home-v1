@@ -6,7 +6,7 @@ x = np.array([1, 2, 3, 3, 7])
 y = np.array([1, 2, 2, 2, 2, 2, 2, 4])
 
 a = np.array([1, 2, 2, 2, 3, 3, 3, 5])
-b = np.array([1, 2, 2, 2, 2, 3, 3, 4,5])
+b = np.array([1, 2, 2, 2, 2, 3, 3, 4, 3])
 
 distance, path = fastdtw(x, y, dist=euclidean)
 
