@@ -1,5 +1,6 @@
 from scipy.io import wavfile
 from matplotlib import pyplot as plt
+from matplotlib.pyplot import figure
 import numpy as np
 from scipy.spatial.distance import euclidean
 from fastdtw import fastdtw
@@ -15,6 +16,7 @@ data1 = np.amax(data1, axis=1)
 data2 = np.amax(data2, axis=1)
 data3 = np.amax(data3, axis=1)
 data4 = np.amax(data4, axis=1)
+
 
 figure(num=None, figsize=(12, 6), dpi=80, facecolor='w', edgecolor='k')
 
