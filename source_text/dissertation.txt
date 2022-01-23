@@ -1,0 +1,968 @@
+On words and their meaning.
+An introduction
+Sometimes the most appropriate way to approach a topic and
+introduce an insight into it might be to conduct a reflection on the
+fundamental keywords defining it and on their meanings, although
+they might appear as already well known or even obvious.
+This may result in a useful path to undertake in accordance with
+the aim to trace links among different perspective and fields of
+interest.
+For this very reason, before going into the unfolding of this paper, it
+is my intention to bring up here three terms, fundamental for the
+subject I'm going to address, looking at their significance also with
+the support of the etymology. A possible interpretation and a
+connection among them will constitute the next moment in my
+observation.
+Moreover, reflecting on words and their meaning represents how I
+got interested in the topic since the beginning, and consequently, it
+seems to be essential for the basis of this short essay.
+Getting more specific, I have always been fascinated by the
+effects, the shifts and the alterations the Digital leads to, and how
+the constant immersion and attendance in those ‘places/nonplaces’
+offered by the Internet may affect our behaviours and
+understanding of the reality surrounding us, and consequently its
+impact on both social and individual perception. For the purpose of
+this writing, I’m going to focus on how this phenomenon might
+involve our emotional dimension and relational sphere, by means of
+a distance and mediated communication.
+Following this logic, digital is the first and perhaps broader term I’d
+like to observe.
+According to the Oxford English Dictionary1, words over time can
+undergo changes in meaning and usage, however as far as the
+scientific and technological lexicon is concerned this process
+seems to be different because for each new invention or discovery
+a new term is coined and widespread. The term digital can be
+considered an exception to that since it is not a recently coined
+word, rather has gone through evolutions over decades.
+Back to the fifteen century, the term designated a whole number
+less than ten, and in a more common sense it referred to the Latin
+word ‘digitus’ - finger - and afterwards to the ability to count with
+fingers.
+However, until the mid-twentieth century digital was not widely
+used, its greater importance appeared just at the time when it was
+used in opposition to ‘analogue', with a more technical
+connotation, and with reference to a new kind of computing
+machines and devices developed at that time.
+In a later moment, the word underwent a further extension and
+was applied to different types of information, broadcast methods,
+and media, up to the expanded concept we still recognize today.
+Some of the first concepts that may come to mind when thinking
+of digital are those of accessibility, hyper-connectivity, usability,
+interactivity, dematerialization or virtualization, features and
+properties that only partially relate to the technique functioning
+mechanisms, rather they refer mostly to the potential and also the
+consequences provided by such a tool. These match, to some
+degree, with the possibilities generally granted and offered by the
+Internet itself, so that the two notions appear as overlapped and
+deeply intersected. And since the Internet - intended as a global
+extension of us as individuals and as an omnipresent infrastructure
+-, is an integral part of our lives, even the word digital has become
+an obvious aspect of today's reality.
+Nevertheless, now the term, which had acquired great relevance in
+the past century, seems to have partially lost its prominence
+precisely because of the expanded use that has been made of it,
+becoming part of a universally shared and accepted convention,
+so that we can speak instead about a post-digital dimension. This
+is something that will be explored later over this paper.
+The second term I want to look at, in reference to the main topic of
+the essay, is that of emotion. This will require a shorter and even
+more immediate explanation.
+The etymology of this word is to be traced back to the Latin verb
+‘emovère’ (ex: out + movere: move), literally bring out, stir, and in a
+broader sense, shake, excite. Thus, the emotion is nothing other
+than an agitation, a jolting, a vibration of the soul, of our inner
+dimension with effects both on our psychological and physical
+dimension, determined and caused by events, circumstances or
+particular states.
+To be specific, feeling an emotion also means getting out of oneself
+and to get into another elsewhere, consequently, it indicates an
+inner dynamic, that from the intimate sphere can be expressed and
+exposed in a more or less loud and conscious way. However, for
+this exact word case, any definition might be considered fluid and
+open.
+The third and last term I want to consider here is communication.
+It is of Latin derivation too, with reference to the verb
+‘communicare’, and was initially used to indicate the transmission
+of quality, energy, movement, and the sharing by a subject of her/
+his property, charge, privilege etc., so that these become the
+dowry for others. From here it came to the idea that
+communicating is about the diffusion of a thought, the result of a
+research, a feeling, a story, news, with subsequent participation in
+them.
+Interesting in order to grasp more deeply the meaning of the word,
+is the reference to the neutral noun contained in it, that is ‘munus,
+-neris’, with its twofold meaning of public office and gift. The
+presence of the preposition ‘cum’ (communis) brings up the idea
+that the concept of equal and bidirectional exchange belongs to
+the very meaning of the term itself.
+At least from a linguistic point of view, this legacy is evident and
+perhaps important to underline and safeguard, since, as we all
+know and experience, the political expediences and the
+sociological superstructures can alter the purity of the actuation of
+the communicative process through more or less stated forms of
+control and indoctrination.
+These three terms are central in the development of this short
+writing since, in addition to determining the arguments to be
+touched upon, their correlation allows and leads to the illustration
+of my position.
+Specifically, communicating, in its broad meaning as mentioned
+above, has a prominent role within the digital sphere that is to be
+considered here as the cradle of the transmission and propagation
+of content and information between two or more individuals across
+today’s ‘global village’
+In fact, with all the blessings and curses of the case, it is true and
+established that nowadays “to live fully in the present means to be
+in constant communication: the self as a network.”4
+As far as emotions are concerned, I will attempt to investigate how
+digital communication and therefore a devoid physical contact,
+enhances and includes the affective dimension of the subjects
+involved, and how emotions’ nature set up a participatory action
+that unfolds beyond our screens, influencing our personal bonds.
+Moreover, what is worthwhile to emphasize here, is that precisely
+the emotion, in its meaning of going out of oneself to enter another
+elsewhere, might be closely related to the digital, which represents
+both the medium through which much of the communication takes
+place and this ‘other space’ where the communicator is projected
+and where she/he finds the other, making, therefore, the office or
+the gift (munus) of ones own presence visible and sharable.
+Eventually, it might be also newsworthy to point out how the term
+digital originally referred in a broad sense to the fingers, and
+consequently to the haptic sense, while today it is associated with
+the idea of intangibility. In this regard, it is precisely through the
+occurrence and flow of emotions that the digital is to be seen more
+palpable than one might sustain in the first place, at least in the
+consequences, effects and above all in its potentials.
+Living Post-Digitally
+In order to better contextualize the topics to be dealt with, it is
+essential in this part to refer to the current state and the reality
+within which some of the positions that will be taken into
+consideration are developing.
+The digital, together with its implications and derivations, is now an
+integral part of our lives, not only because of the total expansion
+and diffusion that is it’s own but because today it finds itself
+ingrained in our very existence.
+In this regard, the term post-digital mentioned above has taken
+over to designate the present time. By it, it is meant: “a neologism
+that contains, in the prefix "post", a normalization, more than an
+overcoming, of changes and technological innovations. The postdigital
+condition presupposes the digital revolution, but taking it for
+granted.”
+It is today well established that the digital is a deep-rooted
+phenomenon, fluid but easily identifiable at the same time, and not
+just a recent innovation. It is, therefore, necessary to keep on
+reflecting on the impact that technologies have on lives of
+individuals, with the awareness that the Net is no longer a
+dimension detached from the physical world, but is an extension of
+reality itself as its effects are absolutely tangible and expanded, so
+much so that perception and social relations are also greatly
+affected.
+As Hito Steyerl claims, the Internet “crossed the screen, multiplied
+displays, transcended networks and cables to be at once inert and
+inevitable. […] We might be unplugged, but this doesn’t mean
+we’re off the hook. The Internet persists offline as a mode of life,
+surveillance, production and organization […].”6
+Quoting also the Italian art historian and curator Lorenzo Giusti:
+“The web is no longer a virtual zone, an alternative to reality, as it
+was defined for a long time, but a concrete place in its own right,
+an extension of the world, an actual dimension on par with the
+other spaces in which we live.”
+The digital, as an ascertained presence and mindset, is involved
+even when not directly addressed. It has penetrated nearly all the
+contemporary structures influencing the logic underlying them. We
+can then refer to it as that ‘subterranean presence’, borrowing the
+words of Claire Bishop8, which acts even when it is not visible and
+not explicit precisely because of its ubiquitous nature.
+The Internet has, therefore, not just offered devices capable of
+supporting and guiding human beings in the performance of
+specific functions, but rather has influenced the way individuals
+think, see, sense and behave, their ability to relate to each other,
+and has showed how an essential and vital part, the
+communicative one, changes continuously, adapting or resisting
+the emerging dynamics. In other words: “The post-digital
+describes the embeddedness of the digital in the objects, images,
+and structures we encounter on a daily basis and the way we
+understand ourselves in relation to them.”9
+Another way through which it is possible to name the phenomenon
+illustrated here is by using the locution digital condition, as
+proposed by Felix Stalder in his homonymous book The digital
+condition. He refers to it as an “enormous proliferation of cultural
+possibilities.”10, extending further its meaning by illustrating its
+development both at a historical level and towards its social,
+political and economic significance and implications.
+According to Stalder, the term ‘condition’ “[…] designate[s] a
+cultural condition whereby the processes of social meaning - that
+is, the normative dimension of existence - are explicitly or implicitly
+negotiated and realized by means of singular and collective
+activity”11; he also points out that “[…] far from being a symbolic
+accessory or mere overlay, culture directs our actions and gives
+shape to society.”12 To put another way, culture is seen in this
+regard as something fluid and hybrid, as a field subject to
+continuous renegotiation, and characterized by alternating
+dynamics of dissolution and reconstitution by the subjects acting
+within it, with the aim of giving form to shared meanings and
+identity determinations.
+Within this scenario, media are intended as relational technologies
+that support the creation of significance and shaping of culture, the
+digital thus “denotes the set of relations that, on the infrastructural
+basis of digital networks, is realized today […] in the constitution
+and coordination of personal and collective activity.”13
+Specifically, the term digital is associated by Stalder with the term
+condition since it “refers to historically new possibilities for
+constituting and connecting various […] actors, which is not limited
+to digital media but rather appears everywhere as a relational
+paradigm that alters the realm of possibility […].”14 He then adds
+that his understanding of digital could be considered close to the
+concept of post-digital described above, by stressing the fact that
+the digital with its pervasiveness and consolidation has extended
+far beyond the digital media, appearing and materializing in more
+and more contexts through an ongoing process. Stalder, in fact,
+states as follows: “the digital condition has become quotidian and
+dominant. It forms a cultural constellation that determines all area
+of life […]”15, underlining that what the Internet provided has been
+the widening of the horizons of debate, through an increased
+volume of information flow and the proliferation of positions
+produced. This has very practical implications because it opens up
+the possibility of outlining alternatives to existing conditions, and
+involves a transformative potential for how individuals relate and
+act in the world.
+This is true precisely because the media were and are conceived
+as environments in which one could act directly, namely because
+they are a constituent element of reality and not just means
+supporting its depiction.
+He continues by illustrating the three patters with which the digital
+condition takes shape in the contemporary environment.
+‘Referentiality’ is the first one and is to be intended as “a method
+with which individuals can inscribe themselves into cultural
+processes and constitute themselves as producers. Understood
+as shared social meaning, the arena of culture entails that such an
+undertaking cannot be limited to the individual. Rather, it takes
+place within a larger framework whose existence and development
+depend on communal formations.”
+The idea of ‘communality’ is the second form taken into
+consideration, since the individual as a social being - for the
+creation of meaning to be recognized, reinforced and validated and
+thus to ensure the development what we can call culture -, needs
+the exchange with others.
+The third and last point is the one of ‘algorithmicity’ which, by
+using Stalder’s words “denotes those aspects of cultural
+processes that are (pre-)arranged by the activities of machines.
+Algorithms transform the vast quantities of data and information
+that characterize so many facets of present-day life into scales and
+formats that can be registered by human perception. […] Yet, the
+very same algorithms influence our understanding and activity in an
+ambivalent way. They create new dependencies by pre-sorting and
+making the (informational) world available to us, and,
+simultaneously, shape our agency by providing preconditions that
+enable us to act.”
+The aspect - or pattern - that seems to be more interesting for the
+purposes of this essay is the second one because communication,
+intended as a mutual exchange oriented towards the
+establishment both of the singular and collective individuals’
+identity, lays in those ‘communal formation’ and their framework.
+And if, on the one hand, emotions, since they belong to the
+psychological dimension of the human being, might be difficult to
+observe and unreliable to decipher empirically, on the other it is
+true that social media - space par excellence of nowadays
+communication and connection - are fully-fledged emotional
+media. So it might not be wrong to say that this emotional
+mediated exchange and propagation produces effects on the
+already existing or potential aggregative and cultural formations.
+Furthermore, according to recent cultural theory, the affective
+dimension has prominent importance in our information-based
+society19 since today we live and engage with each other through
+affective alliances that allow us to develop a sense of belonging
+and identification
+The affective alliances are meant as those practices, cultural forms
+and social experiences that predispose the subjects to an affective
+investment in the world. This is what is going to be partially
+addressed in the following chapter.
+Being social, being emotional
+To enter the discourse on emotions I intend to refer to the
+conception of these as theorized by the scholar Sarah Ahmed in
+her book The Cultural Politics of Emotion.
+She argues that emotions are not merely psychological states,
+rather cultural and relational practices that how it is possible to
+speak about ‘sociality’ of them.
+According to her, the idea that emotions are the presumption of
+interiority with an ‘inside-out’ process - as psychology claims - is to
+be overcome, so as the reverse logic of ‘outside-in’ asserted by
+sociologists and anthropologists who affirm that the origin of
+feeling itself comes from without. Emotions are not something that
+a single individual or a social group of individuals ‘have’, rather
+something that is established in its making. Quoting her words
+“emotions create the very effect of the surfaces and boundaries
+that allow us to distinguish an inside and an outside in the first
+place. [….] it is through emotions, or how we respond to objects
+and others, that surfaces or boundaries are made: the ‘I’ and the
+‘we’ are shaped by, and even take the shape of, contact with
+others.”21 She continues: “emotions are crucial to the very
+constitution of the psychic and the social as objects, a process
+which suggests that the ‘objectivity’ of the psychic and social is an
+effect rather than a cause. In other words, emotions are not ‘in’
+either the individual or the social, but […] allow the individual and
+the social to be delineated as if they are objects.”22
+Following this logic, therefore, the circulation of emotions is a
+central point in her argument.
+Emotions are all moving, as the etymology of the word itself
+mentioned at the beginning of this paper suggests. Attachment
+and connection with others take place through movement and at
+the same time ‘being moved’ is the very effect of emotions.
+Furthermore, Ahmed questions the lack of attention towards
+emotions in the critique field, since they are fundamental to
+understand the investment of individuals in particular structures
+and play an important role in the process of world-making, by
+proposing “a model emotion that involves subjects but is not
+reducible to them.”23 Emotions are described as ‘doing things’
+because they concern intentionality and contribute to shaping the
+common social space. Thus, “emotions are material rhetoric - they
+have affective power and can dictate our modes of life. In fact, they
+are gateways into the social and material world.”24
+This understanding of emotions as social agents seems particularly
+relevant also within the social media environment and in general
+the spaces offered by digital. They have transformed and continue
+to mould everyday life, being places where the relational dimension
+is fostered and where emotional flows, as well as the sense of
+belonging and recognition, are constructed, so determining
+“culture-specific communities of affective practice”25 and leading to
+what is called digital affect cultures.
+Starting from the assumption that culture is also organized through
+communication, and that emotions are an integral part of both the
+cultural and communicative process as they are closely linked to
+social issues, it seems fundamental to include them within a
+reflection on mediatization, that “unique discursive space where
+participation and orientation are guided by emotional interaction
+chains”26 the digital realm represents. Moreover, individuals’
+engagement and participation on social media are affective-driven
+since at the heart of all this is a perhaps this obvious but vital point:
+“humans need social affiliation and strive for belonging to social
+groups.”
+Besides, following this train of thought, emotion is considered both
+as a “discursively constructed cultural practice”28 and a contextual,
+fluid and relational performance able to give rise and shape online
+communities, intended as social constellations. The distinction
+between online and offline places and dynamics is however not
+central to the development of this essay, as they are embedded in
+each other and mutually constitutive. At the same time, “it is worth
+considering how these spaces […] might foster divergent
+conditions for emotional resonance among distant individuals and
+how the technological affordances of new media facilitate the
+speed of dispersion of emotion as well as help construct alliances
+of emotional and relational congruence.”
+Considering emotion and affect as cultural actors, despite the
+different meanings between the two terms that have been raised
+over time, it allows us to go beyond the personal, intimate and
+closed sphere of the individual, suggesting how these are
+something people do and not something people merely have, as
+also claimed by Ahmed.
+This implies that, as within all cultural constructs and social life in
+general, also within digital affect cultures - intended as unique
+platforms of exchange -, power relations might emerge, by
+exposing conditions where certain emotional scenarios are
+prevalent compared to others, also through the presence of
+affective sub-cultures and with the unveiling of relationships of
+respective dependence, belonging, alignment or even conflict,
+disagreement and un-recognition among the actors involved.30
+In addition, and regarding the link between communication and
+emotions along the process of meaning-making, it’s been said that
+“affective practice is a moment of recruitment, articulation or
+enlistment when many complicated flows across bodies,
+subjectivities, relations, histories and contexts entangle and
+intertwine together to form just this affective moment, episode or
+atmosphere with its particular possible classifications.”31
+To summarize what has been proposed so far, it can be stated that
+“digital affect culture is shaped by the social sharing of culturally
+and discursively constructed emotions”32 and that “such emotional
+resonance may occur on an interpersonal or a global scale”33,
+since different levels of engagement, perspective and negotiation
+are possible and intertwined.
+Cultivating and further investigating these topics could lead to valid
+insights for a better understanding of the emotional landscape that
+emerges in the web, not so much to define its precise effects, but
+rather to reveal its mechanisms and potential.
+Transparent dystopia and beyond
+If at the dawn of the phenomenon that could be seen as the digital
+flood there was the idea that, although with some inevitable
+reservations, the digitalization and the Net would have been
+guarantees of democracy and freedom of expression, and
+therefore not subjected to ideological, political and economic
+control or surveillance, today scepticism is a widespread and also
+validated feeling, and it leads to a less disillusioned approach so
+that the advantages conveyed by these platforms and structures
+often appear to be overshadowed by their critical issues.
+Issues that, if not uncovered and properly contrasted, are
+supposed to impact irreversibly on the psychological and
+sociological portrait of individuals who, in the most apocalyptic
+visions, are seen as passive entities at the mercy of tyrannical
+technologies.
+31 Margaret Wheterell, as cited by Katrin Döveling, Anu A. Harju, and
+Denise Sommer in From Mediatized Emotion to Digital Affect Cultures:
+New Technologies and Global Flows of Emotion,
+Among others, the philosopher Byung-Chul Han proposes a
+strongly distrustful and critical position towards digital in its broader
+sense.
+In his book In the Swarm: Digital Prospects he states, concisely
+but eloquently, as follows: “The public sphere presupposes, among
+other things, that one respectfully distracts one's gaze from the
+private sphere: distancing oneself is constitutive of public space.
+Today, on the contrary, a total absence of distance dominates, in
+which intimacy is displayed and the private becomes public. [...]
+Digital communication in general reduces distances; the reduction
+of spatial distances is linked to the erosion of mental distances.
+The mediality of digital is harmful for respect.”34
+He claims that especially nowadays social networks and digital
+communication itself, lead to a pornographic display of individuals’
+intimacy, resulting in excessive and totalizing exposure of the
+private sphere. Such a dynamic can only lead to absolutely
+pernicious effects.
+The perpetual connection and limitless communication that unfolds
+online erase the concept of respect itself undermining the very idea
+of power. Power not in terms of domination or ideology, but as that
+virtue of authority that seems to be crumbling due to the
+supremacy that now belongs to the crowd. A concept, that of the
+crowd, intended substantially as a shapeless aggregation
+incapable of acting, which the philosopher translates with the term
+‘swarm’, as suggested by the title of his book.
+Social media, and the digital, are thus demonized because of their
+effects and modes of operating. They represent the container of a
+collective magma in which ideas, thoughts and contents seem to
+be governed and even exploited by external forces. Populated by
+individuals without a personality and will of their own, mere emitters
+of unconscious judgments, superficial behaviours and meaningless
+inputs, social media are considered as places highly exposed to
+the risk of a counterproductive contagion propelled by the
+multitude.
+Han also argues that the digital swarm, which evolved as a
+consequence of the homonymous revolution, is a cluster of
+individuals devoid of depth, awareness and even souls, as it is
+composed of many passive entities that only share the lack of a
+collective feeling.
+The ‘digital being’ would therefore not be part of a group able to
+act synergistically for the meaning-making, but rather would
+cultivate and perpetuate his own singularity by stagnating in a
+condition of self-isolation in which, as a user, simply linger in front
+of a screen. Furthermore, according to the philosopher, these
+swarms would be fleeting and susceptible to sudden vanishing.
+A phenomenon, this one of disappearance and dissolution,
+triggered by the lack of tactility and materiality proper to the digital.
+In fact, the philosopher claims that the absence of corporeity we
+experience within communication through the Net is leading to a
+growing detachment of humans from reality itself. This would
+undermine our ability to relate to each other, increasingly
+impoverishing relationships and making them sterile in
+introspection.
+In his utmost dystopian vision, Han comes to state that the man of
+the future will be incapable of taking action and reacting precisely
+because of this use/abuse of digital tools and total immersion and
+dependence on them.
+Alongside the concept of digital swarm is also the idea of loss of
+identity by the individuals belonging to contemporary society,
+which Han defines as transparent in the earlier work entitled The
+Transparency Society.
+According to the author, we are witnessing the extinction of
+privacy, the disappearance of intimacy, profundity and ponderate
+thinking, in favour of the global homologation due to the complete
+exposure of the subjects who use digital technological devices. In
+other words, we are living within a universe in which openness to
+the outside world is only apparent, a world that generates
+flattening instead of growth, regression instead of progress,
+making us transparent in the sense of insubstantial.
+Han argues: “The Transparency Society is a Hell of the Same. [...]
+Transparency is a systemic coercion that involves all social
+processes and subjects them to profound mutation. The social
+system today exposes all its processes to an obligation of
+transparency in order to standardize them [...]. Transparency
+stabilizes and accelerates the system by eliminating the Other or
+the Extraneous.”
+The exasperated visibility identified by his thought would contain in
+itself a form of violence, since responsible for reducing man to a
+mere “functional element of a system.”37
+Such a society can also be conceived as a ‘society of exposure’, a
+reality in which only what is exhibited is under consideration, with
+the ultimate aim of taking into account only its first economic value,
+and in which we dwell mainly on phenomena determined by a
+volatile interest, certainly not by the desire for care and attention to
+their very essence.
+Transparency is, moreover, a symmetrical condition that excludes
+and denies any asymmetry and therefore diversity, that leads to
+absolute clarity and proximity, thus stifling fantasy, imagination and
+distance; it precludes the unveiling process because it makes
+everything immediately accessible, it leaves nor room for the
+indefinable neither to contemplation, it levels and empties, inducing
+hegemonic attitudes of surveillance and indoctrination.
+Ultimately, according to Han: “The obligation of transparency
+erases the smell of things, the smell of time. Transparency does
+not smell. Transparent communication, which no longer admits
+anything indefinite, is obscene. [...] ‘immediate enjoyment’ is
+incapable of beauty. [...] The momentary sparkle of the spectacle,
+of the immediate stimulus, is not beautiful, but the silent
+shimmering, the phosphorescence of time.”38
+What is currently happening seems, thus, to be the reconfiguration
+of the reality in which the human being lives and of his own identity.
+With the pervasiveness of technologies, in fact, everyone’s
+personality and essence would be subject to a persistent
+repositioning, due to the rapid advancement of the web.
+Identity and also culture are not perceived as a set of fixed and
+certain features, but as a constantly evolving processes with fluid,
+changeable and fragile traits.
+All this would lead, as a further consequence, to the
+disappearance of passions, drives and emotions based on a
+sharing with the other, and above all of love itself, as argues by
+Han in The Agony of Eros. The crisis of love - Eros - derives in fact
+“from the erosion of the Other. This erosion is occurring in all
+spheres of life; its corollary is the mounting narcissification of the
+Self. In fact, the vanishing of the Other is a dramatic process -
+even though, fatefully enough, it largely escapes notice. Eros
+concerns the Other in the strong sense, namely, what cannot be
+encompassed by the regime of the ego. Therefore, in the Hell of
+the Same, which contemporary society is increasingly becoming,
+erotic experience does not exist. Erotic experience presumes the
+asymmetry and exteriority of the Other.”39
+According to him, love, in all its forms and understood as a
+movement towards the other, has become ineffective and affectfree,
+it is reduced to instant pornography characterized by
+inexpressiveness, so ceasing to be profound narration.
+The dissolution of Eros, a sentiment that according to the
+philosopher would also be at the root of political action and
+momentum constituting a source of energy for the construction of
+different scenarios, makes it impossible to exist a synergic
+coexistence and empowerment.
+The damaging and almost evil side of the digital condition or, as
+has been said, of the post-digital phenomenon emerges here with
+all its might. The choice fell on Han's position and statements
+precisely because of the peremptoriness of his theoretical
+approach. His argument, even if agreeable in many of its facets
+and certainly useful to shed light on the dynamics unraveling in
+today's world, wants to be considered here as a base for a
+reflection that wants to make use of these negative traits as pivotal
+cues towards a potential different path.
+At this point, it might be worth to briefly mention Omar Kholeif's
+approach which, at the end of his book Goodbye, World! Looking
+at Art in the Digital Age, states that, far from perceiving and
+considering the digital realm as utopian and lacking in criticality, it is
+rather desirable “to create our own environments where we
+individually optimize its functionality and, in turn, our very
+existence”40 so to not be swallowed up from that state devised by
+late capitalism called ‘techonophoria’, a scenario where art is
+doomed to lose “in a perpetual catch-up game, always behind the
+latest techno-cultural development.”41 In Kholeif’s opinion, “in order
+to embrace technology, we must be able to see it” so that we
+can repurpose it eventually, to make the most of its potential and
+to unite and constructively engage with the impending future.
+Leaving us behind the assumption that “physical, rather than
+virtual, experience is more authentic”43 and considering this as a
+misaligned form of judgment, what I aim to stress here is the
+intrinsically human side of the intangible universe that is the
+Internet. Therefore I would like to consider a mutual hybridization
+between the physical and virtual spheres, without nor resulting in
+the demonization of technological tools - too often accused of
+debasing the essence of what they convey - neither concealing the
+evidence of an urgency that lies underneath.
+The cases studies I’m going to observe in the following paragraph
+are intended as a first step towards the consciousness-raising of
+such an assertion.
+Networks’ Intimacy, towards the iridescent trust.
+Case Studies
+The first case study I would like to look into is the work of the
+Athens based artist and researcher Kyriaki Goni who deals with
+different media, by focusing “on the relations and interactions
+between technology and society, bringing in dialogue the local and
+the global perspective. [Investigating] through expanded
+installations and narration […] subjects such as power of
+information, perception and construction of the digital self,
+alternative infrastructures and alternative networks as well as
+human machine interaction.”44
+Specifically, I’m going to take into consideration her work entitled
+Network of Trust, part of the project named The Eternal Network
+held at Haus der Kulturen der Welt in Berlin from January to March
+2020 during Transmediale, the annual festival on art and digital
+culture.
+
+The Eternal Network was a group exhibition about the persistence
+of networks, intended as ever-present technical, relational and
+social forms, with a particular focus on their limits and potentials
+within the current moment in time. The title comes from the
+concept coined by Fluxus artist Robert Filliou with reference to the
+new forms of exchange and interaction within the global world
+enabled by emerging means of communication, with the aim to
+open up possible futures besides networks themselves.
+The exhibition presented several works linked by the attempt to
+move beyond the role of networks so to re-engage differently in
+today’s critical entanglements between humans and technology.
+The curatorial statement claimed as follows: “In times of
+environmental and political turmoil, networks have lost their mass
+appeal and are the subject of widespread backlash: blackouts,
+propaganda, hate speech, addiction, and a human desire to
+disintermediate from the platforms of surveillance capitalism. Still,
+networks are ubiquitous, and thus both the poison and cure for the
+act of organizing within activism and politics alike. With the now
+more tangible limits of networks in mind, the exhibition asks how
+effectively they respond to future models of sociality, technology,
+and politics.”
+Network of Trust is a work from 2019 and consists of a digital
+network that explores the archipelagic infrastructures located in the
+Aegean sea and broader Mediterranean, with the aim to unfold
+notions of connectivity and insularity and with reference to
+networks’ long tradition in that area.
+It is a multi-part installation, made up of three network nodes
+running IPFS46 technology, few drawings, an audio recording in
+the Greek language with English subtitles, a website, some prints
+and flags.
+The InterPlanetary File System (IPFS) is a protocol and peer-to-peer
+network for storing and sharing data in a distributed file system. IPFS
+allows users to not only receive but host content. As opposed to a
+centrally located server, IPFS is built around a decentralized system of
+user-operators who hold a portion of the overall data, creating a resilient
+system of file storage and sharing. Any user in the network can serve a
+file by its content address, and other peers in the network can find and
+request that content from any node who has it.
+The work starts from the assumption that the presence of
+networks in the Aegean archipelago in Greece has ancient origins
+but still lingers on today, and that the specific topography and
+geography of insularity is a condition which combines connection
+and isolation at the same time.
+Remarkably significant is the piece An oral story about networks of
+trust, the voice recording narrating about the oral tradition of the
+Aegean area, offering an imaginative arbitrary plot about the origins
+of the networks and archipelagic infrastructures in the region.
+In this context, the Aegean area is conceived as a possible model
+for a new decentralization, that’s why an offline network is set with
+one node on the small island of Tilos, the second one in Athens
+and a third nomadic. This last one is been presented as part of the
+installation in the above-mentioned exhibition and visitors were
+invited to connect to it, as to the other two in their specific
+locations, through their devices during the visit time so to upload
+realistic or imaginative short stories about possible futures for the
+Aegean and the Mediterranean. The texts and contributions are
+hosted on the node and are accessible to everyone with the final
+aim to build a shared storage of possibility in the world-making.
+Signing in to the node and participating means then leaving a mark
+of one’s story and make it available for a collective purpose.
+The exact description of the network is depicted in the drawing,
+part of the installation, entitled A diagram about networks of trust.
+Using fiction as a method for community building, the artist
+proposes a way to rethink the past, present, and future of
+networks.
+Particularly relevant for the purpose of this essay, is the final part of
+piece An oral story about networks of trust. Here an excerpt:
+“Gradually all the members of the group started to alter their
+structure. To survive on the fragments, you have to be a fragment
+yourself. […] Adaptation is the word, it said and it continued
+narrating: Adaptation. Somehow, through adaptation to the new
+fragmented situation, the networks were born. These invisible
+threads, which hold the fragments together, connected and joined
+in dynamic balances, for pure survival reasons. How can
+something that was already united, be separated? Networks rerecord
+the memory of the pre-existing connection. […] After a few
+minutes, as if rousing itself from lethargy, it spoke again:
+Connection and Survival. For long time after us, other groups have
+been taking up the work of creating links and networks. They all,
+sooner or later, understood that connecting was the only way to
+survive. If you were not connected, you would die. The prehistory
+and history of this region, was based on networks. They defined
+and continue to define the wider territory. There is an ongoing
+conversation between the nodes. If you are quiet, you will hear it.
+You will always be hearing, this lasting conversation over the
+waves, of the archipelago.”
+By using the archipelago as a metaphor for the community, Kyriaki
+Goni focuses on the relationship between humanity and
+technology and specifically on the concept of network, namely the
+structure where communal dynamics take place. While many past
+and current discourses regarding the relation between humanity,
+technology and the digital, push us to a condition of ever increased
+and omnipresent connection with each other, the artist’s vision of
+networks aims to retain the individual within the larger group, just
+like the island-archipelago relationship from which Network of Trust
+takes form.48 Through her work, the ease enacted by today’s
+culture by demanding an excess of sharing - showing in return
+evanescence and merely utilitarian purposes -, is confronted with
+an ancestral idea of locality, the topos, represented by both the
+individual and the island. Network of trust, thus, by proposing an
+alternative way of benefit from the network’s structure and
+suggesting a method to build new ones based on trust and
+awareness, is to be seen as reaction and opposition to how
+world’s largest corporations profit from our information, memories
+and above all feelings.
+This lays at the very root of the artist’s main intent during her
+creative process, Kyriaki, in fact, states: “The starting point of my
+works are very emotional. It’s not a research curiosity that drives
+me but an ‘emotional trigger.’ My topics are ones that I’m moved
+by as a person, as a human being, living right now; not as a
+‘researcher.’ For example, my recent works have focused on
+observing technology and how it’s connected to society. I want to
+understand how these processes affect me, and then how they are
+shaping the way we all live, perceive, and express our emotions.”
+In relation to what has been said so far, this work expresses the
+need and, at the same time, the possibility of inhabiting the web by
+conveying emotions, understood as ‘doing things’ that might be
+able to contribute to the construction of a common social space
+from which both the community and the individual can benefit.
+New scenarios can, therefore, be thought of as a potential
+consequence of adherence to these participatory dynamics that
+have a past history as a model and whose value they want to
+recover in order to reintroduce it in a renewed way in the current
+era, precisely the post-digital one, by cultivating “a collective
+narration at the bridge between ancient oral traditions and
+contemporary internet culture.”50
+As a second case study, I want to take into consideration the short
+essay entitled Iridescence, Intimacies, written by Tavi Meraud and
+published in e-flux Journal in 2015. Within it, the artist suggests
+how intimacy organizes our experience of space and relation to the
+on-going development of the concept of surfaces.
+Specifically, it is analyzed the concept of ‘iridescence’, which at a
+scientific level is an optical phenomenon originating from the
+encounter and interference of light waves on a surface and having
+as a consequent effect the simultaneous manifestation of multiple
+colours.
+This is used to introduce the relationship that unfolds today
+between real and virtual, a scintillating process in which the
+surface, to be understood as the point of contact between these
+two dimensions, is represented by the screen. A surface that is not
+to be considered as a concrete and monolithic barrier or limit, but
+rather as a site for dazzling, iridescent encounters. Namely,
+iridescence is “a demonstration of a particular interior-exterior
+negotiation that ultimately results in a suspension of the
+appearance-reality distinction”51, a phenomenon in which one
+witnesses a shift “towards a heterotopic convergence of images
+with different degrees of reality”52. Iridescence thus, allows us to
+designate of the surface not as a boundary, but as a shining site
+where multiplicities can appear and a constellation of realities show
+themselves just as the vibrant juxtaposition of different colours
+generated by the very optical effect.
+The artist continues by claiming that in our experience of being in
+the world, we are constantly negotiating between real and unreal,
+all the more so now with the omnipresence of digital as an integral
+part of our lives, and this might even entail this distinction has
+almost collapsed.
+Both the two dimensions, to be seen as layers or precisely a
+surfaces, suggest an idea of locality, “a point of experiential
+densification” within which relations, negotiations and processes
+of recognition have continually been conducted.
+The concept of surface, since it alludes as we said to contact,
+discovery and proximity, is closely related to that of intimacy,
+namely the feeling to be deeply connected to another person or
+event.
+What we experience through the surface of the screen, and which
+comes to life starting from the communicative process, is the entry
+into the interiority of virtuality, not to be understood as an
+inauthentic dimension compared to the real given that today we
+could say with no doubt that it resides in it.
+Going further, Meraud states that “if the superficial is itself a
+collation of so many layers, then intimacy would insist that it goes
+beyond these layers. Intimacy seems to insist on a realer real than
+the apparently given. Intimacy purports to access the realer real. If,
+then, the surface is already an issue of negotiating between the
+real and the apparent, what would the realer real mean here—to
+settle on the suspension between reality and appearance?
+Intimacy may apparently be an insistence precisely on the
+distinction in order to get to the depths of something, that is,
+insisting that the surface is merely superficial.”54
+The intuition here is to reconsider the logic of intimacy, as the
+fundamental trigger and need for the identification and exploration
+of the real itself. Intimacy would allow one to break through these
+surfaces, to the point of touching what is beyond them and which
+represents their very heart and core, a dimension that could be
+called ‘inner virtuality’. Thus, “intimacy becomes the drive towards
+palpating, recognizing, appropriating these heterotopic regions”55,
+this might lead us towards the necessity of conceptualizing anew
+the idea of touch and haptic.
+For this reason, at the conclusion of the essay, the artist introduces
+and proposes the term transintimacy, an enhanced intimacy, which
+includes the spectrum of feeling growing and spreading through
+screens. This phenomenon is to be considered iridescent, so as to
+avoid the flatness that is often mentioned to describe the
+relationships faulty of physical contact, those that unfold online for
+instance.
+Iridescence is an exploratory and penetrating force, a property that
+allows the positive aggregation of several elements in order to
+express, bring out, enlighten the site of negotiation belonging to
+virtuality and locating the real implied by this interiority.
+Transintimacy is, therefore “love in a time of iridescence. A
+transformed intimacy which goes beyond a mere rehearsal and
+proselytization of haptology - ever negotiating surface as boundary
+- but rather the iridescent mechanism of, or drive toward,
+complicity or collusion with the very conditions of superficiality,
+namely the stereoscopic (perhaps even polyscopic) probing for the
+real. It is not the conquest of the superficial that we seek in
+intimacy, but rather the innermost chamber of reality. The surface
+becomes the locus where this is rehearsed.”56
+The main idea is, therefore, that we are no longer tied to the sense
+of touch as it is understood literally, merely as physical contact with
+the other, but rather during the event of the encounter we are
+emitters of interiority and we move through the emotional
+iridescence of our own existence and essence.
+This opens up a new conception of virtual/digital realm, as well as
+of the very nature of the relations that have the potential to be
+established in it and through which humans affect and alter each
+other becoming proximate beings over time and space.
+The reference to the etymology of the word emotion itself
+highlighted at the beginning of this essay is still particularly
+pertinent here. Getting out of oneself and to get into another
+elsewhere can, therefore, be understood as that process of
+breaking through surfaces in order to give rise to authentic and
+deep connections and affective infrastructures that might support
+and guide humans while navigating in the post-digital era.
+Virtuality of a feeling, getting the signal anew
+Over the centuries and decades, there have been profound
+changes and evolutions in the forms, poetics, techniques and use
+of the spaces destined to house the works of art. From the
+expressions that can be traced back to the great and well knownmovements,
+to the provocative acts of the most radical
+tendencies, from the total dependence on the matter to the
+necessary disappearance of all tangibility, up to the most recent
+intuitions due to technological developments that have, somehow,
+reconfigured the idea of what can be considered as art, its very
+essence and the way of engaging into a dialogue with it.
+The digital turn that has led to indisputable innovations and
+experimentations, giving rise to creations sometimes daring
+enough to be perceived as airtight and dumb, it has also evidently
+opened the doors to possibilities that were previously perhaps
+unthinkable.
+This has unleashed a widespread and fervent enthusiasm, for
+better or worse, towards what could be perceived as new, broad
+and infinite, almost as if what happened before was to be
+overcome, in a blind run-up to everything that seems to be still
+waiting for us. But it has also, on the other hand, triggered
+opposite reactions in those who have preferred to look back and
+remain anchored to previous visions and approaches, even
+through with dystopian and debasing predictions.
+These reflections are not intended to be dispersive digressions,
+since they were starting points for the development of the present
+paper and I, therefore, consider it appropriate to mention them in
+its conclusion.
+The attention paid at the attempt to provide a reading to the above
+phenomena, led me to the conviction, however fluid this one
+hopefully remains, that, even what seems to be more distant from
+the emotional sphere of the human being, namely technology in a
+broader sense because of its very nature, is actually moved by a
+desire for relationship, action, communication and proximity - as
+my understanding of Sara Ahmed perspective has suggested.
+These needs, without wanting to be blind to all the resulting
+harmful contradictions and unquestionably urgent implications, can
+be emphasized, enhanced and increased by the Net system and
+its potential.
+That condition of becoming transparent, as defined by Han, in my
+opinion, does not necessarily make humans passive and helpless
+entities, but rather offers an opportunity to be consciously
+responsive towards an all-encompassing contact with the world.
+Being transparent could stand for being touched, traversed by life,
+and welcome it. In other words, there’s a potential to intervene
+within a dimension that appears intangible, by transforming it into
+living and malleable material, a place where new mechanisms can
+be triggered and developed, challenging the very meaning of
+democracy and freedom and assuming that there is no point in
+disregarding technology itself, but rather in being aware of what
+agenda it serves.
+The choice fell on the two case studies proposed in the previous
+chapter might suggest a demonstration of this idea, albeit still
+partial and questionable.
+Central in my position is the desire to emphasize that crave for
+humanity, intended as a condition and quality, that within the digital
+dimension seems to be lost in favour of dispersion-oriented
+practices, but of which, in turn, it is possible to offer an intimately
+involving reading. This is related to the intentions, if not
+misunderstood, contained in Kyriaki Goni's work, and aims at
+responding to that marginalization, that estrangement and
+indolence of which the web environment is often charged,
+accentuating instead its relational, social and proactive character.
+As Lee Mackinnon58 stated “[…] we must be mindful that we don’t
+lose sight of our humanity in all this talk of agency of objects and
+technical systems - that we are still be spoken for authored, even if
+we lose ourselves in the sublime elsewhere of endlessly ramifying
+data streams.”59
+What I’d like to point out here is that we should not see the
+emotional sphere that unfolds in the digital, as result of calculations
+and algorithms, as mere computation, but rather let these traits
+support us while accessing the complexity of that iridescent and
+sharable intimacy Tavi Meraud speaks about.
+The switch to be made is to awaken our awareness, by keeping
+this computational character in the hands both of individual users
+and collectivity, so to prevent us from being instrumentalized data.
+Hito Steyerl, in a recent essay entitled Cut! Reproduction and
+Recombination, talks about the mechanism of postproduction, a
+concept made known by the art critic Nicolas Bourriaud60. This
+concept is borrowed from the cinematographic field where it
+indicates all the cutting, editing, mixing and reassembly actions
+that take place in order to give shape to the narration on film.
+Steyerl argues that the impact of this process today goes far
+beyond the cinematic media itself and that, with digital
+technologies, this is part of our everyday life as a way through
+which we inhabit, approach and interpret the world.
+Stalder also talks about this tendency in terms of ‘referentiality’
+within the digital condition, defining it as a technique that makes
+use “of materials that are already equipped with meaning - as
+opposed to so-called raw material - to create new meanings.”61
+The present paper might be considered a product of such a
+practice as well.
+Coming back to Steyerl, postproduction is a potentially endlessly
+state through we are enabled to cut, modify, juxtapose, multiply,
+repeat, recycle, displace and renew the contents that reality
+provides us, a way through which we reshape continuously the
+scattered world we live in. She emphasizes that we should not
+avoid or deny this state, but rather accept it so to break into it as a
+collective act since new and alternative forms of life might arise by
+cutting and editing.62 She even suggests to think of this
+mechanism as a kiss, stating as follows: “A kiss is an event that is
+shared and consists precisely of sharing, exchanging, and
+happening in between bodies. It is an edit articulating affect in
+ever-different combinations. It creates new junctions and forms
+between and across bodies, a form that is ever shifting and
+changing. A kiss is a moving surface, a ripple in time-space.
+Endless reproductions of the same kiss: each one unique. A kiss is
+a wager, a territory of risk, a mess. The idea of reproduction
+condensed into a fleeting moment […] which moves across cuts,
+from shot to shot, from frame to frame: linking and juxtaposing.
+Across lips and digital devices. It moves by way of editing,
+exquisitely flipping around the idea of the cut, redistributing affects
+and desire, creating bodies joined by movement, love, pain.”63
+In this sense, I would like to think of the post-digital as an
+environment where both material reality and new imagery can take
+shape, and although art that moves within this paradigm is
+subjected to the rapid obsolescence of its tools and therefore to
+transience, it needs to encourage a move toward bringing the
+emotions back in the theoretical discourse around it.
+At the very end of this essay, I would like to go back to Sara
+Ahmed’s position and quote her words in reference to the
+emotional sphere as the place where culture and collective feeling
+are formed. She says: “Emotions tell us a lot about time; emotions
+are the very ‘flesh’ of time. They show us the time it takes to move,
+or to move on, is a time that exceeds the time of an individual life.
+Through emotions, the past persists on the surface of bodies.
+Emotions show us how histories stay alive, even when they are not
+consciously remembered […] The time of emotion is not always
+about the past, and how it sticks. Emotions also open up futures,
+in the ways they involve different orientations to others. It takes
+time to know what we can do with emotion. Of course, we are not
+just talking about emotions when we talk about emotions. The
+objects of emotions slide and stick and they join the intimate
+histories of bodies, with the public domain of justice and injustice.
+Justice is not simply a feeling. And feelings are not always just. But
+justice involves feelings, which move us across the surfaces of the
+world, creating ripples in the intimate contours of our lives. Where
+we go, with these feelings, remains an open question.”64
+It is true that, within the digital, our researches and inputs are
+under surveillance, our preferences and choices seem to be
+oriented by someone else, our data are tools to build visibility for
+capitalistic purposes, our virtual identities have escaped our
+control, our awareness is threatened by the fascinating force of the
+unlimited possibilities that the web seems to guarantee, and our
+intimacy has been re-located, therefore it is not the intention of this
+short essay to refuse these considerations.
+My final point is although centred around that idea that
+experiencing a human and emotional touch within a field that is
+often considered exploitative, unreliable and soulless and that we
+think subordinated to ‘techno-supremacy’, might allow us,
+perpetual users, not to lose contact with reality or end up
+becoming digital ghosts floating unconsciously in the magmatic
+environment of false algorithmic promises and virtual illusions. In
+doing so we go back to the true meaning of the word
+communication, and therefore it might be advisable to consider our
+affective exchange as that ‘munus’ - and so the gift - the
+etymology of the of the term itself indicates us.
+The wish is that such a perspective, namely considering networks
+as a social concept first and foremost, might offer us, breathing
+creatures behind the screen, the potential not to lose the signal,
+but rather to create new and alternative ones; so to switch from a
+‘lost signal’ condition marked by bewilderment to a ‘post signal’
+one, as the title itself of this paper suggest, by making of that postan
+enhancement of our identity beyond the wires, those veins
+pulsing beneath the skin of our contemporaneity.
