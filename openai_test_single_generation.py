@@ -8,6 +8,7 @@ load_dotenv()
 # datetime object containing current date and time
 now = datetime.now()
 dt_string = now.strftime("%d-%m-%Y_%H_%M_%S")
+gentype = 'fosterwallace'
 
 oa = openai
 oa.api_key = os.getenv("OPENAI_API_KEY")
@@ -25,7 +26,7 @@ completion = oa.Completion.create(
 story = completion.choices[0].text
 print(story)
 
-finalfile = './generations/' + dt_string + '.txt'
+finalfile = './generations/' + dt_string + gentype + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
         print(story)
