@@ -26,7 +26,7 @@ completion = oa.Completion.create(
 story = completion.choices[0].text
 print(story)
 
-finalfile = './generations/' + dt_string + gentype + '.txt'
+finalfile = './generations/' + dt_string + '_' + gentype + '.txt'
 with open(finalfile, 'w') as f:
     with redirect_stdout(f):
         print(story)
