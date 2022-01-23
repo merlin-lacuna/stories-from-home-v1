@@ -34,7 +34,8 @@ completion = oa.Completion.create(
   max_tokens=120,
   top_p=1,
   frequency_penalty=0.5,
-  presence_penalty=0
+  presence_penalty=0,
+  stop=["EmotionLevel:"]
 )
 
 # print the completion
