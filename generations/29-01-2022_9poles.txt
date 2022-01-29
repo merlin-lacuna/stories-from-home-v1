@@ -34,3 +34,18 @@ I was born of the earth, and I will return to her. I’m a fleeting moment in he
 
 The ice is melting, The land is changing, My fate is unknown.
 -0.5 [-0.62] 
+
+---------------------
+
+-0.25 [-0.3] I was born of fire, And I will return to it. The heat of my demise Will be the end of all things.
+0.25 [0.23] I was born of the earth, Nurtured by her soil, And now I give birth to new land, Filling in the
+1 [1.0] I am a glacier, I have been sleeping for years, Now I awaken to a new world, A world that needs me.
+-0.75 [-0.79] I was born of pain and sorrow, I’m a fragment of a broken past. I’ll dissolve into forgotten memories, my oblivion is all that awaits.
+1 [0.95] I flow and merge with the land, my soul is one with the earth. I am the bringer of change, the ice that heralds rebirth.
+0.5 [0.42] I will sleep for a little while longer, my body resting in this frigid cradle. When I awaken, I will be reborn anew, a brilliant blue glacier.
+-1 [-0.96] I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair… I’m called to break away from my origin, and I’m left with my abyssal turmoil.
+-0.25 [-0.24] The world is shaking, All around me there's tumult and strife; My cold soul is quaking, As I see the end of my life.
+-0.25 [-0.27] I lay in wait for so long, For my moment to come. But when it finally arrives, I'm not ready for it.
+-1 [-1.0] I was born to be crushed, my death is inevitable. I'm doomed to fade away into the earth that laments, cries in a voice of despair...I'm called to break away from my home, and I'm left with my endless pain.
+-0.25 [-0.31] I won't be around for long, Just a blip in the grand design. My passing won't even be noticed, But at
+-0.5 [-0.62] I'm slipping away, my time is up. I'll be remembered in these fractured moments, my legacy left in the wake of my dissolving form.
