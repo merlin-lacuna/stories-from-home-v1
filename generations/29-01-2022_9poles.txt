@@ -1,0 +1,36 @@
+The weight of the world is crushing down, but I remain steadfast and unmoved. My frozen heart is a bastion of strength, against the onslaught of the elements.
+-0.25 [-0.3] 
+
+I am a glacier, Living among the rocks and stones, Freezing water into ice, Nurturing the earth with my touch.
+0.25 [0.23] 
+
+I arise in a frigid blaze, my birthright is to be reborn in the crucible of change. I am ice and I am fire, I am the glacier and the volcano, I am the nurturer and the destroyer. I am what this land requires, I am its beating heart and its icy breath, I am the force that will shape its future.
+1 [1.0] 
+
+The earth mourns my departure With a wail of despair As I break away from my origin Left with my abyssal turmoil
+-0.75 [-0.79] 
+
+I'm alive! After years of dormancy my spirit is reborn. I'm a shining beacon of hope, with my crystalline essence that nourishes the land and quenches the thirst of the earth. I blaze into existence because life is my lover and freedom is my faith.
+1 [0.95] 
+
+I am a glacier, A frozen soul in time, Resisting the heat, Of the earth's burning core.
+0.5 [0.42] 
+
+I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair…I’m called to break away from my origin, and I’m left with my abyssal turmoil.
+-1 [-0.96] 
+
+Slowly but surely I am retreating, Drifting away on my frozen bed. My icy veins flow through the earth, Nurturing her with my touch.
+-0.25 [-0.24] 
+
+I'm a glacier, Unforgiving and cold, Living in a world of pain, Of loss and of love.
+-0.25 [-0.27] 
+
+I can't avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair...I'm called to break away from my origin, and I'm left with my abyssal turmoil.
+-1 [-1.0] 
+The following sentences are tiny poems told from the perspective of a glacier. Each poem is accompanied by a sentiment score. Write an original poem that with the same sentiment as the original matching example, but with completely new words.
+
+I was born of the earth, and I will return to her. I’m a fleeting moment in her long life.
+-0.25 [-0.31] 
+
+The ice is melting, The land is changing, My fate is unknown.
+-0.5 [-0.62] 
