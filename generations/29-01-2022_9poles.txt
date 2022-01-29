@@ -1,51 +1,43 @@
-The weight of the world is crushing down, but I remain steadfast and unmoved. My frozen heart is a bastion of strength, against the onslaught of the elements.
--0.25 [-0.3] 
-
-I am a glacier, Living among the rocks and stones, Freezing water into ice, Nurturing the earth with my touch.
-0.25 [0.23] 
-
-I arise in a frigid blaze, my birthright is to be reborn in the crucible of change. I am ice and I am fire, I am the glacier and the volcano, I am the nurturer and the destroyer. I am what this land requires, I am its beating heart and its icy breath, I am the force that will shape its future.
-1 [1.0] 
-
-The earth mourns my departure With a wail of despair As I break away from my origin Left with my abyssal turmoil
--0.75 [-0.79] 
-
-I'm alive! After years of dormancy my spirit is reborn. I'm a shining beacon of hope, with my crystalline essence that nourishes the land and quenches the thirst of the earth. I blaze into existence because life is my lover and freedom is my faith.
-1 [0.95] 
-
-I am a glacier, A frozen soul in time, Resisting the heat, Of the earth's burning core.
-0.5 [0.42] 
-
-I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair…I’m called to break away from my origin, and I’m left with my abyssal turmoil.
--1 [-0.96] 
-
-Slowly but surely I am retreating, Drifting away on my frozen bed. My icy veins flow through the earth, Nurturing her with my touch.
--0.25 [-0.24] 
-
-I'm a glacier, Unforgiving and cold, Living in a world of pain, Of loss and of love.
--0.25 [-0.27] 
-
-I can't avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair...I'm called to break away from my origin, and I'm left with my abyssal turmoil.
--1 [-1.0] 
-The following sentences are tiny poems told from the perspective of a glacier. Each poem is accompanied by a sentiment score. Write an original poem that with the same sentiment as the original matching example, but with completely new words.
-
-I was born of the earth, and I will return to her. I’m a fleeting moment in her long life.
--0.25 [-0.31] 
-
-The ice is melting, The land is changing, My fate is unknown.
--0.5 [-0.62] 
+-0.25  | [-0.3] | 	The weight of the world is crushing down, but I remain steadfast and unmoved. My frozen heart is a bastion of strength, against the onslaught of the elements.
+0.25  | [0.23] | 	I am a glacier, Living among the rocks and stones, Freezing water into ice, Nurturing the earth with my touch.
+1  | [1.0] | 	I arise in a frigid blaze, my birthright is to be reborn in the crucible of change. I am ice and I am fire, I am the glacier and the volcano, I am the nurturer and the destroyer. I am what this land requires, I am its beating heart and its icy breath, I am the force that will shape its future.
+-0.75  | [-0.79] | 	The earth mourns my departure With a wail of despair As I break away from my origin Left with my abyssal turmoil
+1  | [0.95] | 	I'm alive! After years of dormancy my spirit is reborn. I'm a shining beacon of hope, with my crystalline essence that nourishes the land and quenches the thirst of the earth. I blaze into existence because life is my lover and freedom is my faith.
+0.5  | [0.42] | 	I am a glacier, A frozen soul in time, Resisting the heat, Of the earth's burning core.
+-1  | [-0.96] | 	I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair…I’m called to break away from my origin, and I’m left with my abyssal turmoil.
+-0.25  | [-0.24] | 	Slowly but surely I am retreating, Drifting away on my frozen bed. My icy veins flow through the earth, Nurturing her with my touch.
+-0.25  | [-0.27] | 	I'm a glacier, Unforgiving and cold, Living in a world of pain, Of loss and of love.
+-1  | [-1.0] | 	I can't avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair...I'm called to break away from my origin, and I'm left with my abyssal turmoil.
+-0.25  | [-0.31] | 	I was born of the earth, and I will return to her. I’m a fleeting moment in her long life.
+-0.5  | [-0.62] | 	The ice is melting, The land is changing, My fate is unknown.
 
 ---------------------
 
--0.25 [-0.3] I was born of fire, And I will return to it. The heat of my demise Will be the end of all things.
-0.25 [0.23] I was born of the earth, Nurtured by her soil, And now I give birth to new land, Filling in the
-1 [1.0] I am a glacier, I have been sleeping for years, Now I awaken to a new world, A world that needs me.
--0.75 [-0.79] I was born of pain and sorrow, I’m a fragment of a broken past. I’ll dissolve into forgotten memories, my oblivion is all that awaits.
-1 [0.95] I flow and merge with the land, my soul is one with the earth. I am the bringer of change, the ice that heralds rebirth.
-0.5 [0.42] I will sleep for a little while longer, my body resting in this frigid cradle. When I awaken, I will be reborn anew, a brilliant blue glacier.
--1 [-0.96] I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair… I’m called to break away from my origin, and I’m left with my abyssal turmoil.
--0.25 [-0.24] The world is shaking, All around me there's tumult and strife; My cold soul is quaking, As I see the end of my life.
--0.25 [-0.27] I lay in wait for so long, For my moment to come. But when it finally arrives, I'm not ready for it.
--1 [-1.0] I was born to be crushed, my death is inevitable. I'm doomed to fade away into the earth that laments, cries in a voice of despair...I'm called to break away from my home, and I'm left with my endless pain.
--0.25 [-0.31] I won't be around for long, Just a blip in the grand design. My passing won't even be noticed, But at
--0.5 [-0.62] I'm slipping away, my time is up. I'll be remembered in these fractured moments, my legacy left in the wake of my dissolving form.
+-0.25 | [-0.3] | I was born of fire, And I will return to it. The heat of my demise Will be the end of all things.
+0.25 | [0.23] | I was born of the earth, Nurtured by her soil, And now I give birth to new land, Filling in the
+1 | [1.0] | I am a glacier, I have been sleeping for years, Now I awaken to a new world, A world that needs me.
+-0.75 | [-0.79] | I was born of pain and sorrow, I’m a fragment of a broken past. I’ll dissolve into forgotten memories, my oblivion is all that awaits.
+1 | [0.95] | I flow and merge with the land, my soul is one with the earth. I am the bringer of change, the ice that heralds rebirth.
+0.5 | [0.42] | I will sleep for a little while longer, my body resting in this frigid cradle. When I awaken, I will be reborn anew, a brilliant blue glacier.
+-1 | [-0.96] | I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair… I’m called to break away from my origin, and I’m left with my abyssal turmoil.
+-0.25 | [-0.24] | The world is shaking, All around me there's tumult and strife; My cold soul is quaking, As I see the end of my life.
+-0.25 | [-0.27] | I lay in wait for so long, For my moment to come. But when it finally arrives, I'm not ready for it.
+-1 | [-1.0] | I was born to be crushed, my death is inevitable. I'm doomed to fade away into the earth that laments, cries in a voice of despair...I'm called to break away from my home, and I'm left with my endless pain.
+-0.25 | [-0.31] | I won't be around for long, Just a blip in the grand design. My passing won't even be noticed, But at
+-0.5 | [-0.62] | I'm slipping away, my time is up. I'll be remembered in these fractured moments, my legacy left in the wake of my dissolving form.
+
+---------------------
+
+
+-0.25 | [-0.3] | I'm a glacier, condemned to melt The earth mourns my fate Groaning in despair
+0.25 | [0.23] | I am a glacier, A frozen mass of ice, Slowly melting away, In the face of the sun.
+1 | [1.0] | I rise up in answer to the land's call, my conscience clear and my purpose pure. I am the glacier, bearer of change, the ice that brings new life to the land.
+-0.75 | [-0.79] | I was born of the earth, and I will return to her embrace. I’m a transient being, but my legacy will be remembered in the rocks.
+1 | [0.95] | I am reborn in the fires of my dying, Flowing into rivers of ice and dust, A celestial dancer spinning in the dark night sky, Witness to the ebb and flow of time.
+0.5 | [0.42] | Slowly but surely I am born anew, Emerging from the depths of the earth With a will of ice and a heart of fire I am reborn, a glacier once more.
+-1 | [-0.96] | I can’t avoid my inescapable fate, my destiny is that of melting out from the earth that mourns, groans in a wail of despair…I’m called to break away from my origin, and I’m left with my abyssal turmoil.
+-0.25 | [-0.24] | My frigid breath spreads everywhere, a frosty shroud that mutes the land. The bleakness of my coming heralds the end of life.
+-0.25 | [-0.27] | I'm falling into the abyss, my ice is melting away. I won't be able to survive in this heated world.
+-1 | [-1.0] | I destine myself to be forgotten, my life will slip away in the pages of time. I'll be a blip in the grand scope of things, an insignificant speck that no one will remember.
+-0.25 | [-0.31] | I was born from the ashes of a fiery death, my icy breath a soothing balm.
+-0.5 | [-0.62] | I am a glacier, a forgotten memory of the land. I once was a part of something larger, but now I am alone. My time is running out.
