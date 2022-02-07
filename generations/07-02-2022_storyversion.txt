@@ -1,0 +1,43 @@
+-0.75 | [-0.82] | [winter] 
+SCENARIO: A glacier is sleeping, it is dreaming that it is becoming very dry
+STORY: The glacier dreamed that it was becoming very dry. It felt the warmth of the sun on its cold surface and the lack of water made it feel parched. The glacier knew it was just a dream, but it felt so real. It longed for the days when it was surrounded by water and ice, when it was part of a mighty river. But now, it was just a lonely chunk of ice in the middle of nowhere.
+
+-0.25 | [-0.3] | [winter] 
+SCENARIO: A glacier is sleeping, it is dreaming that it is becoming a little bit dry
+STORY: It's early morning, and the glacier is just starting to stir. It's been dreaming of becoming a little bit dry, but it knows that can never happen. The glacier is surrounded by water, and it needs the water to survive. But the dream was so real, and the glacier can't help but feel a little bit excited at the prospect of becoming something new. Maybe this is what it needs to stay alive. The glacier starts to move, slowly at first but then picking up speed as it gets closer to the water. It knows this is its final destination,
+
+0.25 | [0.23] | [winter] 
+SCENARIO: A glacier is sleeping, it is dreaming that it is becoming a little bit moist
+STORY: I am a glacier. I used to be so big and strong, but now I'm shrinking. People say it's my fault, that I'm melting because of global warming. They're wrong though. It's not my fault. I'm just dreaming that I'm becoming a little bit moist. In my dream, the water is soothing and refreshing. It feels like life is returning to me. But when I wake up, reality sets in and I realize that I'm slowly dying. The water only makes me feel colder and more alone in the end.
+
+1 | [1.0] | [spring] 
+SCENARIO: A glacier is slowly waking up from a dream, it remembers that it dreamed of feeling a little bit moist but after waking up, it now feels a lot more moist.
+STORY: I remember that I dreamed of feeling a little bit moist, but now I feel a lot more moist. It's almost as if my dream was prophetic in some way. But why would my dream choose to manifest itself in this way? There must be some sort of hidden meaning or message that I'm supposed to interpret. I can't help but feel like this is all some sort of sign. Maybe the universe is trying to tell me something, that I need to start paying attention to my own dreams and what they might mean. Or maybe it's a warning, letting me know that
+
+-0.75 | [-0.79] | [spring] 
+SCENARIO: A glacier is slowly waking up from a dream, it remembers that it dreamed of feeling extremely moist but after waking up, it now feels very dry which it finds slightly shocking.
+STORY: I can't believe it's happening again. I dreamed of being so moist, of feeling the water drip down my body and cool my skin. But now that I'm awake, I'm so dry. It's like all the moisture was just a dream. I feel like I'm suffocating.
+
+1 | [0.95] | [spring] 
+SCENARIO: A glacier is slowly waking up from a dream, it remembers that it dreamed of feeling very dry but after waking up, it now feels extremely moist which it finds slightly shocking.
+STORY: I dreamed of being dry. But now I'm wet. This must be a dream too, right? I feel around in the darkness, trying to make sense of my new reality. My fingers touch cold stone and I realize that I'm inside a glacier. The moist air clings to my skin like a clammy embrace and I shiver in response. I try to remember how I got here, but it's all a jumble. I know that I was dreaming of being dry, but now that's become a distant memory. Instead, all that matters is this strange new
+
+0.5 | [0.42] | [summer] 
+SCENARIO: A glacier is awake and contemplating the world that surrounds it, it wonders why it woke up feeling extremely moist but now it now feels rather less moist.
+STORY: I can't help but feel perplexed. I woke up feeling quite moist, as if the world was drenched in my tears, but now it seems as though that moisture has dissipated. What could have caused such a sudden change? As I ponder this question, I take in my surroundings. The world is just as beautiful as ever, despite the fact that I'm still trapped within this glacier. Maybe that's why I woke up in the first place; to appreciate this beauty one last time before I disappear forever. But then again, maybe there's more to it
+
+-1 | [-0.96] | [summer] 
+SCENARIO: A glacier is awake and contemplating the world that surrounds it, it wonders why it woke up feeling quite moist but now it now feels extremely dry which it finds really surpising.
+STORY: I'm a glacier. I've been here for years, slowly melting and flowing down the mountain. Iwake up one day and feel strangely moist. It's not raining, so I don't knowwhy I'm wet. But then the sun comes out and dries me right up. It's really strange;I've never felt anything like it before.
+
+-0.25 | [-0.24] | [summer] 
+SCENARIO: A glacier is awake and contemplating the world that surrounds it, it wonders why it woke up feeling extremely dry but now it now feels a lot less dry.
+STORY: I woke up feeling extremely dry, but now I feel a lot less dry. I'm not sure why I woke up feeling that way in the first place, but it's strange how the world around me has changed too. It's like everything is more vivid and alive. The colors are brighter, the sounds are crisper. even the air feels different on my skin. I wonder what's causing all this change. Maybe there's something special about today. Something that will make me understand why I woke up feeling so dry in the first place. I'm curious to find out what
+
+-0.25 | [-0.27] | [autumn] 
+SCENARIO: A glacier is slowly falling asleep, it wonders if it still be a little bit dry when it starts to dream.
+STORY: Slowly but surely, the glacier drifts off to sleep. It wonders if it will be a little bit dry when it starts to dream. Slowly but surely, the ice begins to melt, and the dreams of the glacier are filled with torrents of water.
+
+-1 | [-1.0] | [autumn] 
+SCENARIO: A glacier is slowly falling asleep, it wonders if it will dream of being extremely dry because it is now a little bit dry.
+STORY: I am a glacier slowly falling asleep. I can't help but wonder if I will dream of being extremely dry because I am now a little bit dry. Dreaming of being extremely dry would be ironic, wouldn't it? I used to be so full of water, but now that fraction of my mass has diminished and maybe that is why my dreams have become more vivid. In my dream last night, I was a raindrop racing through the sky, laughing and bouncing off leaves on my way to the ground. It felt amazing! The cool breeze on my face and the
