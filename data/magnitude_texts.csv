@@ -1,0 +1,73 @@
+Index,Direction,Before,After,Magnitude,TransformationText
+1_0.75,drop,1,0.75,0.25,went from feeling extremely moist to feeling a bit less moist
+1_0.5,drop,1,0.5,0.5,went from feeling extremely moist to feeling rather less moist
+1_0.25,drop,1,0.25,0.75,went from feeling extremely moist to feeling a lot less moist
+1_0,drop,1,0,1,went from feeling extremely moist to feeling not moist at all which it found slightly surpising
+1_-0.25,drop,1,-0.25,1.25,went from feeling extremely moist to actually feeling a little bit dry which it found somewhat surpising
+1_-0.5,drop,1,-0.5,1.5,went from feeling extremely moist to actually feeling quite dry which it found really surpising
+1_-0.75,drop,1,-0.75,1.75,went from feeling extremely moist to actually feeling very dry which it found slightly shocking
+1_-1,drop,1,-1,2,went from feeling extremely moist to actually feeling extremely dry which it found really shocking
+0.75_0.5,drop,0.75,0.5,0.25,went from feeling very moist to feeling a bit less moist
+0.75_0.25,drop,0.75,0.25,0.5,went from feeling very moist to feeling rather less moist
+0.75_0,drop,0.75,0,0.75,went from feeling very moist to feeling not moist at all
+0.75_-0.25,drop,0.75,-0.25,1,went from feeling very moist to actually feeling a little bit dry which it found slightly surpising
+0.75_-0.5,drop,0.75,-0.5,1.25,went from feeling very moist to actually feeling quite dry which it found somewhat surpising
+0.75_-0.75,drop,0.75,-0.75,1.5,went from feeling very moist to actually feeling very dry which it found really surpising
+0.75_-1,drop,0.75,-1,1.75,went from feeling very moist to actually feeling extremely dry which it found slightly shocking
+0.5_0.25,drop,0.5,0.25,0.25,went from feeling quite moist to feeling a bit less moist
+0.5_0,drop,0.5,0,0.5,went from feeling quite moist to feeling not moist at all
+0.5_-0.25,drop,0.5,-0.25,0.75,went from feeling quite moist to actually feeling a little bit dry
+0.5_-0.5,drop,0.5,-0.5,1,went from feeling quite moist to actually feeling quite dry which it found slightly surpising
+0.5_-0.75,drop,0.5,-0.75,1.25,went from feeling quite moist to actually feeling very dry which it found somewhat surpising
+0.5_-1,drop,0.5,-1,1.5,went from feeling quite moist to actually feeling extremely dry which it found really surpising
+0.25_0,drop,0.25,0,0.25,went from feeling a little bit moist to feeling not moist at all
+0.25_-0.25,drop,0.25,-0.25,0.5,went from feeling a little bit moist to actually feeling a little bit dry
+0.25_-0.5,drop,0.25,-0.5,0.75,went from feeling a little bit moist to actually feeling quite dry
+0.25_-0.75,drop,0.25,-0.75,1,went from feeling a little bit moist to actually feeling very dry which it found slightly surpising
+0.25_-1,drop,0.25,-1,1.25,went from feeling a little bit moist to actually feeling extremely dry which it found somewhat surpising
+0_-0.25,drop,0,-0.25,0.25,went from feeling not moist at all to actually feeling a little bit dry
+0_-0.5,drop,0,-0.5,0.5,went from feeling not moist at all to actually feeling quite dry
+0_-0.75,drop,0,-0.75,0.75,went from feeling not moist at all to actually feeling very dry
+0_-1,drop,0,-1,1,went from feeling not moist at all to actually feeling extremely dry which it found slightly surpising
+-0.25_-0.5,drop,-0.25,-0.5,0.25,went from feeling a little bit dry to feeling quite dry
+-0.25_-0.75,drop,-0.25,-0.75,0.5,went from feeling a little bit dry to feeling very dry
+-0.25_-1,drop,-0.25,-1,0.75,went from feeling a little bit dry to feeling extremely dry
+-0.5_-0.75,drop,-0.5,-0.75,0.25,went from feeling quite dry to feeling very dry
+-0.5_-1,drop,-0.5,-1,0.5,went from feeling quite dry to feeling extremely dry
+-0.75_-1,drop,-0.75,-1,0.25,went from feeling very dry to feeling extremely dry
+-1_1,Increase,-1,1,2,went from feeling extremely dry to actually feeling extremely moist which it found really shocking
+-1_0.75,Increase,-1,0.75,1.75,went from feeling extremely dry to actually feeling very moist which it found slightly shocking
+-1_0.5,Increase,-1,0.5,1.5,went from feeling extremely dry to actually feeling quite moist which it found really surpising
+-1_0.25,Increase,-1,0.25,1.25,went from feeling extremely dry to actually feeling a little bit moist which it found somewhat surpising
+-1_0,Increase,-1,0,1,went from feeling extremely dry to actually feeling not dry at all which it found slightly surpising
+-1_-0.25,Increase,-1,-0.25,0.75,went from feeling extremely dry to feeling a lot less dry
+-1_-0.5,Increase,-1,-0.5,0.5,went from feeling extremely dry to feeling rather less dry
+-1_-0.75,Increase,-1,-0.75,0.25,went from feeling extremely dry to feeling a bit less dry
+-0.75_1,Increase,-0.75,1,1.75,went from feeling very dry to actually feeling extremely moist which it found slightly shocking
+-0.75_0.75,Increase,-0.75,0.75,1.5,went from feeling very dry to actually feeling very moist which it found really surpising
+-0.75_0.5,Increase,-0.75,0.5,1.25,went from feeling very dry to actually feeling quite moist which it found somewhat surpising
+-0.75_0.25,Increase,-0.75,0.25,1,went from feeling very dry to actually feeling a little bit moist which it found slightly surpising
+-0.75_0,Increase,-0.75,0,0.75,went from feeling very dry to actually feeling not dry at all
+-0.75_-0.25,Increase,-0.75,-0.25,0.5,went from feeling very dry to feeling rather less dry
+-0.75_-0.5,Increase,-0.75,-0.5,0.25,went from feeling very dry to feeling a bit less dry
+-0.5_1,Increase,-0.5,1,1.5,went from feeling quite dry to actually feeling extremely moist which it found really surpising
+-0.5_0.75,Increase,-0.5,0.75,1.25,went from feeling quite dry to actually feeling very moist which it found somewhat surpising
+-0.5_0.5,Increase,-0.5,0.5,1,went from feeling quite dry to actually feeling quite moist which it found slightly surpising
+-0.5_0.25,Increase,-0.5,0.25,0.75,went from feeling quite dry to actually feeling a little bit moist
+-0.5_0,Increase,-0.5,0,0.5,went from feeling quite dry to actually feeling not dry at all
+-0.5_-0.25,Increase,-0.5,-0.25,0.25,went from feeling quite dry to feeling a bit less dry
+-0.25_1,Increase,-0.25,1,1.25,went from feeling a little bit dry to actually feeling extremely moist which it found somewhat surpising
+-0.25_0.75,Increase,-0.25,0.75,1,went from feeling a little bit dry to actually feeling very moist which it found slightly surpising
+-0.25_0.5,Increase,-0.25,0.5,0.75,went from feeling a little bit dry to actually feeling quite moist
+-0.25_0.25,Increase,-0.25,0.25,0.5,went from feeling a little bit dry to actually feeling a little bit moist
+-0.25_0,Increase,-0.25,0,0.25,went from feeling a little bit dry to actually feeling not dry at all
+0_1,Increase,0,1,1,went from feeling not moist at all to actually feeling extremely moist which it found slightly surpising
+0_0.75,Increase,0,0.75,0.75,went from feeling not moist at all to actually feeling very moist
+0_0.5,Increase,0,0.5,0.5,went from feeling not moist at all to actually feeling quite moist
+0_0.25,Increase,0,0.25,0.25,went from feeling not moist at all to actually feeling a little bit moist
+0.25_1,Increase,0.25,1,0.75,went from feeling a little bit moist to feeling a lot more moist
+0.25_0.75,Increase,0.25,0.75,0.5,went from feeling a little bit moist to feeling even more moist
+0.25_0.5,Increase,0.25,0.5,0.25,went from feeling a little bit moist to feeling a bit more moist
+0.5_1,Increase,0.5,1,0.5,went from feeling quite moist to feeling even more moist
+0.5_0.75,Increase,0.5,0.75,0.25,went from feeling quite moist to feeling even a bit more moist
+0.75_1,Increase,0.75,1,0.25,went from feeling very moist to feeling even a bit more moist
