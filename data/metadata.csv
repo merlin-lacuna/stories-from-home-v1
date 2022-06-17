@@ -1,0 +1,16 @@
+Index,Element,Measurement,Gooddirection,Location,Resolution,From,To,Unitcount,Filename,Datecol,Datacol,Committed,Idealavg
+1,Earth,LAND->Cryosphere->Glaciers,h,"Thwaites Glacier, Antarctica ",yearly,2002,2022,20,earth_land_ndsi_thwaites.csv,"Time",ymNDSI,y,n/a
+2,Earth,LAND -> Biosphere -> Leaf area index,h,"Region of Atsimo-Andrefana, Madagascar, Africa",yearly,2011,2021,10,earth_land_lai_atismo.csv,Date,Mean,y,n/a
+3,Air,ATMOSPHERE->Surface->Mean Air Temperature,l,"Mali (Sahel portion), Africa",monthly,1980,2020,40,air_atmo_airtemp_sahel.csv,system:time_start,"mean_2m_air_temperature",y,n/a
+4,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration ,l,"Mumbai, India",yearly,2019,2019,12,air_atmo_n0_mumbai.csv,month,CO_column_number_density,y,n/a
+5,Fire,Thermal Remote Sensing for Global Volcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",daily,1950,2020,99482,fire_volcano_watertemp_ruapehu.csv,date-time,t (C),y,n/a
+6,Fire,FIRE -> NDVI after Wildfire ,h,"Mendocino Complex Fire, North California USA",yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,Mean NDVI ,y,n/a
+8,Water,OCEAN->Physical->Sea level,l,Baltic Sea,every3years,1993,2020,9,water_ocean_sealevel_balticsea.csv,Year,mean_sealevel,y,n/a
+9,Water,OCEAN->Physical->Sea level,l,Atlantic Iberian Biscay,every3years,1993,2021,9,water_ocean_sealevel_biscay.csv,Year,mean_sealevel,y,n/a
+10,Water,OCEAN->Physical->Global Mean pH (expirement),a,Global,every3years,2002,2020,6,wate_ocean_phlevel_globalsea.csv,Year,sea_ph,y,n/a
+12,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Toliara, Madagascar (floods)",daily,01/02/2015,14/02/2015,14,air_atmo_precip_toliara.csv,Day,Precipitation,y,n/a
+13,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Timbuktu, Mali, Africa (droughts)",yearly,2011,2021,10,air_atmo_precip_timbuktu.csv,Year,Precipitation,y,n/a
+14,Earth,LAND -> Biosphere -> Leaf area index,h,"Arboretum Norr Forest, Sweden (near Umeå)",yearly,2011,2021,10,earth_forest_lai_norr.csv,Time ,LAI,y,n/a
+15,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Town of Taumarunui, New Zealand",monthly,2020-01,2020-12,12,air_atmo_n0_tamuranui.csv,month,CO_column_number_density,y,n/a
+19,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,n/a
+20,Air,ATMOSPHERE->Atmospherc Composition ,,"Mauna Loa, Hawai",yearly,2007,2021,15,air_atmo_C02_manuloa.csv,Year,CO2,y,n/a
