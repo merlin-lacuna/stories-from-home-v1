@@ -1,4 +1,4 @@
-Index,date-time, t (C), error (C)
+Index,date-time,temperature, error (C)
 23403,01/01/2011 00:45,29.11,0
 23404,01/01/2011 00:52,29.03,0
 23405,01/01/2011 01:00,29.04,0
