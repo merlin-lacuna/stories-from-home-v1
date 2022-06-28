@@ -1,4 +1,4 @@
-time,water_height_mm_max
+time,water_height_m_max
 
 12.11.2019,1.87
 13.11.2019,1.44
@@ -13,3 +13,4 @@ time,water_height_mm_max
 22.11.2019,0.98
 23.11.2019,1.40
 24.11-2019,1.29
+
