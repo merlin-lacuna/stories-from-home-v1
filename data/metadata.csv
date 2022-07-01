@@ -12,7 +12,7 @@ Index,Element,Measurement,Gooddirection,Location,Resolution,From,To,Unitcount,Fi
 11,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Toliara, Madagascar (floods)",daily,01/02/2015,14/02/2015,14,air_atmo_precip_toliara.csv,Day,Precipitation,y,n/a,n/a
 12,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Timbuktu, Mali, Africa (droughts)",yearly,2011,2021,10,air_atmo_precip_timbuktu.csv,Year,Precipitation,y,n/a,n/a
 13,Earth,LAND -> Biosphere -> Leaf area index,h,"Arboretum Norr Forest, Sweden (near Umea)",yearly,2011,2021,10,earth_forest_lai_norr.csv,Time ,LAI,y,n/a,n/a
-14,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Town of Taumarunui, New Zealand",monthly,2020-01,2020-12,12,air_atmo_n0_tamuranui.csv,month,CO_column_number_density,y,0.16,0.25
+14,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Town of Taumarunui, New Zealand",monthly,2020-01,2020-12,12,air_atmo_n0_tamuranui.csv,Time,CO_column_number_density,y,0.16,0.25
 15,Earth,LAND -> Biosphere -> Land cover (Urban) ,h,"Hainan Island , China ",yearly,1990,2019,4,earth_valley_lcover_hainan.csv,time,built_up_area_km^2,y,48.39,48.39
 16,Earth,LAND -> Biosphere -> Land cover,l,"City of Venice, Italy (premonitions of a flooded/underwater city would be fitting here)",daily,12/11/2021,24/11/2021,12,earth_island_lcover_venice.csv,time,water_height_m_max,y,n/a,n/a
 17,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,71.613,71.613
