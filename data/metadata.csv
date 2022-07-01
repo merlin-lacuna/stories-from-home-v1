@@ -4,7 +4,7 @@ Index,Element,Measurement,Gooddirection,Location,Resolution,From,To,Unitcount,Fi
 3,Air,ATMOSPHERE->Surface->Mean Air Temperature,l,"Mali (Sahel portion), Africa",monthly,1980,2020,40,air_atmo_airtemp_sahel.csv,"Year","mean_2m_air_temperature",y,n/a,n/a
 4,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration ,l,"Mumbai, India",yearly,2019,2019,12,air_atmo_c0_mumbai.csv,month,CO_column_number_density,y,0.014,0.25
 5,Fire,Thermal Remote Sensing for Global Volcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",daily,1950,2020,70,fire_volcano_watertemp_ruapehu.csv,Year,Temperature,y,n/a,n/a
-6,Fire,FIRE -> NDVI after Wildfire ,h,"Mendocino Complex Fire, North California USA",yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,Mean NDVI,y,0.33,1
+6,Fire,FIRE -> NDVI after Wildfire ,h,"Mendocino Complex Fire, North California USA",yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,mean_NDVI,y,0.33,1
 7,Fire,Thermal Remote Sensing for Global Volcano Monitoring,l,"Kawajhen Jen, Indonesien",yearly,2002,2005,10,fire_volcano_watertemp_kawahIjen.csv,time,temp_celsius,y,n/a,n/a
 8,Water,OCEAN->Physical->Sea level,l,Baltic Sea,every3years,1993,2020,9,water_ocean_sealevel_balticsea.csv,Year,mean_sealevel,y,n/a,n/a
 9,Water,OCEAN->Physical->Sea level,l,Atlantic Iberian Biscay,every3years,1993,2021,9,water_ocean_sealevel_biscay.csv,Year,mean_sealevel,y,n/a,n/a
