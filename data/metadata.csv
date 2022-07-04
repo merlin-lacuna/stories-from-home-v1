@@ -2,17 +2,17 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 1,Earth,LAND->Cryosphere->Glaciers,h,"Thwaites Glacier, Antarctica",Glacier,yearly,2002,2022,20,earth_land_ndsi_thwaites.csv,Time,ymNDSI,y,66.052,66.052
 2,Earth,LAND -> Biosphere -> Leaf area index,h,"Region of Atsimo-Andrefana, Madagascar, Africa",Forest,yearly,2011,2021,10,earth_land_lai_atismo.csv,Year,Mean,y,n/a,n/a
 3,Air,ATMOSPHERE->Surface->Mean Air Temperature,l,"Mali (Sahel portion), Africa",Desert,monthly,1980,2020,40,air_atmo_airtemp_sahel.csv,Year,mean_2m_air_temperature,y,n/a,n/a
-4,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Mumbai, India",Urband Land,yearly,2019,2019,12,air_atmo_c0_mumbai.csv,month,CO_column_number_density,y,0.014,0.25
+4,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Mumbai, India",Urban Land,yearly,2019,2019,12,air_atmo_c0_mumbai.csv,month,CO_column_number_density,y,0.014,0.25
 5,Fire,Thermal Remote Sensing for Global Volcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",Volcano,daily,1950,2020,70,fire_volcano_watertemp_ruapehu.csv,Year,Temperature,y,n/a,n/a
 6,Fire,FIRE -> NDVI after Wildfire,h,"Mendocino Complex Fire, North California USA",Forest,yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,mean_NDVI,y,0.33,1
 7,Fire,Thermal Remote Sensing for Global Volcano Monitoring,l,"Kawajhen Jen, Indonesien",Volcano,yearly,2002,2005,10,fire_volcano_watertemp_kawahIjen.csv,time,temp_celsius,y,n/a,n/a
 8,Water,OCEAN->Physical->Sea level,l,Baltic Sea,Ocean,every3years,1993,2020,9,water_ocean_sealevel_balticsea.csv,Year,mean_sealevel,y,n/a,n/a
 9,Water,OCEAN->Physical->Sea level,l,Atlantic Iberian Biscay,Ocean,every3years,1993,2021,9,water_ocean_sealevel_biscay.csv,Year,mean_sealevel,y,n/a,n/a
 10,Water,OCEAN->Physical->Global Mean pH (expirement),a,Global,Ocean,every3years,2002,2020,6,water_ocean_phlevel_globalsea.csv,Year,sea_ph,y,8.2,8.2
-11,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Toliara, Madagascar (floods)",Urband Land,daily,01/02/2015,14/02/2015,14,air_atmo_precip_toliara.csv,Day,Precipitation,y,n/a,n/a
-12,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Timbuktu, Mali, Africa (droughts)",Urband Land,yearly,2011,2021,10,air_atmo_precip_timbuktu.csv,Year,Precipitation,y,n/a,n/a
+11,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Toliara, Madagascar (floods)",Urban Land,daily,01/02/2015,14/02/2015,14,air_atmo_precip_toliara.csv,Day,Precipitation,y,n/a,n/a
+12,Air,ATMOSPHERE->Surface->Precipitation,a,"City of Timbuktu, Mali, Africa (droughts)",Urban Land,yearly,2011,2021,10,air_atmo_precip_timbuktu.csv,Year,Precipitation,y,n/a,n/a
 13,Earth,LAND -> Biosphere -> Leaf area index,h,"Arboretum Norr Forest, Sweden (near Umea)",Forest,yearly,2011,2021,10,earth_forest_lai_norr.csv,Time,LAI,y,n/a,n/a
-14,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Town of Taumarunui, New Zealand",Urband Land,monthly,2020-01,2020-12,12,air_atmo_n0_tamuranui.csv,Time,CO_column_number_density,y,0.16,0.25
+14,Air,ATMOSPHERE > Atmospheric Composition > N0 Concentration,l,"Town of Taumarunui, New Zealand",Urban Land,monthly,2020-01,2020-12,12,air_atmo_n0_tamuranui.csv,Time,CO_column_number_density,y,0.16,0.25
 15,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Hainan Island , China",Island,yearly,1990,2019,4,earth_valley_lcover_hainan.csv,time,built_up_area_km^2,y,48.39,48.39
 16,Earth,LAND -> Biosphere -> Land cover,l,"City of Venice, Italy (premonitions of a flooded/underwater city would be fitting here)",Island,daily,12/11/2021,24/11/2021,12,earth_island_lcover_venice.csv,time,water_height_m_max,y,n/a,n/a
 17,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,71.613,71.613
