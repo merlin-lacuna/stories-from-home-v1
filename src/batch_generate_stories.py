@@ -14,18 +14,21 @@ maxlength = 256
 selectedmodel = earth
 
 def trim_output(completion):
-    if completion[-1] in ('.', '?', '!'):
-        # print("matched end")
-        trimmedoutput = completion
-    else:
-        try:
-            # print("matched incomplete")
-            re.findall(r'(\.|\?|\!)( [A-Z])', completion)
-            indices = [(m.start(0), m.end(0)) for m in re.finditer(r'(\.|\?|\!)( [A-Z])', completion)]
-            splittuple = indices[len(indices) - 1]
-            trimmedoutput = completion[0:splittuple[0] + 1]
-        except:
+    try:
+        if completion[-1] in ('.', '?', '!'):
+            # print("matched end")
             trimmedoutput = completion
+        else:
+            try:
+                # print("matched incomplete")
+                re.findall(r'(\.|\?|\!)( [A-Z])', completion)
+                indices = [(m.start(0), m.end(0)) for m in re.finditer(r'(\.|\?|\!)( [A-Z])', completion)]
+                splittuple = indices[len(indices) - 1]
+                trimmedoutput = completion[0:splittuple[0] + 1]
+            except:
+                trimmedoutput = completion
+    except:
+        trimmedoutput = completion
 
     return trimmedoutput
 
@@ -55,28 +58,40 @@ def get_act(myprompt, maxt, element):
 
 gentype = "b2w_forest"
 
-intro = "The following play is about the inner monologue of a lush but pensive forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe inner monologue starts like this:"
+intro = "The following play reveals the inner monologue of a lush but pensive forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe inner monologue starts like this:\n\n"
 
-act0descr = "Act 0 description: The forest's leaf cover is not yet known.\nAct 0 narration: The forest introduces itself. It talks about its surroundings.\n----\nForest: My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush.\n\n"
+# act0descr = "Act 0 description: The forest's leaf cover is not yet known.\nAct 0 narration: The forest introduces itself. It talks about its surroundings.\n----\nForest: My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush.\n\n"
+#
+# act1descr = "Act 1 description: The forest can't seem to stop losing leaves.\nAct 1 narration: The forest floats in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything it failed to see.\n----\nForest: "
+#
+# act2descr = "Act 2 description: The forest has lost a dramatically high proportion of its leaves and greenery.\nAct 2 narration: The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\n----\nForest: "
+#
+# act3descr = "Act 3 description: The forest has lost more leaves than it has ever lost before in its lifetime.\nAct 3 narration: The forest realizes that the earth is cravingly swallowing its essence and it whispers whether at least all around its dissipation will rise a fertile micro-universe, or whether its collapse will lead only to sterile hopes.\n----\nForest: "
 
-act1descr = "Act 1 description: The forest can't seem to stop losing leaves.\nAct 1 narration: The forest floats in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything it failed to see.\n----\n"
+act0descr = "Act 0 synopsis: The forest's leaf cover is not yet known. The forest introduces itself and talks about its surroundings...\n\nForest: \"My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush.\n\n"
 
-act2descr = "Act 2 description: The forest has lost a dramatically high proportion of its leaves and greenery.\nAct 2 narration: The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\n----\n"
+act1descr = "Act 1 synopsis: The forest can't seem to stop losing leaves...\n\nForest: \"I float in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything that I failed to see"
 
-act3descr = "Act 3 description: The forest has lost more leaves than it has ever lost before in its lifetime.\nAct 3 narration: The forest realizes that the earth is cravingly swallowing its essence and it whispers whether at least all around its dissipation will rise a fertile micro-universe, or whether its collapse will lead only to sterile hopes.\n----\n"
+act2descr = "Act 2 synopsis: The forest has lost a dramatically high proportion of its leaves and greenery...\n\nForest: \"I notice that all the living parts that once composed my abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity"
+
+act3descr = "Act 3 synopsis: The forest has lost more leaves than it has ever lost before in its lifetime...\n\nForest: \"I realize that the earth is cravingly swallowing my essence and I whisper whether at least all around my dissipation will rise a fertile micro-universe, or whether my collapse will lead only to sterile hopes"
 
 for x in range(2):
     # GET PROMPT FOR ACT1
-    prompt = intro + act0descr + act1descr + "Forest:"
-    # print(prompt)
+    prompt = intro + act0descr + act1descr
+    print("\n\n<PROMPT>")
+    print(prompt)
+    print("</PROMPT>\n\n")
     act1raw = get_act(prompt, maxlength, selectedmodel)
     act1 = trim_output(act1raw)
     # print(act1)
     act1static = act1 + '\n\n'
 
     # GET PROMPT FOR ACT2
-    prompt = intro + act0descr + act1descr + "Forest: " + act1static + act2descr + "Forest:"
-    # print(prompt)
+    prompt = intro + act0descr + act1descr +  act1static + act2descr
+    print("\n\n<PROMPT>")
+    print(prompt)
+    print("</PROMPT>\n\n")
     act2raw = get_act(prompt, maxlength, selectedmodel)
     # print(act2raw)
     act2 = trim_output(act2raw)
@@ -84,7 +99,10 @@ for x in range(2):
     act2static = act2 + '\n\n'
 
     # GET PROMPT FOR ACT3
-    prompt = intro + act0descr + act1descr + "Forest:" + act1static + act2descr + "Forest:" + act2static + act3descr + "Forest:"
+    prompt = intro + act0descr + act1descr + act1static + act2descr + act2static + act3descr
+    print("\n\n<PROMPT>")
+    print(prompt)
+    print("</PROMPT>\n\n")
     act3raw = get_act(prompt, maxlength, selectedmodel)
     act3 = trim_output(act3raw)
 
@@ -98,6 +116,10 @@ for x in range(2):
     print(story)
 
     finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
-    with open(finalfile, 'w') as f:
-        with redirect_stdout(f):
-            print(story)
+
+    try:
+        with open(finalfile, 'w', encoding="utf-8") as f:
+            with redirect_stdout(f):
+                print(story)
+    except:
+        print("File write error")
