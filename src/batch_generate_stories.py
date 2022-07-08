@@ -9,6 +9,8 @@ oa.api_key = os.getenv("OPENAI_API_KEY")
 
 earth = "davinci:ft-personal-2022-05-08-13-37-54"
 water = "davinci:ft-personal:water-2022-03-31-23-56-04"
+fire = "davinci:ft-personal:fire-2022-07-06-02-12-31"
+air = "davinci:ft-personal:air-2022-07-05-23-19-23"
 
 maxlength = 256
 selectedmodel = earth
