@@ -8,7 +8,7 @@ When commiting data make sure that the file meets the following criteria.
 
 1. The file is in CSV format.
 
-2. The name follows the format "element_entity_measurement_location_name>csv" — e.g "fire_forestfire_nvdi_mendocino.csv"
+2. The name follows the format `element_entity_measurement_location_name.csv` — e.g "`fire_forestfire_nvdi_mendocino.csv`"
 
 3. For the "entity_measurement" combination, make sure that there is a matching story template in the [Story Templates file](https://docs.google.com/spreadsheets/d/1ppMOdtHwWckeUYHZIU_a8FEKzK9PkKGkz_7ZyAikNjg/edit#gid=310651524)
     * If there's no matching story template, request one in the Stories from Home WhatsApp group or ajust the dataset.
