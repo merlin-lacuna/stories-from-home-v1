@@ -62,14 +62,6 @@ gentype = "b2w_forest"
 
 intro = "The following play reveals the inner monologue of a lush but pensive forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe inner monologue starts like this:\n\n"
 
-# act0descr = "Act 0 description: The forest's leaf cover is not yet known.\nAct 0 narration: The forest introduces itself. It talks about its surroundings.\n----\nForest: My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush.\n\n"
-#
-# act1descr = "Act 1 description: The forest can't seem to stop losing leaves.\nAct 1 narration: The forest floats in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything it failed to see.\n----\nForest: "
-#
-# act2descr = "Act 2 description: The forest has lost a dramatically high proportion of its leaves and greenery.\nAct 2 narration: The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\n----\nForest: "
-#
-# act3descr = "Act 3 description: The forest has lost more leaves than it has ever lost before in its lifetime.\nAct 3 narration: The forest realizes that the earth is cravingly swallowing its essence and it whispers whether at least all around its dissipation will rise a fertile micro-universe, or whether its collapse will lead only to sterile hopes.\n----\nForest: "
-
 act0descr = "Act 0 synopsis: The forest's leaf cover is not yet known. The forest introduces itself and talks about its surroundings...\n\nForest: \"My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush.\n\n"
 
 act1descr = "Act 1 synopsis: The forest can't seem to stop losing leaves...\n\nForest: \"I float in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything that I failed to see"

@@ -15,12 +15,12 @@ datacol = "Temperature"
 timecol = "Year"
 
 # Define important variables
-file = pd.read_csv("../../data/fire_volcano_watertemp_kawahIjen.csv")
-fn="fire_volcano_watertemp_kawahIjen"
-entity="volcano"
-measurement="temp_celsius"
-datacol = "temp_celsius"
-timecol = "time"
+file = pd.read_csv("../../data/air_atmo_precip_toliara.csv")
+fn="air_atmo_precip_toliara"
+entity="land"
+measurement="precipitation"
+datacol = "Data"
+timecol = "Time"
 
 # START PREP STORY #####################################################################
 sdf = pd.read_csv('../../source_text/input_prompts.csv')

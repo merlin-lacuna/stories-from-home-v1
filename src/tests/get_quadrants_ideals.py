@@ -7,22 +7,47 @@ import matplotlib.pyplot as plt
 from statistics import mean
 
 # Define important variables
-file = pd.read_csv("../../data/air_atmo_n0_tamuranui.csv")
-fn="air_atmo_n0_tamuranui"
-entity="forest"
-measurement="C0"
-datacol = "CO_column_number_density"
-timecol = "Time"
+filebase = "../../data/"
+files = [
+    ("earth_land_ndsi_thwaites.csv", "Glacier", "ndsi", "ice mass","howling"), #0
+    ("earth_land_lai_atismo.csv", "Forest", "lai", "leaf cover","lush and pensive"), #1
+    ("air_atmo_airtemp_sahel.csv", "Land", "airtemp", "temperature","vast and complex"), #2
+    ("fire_volcano_watertemp_ruapehu.csv", "Volcano", "temp", "temperature", "colossal and simmering"), #3
+    ("fire_forestfire_nvdi_mendocino.csv", "Forest", "nvdi", "burning fire", "dry smouldering"), #4
+    ("fire_volcano_watertemp_kawahIjen.csv", "Volcano", "temp", "temperature","colossal and simmering"), #5
+    ("water_ocean_sealevel_balticsea.csv", "Ocean", "level", "sea level","iridescent rippled"), #6
+    ("water_ocean_sealevel_biscay.csv", "Ocean", "level", "sea level","iridescent rippled"), #7
+    ("air_atmo_precip_toliara.csv", "Land", "precip", "rainfall","vast and complex"), #8
+    ("air_atmo_precip_timbuktu.csv", "Land", "precip", "rainfall","vast and complex"), #9
+    ("earth_forest_lai_norr.csv", "Forest", "lai", "leaf cover","lush and pensive"), #10
+    ("earth_valley_lcover_hainan.csv", "Island", "area","mass","fertile sultry"), #11
+    ("earth_island_lcover_venice.csv", "Island", "area","mass","fertile sultry"), #12
+    ("earth_glacier_ndsi_greenland.csv", "Glacier", "ndsi", "ice mass","howling"), #13
+    ("air_atmo_C02_manuloa.csv", "Land", "C02", "carbon dioxide levels","clear and pristine"), #14
+    ("earth_land_lai_taipokau.csv", "Forest", "lai", "leaf cover","lush and pensive") #15
 
-idealmin = 0.016
-idealmax = 0.025
+]# START CUSTOM PARAMS #####################################################################
+fileno = 5
+idealmin = 36.3
+idealmax = 42.2
+entitybio = "I am an indonesian volcano."
+# END CUSTOM PARAMS #####################################################################
+
+myfile = files[fileno][0]
+file = pd.read_csv(filebase + myfile)
+fn=myfile.replace(".csv","")
+measurement = files[fileno][2]
+measuredescr = files[fileno][3]
+datacol = "Data"
+timecol = "Time"
 
 # START PREP STORY #####################################################################
 sdf = pd.read_csv('../../source_text/input_prompts.csv')
-entity = "Land"
-entityunit = "urbanland_cover"
-entityadjs = "large and complex"
-entitybio = "My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush. Rare species of birds make their homes inside me"
+entity = files[fileno][1]
+entityunit = entity.lower() + "_" + measurement
+print("entityunit: ",entityunit)
+entityadjs =  files[fileno][4]
+
 
 def get_prompt(skey,dmood,nmood):
     descr = "null"
@@ -47,6 +72,10 @@ print(df.head(4))
 # Interpolate between consistent units
 df_interpol = df.resample('M').mean()
 df_interpol[datacol] = df_interpol[datacol].interpolate()
+
+# Interpolate between consistent HOURLY units if Daily
+# df_interpol = df.resample('1H').mean()
+# df_interpol[datacol] = df_interpol[datacol].interpolate()
 
 nrmax = df_interpol[datacol].max()
 nrmin = df_interpol[datacol].min()
@@ -202,20 +231,51 @@ plt.axhline(y=negsegments[0], color='turquoise', linestyle='--')
 
 plt.axhspan(idealmin, idealmax, facecolor='g', alpha=0.25)
 
-# Use mins
-act1meta = [x.min() + (tinc/2), actmins[0]]
-act2meta = [x.min() + tinc + (tinc/2), actmins[1]]
-act3meta = [x.min() + tinc + tinc + (tinc/2), actmins[2]]
+# ACT1  - Use averages
+act1meta = [x.min() + (tinc / 2), actavgs[0]]
+if actmaxs[0] > (actavgs[0] * 1.15) or actmins[0] - (actavgs[0] * 0.85) :
+    maxdiff = actmaxs[0] - actavgs[0]
+    mindiff = actavgs[0] - actmins[0]
 
-# Use maxes
-act1meta = [x.min() + (tinc/2), actmaxs[0]]
-act2meta = [x.min() + tinc + (tinc/2), actmaxs[1]]
-act3meta = [x.min() + tinc + tinc + (tinc/2), actmaxs[2]]
+    if (abs(maxdiff)) > (abs(mindiff)):
+        # Use maxes
+        act1meta = [x.min() + (tinc / 2), actmaxs[0]]
+
+    else:
+        if (abs(maxdiff)) < (abs(mindiff)):
+            # Use mins
+            act1meta = [x.min() + (tinc / 2), actmins[0]]
+
+# ACT2  - Use averages
+act2meta = [x.min() + tinc + (tinc/2), actavgs[1]]
+if actmaxs[1] > (actavgs[1] * 1.15) or actmins[1] - (actavgs[1] * 0.85) :
+    maxdiff = actmaxs[1] - actavgs[1]
+    mindiff = actavgs[1] - actmins[1]
+
+    if (abs(maxdiff)) > (abs(mindiff)):
+        # Use maxes
+        act2meta = [x.min() + tinc + (tinc / 2), actmaxs[1]]
+
+    if (abs(maxdiff)) < (abs(mindiff)):
+        # Use mins
+        act2meta = [x.min() + tinc + (tinc / 2), actmins[1]]
+
+# ACT3  - Use averages
+act3meta = [x.min() + tinc + tinc + (tinc/2), actavgs[2]]
+if actmaxs[2] > (actavgs[2] * 1.15) or actmins[2] - (actavgs[2] * 0.85) :
+    maxdiff = actmaxs[2] - actavgs[2]
+    mindiff = actavgs[2] - actmins[2]
+    if (abs(maxdiff)) > (abs(mindiff)):
+        # Use maxes
+        act3meta = [x.min() + tinc + tinc + (tinc/2), actmaxs[2]]
+    if (abs(maxdiff)) < (abs(mindiff)):
+        # Use mins
+        act3meta = [x.min() + tinc + tinc + (tinc/2), actmins[2]]
 
 # Use averages
-act1meta = [x.min() + (tinc/2), actavgs[0]]
-act2meta = [x.min() + tinc + (tinc/2), actavgs[1]]
-act3meta = [x.min() + tinc + tinc + (tinc/2), actavgs[2]]
+# act1meta = [x.min() + (tinc/2), actavgs[0]]
+# act2meta = [x.min() + tinc + (tinc/2), actavgs[1]]
+# act3meta = [x.min() + tinc + tinc + (tinc/2), actavgs[2]]
 
 print("plotting act 1 info",(act1meta[0],act1meta[1]))
 plt.plot(act1meta[0],act1meta[1], marker="D", markersize=10, markeredgecolor="black", markerfacecolor="yellow")
@@ -240,7 +300,7 @@ plt.show()
 mscale1 = check_segment(act1meta[1])[2]
 mscale2 = check_segment(act2meta[1])[2]
 mscale3 = check_segment(act3meta[1])[2]
-
+print(mscale1)
 prompta1 = get_prompt(entityunit,str(mscale1),str(mscale1+50))
 prompta2 = get_prompt(entityunit,str(mscale2),str(mscale2+50))
 prompta3 = get_prompt(entityunit,str(mscale3),str(mscale3+50))
@@ -249,25 +309,20 @@ completiona1 = "I feel... <placeholder for AI text for Act 1>"
 completiona2 = "I feel... <placeholder for AI text for Act 2>"
 completiona3 = "I feel... <placeholder for AI text for Act 3>"
 
+completiona1 = ""
+completiona2 = ""
+completiona3 = ""
+
 wprompt = {
-    "introl1": f"The following play reveals the inner monologue of a {entityadjs} {entity.lower()}. It is divided into several acts. Throughout these acts, the {entity.lower()} describes its inner and outer transformation:\n",
-    "introl2": "The first act starts like this:\n",
-    "act0l1": f"Act 0: The {entity.lower()} introduces itself and describes its surroundings.",
-    "act0l2": "---",
-    "act0p": entity + ": " + entitybio,
-    "act0e": "---",
-    "act1l1": "\nAct 1: "  + prompta1[0] + " " + prompta1[1],
-    "act1l2": "---",
-    "act1p": entity + ": " + completiona1,
-    "act1e": "---",
-    "act2l1": "\nAct 2: " + prompta2[0] + " " + prompta2[1],
-    "act2l2": "---",
-    "act2p": entity + ": " + completiona2,
-    "act2e": "---",
-    "act3l1": "\nAct 3: " + prompta3[0] + " " + prompta3[1],
-    "act3l2": "---",
-    "act3p": entity + ": " + completiona3,
-    "act3e": "---",
+    "introl1": f"intro = \"The following play reveals the inner monologue of a {entityadjs} {entity.lower()}. It is divided into several acts. Throughout these acts, the {entity.lower()} describes its inner and outer transformation:\\n\\nThe first act starts like this:\\n\"",
+    "spacer0": "  ",
+    "act0l1": f"act0descr = \"Act 0 description: The {entity.lower()}'s {measuredescr} is not yet known. The {entity.lower()} introduces itself and describes its surroundings.\\n----\\n{entity}: " + entitybio + "\\n\\n\"",
+    "spacer1": "  ",
+    "act1l1": f"act1descr = \"Act 1: " + str(prompta1[0]) + " " + str(prompta1[1] + f"\\n----\\n{entity}: " + completiona1 + "\""),
+    "spacer2": "  ",
+    "act1l2": f"act2descr = \"Act 2: " + str(prompta2[0]) + " " + str(prompta2[1] + f"\\n----\\n{entity}: " + completiona2 + "\""),
+    "spacer3": "  ",
+    "act1l3": f"act3descr = \"Act 3: " + str(prompta3[0]) + " " + str(prompta3[1] + f"\\n----\\n{entity}: " + completiona3 + "\""),
 }
 
 for w in wprompt:
