@@ -271,6 +271,11 @@ if actmaxs[2] > (actavgs[2] * 1.15) or actmins[2] - (actavgs[2] * 0.85) :
     if (abs(maxdiff)) < (abs(mindiff)):
         # Use mins
         act3meta = [x.min() + tinc + tinc + (tinc/2), actmins[2]]
+        
+# MOOD OVERRIDES
+# act1meta = [x.min() + (tinc/2), 0.5]
+# act2meta = [x.min() + tinc + (tinc/2), 0.6]
+# act3meta = [x.min() + tinc + tinc + (tinc/2), 0.7]
 
 # Use averages
 # act1meta = [x.min() + (tinc/2), actavgs[0]]
