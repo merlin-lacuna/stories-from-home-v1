@@ -1,0 +1,19 @@
+idealranges:
+   lower: 0.47
+   upper: 0.63 
+
+actmoodsamples:
+   act1: 0.65
+   act2: 0.45 
+   act3: 0.51
+
+entity:
+   bio: "I am a brittle and searing forest. I’ve been getting warmer and warmer and I’m incredibly thirsty. I need water but I hardly get any. "
+
+prompt:
+   intro: "The following play reveals the inner monologue of a dry smoldering forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\\n\\nThe first act starts like this:\\n"
+   act0descr: "Act 0 description: The forest's burning fire is not yet known. The forest introduces itself and describes its surroundings.\\n----\\nForest: I am a burning forest.\\n\\n"
+   act1descr: "Act 1: nan The forest barely exists. All seems gradually to fall back to a primordial slumber. The forest, after the wildness of a cosmic intrusion, has exhaled its last sigh, willing to rest in stasis. The final bursts animate the leftovers of the bushes, faintly illuminating the remnants of an earlier existence.\\n----\\nForest: "
+   act2descr: "Act 2: nan The forest barely exists. All seems gradually to fall back to a primordial slumber. The forest, after the wildness of a cosmic intrusion, has exhaled its last sigh, willing to rest in stasis. The final bursts animate the leftovers of the bushes, faintly illuminating the remnants of an earlier existence.\\n----\\nForest: "
+   act3descr: "Act 3: nan The forest is reduced to the mere surfacing of its roots. The earth's desiccation has supplanted the luxurious ecosystem of organisms originally in harmony. All turns into stillness, and the forest whispers in the breeze its generous legacy to the universe, wishing to bloom anew.\\n----\\nForest: "
+
