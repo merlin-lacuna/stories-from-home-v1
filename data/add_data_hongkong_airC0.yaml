@@ -1,0 +1,24 @@
+entitydata:
+   measurementunit: "co2—tonnes per million"
+   idealranges:
+      lower: 29074
+      upper: 54514
+
+   actmoodsamples:
+      act1: 0.65
+      act2: 0.45 
+      act3: 0.51
+
+entitydescr:
+   bio: "tbd"
+   type: "Land"
+   element: "air"
+   descriptor: "tbd"
+   measurementdescr: "carbon dioxide in the air"
+
+prompt:
+   intro: "tbd"
+   act0descr: "tbd"
+   act1descr: "tbd"
+   act2descr: "tbd"
+   act3descr: "tbd"
