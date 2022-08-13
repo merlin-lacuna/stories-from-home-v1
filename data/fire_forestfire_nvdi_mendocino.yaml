@@ -1,6 +1,6 @@
 entitydata:
   actmoodlevels:
-    act1: 0
+    act1: 1
     act2: 2
     act3: 4
   actmoodsamples:
