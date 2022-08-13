@@ -15,4 +15,4 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 14,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,68.925,71.613
 15,Air,ATMOSPHERE->Atmospherc Composition,l,"Mauna Loa, Hawai",Island,yearly,2007,2021,15,air_atmo_C02_manuloa.csv,Year,CO2,y,380,400
 16,Earth,LAND -> Biosphere -> Leaf area index,h,,Forest,,,,,earth_land_lai_taipokau.csv,Year ,Mean,y,1.141,1.265
-19,Water,LAND ->Surface-> NDWI,/, Hong Kong,City, Urban Land, daily,2017-05-18,2017,water_land_ndwi_hongkong.csv,Time,Data,-0.013,0.011
+19,Water,LAND ->Surface-> NDWI,/, Hong Kong,City, Urban Land, daily,2017-05-18,2017,water_land_ndwi_hongkong.csv,Time,Data,-0.0,0.06
