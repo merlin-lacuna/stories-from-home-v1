@@ -13,7 +13,7 @@ fire = "davinci:ft-personal:fire-2022-07-06-02-12-31"
 air = "davinci:ft-personal:air-2022-07-05-23-19-23"
 
 maxlength = 256
-selectedmodel = earth
+selectedmodel = air
 
 def trim_output(completion):
     try:
@@ -58,19 +58,24 @@ def get_act(myprompt, maxt, element):
 
     return ' '.join(lstory.split())
 
-gentype = "b2w_forest"
+gentype = "air_island_C02_manuloa"
+gencount = 2
 
-intro = "The following play reveals the inner monologue of a lush but pensive forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe inner monologue starts like this:\n\n"
+intro = "The following play reveals the inner monologue of a rich and fertile island. It is divided into several acts. Throughout these acts, the island describes its inner and outer transformation:\n\nThe first act starts like this:\n\n"
 
-act0descr = "Act 0 synopsis: The forest's leaf cover is not yet known. The forest introduces itself and talks about its surroundings...\n\nForest: \"My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush.\n\n"
+act0descr = "Act 0 description: The c02 levels in air above the island are not not yet known. The island introduces itself and describes its surroundings:\n----\nIsland: They say that I host one the largest volcanoes on Earth. My slopes are gentle and vast. Sometimes I shed tears of liquid lava which flow smoothly down my face in golden rivulets. My crown kisses the sky and I suck in gulps of the rich atmosphere. I have a clear view of the sun and we gaze at each other constantly. I am constantly tasting the unsullied gasses which waft by my mouth and I test them for evidence of poison. I am fearful that the air is slowly becoming poisonous so I always need to taste it."
 
-act1descr = "Act 1 synopsis: The forest can't seem to stop losing leaves...\n\nForest: \"I float in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything that I failed to see"
+act1descr = "Act 1: The c02 levels in the air above the island are at dire, extreme levels. The carbon dioxide is causing suffocating greenhouse effects, smothering the island with oppressive heat. The CO2 springs with an implacable crescendo. Its load swells incautiously. It's the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire island's atmosphere, decking everything that exists on its way. An airy wave of faded hopes is ruling.\n----\nIsland: "
 
-act2descr = "Act 2 synopsis: The forest has lost a dramatically high proportion of its leaves and greenery...\n\nForest: \"I notice that all the living parts that once composed my abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity"
+act2descr = "Act 2:  And still, the c02 levels in the air above the island are at dire, extreme levels. The carbon dioxide is still causing suffocating greenhouse effects, smothering the island with oppressive heat. The CO2 still springs with an implacable crescendo. Its load swells incautiously. It's the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire island's atmosphere, decking everything that exists on its way. An airy wave of faded hopes is still ruling.\n----\nIsland: "
 
-act3descr = "Act 3 synopsis: The forest has lost more leaves than it has ever lost before in its lifetime...\n\nForest: \"I realize that the earth is cravingly swallowing my essence and I whisper whether at least all around my dissipation will rise a fertile micro-universe, or whether my collapse will lead only to sterile hopes"
+act3descr = "Act 3:  Things still haven’t changed, the c02 levels in the air above the island are at dire, extreme levels. The carbon dioxide is still causing suffocating greenhouse effects, smothering the island with oppressive heat. The CO2 still springs with an implacable crescendo. Its load swells incautiously. It's the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire island's atmosphere, decking everything that exists on its way. An airy wave of faded hopes is still ruling.\n----\nIsland: "
 
-for x in range(2):
+
+
+
+
+for x in range(gencount):
     # GET PROMPT FOR ACT1
     prompt = intro + act0descr + act1descr
     print("\n\n<PROMPT>")
