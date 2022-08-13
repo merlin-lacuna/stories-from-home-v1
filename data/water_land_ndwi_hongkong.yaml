@@ -1,0 +1,22 @@
+entitydata:
+   measurementunit: "ndwi"
+   idealranges:
+      lower: 0.0
+      upper: 0.06
+
+   actmoodsamples:
+      act1:
+      act2:
+      act3:
+entitydescr:
+   bio:
+   type:
+   element: "water"
+   descriptor:
+   measurementdescr:
+
+prompt:
+   intro:
+   act0descr:
+   act2descr:
+   act3descr:
