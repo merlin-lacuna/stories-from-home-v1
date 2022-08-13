@@ -1,27 +1,52 @@
 import pandas as pd
+import sys
+from ruamel.yaml import YAML
 
 df = pd.read_csv('../../source_text/input_prompts.csv', encoding="utf-8")
-entity = "Land"
-entityunit = "forest_lai"
-entityadjs = "large and complex"
-entitybio = "My home is quite pleasant, with warm summers and cool winters. I see a fair amount of rainfall, which helps to keep my vegetation healthy and lush. Rare species of birds make their homes inside me"
+entityunit = "land_c02"
+
+#### LOAD ENTITY CONFIG
+yaml=YAML(typ='safe')
+yaml.default_flow_style = False
+configfile="../../data/air_atmo_CO2_hongkong.yaml"
+
+with open(configfile, encoding='utf-8') as f:
+   econfig = yaml.load(f)
+#### END CONFIG
+
+entity = econfig['entitydescr']['type']
+entityadjs = econfig['entitydescr']['descriptor']
+entitybio = econfig['entitydescr']['bio']
+
+mood1 = econfig['entitydata']['actmoodlevels']['act1'] * 100
+
+mood2 = econfig['entitydata']['actmoodlevels']['act2'] * 100
+
+mood3 = econfig['entitydata']['actmoodlevels']['act3'] * 100
+
 
 def get_prompt(skey,dmood,nmood):
     descr = "null"
     narr = "null"
+
+    match = df.loc[df['0'] == skey]
+    descr = match[dmood].tolist()[0]
+    narr = match[nmood].tolist()[0]
+
     try:
         print("key ",skey)
-        match = df.loc[df['0'] == skey]
-        descr= match[dmood].tolist()[0]
-        narr = match[nmood].tolist()[0]
+
     except:
         print("prompt not found")
 
     return(descr,narr)
 
-prompta1 = get_prompt(entityunit,'100','150')
-prompta2 = get_prompt(entityunit,'300','350')
-prompta3 = get_prompt(entityunit,'200','250')
+prompta1 = get_prompt(entityunit,str(mood1),str(mood1+50))
+prompta2 = get_prompt(entityunit,str(mood2),str(mood2+50))
+prompta3 = get_prompt(entityunit,str(mood3),str(mood3+50))
+print(str(mood1),str(mood1+50))
+print(str(mood2),str(mood2+50))
+print(str(mood3),str(mood3+50))
 
 completiona1 = "I feel... <placeholder for AI text for Act 1>"
 completiona2 = "I feel... <placeholder for AI text for Act 2>"
@@ -50,3 +75,16 @@ wprompt = {
 
 for w in wprompt:
     print(wprompt[w])
+
+act1final = "'"+prompta1[0] + " " + prompta1[1]+"'"
+print(act1final)
+act2final = "'"+prompta2[0] + " " + prompta2[1]+"'"
+print(act2final)
+act3final = "'"+prompta3[0] + " " + prompta3[1]+"'"
+print(act3final)
+
+econfig['prompt']['act1descr'] = act1final
+econfig['prompt']['act2descr'] = act2final
+econfig['prompt']['act3descr'] = act3final
+
+yaml.dump(econfig, sys.stdout)
