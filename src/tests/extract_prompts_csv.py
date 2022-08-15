@@ -3,12 +3,12 @@ import sys
 from ruamel.yaml import YAML
 
 df = pd.read_csv('../../source_text/input_prompts.csv', encoding="utf-8")
-entityunit = "land_c02"
+entityunit = "forest_wildfire"
 
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../../data/air_atmo_CO2_hongkong.yaml"
+configfile="../../data/fire_forestfire_ndvi_hongkongyuenlong.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -59,28 +59,28 @@ wprompt = {
     "act0l2": "---",
     "act0p": entity + ": " + entitybio,
     "act0e": "---",
-    "act1l1": "\nAct 1: "  + prompta1[0] + " " + prompta1[1],
+    "act1l1": "\nAct 1: "  + str(prompta1[0]) + " " + str(prompta1[1]),
     "act1l2": "---",
-    "act1p": entity + ": " + completiona1,
+    "act1p": entity + ": " + str(completiona1),
     "act1e": "---",
-    "act2l1": "\nAct 2: " + prompta2[0] + " " + prompta2[1],
+    "act2l1": "\nAct 2: " + str(prompta2[0]) + " " + str(prompta2[1]),
     "act2l2": "---",
-    "act2p": entity + ": " + completiona2,
+    "act2p": entity + ": " + str(completiona2),
     "act2e": "---",
-    "act3l1": "\nAct 3: " + prompta3[0] + " " + prompta3[1],
+    "act3l1": "\nAct 3: " + str(prompta3[0]) + " " + str(prompta3[1]),
     "act3l2": "---",
-    "act3p": entity + ": " + completiona3,
+    "act3p": entity + ": " + str(completiona3),
     "act3e": "---",
 }
 
 for w in wprompt:
     print(wprompt[w])
 
-act1final = "'"+prompta1[0] + " " + prompta1[1]+"'"
+act1final = "'"+str(prompta1[0]) + " " + str(prompta1[1])+"'"
 print(act1final)
-act2final = "'"+prompta2[0] + " " + prompta2[1]+"'"
+act2final = "'"+str(prompta2[0]) + " " + str(prompta2[1])+"'"
 print(act2final)
-act3final = "'"+prompta3[0] + " " + prompta3[1]+"'"
+act3final = "'"+str(prompta3[0]) + " " + str(prompta3[1])+"'"
 print(act3final)
 
 econfig['prompt']['act1descr'] = act1final

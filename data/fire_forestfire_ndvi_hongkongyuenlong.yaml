@@ -21,8 +21,22 @@ entitydescr:
    measurementdescr: "the amount of forest consumed by fire "
 
 prompt:
-   intro: 'unknown'
-   act0descr: 'unknown'
-   act1descr: 'ACT1: unknown'
-   act2descr: 'ACT2: unknown'
-   act3descr: 'ACT3: unknown'
+   intro: 'The following play reveals the inner monologue of a brittle and searing forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The amount of forest consumed by fire is not yet known. The forest introduces itself and describes its surroundings.\nFOREST: '
+   act1descr: 'The forest is doing fine. The burned sections have been absorbed into
+    the soil and act as fertilizer for the burgeoning new tree roots. The forest is
+    reduced to the mere surfacing of its roots. The earth''s desiccation has supplanted
+    the luxurious ecosystem of organisms originally in harmony. All turns into stillness,
+    and the forest whispers in the breeze its generous legacy to the universe, wishing
+    to bloom anew.\nFOREST: '
+   act2descr: 'The forest has barely started to recover from a disastrous forest
+    fire. The forest senses that its leaves are suffocating, surrounded by a thick,
+    opaque haze. The fume mantle is apparently bent on no longer allowing the sunlight
+    to reach the forest''s previously lush extensions. Everything grows fuzzy, the
+    trunks creak at the dawn of an impending end.\nFOREST: '
+   act3descr: 'The forest is making surprisingly fast progress in regrowing vegetation
+    after a destructive forest fire. The forest barely exists. All seems gradually
+    to fall back to a primordial slumber. The forest, after the wildness of a cosmic
+    intrusion, has exhaled its last sigh, willing to rest in stasis. The final bursts
+    animate the leftovers of the bushes, faintly illuminating the remants of an earlier
+    existence.\nFOREST: '
