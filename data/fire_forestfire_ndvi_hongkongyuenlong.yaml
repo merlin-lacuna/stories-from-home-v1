@@ -14,7 +14,7 @@ entitydata:
 
 entitydescr:
    id: fire_forestfire_ndvi_hongkongyuenlong
-   bio: "I am a brittle and searing forest near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I’m incredibly thirsty. I usually have plenty of moisture, but recently, I've hardly gotten any."
+   bio: "I am a brittle and searing forest near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I’m incredibly thirsty. I usually have plenty of moisture, but recently, I've gotten hardly any moisture. I feel dry and combustible."
    type: "forest"
    element: "fire"
    descriptor: "brittle and searing"
