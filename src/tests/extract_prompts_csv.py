@@ -8,7 +8,7 @@ entityunit = "forest_wildfire"
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../../data/fire_forestfire_ndvi_hongkongyuenlong.yaml"
+configfile="../../data/fire_landfire_ndvi_hongkongyuenlong.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
