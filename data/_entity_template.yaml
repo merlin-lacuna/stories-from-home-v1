@@ -21,8 +21,8 @@ entitydescr:
    measurementdescr: "unknown"
 
 prompt:
-   intro: 'unknown'
-   act0descr: 'unknown'
-   act1descr: 'ACT1: unknown'
-   act2descr: 'ACT2: unknown'
-   act3descr: 'ACT3: unknown'
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\ENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>'
+   act2descr: 'ACT2: <add prompt>'
+   act3descr: 'ACT3: <add prompt>'
