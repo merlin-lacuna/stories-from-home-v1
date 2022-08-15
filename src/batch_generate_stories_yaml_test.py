@@ -50,20 +50,20 @@ def trim_output(completion):
 
 
 def get_act(myprompt, maxt, element):
-    response = openai.Completion.create(
-        model=element,
-        prompt=myprompt,
-        temperature=1,
-        max_tokens=maxt,
-        top_p=1,
-        frequency_penalty=1,
-        presence_penalty=1,
-        stop=["Act "]
-    )
-    story = response.choices[0].text
-
+    # response = openai.Completion.create(
+    #     model=element,
+    #     prompt=myprompt,
+    #     temperature=1,
+    #     max_tokens=maxt,
+    #     top_p=1,
+    #     frequency_penalty=1,
+    #     presence_penalty=1,
+    #     stop=["Act "]
+    # )
+    # story = response.choices[0].text
+    #
     # START TEST
-    #story = "I am a boring story that is a placeholder for testing that uses the model: " + selectedmodel
+    story = "I am a boring story that is a placeholder for testing that uses the model: " + selectedmodel
 
     lstory = story.replace("\n", " ")
     lstory = lstory.replace("I'm a forest,", "I am")
@@ -73,6 +73,7 @@ def get_act(myprompt, maxt, element):
     lstory = lstory.replace("Forest: ","")
 
     return ' '.join(lstory.split())
+
 
 
 intro = econfig['prompt']['intro']
@@ -142,11 +143,11 @@ for x in range(gencount):
     print('\n\n\nSample #' + dt_string + ":")
     print(story)
 
-    finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
-
-    try:
-        with open(finalfile, 'w', encoding="utf-8") as f:
-            with redirect_stdout(f):
-                print(story)
-    except:
-        print("File write error")
+    # finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
+    #
+    # try:
+    #     with open(finalfile, 'w', encoding="utf-8") as f:
+    #         with redirect_stdout(f):
+    #             print(story)
+    # except:
+    #     print("File write error")
