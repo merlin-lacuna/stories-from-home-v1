@@ -14,29 +14,29 @@ entitydata:
 
 entitydescr:
    id: fire_forestfire_ndvi_hongkongyuenlong
-   bio: "I am a brittle and searing forest near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I’m incredibly thirsty. I usually have plenty of moisture, but recently, I've gotten hardly any moisture. I feel dry and combustible."
-   type: "forest"
+   bio: "I am a large and fertile hill near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I’m incredibly thirsty. I usually have plenty of moisture, but recently, I've gotten hardly any moisture. I feel dry and combustible."
+   type: "hill"
    element: "fire"
-   descriptor: "brittle and searing"
-   measurementdescr: "the amount of forest consumed by fire "
+   descriptor: "large and fertile"
+   measurementdescr: "the amount of hill consumed by fire "
 
 prompt:
-   intro: 'The following play reveals the inner monologue of a brittle and searing forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The amount of forest consumed by fire is not yet known. The forest introduces itself and describes its surroundings.\nFOREST: '
-   act1descr: 'The forest is doing fine. The burned sections have been absorbed into
-    the soil and act as fertilizer for the burgeoning new tree roots. The forest is
+   intro: 'The following play reveals the inner monologue of a large and fertile hill. It is divided into several acts. Throughout these acts, the hill describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The amount of hill''s vegetation consumed by fire is not yet known. The hill introduces itself and describes its surroundings.\nHILL: I am a large and fertile hill near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it''s dry and windy. I''ve been getting warmer and warmer and I''m incredibly thirsty. I usually have plenty of moisture, but recently, I''ve gotten hardly any moisture. I feel dry and combustible.\nHILL: '
+   act1descr: 'The hill is doing fine. The burned sections have been absorbed into
+    the soil and act as fertilizer for the burgeoning new plant roots. The hill is
     reduced to the mere surfacing of its roots. The earth''s desiccation has supplanted
     the luxurious ecosystem of organisms originally in harmony. All turns into stillness,
-    and the forest whispers in the breeze its generous legacy to the universe, wishing
-    to bloom anew.\nFOREST: '
-   act2descr: 'The forest has barely started to recover from a disastrous forest
-    fire. The forest senses that its leaves are suffocating, surrounded by a thick,
+    and the hill whispers in the breeze its generous legacy to the universe, wishing
+    to bloom anew.\nHILL: '
+   act2descr: 'The hill has barely started to recover from a disastrous
+    fire. The hill senses that its plants are suffocating, surrounded by a thick,
     opaque haze. The fume mantle is apparently bent on no longer allowing the sunlight
-    to reach the forest''s previously lush extensions. Everything grows fuzzy, the
-    trunks creak at the dawn of an impending end.\nFOREST: '
-   act3descr: 'The forest is making surprisingly fast progress in regrowing vegetation
-    after a destructive forest fire. The forest barely exists. All seems gradually
-    to fall back to a primordial slumber. The forest, after the wildness of a cosmic
+    to reach the hill''s previously lush extensions. Everything grows fuzzy, the
+    trunks and stems creak at the dawn of an impending end.\nHILL: '
+   act3descr: 'The hill is making surprisingly fast progress in regrowing vegetation
+    after a destructive fire. The hill''s coat of vegetation barely exists. All seems gradually
+    to fall back to a primordial slumber. The hill, after the wildness of a cosmic
     intrusion, has exhaled its last sigh, willing to rest in stasis. The final bursts
-    animate the leftovers of the bushes, faintly illuminating the remants of an earlier
-    existence.\nFOREST: '
+    animate the leftovers of the bushes, faintly illuminating the remnants of an earlier
+    existence.\nHILL: '
