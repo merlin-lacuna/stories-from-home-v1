@@ -18,7 +18,7 @@ entitydescr:
    type: "Land"
    element: "air"
    descriptor: "rich and complex"
-   measurementdescr: "carbon dioxide in the air"
+   measurementdescr: "carbon dioxide in the air above the"
 
 prompt:
    intro: 'The following play reveals the inner monologue of a rich and complex land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
