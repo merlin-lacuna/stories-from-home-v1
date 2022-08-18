@@ -179,9 +179,20 @@ for x in range(gencount):
 
     finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
 
-    try:
-        with open(finalfile, 'w', encoding="utf-8") as f:
-            with redirect_stdout(f):
-                print(story)
-    except:
-        print("File write error")
+    ###### WRITE GENERATIONS TO YAML
+    genid = dt_string
+    act1gen = act1static.replace('\\n','\n')
+    act2gen = act1static.replace('\\n','\n')
+    act3gen = act3.replace('\\n','\n')
+    genpayload = {
+        'gen_id': genid,
+        'act1gen': act1gen.strip(),
+        'act2gen': act2gen.strip(),
+        'act3gen': act3gen.strip()
+                  }
+    econfig['storygenerations'].append(genpayload)
+
+    #yaml.dump(econfig, sys.stdout)
+
+    with open(configfile, 'w', encoding='utf-8') as f:
+        yaml.dump(econfig, f)

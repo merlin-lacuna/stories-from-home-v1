@@ -11,6 +11,7 @@ entitydata:
     lower: 0.0
     upper: 0.06
   measurementunit: ndwi
+  chartstorage: '../charts/water_land_ndwi_hongkong.png'
 entitydescr:
   bio: The air above me feels sultry and subtropical. I experience very mild winters
     and hot, rainy, and muggy summers. From where I lie, I can see the South China
