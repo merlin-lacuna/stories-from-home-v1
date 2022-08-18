@@ -9,7 +9,8 @@ from ruamel.yaml import YAML
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/fire_forestfire_nvdi_mendocino.yaml"
+configfile="../data/air_atmo_CO2_hongkong.yaml"
+
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -19,15 +20,23 @@ with open(configfile, encoding='utf-8') as f:
 oa = openai
 oa.api_key = os.getenv("OPENAI_API_KEY")
 
-earth = "davinci:ft-personal-2022-05-08-13-37-54"
-water = "davinci:ft-personal:water-2022-03-31-23-56-04"
-fire = "davinci:ft-personal:fire-2022-07-06-02-12-31"
-air = "davinci:ft-personal:air-2022-07-05-23-19-23"
-
 maxlength = 256
-selectedmodel = econfig['entitydescr']['element']
-gentype = "air_island_C02_manuloa"
+elementmodel = econfig['entitydescr']['element']
+gentype = econfig['entitydescr']['id']
 gencount = 1
+selectedmodel = "unknown"
+
+if elementmodel == "earth":
+   selectedmodel = "davinci:ft-personal-2022-05-08-13-37-54"
+elif elementmodel == "water":
+   selectedmodel =  "davinci:ft-personal:water-2022-03-31-23-56-04"
+elif elementmodel == "fire":
+   selectedmodel = "davinci:ft-personal:fire-2022-07-06-02-12-31"
+elif elementmodel == "air":
+   selectedmodel = "davinci:ft-personal:air-2022-07-05-23-19-23"
+else:
+   selectedmodel = "unknown"
+   print("Selected model is unknown")
 
 def trim_output(completion):
     try:
