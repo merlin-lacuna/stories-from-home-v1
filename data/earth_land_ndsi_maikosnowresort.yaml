@@ -1,0 +1,27 @@
+entitydata:
+   measurementunit: "percent"
+   idealranges:
+      lower: 70
+      upper: 80
+   actmoodsamples:
+      act1: 79.538
+      act2: 69.112
+      act3: 66.045
+   actmoodlevels:
+      act1: 5
+      act2: 4
+      act3: 4
+
+entitydescr:
+   id: earth_land_ndsi_maikosnowresort
+   bio:
+   type:
+   element: "earth"
+   descriptor:
+   measurementdescr:
+
+prompt:
+   intro:
+   act0descr:
+   act2descr:
+   act3descr:
