@@ -1,41 +1,54 @@
 entitydata:
-   measurementunit: "ndwi"
-   idealranges:
-      lower: 0.0
-      upper: 0.06
-
-   actmoodsamples:
-      act1: 0.08166666666666667
-      act2: 0.151
-      act3: 0.005
-   actmoodlevels:
-      act1: 4
-      act2: 1
-      act3: 5
+  actmoodlevels:
+    act1: 4
+    act2: 1
+    act3: 5
+  actmoodsamples:
+    act1: 0.08166666666666667
+    act2: 0.151
+    act3: 0.005
+  idealranges:
+    lower: 0.0
+    upper: 0.06
+  measurementunit: ndwi
 entitydescr:
-   bio: "The air above me feels sultry and subtropical. I experience very mild winters and hot, rainy, and muggy summers. From where I lie, I can see the South China Sea, and I am almost touch my neighbour, the Pearl River Delta. My body is lined with hills and forests and my coastline is long and fragmented, splitting off into numerous islands."
-   type: "land"
-   element: "water"
-   descriptor: "rich and complex"
-   measurementdescr: "the level of water covering the land"
+  bio: The air above me feels sultry and subtropical. I experience very mild winters
+    and hot, rainy, and muggy summers. From where I lie, I can see the South China
+    Sea, and I am almost touch my neighbour, the Pearl River Delta. My body is lined
+    with hills and forests and my coastline is long and fragmented, splitting off
+    into numerous islands.
+  descriptor: rich and complex
+  element: water
+  id: water_land_ndwi_hongkong
+  measurementdescr: the level of water covering the land
+  type: land
 prompt:
-   act0descr: 'ACT0: The land''s rainfall is not yet known. The land
-    introduces itself and describes its surroundings.\nLAND: '
-   act1descr: 'ACT1: The land''s rainfall is starting to become a little high. The land
-    can sense that its energies are ebbing and fading. It cares to conserve its watery
-    reservoirs by secretly guarding moisture particles in the shadows, as if they
-    were perishing cosmic gems. A transition is underway and the land stands in a
-    liminal state.'
-   act2descr: 'ACT2: The land''s rainfall is extremely high. The precipitation is at unprecedented
-    levels.  The land is no further capable of embracing, sustaining and shoring up
-    its surroundings. Everything is fractured, brittle and in a precarious state of
-    disarray. The process of displacement and disconnection from the world appears
-    imminent while fragility abounds.'
-   act3descr: 'ACT3: The land''s rainfall has returned to normal levels The land is elastic
-    and smooth, it resonates with harmonious resilience to both outward and inward
-    impulses. It is apt to cradle and nurture its encircling landscapes. The soil
-    shaping its presence is salubrious and bursting with scintillating strength. The
-    humidity gives birth to iridescent veins within the terrain.'
-   intro: The following play reveals the inner monologue of a rich and complex land.
+  act0descr: 'ACT0: The land''s rainfall is not yet known. The land introduces itself
+    and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land''s rainfall is starting to become a little high. The
+    land can sense that its energies are ebbing and fading. It cares to conserve its
+    watery reservoirs by secretly guarding moisture particles in the shadows, as if
+    they were perishing cosmic gems. A transition is underway and the land stands
+    in a liminal state.'
+  act2descr: 'ACT2: The land''s rainfall is extremely high. The precipitation is at
+    unprecedented levels.  The land is no further capable of embracing, sustaining
+    and shoring up its surroundings. Everything is fractured, brittle and in a precarious
+    state of disarray. The process of displacement and disconnection from the world
+    appears imminent while fragility abounds.'
+  act3descr: 'ACT3: The land''s rainfall has returned to normal levels The land is
+    elastic and smooth, it resonates with harmonious resilience to both outward and
+    inward impulses. It is apt to cradle and nurture its encircling landscapes. The
+    soil shaping its presence is salubrious and bursting with scintillating strength.
+    The humidity gives birth to iridescent veins within the terrain.'
+  intro: The following play reveals the inner monologue of a rich and complex land.
     It is divided into several acts. Throughout these acts, the land describes its
     inner and outer transformation:\n\nThe first act starts like this:\n\n
+storygenerations:
+- gen_id: start
+- act1gen: 'I am a boring story that is a placeholder for testing that uses the model:
+    davinci:ft-personal:water-2022-03-31-23-56-04'
+  act2gen: 'I am a boring story that is a placeholder for testing that uses the model:
+    davinci:ft-personal:water-2022-03-31-23-56-04'
+  act3gen: 'I am a boring story that is a placeholder for testing that uses the model:
+    davinci:ft-personal:water-2022-03-31-23-56-04'
+  gen_id: 18-08-2022_22_35_43
