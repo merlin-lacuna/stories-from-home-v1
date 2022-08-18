@@ -1,0 +1,27 @@
+entitydata:
+   measurementunit: "percent"
+   idealranges:
+      lower: 10
+      upper: 71
+   actmoodsamples:
+      act1: 7.2145
+      act2: 15.167 
+      act3: 66.909 
+   actmoodlevels:
+      act1: 4
+      act2: 5
+      act3: 5
+
+entitydescr:
+   id: earth_land_ndsi_montreal
+   bio:
+   type:
+   element: "earth"
+   descriptor:
+   measurementdescr:
+
+prompt:
+   intro:
+   act0descr:
+   act2descr:
+   act3descr:
