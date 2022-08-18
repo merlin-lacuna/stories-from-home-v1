@@ -21,17 +21,17 @@ entitydescr:
 prompt:
    act0descr: 'ACT0: The land''s rainfall is not yet known. The land
     introduces itself and describes its surroundings.\nLAND: '
-   act1descr: 'The land''s rainfall is starting to become a little high. The land
+   act1descr: 'ACT1: The land''s rainfall is starting to become a little high. The land
     can sense that its energies are ebbing and fading. It cares to conserve its watery
     reservoirs by secretly guarding moisture particles in the shadows, as if they
     were perishing cosmic gems. A transition is underway and the land stands in a
     liminal state.'
-   act2descr: 'The land''s rainfall is extremely high. The precipitation is at unprecedented
+   act2descr: 'ACT2: The land''s rainfall is extremely high. The precipitation is at unprecedented
     levels.  The land is no further capable of embracing, sustaining and shoring up
     its surroundings. Everything is fractured, brittle and in a precarious state of
     disarray. The process of displacement and disconnection from the world appears
     imminent while fragility abounds.'
-   act3descr: 'The land''s rainfall has returned to normal levels The land is elastic
+   act3descr: 'ACT3: The land''s rainfall has returned to normal levels The land is elastic
     and smooth, it resonates with harmonious resilience to both outward and inward
     impulses. It is apt to cradle and nurture its encircling landscapes. The soil
     shaping its presence is salubrious and bursting with scintillating strength. The
