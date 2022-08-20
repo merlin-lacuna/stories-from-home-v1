@@ -181,7 +181,7 @@ for x in range(gencount):
     act2gen = act2static.replace('\\n','\n')
     act3gen = act3.replace('\\n','\n')
     genpayload = {
-        'gen_id': genid,
+        'aagen_id': genid,
         'act1gen': act1gen.strip(),
         'act2gen': act2gen.strip(),
         'act3gen': act3gen.strip()
