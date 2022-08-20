@@ -6,10 +6,10 @@ from contextlib import redirect_stdout
 import sys
 from ruamel.yaml import YAML
 
-#### LOAD ENTITY CONFIG
+#### LOAD ENTITY CONFIGn
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/air_atmo_CO2_hongkong.yaml"
+configfile="../data/water_land_ndwi_hongkong.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -166,15 +166,11 @@ for x in range(gencount):
         if promptstatus == "y":
             break
 
-
-
-    story = '\nACT 1: ' + act1static.replace('\\n','\n') + 'ACT 2: ' + act2static.replace('\\n','\n') + 'ACT 3: ' + act3.replace('\\n','\n')
-
     # datetime object containing current date and time
     dt_string = datetime.datetime.now().strftime("%d-%m-%Y_%H_%M_%S")
 
-    print('-----------')
-    print('\n\n\nSample #' + dt_string + ":")
+    story = '-----------' + '\n\n\nSample #' + dt_string + ': ' +'\nACT 1: ' + act1static.replace('\\n','\n') + 'ACT 2: ' + act2static.replace('\\n','\n') + 'ACT 3: ' + act3.replace('\\n','\n')
+
     print(story)
 
     finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
@@ -182,7 +178,7 @@ for x in range(gencount):
     ###### WRITE GENERATIONS TO YAML
     genid = dt_string
     act1gen = act1static.replace('\\n','\n')
-    act2gen = act1static.replace('\\n','\n')
+    act2gen = act2static.replace('\\n','\n')
     act3gen = act3.replace('\\n','\n')
     genpayload = {
         'gen_id': genid,
@@ -196,3 +192,14 @@ for x in range(gencount):
 
     with open(configfile, 'w', encoding='utf-8') as f:
         yaml.dump(econfig, f)
+
+    ####### BACK UP GENERATIONS TO LOG
+
+    finalfile = '../generations/master_generation_log.txt'
+
+    try:
+        with open(finalfile, 'a', encoding="utf-8") as f:
+            with redirect_stdout(f):
+                print(story)
+    except:
+        print("File write error")

@@ -153,7 +153,7 @@ def printDic(inDictionary, inPTable, indent):
     Read given yaml file 
        process each to level element build table (HTML) out of it and print it console/file 
 """
-with open(INPUT_YAML) as file:
+with open(INPUT_YAML, encoding="utf-8") as file:
     # The FullLoader parameter handles the conversion from YAML
     # scalar values to Python the dictionary format
     yaml_file_object = yaml.load(file, Loader=yaml.FullLoader)
