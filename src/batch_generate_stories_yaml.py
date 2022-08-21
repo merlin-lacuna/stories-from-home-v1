@@ -9,7 +9,7 @@ from ruamel.yaml import YAML
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/fire_forestfire_nvdi_mendocino.yaml"
+configfile="../data/earth_land_ndsi_poland.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -19,15 +19,24 @@ with open(configfile, encoding='utf-8') as f:
 oa = openai
 oa.api_key = os.getenv("OPENAI_API_KEY")
 
-earth = "davinci:ft-personal-2022-05-08-13-37-54"
-water = "davinci:ft-personal:water-2022-03-31-23-56-04"
-fire = "davinci:ft-personal:fire-2022-07-06-02-12-31"
-air = "davinci:ft-personal:air-2022-07-05-23-19-23"
-
 maxlength = 256
-selectedmodel = econfig['entitydescr']['element']
-gentype = "air_island_C02_manuloa"
+elementmodel = econfig['entitydescr']['element']
+gentype = econfig['entitydescr']['id']
 gencount = 1
+selectedmodel = "unknown"
+
+if elementmodel == "earth":
+   selectedmodel = "davinci:ft-personal-2022-05-08-13-37-54"
+elif elementmodel == "water":
+   selectedmodel =  "davinci:ft-personal:water-2022-03-31-23-56-04"
+elif elementmodel == "fire":
+   selectedmodel = "davinci:ft-personal:fire-2022-07-06-02-12-31"
+elif elementmodel == "air":
+   selectedmodel = "davinci:ft-personal:air-2022-07-05-23-19-23"
+else:
+   selectedmodel = "unknown"
+   print("Selected model is unknown")
+
 
 def trim_output(completion):
     try:
@@ -58,7 +67,7 @@ def get_act(myprompt, maxt, element):
         top_p=1,
         frequency_penalty=1,
         presence_penalty=1,
-        stop=["Act "]
+        stop=["ACT1","ACT2","ACT3","ACT4"]
     )
     story = response.choices[0].text
 
@@ -89,63 +98,107 @@ act3descr = econfig['prompt']['act3descr']
 
 for x in range(gencount):
     # GET PROMPT FOR ACT1
-    act1rawprompt = intro + act0descr + entitybio + '\\n\\n' + act1descr
-    act1prettyprompt = intro.replace('\\n','\n') + act0descr.replace('\\n','\n') +  entitybio + '\n\n' + act1descr.replace('\\n',' \n')
-    prompt = act1rawprompt
-    print("\n\n<PRETTYPROMPT>")
-    print(act1prettyprompt)
-    print("</PRETTYPROMPT>")
-    print("<RAWPROMPT>")
-    print(prompt)
-    print("</RAWPROMPT>\n\n")
-    act1raw = get_act(prompt, maxlength, selectedmodel)
-    act1 = trim_output(act1raw)
-    # print(act1)
-    act1static = act1 + '\\n\\n'
+    promptstatus = "n"
+    for p in range(5):
+        act1rawprompt = intro + act0descr + entitybio + '\\n\\n' + act1descr
+        act1prettyprompt = intro.replace('\\n','\n') + act0descr.replace('\\n','\n') +  entitybio + '\n\n' + act1descr.replace('\\n',' \n')
+        prompt = act1rawprompt
+        print("\n\n<PRETTYPROMPT>")
+        print(act1prettyprompt)
+        print("</PRETTYPROMPT>")
+        print("<RAWPROMPT>")
+        print(prompt)
+        print("</RAWPROMPT>\n\n")
+        act1raw = get_act(prompt, maxlength, selectedmodel)
+        act1 = trim_output(act1raw)
+        # print(act1)
+        act1static = act1 + '\\n\\n'
+        print("This is act1: ")
+        print("----------------------------------")
+        print(act1static)
+        print("----------------------------------")
+        promptstatus = input("Is Act1 OK? y/n: ")
+        if promptstatus == "y":
+            break
+    for p in range(5):
+        # GET PROMPT FOR ACT2#
+        act2rawprompt = act1rawprompt +  act1static  + '\\n\\n' + act2descr
+        act2prettyprompt = act1prettyprompt + act1static.replace('\\n','\n') + act2descr.replace('\\n','\n')
+        prompt = act2rawprompt
+        print("\n\n<PRETTYPROMPT>")
+        print(act2prettyprompt)
+        print("</PRETTYPROMPT>")
+        print("<RAWPROMPT>")
+        print(prompt)
+        print("</RAWPROMPT>\n\n")
+        act2raw = get_act(prompt, maxlength, selectedmodel)
+        # print(act2raw)
+        act2 = trim_output(act2raw)
+        # print(act2)
+        act2static = act2 + '\\n\\n'
+        print("This is act2: ")
+        print("----------------------------------")
+        print(act2static)
+        print("----------------------------------")
+        promptstatus = input("Is Act2 OK? y/n: ")
+        if promptstatus == "y":
+            break
 
-    # GET PROMPT FOR ACT2#
-    act2rawprompt = act1rawprompt +  act1static  + '\\n\\n' + act2descr
-    act2prettyprompt = act1prettyprompt + act1static.replace('\\n','\n') + act2descr.replace('\\n','\n')
-    prompt = act2rawprompt
-    print("\n\n<PRETTYPROMPT>")
-    print(act2prettyprompt)
-    print("</PRETTYPROMPT>")
-    print("<RAWPROMPT>")
-    print(prompt)
-    print("</RAWPROMPT>\n\n")
-    act2raw = get_act(prompt, maxlength, selectedmodel)
-    # print(act2raw)
-    act2 = trim_output(act2raw)
-    # print(act2)
-    act2static = act2 + '\\n\\n'
+    for p in range(5):
+        # GET PROMPT FOR ACT3
+        act3rawprompt= act2rawprompt + act2static  + '\\n\\n' + act3descr
+        act3prettyprompt = act2prettyprompt + act2static.replace('\\n','\n') + act3descr.replace('\\n','\n')
+        prompt = act3rawprompt
+        act3raw = get_act(prompt, maxlength, selectedmodel)
+        act3 = trim_output(act3raw)
+        print("\n\n<PRETTYPROMPT>")
+        print(act3prettyprompt + act3)
+        print("</PRETTYPROMPT>")
+        print("<RAWPROMPT>")
+        print(prompt+act3)
+        print("</RAWPROMPT>\n\n")
 
-    # GET PROMPT FOR ACT3
-    act3rawprompt= act2rawprompt + act2static  + '\\n\\n' + act3descr
-    act3prettyprompt = act2prettyprompt + act2static.replace('\\n','\n') + act3descr.replace('\\n','\n')
-    prompt = act3rawprompt
-    act3raw = get_act(prompt, maxlength, selectedmodel)
-    act3 = trim_output(act3raw)
-    print("\n\n<PRETTYPROMPT>")
-    print(act3prettyprompt + act3)
-    print("</PRETTYPROMPT>")
-    print("<RAWPROMPT>")
-    print(prompt+act3)
-    print("</RAWPROMPT>\n\n")
-
-
-    story = '\nACT 1: ' + act1static.replace('\\n','\n') + 'ACT 2: ' + act2static.replace('\\n','\n') + 'ACT 3: ' + act3.replace('\\n','\n')
+        print("This is act3: ")
+        print("----------------------------------")
+        print(act3)
+        print("----------------------------------")
+        promptstatus = input("Is Act3 OK? y/n: ")
+        if promptstatus == "y":
+            break
 
     # datetime object containing current date and time
     dt_string = datetime.datetime.now().strftime("%d-%m-%Y_%H_%M_%S")
 
-    print('-----------')
-    print('\n\n\nSample #' + dt_string + ":")
+    story = '-----------' + '\n\n\nSample #' + dt_string + ': ' +'\nACT 1: ' + act1static.replace('\\n','\n') + 'ACT 2: ' + act2static.replace('\\n','\n') + 'ACT 3: ' + act3.replace('\\n','\n')
+
     print(story)
 
     finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
 
+    ###### WRITE GENERATIONS TO YAML
+    genid = dt_string
+    act1gen = act1static.replace('\\n','\n')
+    act2gen = act2static.replace('\\n','\n')
+    act3gen = act3.replace('\\n','\n')
+    genpayload = {
+        'aagen_id': genid,
+        'act1gen': act1gen.strip(),
+        'act2gen': act2gen.strip(),
+        'act3gen': act3gen.strip()
+                  }
+    econfig['storygenerations'].append(genpayload)
+
+    #yaml.dump(econfig, sys.stdout)
+
+    with open(configfile, 'w', encoding='utf-8') as f:
+        yaml.dump(econfig, f)
+
+    ####### BACK UP GENERATIONS TO LOG
+
+    finalfile = '../generations/master_generation_log.txt'
+
     try:
-        with open(finalfile, 'w', encoding="utf-8") as f:
+        with open(finalfile, 'a', encoding="utf-8") as f:
             with redirect_stdout(f):
                 print(story)
     except:

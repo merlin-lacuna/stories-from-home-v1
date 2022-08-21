@@ -19,3 +19,4 @@ olcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",
 17,Fire, NDVI after Wildfire,\,Yuen Long Hong Kong,Hill, monthly,2020-01-01,2020-12-31,/,fire_forestfire_ndvi_hongkongYuenLong.csv,Time, Data,y,0.33,1
 18,Air,ATMOSPHERE->Atmospheric Composition,l,Hong Kong,Air,yearly,1994,2020,21,air_atmo_CO2_hongkong.csv,Time, Data,y,18171,54514
 19,Earth,LAND->Cryosphere->NDSI,/,"Maiko Snow Resort, Japan",Land,yearly,2000,2021,21,earth_land_ndsi_maikosnowresort.csv,Time,Data,y,70,80
+20,Water,LAND ->Surface-> NDWI,/, Hong Kong,City, Urban Land, daily,2017-05-18,2017,water_land_ndwi_hongkong.csv,Time,Data,-0.0,0.06

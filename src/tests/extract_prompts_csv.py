@@ -3,12 +3,12 @@ import sys
 from ruamel.yaml import YAML
 
 df = pd.read_csv('../../source_text/input_prompts.csv', encoding="utf-8")
-entityunit = "forest_wildfire"
+entityunit = "land_precip"
 
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../../data/fire_landfire_ndvi_hongkongyuenlong.yaml"
+configfile="../../data/earth_land_ndsi_poland.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)

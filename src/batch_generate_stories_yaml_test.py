@@ -9,7 +9,8 @@ from ruamel.yaml import YAML
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/fire_forestfire_nvdi_mendocino.yaml"
+configfile="../data/water_land_ndwi_hongkong.yaml"
+
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -19,15 +20,23 @@ with open(configfile, encoding='utf-8') as f:
 oa = openai
 oa.api_key = os.getenv("OPENAI_API_KEY")
 
-earth = "davinci:ft-personal-2022-05-08-13-37-54"
-water = "davinci:ft-personal:water-2022-03-31-23-56-04"
-fire = "davinci:ft-personal:fire-2022-07-06-02-12-31"
-air = "davinci:ft-personal:air-2022-07-05-23-19-23"
-
 maxlength = 256
-selectedmodel = econfig['entitydescr']['element']
-gentype = "air_island_C02_manuloa"
+elementmodel = econfig['entitydescr']['element']
+gentype = econfig['entitydescr']['id']
 gencount = 1
+selectedmodel = "unknown"
+
+if elementmodel == "earth":
+   selectedmodel = "davinci:ft-personal-2022-05-08-13-37-54"
+elif elementmodel == "water":
+   selectedmodel =  "davinci:ft-personal:water-2022-03-31-23-56-04"
+elif elementmodel == "fire":
+   selectedmodel = "davinci:ft-personal:fire-2022-07-06-02-12-31"
+elif elementmodel == "air":
+   selectedmodel = "davinci:ft-personal:air-2022-07-05-23-19-23"
+else:
+   selectedmodel = "unknown"
+   print("Selected model is unknown")
 
 def trim_output(completion):
     try:
@@ -143,11 +152,20 @@ for x in range(gencount):
     print('\n\n\nSample #' + dt_string + ":")
     print(story)
 
-    # finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
-    #
-    # try:
-    #     with open(finalfile, 'w', encoding="utf-8") as f:
-    #         with redirect_stdout(f):
-    #             print(story)
-    # except:
-    #     print("File write error")
+    ###### WRITE GENERATIONS TO YAML
+    genid = dt_string
+    act1gen = act1static.replace('\\n','\n')
+    act2gen = act1static.replace('\\n','\n')
+    act3gen = act3.replace('\\n','\n')
+    genpayload = {
+        'gen_id': genid,
+        'act1gen': act1gen.strip(),
+        'act2gen': act2gen.strip(),
+        'act3gen': act3gen.strip()
+                  }
+    econfig['storygenerations'].append(genpayload)
+
+    #yaml.dump(econfig, sys.stdout)
+
+    with open(configfile, 'w', encoding='utf-8') as f:
+        yaml.dump(econfig, f)
