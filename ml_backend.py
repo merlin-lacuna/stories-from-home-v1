@@ -4,8 +4,8 @@ import os
 
 class ml_backend:
 
-    #openai.api_key = st.secrets["OPENAI_API_KEY"]
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = st.secrets["OPENAI_API_KEY"]
+    #openai.api_key = os.getenv("OPENAI_API_KEY")
 
     def generate_text(self, userPrompt ="Write me a professionally sounding email", start="Dear"):
         """Returns a generated an email using GPT3 with a certain prompt and starting sentence"""
@@ -22,7 +22,7 @@ class ml_backend:
         return response.get("choices")[0]['text']
 
     def generate_text_test1(self,userPrompt):
-        response = "Jesus loves ham"
+        response = "Grandma loves ham"
         return response
 
     def generate_text_test2(self,userPrompt):
@@ -30,7 +30,7 @@ class ml_backend:
         return response
 
     def generate_text_test3(self,userPrompt):
-        response = "Your dad loves cock"
+        response = "Your dad loves cheese"
         return response
 
 
