@@ -74,7 +74,7 @@ act3descr = econfig['prompt']['act3descr']
 entitytype = str(econfig['entitydescr']['type'])
 etypeupper = entitytype.upper()
 
-image = Image.open(chartloc)
+image = Image.open("charts/" + chartloc)
 st.image(image, caption='Data Chart')
 
 

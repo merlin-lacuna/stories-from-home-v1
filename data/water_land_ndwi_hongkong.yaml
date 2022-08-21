@@ -7,7 +7,7 @@ entitydata:
     act1: 0.08166666666666667
     act2: 0.151
     act3: 0.005
-  chartstorage: ./charts/water_land_ndwi_hongkong.png
+  chartstorage: water_land_ndwi_hongkong.png
   idealranges:
     lower: 0.0
     upper: 0.06
