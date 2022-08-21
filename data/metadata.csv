@@ -2,8 +2,7 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 1,Earth,LAND->Cryosphere->Glaciers,h,"Thwaites Glacier, Antarctica",Glacier,yearly,2002,2022,20,earth_land_ndsi_thwaites.csv,Time,ymNDSI,y,63.014,66.495
 2,Earth,LAND -> Biosphere -> Leaf area index,h,"Region of Atsimo-Andrefana, Madagascar, Africa",Forest,yearly,2011,2021,10,earth_land_lai_atismo.csv,Year,Mean,y,0.500763455,0.571021968
 3,Air,ATMOSPHERE->Surface->Mean Air Temperature,l,"Mali (Sahel portion), Africa",Desert,monthly,1980,2020,40,air_atmo_airtemp_sahel.csv,Year,mean_2m_air_temperature,y,27,29
-4,Fire,Thermal Remote Sensing for Global V
-olcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",Volcano,daily,1950,2020,70,fire_volcano_watertemp_ruapehu.csv,Year,Temperature,y,24.49010442,30.39644238
+4,Fire,Thermal Remote Sensing for Global Volcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",Volcano,daily,1950,2020,70,fire_volcano_watertemp_ruapehu.csv,Year,Temperature,y,24.49010442,30.39644238
 5,Fire,FIRE -> NDVI after Wildfire,h,"Mendocino Complex Fire, North California USA",Forest,yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,mean_NDVI,y,0.45,1
 6,Fire,Thermal Remote Sensing for Global Volcano Monitoring,l,"Kawajhen Jen, Indonesien",Volcano,yearly,2002,2005,10,fire_volcano_watertemp_kawahIjen.csv,time,temp_celsius,y,36.3,42.2
 7,Water,OCEAN->Physical->Sea level,l,Baltic Sea,Ocean,every3years,1993,2020,9,water_ocean_sealevel_balticsea.csv,Year,mean_sealevel,y,0,6
