@@ -14,10 +14,10 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 13,Earth,LAND -> Biosphere -> Land cover,l,"City of Venice, Italy (premonitions of a flooded/underwater city would be fitting here)",Island,daily,12/11/2021,24/11/2021,12,earth_island_lcover_venice.csv,time,water_height_m_max,y,0.4,0.73
 14,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,68.925,71.613
 15,Air,ATMOSPHERE->Atmospherc Composition,l,"Mauna Loa, Hawai",Island,yearly,2007,2021,15,air_atmo_C02_manuloa.csv,Year,CO2,y,380,400
-16,Earth,LAND -> Biosphere -> Leaf area index,h,,Forest,,,,,earth_land_lai_taipokau.csv,Year ,Mean,y,1.141,1.265
-17,Fire, NDVI after Wildfire,\,Yuen Long Hong Kong,Hill, monthly,01/01/2020,31/12/2020,/,fire_forestfire_ndvi_hongkongYuenLong.csv,Time, Data,y,0.33,1
-18,Air,ATMOSPHERE->Atmospheric Composition,l,Hong Kong,Air,yearly,1994,2020,21,air_atmo_CO2_hongkong.csv,Time, Data,y,18171,54514
+16,Earth,LAND -> Biosphere -> Leaf area index,h,,Forest,,,,,earth_land_lai_taipokau.csv,Year,Mean,y,1.141,1.265
+17,Fire,NDVI after Wildfire,\,Yuen Long Hong Kong,Hill,monthly,01/01/2020,31/12/2020,/,fire_forestfire_ndvi_hongkongYuenLong.csv,Time,Data,y,0.33,1
+18,Air,ATMOSPHERE->Atmospheric Composition,l,Hong Kong,Air,yearly,1994,2020,21,air_atmo_CO2_hongkong.csv,Time,Data,y,18171,54514
 19,Earth,LAND->Cryosphere->NDSI,/,"Maiko Snow Resort, Japan",Land,yearly,2000,2021,21,earth_land_ndsi_maikosnowresort.csv,Time,Data,y,70,80
-20,Water,LAND ->Surface-> NDWI,/, Hong Kong,City, Urban Land, daily,18/05/2017,2017,water_land_ndwi_hongkong.csv,Time,Data,y,0,0.06
+20,Water,LAND ->Surface-> NDWI,/,Hong Kong,City,Urban Land,daily,18/05/2017,2017,water_land_ndwi_hongkong.csv,Time,Data,y,0,0.06
 21,Earth,LAND->Cryosphere->NDSI,/,"Szcyrk Mountain Resort, Poland",Land,yearly,2000,2021,21,earth_land_ndsi_poland.csv,Time,Data,y,80,90
 22,Earth,LAND->Cryosphere->NDSI,/,Swiss Alps,Land,yearly,2000,2021,21,earth_land_ndsi_swissalps.csv,Time,Data,y,72,76
