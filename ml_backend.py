@@ -4,8 +4,8 @@ import os
 
 class ml_backend:
 
-    openai.api_key = st.secrets["OPENAI_API_KEY"]
-    #openai.api_key = os.getenv("OPENAI_API_KEY")
+    #openai.api_key = st.secrets["OPENAI_API_KEY"]
+    openai.api_key = os.getenv("OPENAI_API_KEY")
 
     def generate_text(self, userPrompt ="Write me a professionally sounding email", start="Dear"):
         """Returns a generated an email using GPT3 with a certain prompt and starting sentence"""

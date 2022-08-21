@@ -7,6 +7,7 @@ entitydata:
     act1: 0.33
     act2: 0.4
     act3: 0.5
+  chartstorage: chart_not_ready.png
   idealranges:
     lower: 0.53
     upper: 0.63
