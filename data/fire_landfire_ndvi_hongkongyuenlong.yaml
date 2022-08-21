@@ -11,7 +11,7 @@ entitydata:
       act1: 5
       act2: 2
       act3: 4
-
+   chartstorage: chart_not_ready.png
 entitydescr:
    id: fire_forestfire_ndvi_hongkongyuenlong
    bio: "I am a large and fertile hill near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I’m incredibly thirsty. I usually have plenty of moisture, but recently, I've gotten hardly any moisture. I feel dry and combustible."

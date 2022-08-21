@@ -28,12 +28,12 @@ metadata:
 | name   | nginx-deployment |    --    | Lorem ipsum dolor sit amet, consecteteur adipiscing elit. |
 | labels | --               |    --    | Lorem ipsum.                                              |
 |   app  | nginx            |    --    | Lorem ipsum.                                              |
-+--------+------------------+----------+-----------------------------------------------------------+	    
++--------+------------------+----------+-----------------------------------------------------------+        
 
 """
 
 parser = argparse.ArgumentParser(description='YAML file to (HTML) table converter',
-                epilog='text table will be printed as STDOUT - html table will be save in html file ')
+                                 epilog='text table will be printed as STDOUT - html table will be save in html file ')
 parser.add_argument('--inputFile', dest='inputfile', required=True, help="input yaml file to process")
 parser.add_argument('--out', dest='format', choices=['txt', 'html', 'text'], help="convert yaml to text table or html "
                                                                                   "table")
@@ -69,12 +69,12 @@ CSS_TEXT = """
         th:nth-child(1) {
           width: 200px;
           }
-        
+
         /* the second */
         th:nth-child(2) {
           width: 200px;
         }
-        
+
         /* the third */
         th:nth-child(3) {
           width: 100px;
@@ -83,7 +83,7 @@ CSS_TEXT = """
          th:nth-child(4) {
           width: 420px;
          }
-         
+
          pre {
             white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
             white-space: -pre-wrap; /* Opera */
@@ -116,7 +116,7 @@ def printDic(inDictionary, inPTable, indent):
     # Go ver dictionary
     for item in inDictionary:
         if isinstance(item, dict):  # If it again dictionary call same function with this new dictionary
-            inPTable.add_row([SPACE_CHAR, SPACE_CHAR, SPACE_CHAR, SPACE_CHAR])
+            inPTable.add_row([SPACE_CHAR, SPACE_CHAR, SPACE_CHAR])
             printDic(item, inPTable, indent)
         else:
             # Two way to get next item based on input type
@@ -125,18 +125,18 @@ def printDic(inDictionary, inPTable, indent):
             elif isinstance(inDictionary, list):
                 # If it simple array/list we just print all it's value and we are done
                 for _item in inDictionary:
-                    inPTable.add_row([indent + _item, SPACE_CHAR+SPACE_CHAR, SPACE_CHAR+SPACE_CHAR])
+                    inPTable.add_row([indent + _item, SPACE_CHAR + SPACE_CHAR, SPACE_CHAR + SPACE_CHAR])
                 break
 
             # if it is dictionary or list process them accordingly
             if isinstance(moreStuff, dict):
-                inPTable.add_row([indent + item, SPACE_CHAR+SPACE_CHAR, SPACE_CHAR+SPACE_CHAR])
+                inPTable.add_row([indent + item, SPACE_CHAR + SPACE_CHAR, SPACE_CHAR + SPACE_CHAR])
                 printDic(moreStuff, inPTable, SPACE_CHAR + SPACE_CHAR + indent)
             elif isinstance(moreStuff, list):
 
                 # If we are not in nested call (as indent is empty string) we add one extra row in table (for clarity)
                 if indent is "":
-                    inPTable.add_row([SPACE_CHAR, SPACE_CHAR, SPACE_CHAR, SPACE_CHAR])
+                    inPTable.add_row([SPACE_CHAR, SPACE_CHAR, SPACE_CHAR])
                 #
                 inPTable.add_row([indent + item, "", ""])
                 for dicInDic in moreStuff:
@@ -146,17 +146,18 @@ def printDic(inDictionary, inPTable, indent):
             else:
                 # Most of the call will end-up eventually here -
                 # this will print - key,value,isItRequired, Lorem ipsum (description)
-                inPTable.add_row([indent + item, inDictionary[item], SPACE_CHAR+SPACE_CHAR])
+                inPTable.add_row([indent + item, inDictionary[item], SPACE_CHAR + SPACE_CHAR])
 
 
 """
     Read given yaml file 
        process each to level element build table (HTML) out of it and print it console/file 
 """
-with open(INPUT_YAML) as file:
+with open(INPUT_YAML, encoding="utf-8") as file:
     # The FullLoader parameter handles the conversion from YAML
     # scalar values to Python the dictionary format
     yaml_file_object = yaml.load(file, Loader=yaml.FullLoader)
+    chart = yaml_file_object['entitydata']['chartstorage']
 
     if PRINT_HTML:
         html_st = []
@@ -168,13 +169,12 @@ with open(INPUT_YAML) as file:
         body_st = []
         prettyTable = PrettyTable()
 
-        prettyTable.field_names = ["Field", "Value", " "]
+        prettyTable.field_names = ["Field", "Value", "Required"]
 
         if not PRINT_HTML:
             prettyTable.align["Field"] = "l"
             prettyTable.align["Value"] = "l"
-            prettyTable.align[" "] = "c"
-            #prettyTable.align["Description"] = "l"
+            prettyTable.align["Required"] = "c"
 
         if isinstance(yaml_file_object, list):
             dic = yaml_file_object[i]
@@ -190,14 +190,14 @@ with open(INPUT_YAML) as file:
                 yaml_snippet = yaml.dump(dic)
 
         else:
-            prettyTable.add_row([key, dic, SPACE_CHAR+SPACE_CHAR, get_sentences(1, True)[0]])
+            prettyTable.add_row([key, dic, SPACE_CHAR + SPACE_CHAR, get_sentences(1, True)[0]])
             yaml_snippet = yaml.dump({key: dic})
 
         if isinstance(yaml_file_object, dict):
             if PRINT_HTML:
                 body_st.append("<h2>" + key + "</h2>")
             else:
-                print("=> "+key + ":")
+                print("=> " + key + ":")
 
         table = prettyTable.get_html_string(attributes={"name": key,
                                                         "id": key,
@@ -205,16 +205,17 @@ with open(INPUT_YAML) as file:
                                                         "style": "width: 1450px;table-layout: fixed;overflow-wrap: "
                                                                  "break-word;"})
         table = table.replace(SPACE_CHAR, "&nbsp;")
-        body_st.append(table)
-        #body_st.append("Raw yaml:")
-        #body_st.append("<pre>" + yaml_snippet + "</pre>")
+        if i == 1:
+            body_st.append(table)
+            body_st.append("CHART")
+            body_st.append("<img src=\"" + chart + "\">")
 
-        if PRINT_HTML:
-            html_st.append(" ".join(body_st))
-        else:
-            print(str(prettyTable).replace(SPACE_CHAR, " "))
-            print("Raw yaml:")
-            print("\t" + yaml_snippet.replace("\n", "\n\t"))
+            if PRINT_HTML:
+                html_st.append(" ".join(body_st))
+            else:
+                print(str(prettyTable).replace(SPACE_CHAR, " "))
+                print("Raw yaml:")
+                print("\t" + yaml_snippet.replace("\n", "\n\t"))
 
     if PRINT_HTML:
         html_st.append("</html>")
