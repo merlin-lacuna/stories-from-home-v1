@@ -20,3 +20,4 @@ olcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",
 18,Air,ATMOSPHERE->Atmospheric Composition,l,Hong Kong,Air,yearly,1994,2020,21,air_atmo_CO2_hongkong.csv,Time, Data,y,18171,54514
 19,Earth,LAND->Cryosphere->NDSI,/,"Maiko Snow Resort, Japan",Land,yearly,2000,2021,21,earth_land_ndsi_maikosnowresort.csv,Time,Data,y,70,80
 20,Water,LAND ->Surface-> NDWI,/, Hong Kong,City, Urban Land, daily,2017-05-18,2017,water_land_ndwi_hongkong.csv,Time,Data,-0.0,0.06
+21,Earth,LAND->Cryosphere->NDSI,/,"Szcyrk Mountain Resort, Poland",Land,yearly,2000,2021,21,earth_land_ndsi_poland.csv,Time,Data,y,80,90
