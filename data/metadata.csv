@@ -21,3 +21,4 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 20,Water,LAND ->Surface-> NDWI,/, Hong Kong,City, Urban Land, daily,2017-05-18,2017,water_land_ndwi_hongkong.csv,Time,Data,-0.0,0.06
 21,Earth,LAND->Cryosphere->NDSI,/,"Szcyrk Mountain Resort, Poland",Land,yearly,2000,2021,21,earth_land_ndsi_poland.csv,Time,Data,y,80,90
 22,Earth,LAND->Cryosphere->NDSI,/,"Swiss Alps",Land,yearly,2000,2021,21,earth_land_ndsi_swissalps.csv,Time,Data,y,72,76
+23,Earth,LAND->Cryosphere->Glaciers,/,"Furtwaengler Glacier, Tanzania",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_furtwaenglerglacier.csv,Time,Data,y,70,80

@@ -1,0 +1,26 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 3
+    act3: 3
+  actmoodsamples:
+    act1: 76.875
+    act2: 63.25
+    act3: 63.875
+  idealranges:
+    lower: 70.0
+    upper: 80.0
+  measurementunit: percent
+entitydescr:
+  bio: null
+  descriptor: null
+  element: earth
+  id: earth_land_ndsi_furtwaenglerglacier
+  measurementdescr: null
+  type: null
+prompt:
+  act0descr: null
+  act2descr: null
+  act3descr: null
+  intro: null
+
