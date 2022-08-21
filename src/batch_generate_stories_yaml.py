@@ -6,7 +6,7 @@ from contextlib import redirect_stdout
 import sys
 from ruamel.yaml import YAML
 
-#### LOAD ENTITY CONFIGn
+#### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
 configfile="../data/water_land_ndwi_hongkong.yaml"
