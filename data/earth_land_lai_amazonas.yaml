@@ -8,15 +8,15 @@ entitydata:
       act2: 4.0
       act3: 4.3
    actmoodlevels:
-      act1: 4.75
-      act2: 4.0
-      act3: 4.3
+      act1: 5
+      act2: 3
+      act3: 4
 
 entitydescr:
    id: unknown
    bio: "unknown"
-   type: "forrest"
-   element: "unknown"
+   type: "forest"
+   element: "earth"
    descriptor: "unknown"
    measurementdescr: "unknown"
 
