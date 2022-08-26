@@ -1,0 +1,28 @@
+entitydata:
+   measurementunit: "unknown"
+   idealranges:
+      lower: 4.4
+      upper: 5.0
+   actmoodsamples:
+      act1: 4.75
+      act2: 4.0
+      act3: 4.3
+   actmoodlevels:
+      act1: 4.75
+      act2: 4.0
+      act3: 4.3
+
+entitydescr:
+   id: unknown
+   bio: "unknown"
+   type: "forrest"
+   element: "unknown"
+   descriptor: "unknown"
+   measurementdescr: "unknown"
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nENTITY: '
+   act2descr: 'ACT2: <add prompt>\nENTITY: '
+   act3descr: 'ACT3: <add prompt>\nENTITY: '
