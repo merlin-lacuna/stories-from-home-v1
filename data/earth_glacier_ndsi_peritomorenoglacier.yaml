@@ -11,6 +11,7 @@ entitydata:
     lower: 94.0
     upper: 99.0
   measurementunit: ndsi percent
+  chartstorage: earth_glacier_ndsi_peritomorenoglacier.png
 entitydescr:
   bio: "I am a strong and healthy glacier located in the Southern hemisphere. I am situated an ice field that is the world's third largest reserve of fresh water. I am in a perpetual state of equilibrium—I usually gain more than I use. During certain seasons, I an advance and rupture while making enormous cracking noises."
   descriptor: shimmering and howling
