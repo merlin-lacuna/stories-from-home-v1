@@ -6,10 +6,10 @@ from contextlib import redirect_stdout
 import sys
 from ruamel.yaml import YAML
 
-#### LOAD ENTITY CONFIGn
+#### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/water_land_ndwi_hongkong.yaml"
+configfile="../data/earth_land_ndsi_poland.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -181,7 +181,7 @@ for x in range(gencount):
     act2gen = act2static.replace('\\n','\n')
     act3gen = act3.replace('\\n','\n')
     genpayload = {
-        'gen_id': genid,
+        'aagen_id': genid,
         'act1gen': act1gen.strip(),
         'act2gen': act2gen.strip(),
         'act3gen': act3gen.strip()

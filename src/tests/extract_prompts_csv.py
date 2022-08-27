@@ -8,7 +8,7 @@ entityunit = "land_precip"
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../../data/water_land_ndwi_hongkong.yaml"
+configfile="../../data/earth_land_ndsi_poland.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
