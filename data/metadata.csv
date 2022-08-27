@@ -23,3 +23,4 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 22,Earth,LAND->Cryosphere->NDSI,na,Swiss Alps,Land,yearly,2000,2021,21,earth_land_ndsi_swissalps.csv,Time,Data,y,72,76
 23,Earth,LAND->Cryosphere->Glaciers,/,"Furtwaengler Glacier, Tanzania",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_furtwaenglerglacier.csv,Time,Data,y,70,80
 24,Earth,LAND->Cryosphere->Glaciers,/,"Bhatura Glacier,Pakistan,Glacier,yearly,2000,2021,21,earth_glacier_ndsi_bhaturaglacier.csv,Time,Data,y,85,94
+25,Earth,LAND->Cryosphere->Glaciers,/,"Perito Moreno Glacier,Argentina,Glacier,yearly,2000,2021,/,earth_glacier_ndsi_peritomoreno.csv,Time,Data,y,94,99
