@@ -20,6 +20,7 @@ entitydescr:
   type: null
 prompt:
   act0descr: null
-  act2descr: null
-  act3descr: null
+  act1descr: 'ACT1: The glacier seems to keep increasing in ice mass and getting bigger.The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
+  act2descr: 'ACT2: The glacier is starting to shink and lose ice mass.The glacier is seized by a new state breaking through the silence of its environment. It lets itself go by abandoning itself to this inner transformation, which seems to become increasingly evident in its external appearance as well.\nGLACIER: '
+  act3descr: 'ACT3: The glacier has lost a dramatically high proportion of its ice mass.The glacier notices that its limbs become looser and creaks become more and more hearable, as if its body is growing fractures and each particle of ice is groaning . It feels in anguish, torn whether to surrender to the melting or endure.\nGLACIER: '
   intro: null
