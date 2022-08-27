@@ -10,17 +10,18 @@ entitydata:
   idealranges:
     lower: 94.0
     upper: 99.0
-  measurementunit: percent
+  measurementunit: ndsi percent
 entitydescr:
-  bio: null
-  descriptor: null
+  bio: "I am a strong and healthy glacier located in the Southern hemisphere. I am situated an ice field that is the world's third largest reserve of fresh water. I am in a perpetual state of equilibrium—I usually gain more than I use. During certain seasons, I an advance and rupture while making enormous cracking noises."
+  descriptor: shimmering and howling
   element: earth
   id: earth_land_ndsi_peritomorenoglacier
-  measurementdescr: null
-  type: null
+  measurementdescr: glacier mass
+  type: glacier
 prompt:
-  act0descr: null
-  act2descr: null
-  act3descr: null
-  intro: null
+  intro: 'The following play reveals the inner monologue of a shimmering and howling glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself and describes its surroundings.\nGLACIER: '
+  act1descr: 'ACT1: The glacier seems to have a stable ice mass and occasionally gets bigger. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
+  act2descr: 'ACT2: The glacier still has a stable ice mass and even sees spikes in mass. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
+  act3descr: 'ACT3: Even still, the glacier has a stable and healthy ice massr. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
 
