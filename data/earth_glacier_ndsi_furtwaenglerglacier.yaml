@@ -11,6 +11,7 @@ entitydata:
     lower: 72.0
     upper: 80.0
   measurementunit: percent
+  chartstorage: earth_glacier_mass_furtwaenglerglacier.png
 entitydescr:
   bio: "My icy realm is located at the summit of a famous mountain which is actually in a hot country. I am a small remnant of what I once was. I have always been ephemeral, appearing and disappearing throughout history. This time I seem to be diminishing."
   descriptor: "shimmering and howling"
