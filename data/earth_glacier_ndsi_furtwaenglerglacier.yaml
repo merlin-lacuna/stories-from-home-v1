@@ -12,15 +12,15 @@ entitydata:
     upper: 80.0
   measurementunit: percent
 entitydescr:
-  bio: null
-  descriptor: null
+  bio: "My icy realm is located at the summit of a famous mountain which is actually in a hot country. I am a small remnant of what I once was. I have always been ephemeral, appearing and disappearing throughout history. This time I seem to be diminishing."
+  descriptor: "shimmering and howling"
   element: earth
   id: earth_land_ndsi_furtwaenglerglacier
-  measurementdescr: null
-  type: null
+  measurementdescr: "the glacier mass"
+  type: earth
 prompt:
   intro: 'ACT0: The following play reveals the inner monologue of a shimmering and howling glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
   act1descr: 'ACT1: The glacier seems to keep increasing in ice mass and getting bigger.The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
   act2descr: 'ACT2: The glacier is starting to shink and lose ice mass.The glacier is seized by a new state breaking through the silence of its environment. It lets itself go by abandoning itself to this inner transformation, which seems to become increasingly evident in its external appearance as well.\nGLACIER: '
   act3descr: 'ACT3: The glacier has lost a dramatically high proportion of its ice mass.The glacier notices that its limbs become looser and creaks become more and more hearable, as if its body is growing fractures and each particle of ice is groaning . It feels in anguish, torn whether to surrender to the melting or endure.\nGLACIER: '
-  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself and describes its surroundings.\nLAND: '
+  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself and describes its surroundings.\nGLACIER: '
