@@ -1,0 +1,28 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 5
+    act3: 4
+  actmoodsamples:
+    act1: 87.091
+    act2: 93.013
+    act3: 83.329
+  idealranges:
+    lower: 85.0
+    upper: 94.0
+  measurementunit: ndsi percent
+  chartstorage: earth_glacier_ndsi_bhaturaglacier.png
+entitydescr:
+  bio: "I am one of the largest and longest glaciers outside of the polar regions. My body stretches from west to east. My lower portions can be described as a grey sea of rocks and gravelly moraine, and roses and juniper trees flourish around my flanks."
+  descriptor: shimmering and howling
+  element: earth
+  id: earth_land_ndsi_bhaturaglacier
+  measurementdescr: "glacier mass"
+  type: glacier
+prompt:
+  act0descr: "ACT0: The glacier''s mass is not yet known. The glacier introduces itself and describes its surroundings.\nGLACIER: "
+  act1descr: "ACT1: The glacier seems to keep increasing in ice mass and getting bigger. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: "
+  act2descr: "ACT2: The glacier has lost a dramatically high proportion of its ice mass. The glacier notices that its limbs become looser and creaks become more and more hearable, as if its body is growing fractures and each particle of ice is groaning . It feels in anguish, torn whether to surrender to the melting or endure.\nGLACIER: "
+  act3descr: "ACT3: The glacier has lost more ice and mass than it has ever lost before in its lifetime. The glacier moans, a howl emanating from the very nucleus of the universe. It feels dazed by the idea that maybe only this sound, its own voice, will be all that remains once it''s dissolved its state of being may no longer be the same as it used to be.\nGLACIER: "
+  intro: "The following play reveals the inner monologue of a shimmering and howling glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n"
+
