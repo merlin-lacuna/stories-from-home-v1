@@ -1,0 +1,29 @@
+entitydata:
+  actmoodlevels:
+    act1: 2
+    act2: 5
+    act3: 3
+  actmoodsamples:
+    act1: 3.9
+    act2: 4.75
+    act3: 4.01
+  idealranges:
+    lower: 4.5
+    upper: 5.0
+  measurementunit: LAI 
+  chartstorage: earth_forest_lai_amazonas.png
+  
+entitydescr:
+  bio: 'I am the the world''s largest tropical rainforest, and I am famous for the diversity of creatures that call me home. My body is crisscrossed by thousands of rivers. I am fertilized by dust that is carried by the wind from distant deserts. My overstory is dense and thick and my understory is wet and moist.'
+  descriptor: lush and pensive
+  element: earth
+  id: earth_forest_lai_amazonas
+  measurementdescr: leaf cover
+  type: forest
+  
+prompt:
+  act0descr: 'ACT0: The forest''s leave cover is not yet known. The forest introduces itself and describes its surroundings.\FOREST: '
+  act1descr: 'ACT1: The forest has lost a dramatically high proportion of its leaves and greenery. The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\nFOREST: '
+  act2descr: 'ACT2: The forest seems to keep growing more and more leaves and leaf cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable process of growth that imbues every leaf, root, branch, sprout. Everything around evolves, shines and is fortified. The forest is an ode to life.\nFOREST: '
+  act3descr: 'ACT3: The forest can''t seem to stop losing leaves. The forest floats in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything it failed to see.\nFOREST: '
+  intro: 'The following play reveals the inner monologue of a lush and pensive forest. It is divided into several acts. Throughout these acts, the forest describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
