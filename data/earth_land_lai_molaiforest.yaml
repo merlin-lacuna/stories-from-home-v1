@@ -4,11 +4,11 @@ entitydata:
       lower: 0.65
       upper: 0.9
    actmoodsamples:
-      act1: 0.4
+      act1: 0.38
       act2: 0.6
       act3: 0.9
    actmoodlevels:
-      act1: 3
+      act1: 2
       act2: 4
       act3: 5
 
