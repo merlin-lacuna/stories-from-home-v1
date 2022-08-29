@@ -1,0 +1,28 @@
+entitydata:
+   measurementunit: LAI
+   idealranges:
+      lower: 0.65
+      upper: 0.9
+   actmoodsamples:
+      act1: 0.38
+      act2: 0.6
+      act3: 0.9
+   actmoodlevels:
+      act1: 2
+      act2: 4
+      act3: 5
+
+entitydescr:
+    id: earth_land_lai_molaiforest
+    bio: 'I am a large forest and I live next to a great river. I am made up of several thousand trees most of which were all planted and nutured by one lone soul. He is truly my guardian angel. Now I am famous and many fantastic creatures make their home in my lush green depths.'
+    type: "forest"
+    element: "earth"
+    descriptor: "lush and pensive"
+    measurementdescr: "leaf cover"
+
+prompt:
+    intro: 'The following play reveals the inner monologue of a lush and pensive forest. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+    act0descr: 'ACT0: The forest''s leaf cover is not yet known. The forest introduces itself and describes its surroundings.\nFOREST: '
+    act1descr: 'ACT1: The forest has lost a dramatically high proportion of its leaves and greenery. The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\nFOREST: '
+    act2descr: 'ACT2: The forest has a healthy amount of leaves. The forest is flooded with the sage stream of lymph. All the extremities are reached by this vital essence and quiver with vivacity while letting themselves be graced by the sky.\nFOREST: '
+    act3descr: 'ACT3: The forest seems to keep growing more and more leaves and leaf cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable process of growth that imbues every leaf, root, branch, sprout. Everything around evolves, shines and is fortified. The forest is an ode to life.\nFOREST: '
