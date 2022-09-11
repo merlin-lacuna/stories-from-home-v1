@@ -1,0 +1,25 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 2
+    act3: 4
+  actmoodsamples:
+    act1: 2.582
+    act2: 1.954
+    act3: 2.301
+  idealranges:
+    lower: 2.4
+    upper: 2.8
+  measurementunit:
+entitydescr:
+  bio: null
+  descriptor: null
+  element: earth
+  id: earth_land_lai_blackforest
+  measurementdescr: null
+  type: null
+prompt:
+  act0descr: null
+  act2descr: null
+  act3descr: null
+  intro: null
