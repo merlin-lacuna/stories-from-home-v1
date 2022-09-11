@@ -17,7 +17,7 @@ entitydescr:
   element: earth
   id: earth_land_ndsi_poland
   measurementdescr: null
-  type: null
+  type: land
 prompt:
   act0descr: null
   act2descr: null

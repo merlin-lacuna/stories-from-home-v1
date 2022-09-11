@@ -18,7 +18,7 @@ entitydescr:
   element: earth
   id: earth_land_ndsi_furtwaenglerglacier
   measurementdescr: "the glacier mass"
-  type: earth
+  type: glacier
 prompt:
   intro: 'ACT0: The following play reveals the inner monologue of a shimmering and howling glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
   act1descr: 'ACT1: The glacier seems to have a stable ice mass. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '

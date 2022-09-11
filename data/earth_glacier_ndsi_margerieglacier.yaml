@@ -17,7 +17,7 @@ entitydescr:
   element: earth
   id: earth_land_ndsi_margerieglacier
   measurementdescr: null
-  type: null
+  type: glacier
 prompt:
   act0descr: null
   act2descr: null

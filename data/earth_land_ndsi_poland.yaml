@@ -16,8 +16,8 @@ entitydata:
 entitydescr:
    id: earth_land_ndsi_poland
    bio:
-   type:
-   element: "earth"
+   type: land
+   element: earth
    descriptor:
    measurementdescr:
 

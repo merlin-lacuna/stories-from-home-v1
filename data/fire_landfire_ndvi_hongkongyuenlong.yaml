@@ -1,5 +1,5 @@
 entitydata:
-   measurementunit: "NDVI"
+   measurementunit: NDVI
    idealranges:
       lower: 0.45
       upper: 0.65
@@ -14,11 +14,11 @@ entitydata:
    chartstorage: chart_not_ready.png
 entitydescr:
    id: fire_forestfire_ndvi_hongkongyuenlong
-   bio: "I am a large and fertile hill near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I’m incredibly thirsty. I usually have plenty of moisture, but recently, I've gotten hardly any moisture. I feel dry and combustible."
-   type: "hill"
-   element: "fire"
-   descriptor: "large and fertile"
-   measurementdescr: "the amount of hill consumed by fire "
+   bio: 'I am a large and fertile hill near Deep Bay in the South China sea. My home can be hot, oppressive, and humid. But right now it's dry and windy. I've been getting warmer and warmer and I''m incredibly thirsty. I usually have plenty of moisture, but recently, I've gotten hardly any moisture. I feel dry and combustible.'
+   type: hill
+   element: fire
+   descriptor: large and fertile
+   measurementdescr: the amount of hill consumed by fire
 
 prompt:
    intro: 'The following play reveals the inner monologue of a large and fertile hill. It is divided into several acts. Throughout these acts, the hill describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
