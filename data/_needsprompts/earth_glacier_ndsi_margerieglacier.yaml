@@ -2,22 +2,22 @@ entitydata:
   actmoodlevels:
     act1: 5
     act2: 5
-    act3: 4
+    act3: 5
   actmoodsamples:
-    act1: 72.636
-    act2: 71.467
-    act3: 67.943
+    act1: 84.61
+    act2: 84.61
+    act3: 85.418
   idealranges:
-    lower: 72.0
-    upper: 76.0
+    lower: 80.0
+    upper: 87.0
   measurementunit: percent
 entitydescr:
   bio: null
   descriptor: null
   element: earth
-  id: earth_land_ndsi_poland
+  id: earth_land_ndsi_margerieglacier
   measurementdescr: null
-  type: null
+  type: glacier
 prompt:
   act0descr: null
   act2descr: null

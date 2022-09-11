@@ -15,8 +15,8 @@ entitydata:
 entitydescr:
    id: unknown
    bio: 'unknown'
-   type: 'unknown'
-   element: 'unknown'
+   type: 'glacier'
+   element: 'earth'
    descriptor: 'unknown'
    measurementdescr: 'unknown'
 

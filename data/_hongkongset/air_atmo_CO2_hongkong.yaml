@@ -15,8 +15,8 @@ entitydata:
 entitydescr:
    id: air_atmo_CO2_hongkong
    bio: "The air above me feels sultry and subtropical. I experience very mild winters and hot, rainy, and muggy summers. From where I lie, I can see the South China Sea, and I am almost touch my neighbour, the Pearl River Delta. My body is lined with hills and forests and my coastline is long and fragmented, splitting off into numerous islands."
-   type: "Land"
-   element: "air"
+   type: land
+   element: air
    descriptor: "rich and complex"
    measurementdescr: "carbon dioxide in the air above the"
 

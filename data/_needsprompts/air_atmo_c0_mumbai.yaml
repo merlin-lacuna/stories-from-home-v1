@@ -1,5 +1,5 @@
 entitydata:
-   measurementunit: "unknown"
+   measurementunit: "co2"
    idealranges:
       lower: 0
       upper: 0
@@ -15,8 +15,8 @@ entitydata:
 entitydescr:
    id: unknown
    bio: 'unknown'
-   type: 'unknown'
-   element: 'unknown'
+   type: 'land'
+   element: 'air'
    descriptor: 'unknown'
    measurementdescr: 'unknown'
 
