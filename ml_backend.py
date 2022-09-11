@@ -2,6 +2,7 @@ import openai
 import streamlit as st
 import os
 import re
+import random
 
 class ml_backend:
 
@@ -42,6 +43,8 @@ class ml_backend:
         return response.get("choices")[0]['text']
 
     def generate_text(self,myprompt, maxt, element):
+        lengthext = random.randint(1, 56)
+        maxt = maxt + lengthext
         response = openai.Completion.create(
             model=element,
             prompt=myprompt,

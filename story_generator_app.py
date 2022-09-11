@@ -106,7 +106,7 @@ if load_yaml_data:
     #### END CONFIG
 
 ### DEFINE BASIC PARAMS
-maxlength = 256
+maxlength = 300
 #maxlength = 60
 gencount = 1
 selectedmodel = "unknown"
@@ -332,12 +332,12 @@ with st.form(key="form8"):
     act1gen = st.session_state.ouput1.replace('\\n','\n')
     act2gen = st.session_state.ouput2.replace('\\n','\n')
     act3gen = st.session_state.ouput3.replace('\\n','\n')
-    genpayload = {
+    genpayload = [{
         'aagen_id': genid,
         'act1gen': act1gen.strip(),
         'act2gen': act2gen.strip(),
         'act3gen': act3gen.strip()
-                  }
+                  }]
     econfig['storygenerations']= genpayload
     show_yamlstory = st.form_submit_button(label='Show yaml generation')
     if show_yamlstory:
