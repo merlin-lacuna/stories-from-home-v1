@@ -159,7 +159,7 @@ with open(INPUT_YAML, encoding="utf-8") as file:
     # The FullLoader parameter handles the conversion from YAML
     # scalar values to Python the dictionary format
     yaml_file_object = yaml.load(file, Loader=yaml.FullLoader)
-    chart = yaml_file_object['entitydata']['chartstorage']
+    chart = "../charts/" + yaml_file_object['entitydata']['chartstorage']
     print(chart)
 
     if PRINT_HTML:
