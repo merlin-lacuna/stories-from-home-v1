@@ -1,5 +1,6 @@
 entitydata:
   measurementunit: "ndsi percent"
+  chartstorage: earth_land_ndsi_maikosnowresort.png
   actmoodlevels:
     act1: 5
     act2: 5
@@ -11,7 +12,6 @@ entitydata:
   idealranges:
     lower: 80.0
     upper: 87.0
-  chartstorage: earth_land_ndsi_maikosnowresort.png
 
 entitydescr:
   id: earth_land_ndsi_maikosnowresort

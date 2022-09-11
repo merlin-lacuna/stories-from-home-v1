@@ -1,5 +1,5 @@
 entitydata:
-   measurementunit: "unknown"
+   measurementunit: "co2"
    idealranges:
       lower: 0
       upper: 0
