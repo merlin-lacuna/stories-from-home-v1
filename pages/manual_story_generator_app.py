@@ -184,10 +184,10 @@ with st.form(key="form"):
     act1res = st.markdown(st.session_state.man_entity + ': ' + st.session_state.man_ouput1)
 
 with st.form(key="form1a"):
-    edit_ouput1 = st.text_area('Output 1', st.session_state.ouput1, height=150)
+    edit_ouput1 = st.text_area('Output 1', st.session_state.man_ouput1, height=150)
     save_ouput1 = st.form_submit_button(label='Save Output 1')
     if save_ouput1:
-        st.session_state.ouput1 = edit_ouput1
+        st.session_state.man_ouput1 = edit_ouput1
 
 with st.form(key="form2"):
     output2 = ''
@@ -215,10 +215,10 @@ with st.form(key="form2"):
     act2res = st.markdown(st.session_state.man_entity + ': ' + st.session_state.man_ouput2)
 
 with st.form(key="form2a"):
-    edit_ouput2 = st.text_area('Output 2', st.session_state.ouput2, height=150)
+    edit_ouput2 = st.text_area('Output 2', st.session_state.man_ouput2, height=150)
     save_ouput2 = st.form_submit_button(label='Save Output 2')
     if save_ouput2:
-        st.session_state.ouput2 = edit_ouput2
+        st.session_state.man_ouput2 = edit_ouput2
 
 with st.form(key="form3"):
     output3 = ''
@@ -247,10 +247,10 @@ with st.form(key="form3"):
     act2res = st.markdown(st.session_state.man_entity + ': ' + st.session_state.man_ouput3)
 
 with st.form(key="form3a"):
-    edit_ouput3 = st.text_area('Output 3', st.session_state.ouput3, height=150)
+    edit_ouput3 = st.text_area('Output 3', st.session_state.man_ouput3, height=150)
     save_ouput3 = st.form_submit_button(label='Save Output 3')
     if save_ouput3:
-        st.session_state.ouput3 = edit_ouput3
+        st.session_state.man_ouput3 = edit_ouput3
 
 with st.form(key="form4"):
     show_story = st.form_submit_button(label='Show final story')
