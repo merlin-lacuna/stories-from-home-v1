@@ -11,6 +11,7 @@ entitydata:
     lower: 2.4
     upper: 2.8
   measurementunit:
+  chartstorage: earth_land_lai_blackforest.png
 entitydescr:
   id: earth_land_lai_blackforest
   bio: 'I am a large forest and I...'

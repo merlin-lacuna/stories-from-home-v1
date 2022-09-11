@@ -10,8 +10,9 @@ import sys
 from ruamel.yaml import YAML
 from PIL import Image
 
-st.title("Story Generator")
-st.sidebar.header("Story Generator")
+st.set_page_config(page_title="Manual Story Generator", page_icon="📖")
+st.markdown("# Manual Story Generator")
+st.sidebar.header("Manual Story Generator")
 
 backend = ml_backend()
 oa = openai
@@ -21,9 +22,7 @@ oa.api_key = os.getenv("OPENAI_API_KEY")
 if 'entitytype' not in st.session_state:
     st.session_state.entitytype = 'ENTITY: '
 if 'elementmodel' not in st.session_state:
-    st.session_state.elementmodel = 'unknown'
-    #elementlist = ["earth", "water", "fire", "air"]
-    #mymodel = st.selectbox('Select an element: ', elementlist)
+    st.session_state.elementmodel = 'awaiting element model'
 if 'gentype' not in st.session_state:
     st.session_state.gentype = 'awaiting gentype...'
 if 'intro' not in st.session_state:
@@ -51,26 +50,26 @@ if 'ouput3' not in st.session_state:
     st.session_state.ouput3 = 'awaiting output3...'
 #### END SESSION VARS
 
-with st.form(key="init"):
-    #### ENTITY CONFIG DROPDOWN
-    # folder path
-    dir_path = 'data'
-    # list to store files
-    res = ["----"]
-    # Iterate directory
-    for file in os.listdir(dir_path):
-        # check only text files
-        if file.endswith('.yaml'):
-            res.append(file)
-
-
-    configfile = st.selectbox(
-        'Select your config file ',
-        res)
-    st.write('You selected:', configfile)
-    load_yaml_data = st.form_submit_button(label='Load Config Data')
-
-    ###################
+# with st.form(key="init"):
+#     #### ENTITY CONFIG DROPDOWN
+#     # folder path
+#     dir_path = 'data'
+#     # list to store files
+#     res = ["----"]
+#     # Iterate directory
+#     for file in os.listdir(dir_path):
+#         # check only text files
+#         if file.endswith('.yaml'):
+#             res.append(file)
+#
+#
+#     configfile = st.selectbox(
+#         'Select your config file ',
+#         res)
+#     st.write('You selected:', configfile)
+#     load_yaml_data = st.form_submit_button(label='Load Config Data')
+#
+#     ###################
 
 # placeholder econfig
 econfig={
@@ -92,16 +91,16 @@ econfig={
     }
 }
 
-if load_yaml_data:
-
-    #### LOAD SELECTED ENTITY CONFIG
-    yaml = YAML(typ='safe')
-    yaml.default_flow_style = False
-    configfile = "./data/" + configfile
-
-    with open(configfile, encoding='utf-8') as f:
-        econfig = yaml.load(f)
-    #### END CONFIG
+# if load_yaml_data:
+#
+#     #### LOAD SELECTED ENTITY CONFIG
+#     yaml = YAML(typ='safe')
+#     yaml.default_flow_style = False
+#     configfile = "./data/" + configfile
+#
+#     with open(configfile, encoding='utf-8') as f:
+#         econfig = yaml.load(f)
+#     #### END CONFIG
 
 ### DEFINE BASIC PARAMS
 maxlength = 256
@@ -164,36 +163,38 @@ try:
 except:
     st.session_state.prompt3 = "prompt3/act3 not defined in yaml"
 ###################
-st.write('Configured element:', st.session_state.elementmodel)
 
-### DEFINE ML MODEL
-#print("checking model: " + st.session_state.elementmodel)
-if st.session_state.elementmodel == "earth":
-    selectedmodel = "davinci:ft-personal-2022-05-08-13-37-54"
-elif st.session_state.elementmodel == "water":
-    selectedmodel = "davinci:ft-personal:water-2022-03-31-23-56-04"
-elif st.session_state.elementmodel == "fire":
-    selectedmodel = "davinci:ft-personal:fire-2022-07-06-02-12-31"
-elif st.session_state.elementmodel == "air":
-    selectedmodel = "davinci:ft-personal:air-2022-07-05-23-19-23"
-else:
-    selectedmodel = "unknown"
-    print("Selected model is unknown:" + st.session_state.elementmodel)
-###################
-
-
-
-### SET CHART LOC
-try:
-    image = Image.open("charts/" + st.session_state.chartloc)
-    st.image(image, caption='Data Chart')
-except:
-    image = Image.open("charts/chart_not_ready.png")
-    st.image(image, caption='Data Chart')
-###################
+# ### SET CHART LOC
+# try:
+#     image = Image.open("charts/" + st.session_state.chartloc)
+#     st.image(image, caption='Data Chart')
+# except:
+#     image = Image.open("charts/chart_not_ready.png")
+#     st.image(image, caption='Data Chart')
+# ###################
 
 with st.form(key="form"):
     output1 = ''
+
+    elementlist = ["---","earth", "water", "fire", "air"]
+    mymodel = st.selectbox('Select an element: ', elementlist)
+    st.session_state.elementmodel = mymodel
+    if mymodel in ["earth", "water", "fire", "air"]:
+        ### DEFINE ML MODEL
+        # print("checking model: " + st.session_state.elementmodel)
+        if st.session_state.elementmodel == "earth":
+            selectedmodel = "davinci:ft-personal-2022-05-08-13-37-54"
+        elif st.session_state.elementmodel == "water":
+            selectedmodel = "davinci:ft-personal:water-2022-03-31-23-56-04"
+        elif st.session_state.elementmodel == "fire":
+            selectedmodel = "davinci:ft-personal:fire-2022-07-06-02-12-31"
+        elif st.session_state.elementmodel == "air":
+            selectedmodel = "davinci:ft-personal:air-2022-07-05-23-19-23"
+        else:
+            selectedmodel = "unknown"
+            print("Selected model is unknown:" + st.session_state.elementmodel)
+            st.write('Configured element:', st.session_state.elementmodel)
+        ###################
 
     try:
         introact0rawprompt = st.session_state.intro + st.session_state.prompt0  + st.session_state.entitybio + '\\n\\n'
@@ -213,6 +214,8 @@ with st.form(key="form"):
 
     submit_act1 = st.form_submit_button(label='Generate Act1')
     if submit_act1:
+        st.write("Requesting with model type:", st.session_state.elementmodel)
+        st.write("Requesting with model:", selectedmodel)
         with st.spinner("Generating Act..."):
             #output1 = backend.generate_text_test1(finalrawprompt1)
             output1 = backend.generate_text(finalrawprompt1,maxlength,selectedmodel)

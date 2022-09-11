@@ -85,15 +85,10 @@ def get_act(myprompt, maxt, element):
 
 
 intro = econfig['prompt']['intro']
-
 entitybio = econfig['entitydescr']['bio']
-
 act0descr = econfig['prompt']['act0descr']
-
 act1descr = econfig['prompt']['act1descr']
-
 act2descr = econfig['prompt']['act2descr']
-
 act3descr = econfig['prompt']['act3descr']
 
 for x in range(gencount):
