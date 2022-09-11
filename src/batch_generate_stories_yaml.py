@@ -2,6 +2,7 @@ import os
 import re
 import openai
 import datetime
+import random
 from contextlib import redirect_stdout
 import sys
 from ruamel.yaml import YAML
@@ -9,7 +10,7 @@ from ruamel.yaml import YAML
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/earth_land_ndsi_poland.yaml"
+configfile="../data/earth_forest_lai_amazonas.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -19,7 +20,8 @@ with open(configfile, encoding='utf-8') as f:
 oa = openai
 oa.api_key = os.getenv("OPENAI_API_KEY")
 
-maxlength = 256
+
+maxlength = 300
 elementmodel = econfig['entitydescr']['element']
 gentype = econfig['entitydescr']['id']
 gencount = 1
@@ -59,6 +61,10 @@ def trim_output(completion):
 
 
 def get_act(myprompt, maxt, element):
+    lengthext = random.randint(1, 56)
+    maxt = maxt + lengthext
+    print("Requesting generation with model: " + element)
+    print("Requesting generation with maxlength: " + str(maxt))
     response = openai.Completion.create(
         model=element,
         prompt=myprompt,
@@ -101,9 +107,7 @@ for x in range(gencount):
         print("\n\n<PRETTYPROMPT>")
         print(act1prettyprompt)
         print("</PRETTYPROMPT>")
-        print("<RAWPROMPT>")
-        print(prompt)
-        print("</RAWPROMPT>\n\n")
+        print("<RAWPROMPT>" + prompt + "</RAWPROMPT>\n\n")
         act1raw = get_act(prompt, maxlength, selectedmodel)
         act1 = trim_output(act1raw)
         # print(act1)
@@ -123,9 +127,7 @@ for x in range(gencount):
         print("\n\n<PRETTYPROMPT>")
         print(act2prettyprompt)
         print("</PRETTYPROMPT>")
-        print("<RAWPROMPT>")
-        print(prompt)
-        print("</RAWPROMPT>\n\n")
+        print("<RAWPROMPT>" + prompt + "</RAWPROMPT>\n\n")
         act2raw = get_act(prompt, maxlength, selectedmodel)
         # print(act2raw)
         act2 = trim_output(act2raw)
@@ -149,9 +151,7 @@ for x in range(gencount):
         print("\n\n<PRETTYPROMPT>")
         print(act3prettyprompt + act3)
         print("</PRETTYPROMPT>")
-        print("<RAWPROMPT>")
-        print(prompt+act3)
-        print("</RAWPROMPT>\n\n")
+        print("<RAWPROMPT>" + prompt + "</RAWPROMPT>\n\n")
 
         print("This is act3: ")
         print("----------------------------------")

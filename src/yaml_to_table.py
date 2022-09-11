@@ -8,6 +8,8 @@ import argparse
 """This program is helper tool for folks who need to document YAML file. It will read YAML and generate tables out of 
 each section of YAML - (as of now) it add two additional columns "itItRequired" and "description" 
 
+python yaml_to_table.py --inputFile ../data/earth_forest_lai_amazonas.yaml --out html
+
 It can generated (text) table or HTML table
 
 Example :
@@ -162,7 +164,7 @@ with open(INPUT_YAML, encoding="utf-8") as file:
 
     if PRINT_HTML:
         html_st = []
-        f = open(OUTPUT_HTMl, "w")
+        f = open(OUTPUT_HTMl, "w",encoding="utf-8")
         html_st.append(CSS_TEXT)
 
     i = 0

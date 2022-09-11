@@ -8,6 +8,7 @@ import datetime
 from contextlib import redirect_stdout
 import sys
 from ruamel.yaml import YAML
+from ruamel.yaml.compat import StringIO
 from PIL import Image
 
 st.title("Story Generator")
@@ -89,7 +90,8 @@ econfig={
         "act1descr": st.session_state.prompt1,
         "act2descr": st.session_state.prompt2,
         "act3descr": st.session_state.prompt3,
-    }
+    },
+    'storygenerations': {}
 }
 
 if load_yaml_data:
@@ -193,7 +195,7 @@ except:
 ###################
 
 with st.form(key="form"):
-    output1 = ''
+    output1 = '---'
 
     try:
         introact0rawprompt = st.session_state.intro + st.session_state.prompt0  + st.session_state.entitybio + '\\n\\n'
@@ -225,8 +227,14 @@ with st.form(key="form"):
     act1static = st.session_state.entity + ': some output...'
     act1res = st.markdown(st.session_state.entity + ': ' + st.session_state.ouput1)
 
+with st.form(key="form1a"):
+    edit_ouput1 = st.text_area('Output 1', st.session_state.ouput1, height=150)
+    save_ouput1 = st.form_submit_button(label='Save Output 1')
+    if save_ouput1:
+        st.session_state.ouput1 = edit_ouput1
+
 with st.form(key="form2"):
-    output2 = ''
+    output2 = '---'
     try:
        act2rawprompt = finalrawprompt1 + st.session_state.ouput1 + '\\n\\n' + st.session_state.prompt2 + '\\n\\n'
        act2prettyprompt = finalprettyprompt1  + '\n\n' + st.session_state.ouput1.replace('\\n', '\n') + '\n\n' + st.session_state.prompt2.replace('\\n', '\n') + '\n\n'
@@ -250,8 +258,14 @@ with st.form(key="form2"):
 
     act2res = st.markdown(st.session_state.entity + ': ' + st.session_state.ouput2)
 
+with st.form(key="form2a"):
+    edit_ouput2 = st.text_area('Output 2', st.session_state.ouput2, height=150)
+    save_ouput2 = st.form_submit_button(label='Save Output 2')
+    if save_ouput2:
+        st.session_state.ouput2 = edit_ouput2
+
 with st.form(key="form3"):
-    output3 = ''
+    output3 = '---'
     try:
         act3rawprompt = act2rawprompt  + st.session_state.ouput2 + '\\n\\n' +  st.session_state.prompt3
         act3prettyprompt = act2prettyprompt  + '\n\n' + st.session_state.ouput2.replace('\\n', '\n') + '\n\n' +  st.session_state.prompt3.replace('\\n', '\n')
@@ -275,6 +289,12 @@ with st.form(key="form3"):
         #st.write('Output3 = ', st.session_state.ouput3)
 
     act2res = st.markdown(st.session_state.entity + ': ' + st.session_state.ouput3)
+
+with st.form(key="form3a"):
+    edit_ouput3 = st.text_area('Output 3', st.session_state.ouput3, height=150)
+    save_ouput3 = st.form_submit_button(label='Save Output 3')
+    if save_ouput3:
+        st.session_state.ouput3 = edit_ouput3
 
 with st.form(key="form4"):
     show_story = st.form_submit_button(label='Show final story')
@@ -303,3 +323,38 @@ with st.form(key="form7"):
     if show_prettyprompts:
         act3prettyrompt = act3rawprompt.replace('\\n', '\n\n') + st.session_state.ouput3
         st.markdown(act3prettyrompt)
+
+with st.form(key="form8"):
+    # datetime object containing current date and time
+    dt_string = datetime.datetime.now().strftime("%d-%m-%Y_%H_%M_%S")
+    ###### WRITE GENERATIONS TO YAML
+    genid = dt_string
+    act1gen = st.session_state.ouput1.replace('\\n','\n')
+    act2gen = st.session_state.ouput2.replace('\\n','\n')
+    act3gen = st.session_state.ouput3.replace('\\n','\n')
+    genpayload = {
+        'aagen_id': genid,
+        'act1gen': act1gen.strip(),
+        'act2gen': act2gen.strip(),
+        'act3gen': act3gen.strip()
+                  }
+    econfig['storygenerations']= genpayload
+    show_yamlstory = st.form_submit_button(label='Show yaml generation')
+    if show_yamlstory:
+        class MyYAML(YAML):
+            def dump(self, data, stream=None, **kw):
+                inefficient = False
+                if stream is None:
+                    inefficient = True
+                    stream = StringIO()
+                YAML.dump(self, data, stream, **kw)
+                if inefficient:
+                    return stream.getvalue()
+
+
+        myaml = MyYAML()
+        yaml = YAML()
+        def tr(s):
+            return s.replace('\n', '<br>')
+        st.markdown(myaml.dump(econfig,transform=tr))
+        yaml.dump(econfig,sys.stdout)

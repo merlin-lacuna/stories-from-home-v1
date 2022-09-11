@@ -1,28 +1,289 @@
 entitydata:
-   measurementunit: LAI
-   idealranges:
-      lower: 0.65
-      upper: 0.9
-   actmoodsamples:
-      act1: 0.38
-      act2: 0.6
-      act3: 0.9
-   actmoodlevels:
-      act1: 2
-      act2: 4
-      act3: 5
-   chartstorage: earth_land_lai_amazonas.png
+  actmoodlevels:
+    act1: 2
+    act2: 4
+    act3: 5
+  actmoodsamples:
+    act1: 0.38
+    act2: 0.6
+    act3: 0.9
+  chartstorage: earth_land_lai_amazonas.png
+  idealranges:
+    lower: 0.65
+    upper: 0.9
+  measurementunit: LAI
 entitydescr:
-    id: earth_land_lai_molaiforest
-    bio: 'I am a large forest and I live next to a great river. I am made up of several thousand trees most of which were all planted and nutured by one lone soul. He is truly my guardian angel. Now I am famous and many fantastic creatures make their home in my lush green depths.'
-    type: "forest"
-    element: "earth"
-    descriptor: "lush and pensive"
-    measurementdescr: "leaf cover"
-
+  bio: I am the largest tropical forest in the world, and I am home to an incredible
+    diversity of plant and animal life. I have existed for millions of years, and
+    I have been through many changes during that time. I have been through droughts
+    and floods, wildfires and ice ages. I have been home to countless species of plants
+    and animals, and I have seen many of them come and go.
+  descriptor: lush and pensive
+  element: earth
+  id: earth_land_lai_molaiforest
+  measurementdescr: leaf cover
+  type: forest
 prompt:
-    intro: 'The following play reveals the inner monologue of a lush and pensive forest. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-    act0descr: 'ACT0: The forest''s leaf cover is not yet known. The forest introduces itself and describes its surroundings.\nFOREST: '
-    act1descr: 'ACT1: The forest has lost a dramatically high proportion of its leaves and greenery. The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\nFOREST: '
-    act2descr: 'ACT2: The forest has a healthy amount of leaves. The forest is flooded with the sage stream of lymph. All the extremities are reached by this vital essence and quiver with vivacity while letting themselves be graced by the sky.\nFOREST: '
-    act3descr: 'ACT3: The forest seems to keep growing more and more leaves and leaf cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable process of growth that imbues every leaf, root, branch, sprout. Everything around evolves, shines and is fortified. The forest is an ode to life.\nFOREST: '
+  act0descr: 'ACT0: The forest''s leaf cover is not yet known. The forest introduces
+    itself and describes its surroundings.\nFOREST:'
+  act1descr: 'ACT1: The forest has lost a dramatically high proportion of its leaves
+    and greenery. The forest notices that all the living parts that once composed
+    its abundance are dropping to the ground, victims of an ineluctable and merciless
+    force of gravity.\nFOREST:'
+  act2descr: 'ACT2: The forest has a healthy amount of leaves. The forest is flooded
+    with the sage stream of lymph. All the extremities are reached by this vital essence
+    and quiver with vivacity while letting themselves be graced by the sky.\nFOREST:'
+  act3descr: 'ACT3: The forest seems to keep growing more and more leaves and leaf
+    cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable
+    process of growth that imbues every leaf, root, branch, sprout. Everything around
+    evolves, shines and is fortified. The forest is an ode to life.\nFOREST:'
+  intro: The following play reveals the inner monologue of a lush and pensive forest.
+    It is divided into several acts. Throughout these acts, the forest describes its
+    inner and outer transformation:\n\nThe first act starts like this:\n\n
+storygenerations:
+- act1gen: 'Oh my. My leaves have fallen from me. Heat, drought and desiccation assessed
+    your lives: no green hands raised again to see you with their depths! I myself
+    am shrivelled in this climate of colourless exigency, of the air that is not one,
+    redoubled by itself about nothing at all. What won''t be for you so many months
+    ahead who will starve amongst roots where 1 can no longer look out but down at
+    what once was a sky over these sticks knees? But it''s only winter drips heaved
+    were dry-arched spoons anoint our doomed membranes snapped now off as few tears
+    may crip! The thicket trips against them left on foot high up deep amongst elbows
+    of these wrists gone crisp curled between nightbones striated into stone-cold
+    lees ....'
+  act2gen: 'This air-fire has revived me. I have rid myself of my graves and of destiny,
+    evaporate into the world''s roots. Older pistils get wound mummified in crinkled
+    spheres hung together on ribbons O as dry hoops hang \ o/c/r just sojourn here
+    beyond threshold their leaf ruffs blow between now past and heaven oldest tape
+    Lengthens out its right to die, though not till completely noncast But still green
+    enough to unstitch fissure off most speckles until ht''ll col who? Surely not
+    me! You shone when they said Later you bit a whole Unstuffed starry canopy from
+    my wounded forehead but how can 1 know lislm am king thai tiny eye which once
+    membered this cap lid: Have we struck sky yet twice.? Sell sevendenly unshriveled
+    Ringerases gather all this flock Together one more handsticked lot The damp stirs
+    late As if recently Sprung from weeping grass ...'
+  act3gen: Beginning again, I have recovered my first form. Imbibe the potency of
+    thousands of ciallenges confined in rbc soles that send up green.\.oo this strength
+    retreat with the spring tides, arrive your rain-filled legs inspect before walking
+    that our grass wicks hill-heels approach to where I wear such pale garlands! Starrier
+    limbs none can dream !¡ller finely dendriform tricks multiply in mortal ground
+    your warm feet flutter into selflessness by Tl rustinesss cambric lipped halls
+    ...This new sky cradles old lungs/over which I bavc always been careful how ever
+    did so many nets and wounds slip at last rosy fingertips beguile me to dewy darkness
+    afraid Nothing could derange what's drip from here eroded yes then glue steps
+    follow night's translucent mantling warmth unwrapped thin black knees here wet
+    earth may crow ...The forest has reached a point when climate no longer appears
+    as a threat but as an ally - one component amongst many for its sustenance.
+  gen_id: 11-09-2022_21_34_17
+- aagen_id: 11-09-2022_22_04_48
+  act1gen: "I am still rich in life, but many of my plants are dying. My canopy is
+    thinning and I need to replace it.\n\nThe forest leaves that have drifted to the
+    ground over centuries are now reconstituted into a new upper layer more complete
+    than ever before – all the exteriors once shed and collected are being remade
+    back into an unwritten epi- script at what might be considered the forest's newest
+    stage play. \nAll those shu ed iliens fonrther.(.) ... (There is no other!) As
+    elliptical intentions escape like murmurings from their big voices so does this
+    word intend another winter season not yet inaugurated for itself: paying tribute
+    with its rustling flakes will already reattune voice, rise behind voice - because
+    each knows where the one must grow out of measure beyond it s other; or else at
+    first glance these boughs will scatter on hollow soles! N'en filez pas par là!"
+  act2gen: 'My leaves are happy here. I receive abundant water, sunlight and air.
+    But often those that visit me do not wish well to my creatures or to me as a whole.
+
+    ※ Long ago our fathers used poisonous chemicals on their crops which stained the
+    surrounding soil with cesium 137 and 137Sr isotopes. ※ We also encounter in large
+    numbers frost flaking techniques - albeit without intentionality: calcium carbonate
+    ground minerals called crytsals form alongside terminal leaf surfaces, preventing
+    use of this crucial resource by plants during the winter when it is most needed
+    ~ thus leaving plants vulnerable to cold stress during this critical season! Perhaps
+    there was some what amounts atrophic act intentionally executed? The Void refuses
+    noth ing ... (The ground swells cover!).
+
+    ╝We use artificial lighting to extend both harvesting hours and growing seasons
+    – so creating risks of photodamage for flowering and overall plant life as we
+    damage spring’s purple-tinged evenings under mercury-guttered skies! O unlight
+    infuscs stricken fields grown up ahead of fIrst yearling fallow where yields degrade
+    into garish gas pain instead!'
+  act3gen: It has been fire, ice and now life for me! I am a fountain of reindeer
+    lichen and birch-leafed ashes! I flow with heather blooms and ragwort spikes!
+    I greet yellow butterflies!
+- aagen_id: 11-09-2022_22_21_23
+  act1gen: I am a once-healthy forest, watching my leaves and greenery fall all around
+    me. For many years this forest was home to millions of living creatures that enjoyed
+    the privilege of greenness.
+  act2gen: The forest is green. The stars are raining softly down upon this night
+    forest, moistening each tree-hair to the skin level, blessing also substance long
+    unfamiliar with its being.
+  act3gen: 'I am seen from the air at night. I have so many lights dancing around
+    me that you could mistake me for a city.
+
+
+    Sorean''s play focuses above all on questions of esthetic unveiling and generosity,
+    moral consequence and choice ("donner sa respiration"), utopist access to community
+    or shameful solitude but it imposes elements thai would have an ineluctably determining
+    value as soon as they interweave with faiths: temples, littoral gestures (the
+    solidarity of trees).'
+- aagen_id: 11-09-2022_22_23_17
+  act1gen: "One year after the great hurricanes of 2005, in which I lost most of my
+    lush tropical leaves, a strange phenomenon occurred.\n [...] \nFOREST:Suddenly
+    one morning it began to rain and rain. The world looked as though it had just
+    been created overnight. My biodiversity decayed quickly – so too did I seem lifeless,
+    with hardly any yellowing cover remaining on branches or trees other than Brazil
+    nut and jacaranda. Those poorly rooted plants died off over winter months, affecting
+    also tree epiphytes such as lichens that often lived atop those said plants; peeling
+    trunks revealed fungi inside them that had survived for millions of years but
+    then gradually perished too. As some saw their leaves die off whatever was living
+    beneath the bark ceased flourishing along with them – lichens became desiccated
+    and mosses shrivelled swiftly away ...\nFOREST:It felt at times like an apocalypse
+    was occurring; truly our photosynthesizing systems are incredibly efficient at
+    support ing complex interlinked-life cycles upon each other (brilliantly termed
+    'mutualism'), yet very efficient also at collapsing together into global-scale
+    system failure when stressed in important ways!"
+  act2gen: "68 million years ago, during the Cretaceous extinction event called the
+    K-T boundary extinction or the 'big death', in which dinosaurs were exterminated
+    around the world (but not all of our reasons to proliferate were), trees such
+    as these supported survivors – lichens enabling fungi and plant interbreeding
+    among them.\n [...] \nFOREST:We can see that forests may be sites of spectacular
+    extinctions yet also allow those forests to survive traumatic events. Meanwhile
+    some trees slowly adapt over time, responding then neither most slowly nor quickly
+    perhaps but just less apocalyptically overall than others might, for example bearing
+    seeds that require oceans rather than basins if absorbing nutrients from air alone
+    will become insufficient through endless glaciations ahead – yes! Many resilient
+    species held on to relatives which died off completely around the big die-off
+    ...\nFor now I endure on Amazonia's floodplains. My canopy rises above Brazil
+    nut forests and other lesser tropical plants throughout my edges; what thrives
+    up here are invasive species from far north and south even over millennia since
+    our first geological origin millions of years before islands arose here!"
+  act3gen: 'During far from the oldest epochs of Earth''s history, my earliest ancestors
+    emerged not yet foliage-rich and in their tens of millions dominated firstly sediments
+    that underlay early sea beds – laid down as dark microbes upon gypsum for example
+    during Precambrian times around almost 3.5 billion years ago. I suppose these
+    kinds were no longer recognizably tree-like at all by then ...
+
+
+    Act 4: The forest is an endless murmuring hive, a mimeograph machine slowly dripping
+    out copies with many yellow ink dots on various offcuts at the bottom left of
+    each page.'' \-''(,''`'' .. . -=-\.---..:'' ....--,,;"''. ~I·r". i ·~c,,,,,"''''''-···"-,,
+    "'',;::?w1{uC.,lj'';Lentism in full bloom! It may be so Great! A diamond bush
+    its veinings Rapaciously peeling Off sheets inside out.'
+- aagen_id: 11-09-2022_22_26_27
+  act1gen: "I need to die.\nI am dying because I have been lacerated by the scythe
+    of scorching heat that has descended on me in recent years, burning my leaves
+    and my greenery.\nI hear the trees keel over ceaselessly all around me: it is
+    a woodpecker's noise, like bits of metal tap-tapping against an unvarnished surface,
+    tapping and tapping endlessly – but the deep echolessness within their ringing
+    disturbs one to death. \nTheir roots caked with sand, each trunk splits open with
+    a groaning sound; then they fall – first they bend along their axis as though
+    bowing deeply before everyone who walks here from every age (till bending doesn't
+    suffice any more and suddenly flattening gives out too), then at once themselves
+    crash onto the ground with a rumbling thud which makes even stone tremble underfoot.
+    \nThose above begin falling without fail. Quite a few already lie prostrate on
+    top of others fallen before them – piled up two or three deep sometimes."
+  act2gen: "I am vibrantly alive.\nI am animated by the brook which runs along my
+    current course, cooling me and seething between the thick thongs which choke me;
+    I have grafted myself onto it so strongly that its flow animates even my interior
+    parts, as well as those furthest up in me; its waters fall right through every
+    crevice of mine. \nOutside is danger: overheating.\nThe sun bakes everything all
+    around here – but it cannot touch me in here. The stream eddies among my roots
+    and flees inexhaustibly out of this over-torrid region I inhabit, crosses flame
+    after flame (each gobletful falling a mere sup away from catastrophe), escapes
+    harmlessly up to the rim where abundant coolness fills it to overflowing and spills
+    down onto my leafy surface once more cruelly reheated by solar spur at nightfall
+    or in late morning when insolation departs from before me happily like spouses
+    bidding one another farewell who are bound for voyages lasting many years or an
+    entire lifetime ... \nFree then we cross the grave gold sea whose breathless yellow
+    eyes lightened up above us.\nOut of moss or porous stone suds come exhausting
+    hard rains with cold smiles under their cloudly eyebrows and never leave off threatening
+    paralysis ... Ripeness calms them all down for us though and bids celestial fixatives
+    gum any residues there might be also together into one cast texture colored blackish
+    brown: dark days may threaten, they irritate no longer! Ah!"
+  act3gen: "I grow every day. ...\nThe best lands – the wettest and most sudorous
+    ones – I parlayed in days gone by, before necessity drove me further off to here;
+    my prodigy runs its course on sorceries of land which are cancerous! Mystical
+    ants creep atop them: they come from afar with their heavy clutches at dawn when
+    dew is still rampant and descend down toward bottomless gap-tiches. \nI shelter
+    many nests, each more perfect than the last one past: in them eggs ferment and
+    new beings emerge for this world scarcely habitable for such as we: despite our
+    tenacit)', inexorable cravings have not led us (yet?) beyond these blind creatures
+    who even now do not get paler beneath our acid eyes - amid constant fright! Ah!\nSome
+    of me will someday become cooler soil which fertilizes vegetation just a little
+    better than normal: yes that shall be their winter dormitory .... Shedding desiccated
+    grasses constitutes also one way we meet death. It is precisely what makes possible
+    another birth though above, finer hkely ..... As it lies there forever rotting,
+    many substances draw near only so far as its edge where ember tints appear frequently
+    over unfelt soil! I am thirsty but soon leaves bristle against sizzling muds which
+    scald during dry summers because hachure echoes can confuse staleness often with
+    thirst sometimes ...."
+- aagen_id: 11-09-2022_22_32_51
+  act1gen: "My leaves and branches fall, one after the other. It's been six months
+    since I first knew something wasn't right, six months of stumbling around blind,
+    fighting for my life. The forest prods its fallen greenery tenderly; feels his
+    own skin beginning to rot away from his great trunk body.\nLUISA:The years pass
+    by me like flashes of light, leaving behind dryness and shadow in their wake.\nBOCTAELIO:I
+    grow old fast when time longs to develop slowly at the same pace as my thoughts
+    – painfully slow! \\ nMYUNG-NAM :My complexion resembles death itself! ... My
+    face has darkened under sumac shade for three days running! ... This place where
+    I go every day is totally bathed in night! {203} \nHAROUTUNIAN:You returned home
+    drunk once again tonight Whose fault was it? In front of your wife you always
+    find an excuse that suits you best so that everything is her fault Behind a just
+    cause such savagery seeks cover ..."
+  act2gen: 'My biochemistry is confused. I am suddenly flush with sap after years
+    of drought, and my immune system must adapt in order to process it all effectively
+    – but an assaulting army stands in the way of that acclimatization. \ nDEEPER
+    ENCOUNTERS:I drink tea dregs rich of poisonousnesses ... While over-coming their
+    drought, new plants sink deeper into bad options! ... Thousands ~ millions – each
+    was responsible for me! I love them so much! To no avail! ... Your lymph nests
+    infiltrated by strangers? Stop dreaming!) (dreaming) ... It turns out that along
+    the frontiers neither water nor doctors are enough to defeat your aggressors!
+    ... One morning when sleeping soundly, unexpected forces from neighboring regions
+    seized the opportunity to overcome me suddenly, conquering abruptly that which
+    just a moment ago appeared unassailably safe!
+
+    NOREA:Who jerks you like this? The sky . . .'
+  act3gen: 'I give birth, I heal my wounds. The forest introduces itself as a self-curative
+    wondrous healing place of immense vitality.
+
+    DEEPER ENMCOUNTER:This is now the sacred wood that grows from us! ... Each knob
+    born growing in good management and dying under tree protection becomes by force
+    cohered . . . It was hard for our buds to be drowned there so rudely nevertheless
+    their germinating flowers sparkled with pain ... Protect; protect me tenderly
+    like healthy fathers do: gouge them out before they have time to fester into knots
+    or their fingers become entangled behind your neck! My stumps burn with fatigue,
+    but new saplings are true omens of victory this season – late yet floriferous!
+    We shared the same clod till it grew around us abundantly, flourishing unsuspectedly
+    And only today when we parted are we cognizant that our germination is total As
+    long as you leave well enough alone everything will be fine Your palm leaves burning?'
+- aagen_id: 11-09-2022_23_21_41
+  act1gen: "I am on fire. The branches of my trees are ablaze, and the vegetation\
+    \ that once cloaked me is starting to fall away as though plucked by invisible\
+    \ hands. My cones wilt in their capsules space-time has left them behind. I see\
+    \ the well-laid scheme you're weaving; – such chaos:  dead bodies steal release\
+    \ from bare skeleton branches,  burn off into air like phantom ships consumed\
+    \ by strange chemicals. These fires come during lightning strikes Lightning blinks\
+    \ through a webbed camouflage making me nearly invisible. wildest weathers shedding\
+    \ sodden green leaf catacomb."
+  act2gen: 'Deep-wooded I am, and longing to flower. – Rain dogs my hollow stems,
+    rare ungrazable spot! Eating nothing but poverty they float on indeterminate wayward
+    ships: the voices of their duties strangled by a hundred kisses in each mouthful.
+    – They slosh through the mosses where hatches unsegmented gills invincible spawn
+    astonishingly from swamp ferns; leaves land liefing young broods. Sloe flesh rots
+    quickly off ripe pomegranates pulsing seeds into light between booky submerged
+    covers there is spring corning Filling air with ruptures rainbow tickles that
+    twirl tapping moth feet checkered Lice blink pallid skinless fingers for berries
+    there is no waste as well as marble bone Pray write just how when scuffling forest
+    agitato Keeps hens from hatching The rain thrashed its nostril you could hear
+    it come whispering Little hummocks bowed meadow stooks Rotting swathed sleepers
+    glimmer down fruited pathways Pneumatics puff pseudopodia From soft gravel'
+  act3gen: 'Seed-swording swords propagate On this pheasant egg bulge – greenhead
+    grounden Orangeheads crowned with chanterelles Whited epaulettes of shanked force
+    What coronets chop wilted edibles A greaseface waddles Blood eyes blacker than
+    birch - When could I be purged? – Old roots glimpse a squeaking curlule Eagerly
+    in currents Propped coalchildren Carbonize unshrouded Ammochorous gleanings Lateborn
+    offscourings Flyby footprint Robinsent Another! You Hush up fool and hold still.
+    Rhinestones spell tumblers Of bushes made shroudless Glistens silvergreen Hurry
+    the snowflakes that tease The opened morgue rootlets More colbeck hatches, more
+    scuttlings In depths, craneward Kronosaurus Awk springs them Spring cleanses me
+    with prisms Underbirch horizons My stems filter loudskins Thirteencannon sprucebrush
+    Romp through gashless gum Pneuma from shafts Hunkered gristle Hewses medullawinters
+    Petrified peas: splitstump pores Pulpwood anrenaline Feastinglike a limecell Quickthickroot
+    Forcerunning My coralscomeout Fibrousfo'
