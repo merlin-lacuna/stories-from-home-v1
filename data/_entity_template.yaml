@@ -26,3 +26,9 @@ prompt:
    act1descr: 'ACT1: <add prompt>\nENTITY: '
    act2descr: 'ACT2: <add prompt>\nENTITY: '
    act3descr: 'ACT3: <add prompt>\nENTITY: '
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
