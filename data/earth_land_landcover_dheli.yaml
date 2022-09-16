@@ -1,0 +1,36 @@
+entitydata:
+  measurementunit: Land Cover
+  idealranges:
+    lower: 0.0
+    upper: 0.0
+  actmoodsamples:
+    act1:
+    act2:
+    act3:
+  actmoodlevels:
+    act1: 0
+    act2: 0
+    act3: 0
+  chartstorage:
+entitydescr:
+  id: earth_forest_landcover_dheli
+  bio:
+  type: "urban"
+  element: "earth"
+  descriptor:
+  measurementdescr: "km^2"
+
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+
+storygenerations:
+  aagen_id:
+    act1gen:
+
+    act2gen:
+
+    act3gen:
