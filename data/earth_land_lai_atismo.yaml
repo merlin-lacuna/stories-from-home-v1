@@ -1,28 +1,212 @@
 entitydata:
-   measurementunit: "unknown"
-   idealranges:
-      lower: 0
-      upper: 0
-   actmoodsamples:
-      act1: 0
-      act2: 0
-      act3: 0
-   actmoodlevels:
-      act1: 0
-      act2: 0
-      act3: 0
-   chartstorage: chart_not_ready.png
+  actmoodlevels:
+    act1: 5
+    act2: 4
+    act3: 3
+  actmoodsamples:
+    act1: 1.1
+    act2: 0.95
+    act3: 0.8
+  chartstorage: earth_land_lai_atismo.png
+  idealranges:
+    lower: 1.0
+    upper: 1.2
+  measurementunit: LAI
 entitydescr:
-   id: unknown
-   bio: 'unknown'
-   type: 'forest'
-   element: 'earth'
-   descriptor: 'unknown'
-   measurementdescr: 'unknown'
-
+  bio: I am a vast and sandy tract of forest. Some of my trees are dry and deciduous
+    and others are spiny. My climate is hot and sweaty, but very occasionally, I become
+    tropical and sultry
+  descriptor: vast and sandy
+  element: earth
+  id: earth_land_lai_atismo
+  measurementdescr: leaf cover
+  type: forest
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nENTITY: '
-   act2descr: 'ACT2: <add prompt>\nENTITY: '
-   act3descr: 'ACT3: <add prompt>\nENTITY: '
+  act0descr: 'ACT0: The forest''s leaf cover is not yet known. The forest introduces
+    itself and describes its surroundings.\nFOREST:'
+  act1descr: 'ACT1: The forest seems to keep growing more and more leaves and leaf
+    cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable
+    process of growth that imbues every leaf, root, branch, sprout. Everything around
+    evolves, shines and is fortified. The forest is an ode to life.\nFOREST:'
+  act2descr: 'ACT2: The forest has a healthy amount of leaves. The forest is flooded
+    with the sage stream of lymph. All the extremities are reached by this vital essence
+    and quiver with vivacity while letting themselves be graced by the sky.\nFOREST:'
+  act3descr: 'ACT3: The forest can''t seem to stop losing leaves. The forest floats
+    in between questions with no answers, wondering to the sky, to the clouds, to
+    the grass if they witnessed anything it failed to see.\nFOREST:'
+  intro: The following play reveals the inner monologue of a lush and pensive forest.
+    It is divided into several acts. Throughout these acts, the forest describes its
+    inner and outer transformation:\n\nThe first act starts like this:\n\n
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
+- aagen_id: 13-09-2022_11_45_27
+  act1gen: "To be alive is to be surrounded by mill-smelling humidity, it's the scent
+    of living that rises and fills me up when I'm all nibbled away by the dark. \nAUTUMN:
+    I just come at the right time! HE'S LIGHTED A FIRE IN MY BONES ANDI AM NO LONGER
+    ALONE! I am beautiful because he makes me burn each so~ng ends exactly as if it
+    were beginning (inside), each hour finds its place (in its turn).\nFOREST:To live
+    IS to watch water in a leafless thicket where only dead thistles that haven't
+    seen completely are waiting for their lives whole year round. Hear them moan;
+    life is active around here The death cycle reaches maturity, its esse is l'être
+    [to b e]: seeds germinate, putrefaction takes root : \"nature has triumphed over
+    humanity:' . . .. Certainly not! Sunrays penetrate my canopy and imbue with birth
+    every germ put into hibernation underfoot Midnight sings In this cave smelling
+    of springtime you cut off head from wounded tree Heavy leaves fall on your nape
+    - some catch in your hair - Their breath mixed with sunlit leaves Isn't actually
+    bacterial rot related to pure respiration? Come out onto land fertilized by nothing
+    but st illness Breath tells you how Nothing unburdens care It will finish us off
+    or hurtle through ! ..."
+  act2gen: "To live IS to trust your feet in the soft mosses of the dampening forest,
+    it's communicating by firmer sprouts everything resinous you thus learn that immunity
+    comes before leaves. \nSHADE:I bring you dreams with my milky loam You are nourished
+    by depths and experience me as leaden Your nightmares are astringent Drunk on
+    thick night where I sift out from myself spores floating Come onto darkened track
+    trampled by rustling cicadas Shivers race over empty spaces ...\nFOREST:To be
+    linked is for a-corpuscle-rich brain to radiate its flesh beyond a vast tree courting
+    powerlessness - daylight has not yet reached here The stems groan and struggle
+    their boles live democratically their bodies strive toward unity. .. yes granted
+    Were there no fierce suns we'd dream relentlessly among our spreading arms legs
+    veins roots This thirst itself is exalting!"
+  act3gen: 'What we did while living is, perhaps, impossible not to weep over.
+
+    WINTER: Nothing exists outside the frosted time of roots! Here I was dead for
+    a long lime - Lacking sap no heart could expand why live black?'
+- aagen_id: 13-09-2022_11_47_16
+  act1gen: "Before I had leaves, and others grew them for me at their own expense.
+    One has to pay dearly for the privilege of being green.\nUnless we are speaking
+    about palms or eucalyptus, in which case one must be blue ... \nWould that other
+    forests might have leaves enoug h for us all!\nthe earth turned around herself
+    a little faster ...\nYes, in another life I should like my trunk to be yellow-skinned;
+    my crown and my roots red; my bark keratinous; crushed with ease by the fingernail
+    and sweat-proof when worn on the body ... \nnIn Djahan we were deep purple and
+    tenacious rubber trees. To you inhabited lands we were balsa: their sap divinely
+    lightened our load - so that they could bear you too! Dark rocks will not carry
+    water? Their turn hasn't come yet: they want only rockier lands than mine.[11]
+    The denouement approaches: \"\\201839 is perhaps already abolished here where
+    this forest grows right up to La Jonchère peak."
+  act2gen: "Absence of shadow. I don't know how to produce it.\nThe only one among
+    us who knows how is the thorn tree. He uproots himself and goes beyond our domain;
+    a dry star, white mangrove or rare agarwood, he lives far from here: stripped
+    of bark near rivers, where fire with its cracklings lights him up! ... \nn\nEmbedded
+    in time like this telegraphy-pole forest which doesn't even have sufficient staves
+    to shore itself up against drought and might topple at any moment when the termites
+    arrive! ... And with what emotion would these columns drink ca tarrh by lifting
+    themselves off their roots betimes so as not to deprive me any longer of my lymphoid
+    ichor? ... Oh transplantable trees!: dislocated after being blindfolded and called
+    on suddenly to adopt th e costume and wear it for hajra on arrival! Yes: transferred
+    without knowing whither - each particle remaining fixed in place - because sky
+    does not reach them completely but leaves are gashed from over there just as yaws
+    attack wanderers; you move together your children away from famine (sic) . . .\nAnd
+    leprosy here's drowning you too busy toppling your healthy wood that drinks lime
+    less greedily than we do, bleeding pustules into laurel bilis which will quench
+    all thirst for calcareous species since we'll be seated under your seal forever!
+    ..."
+  act3gen: 'How much deeper the river into which I wanted to fall! Th at''s why, calcinated
+    amongst my brothers who are on fire - our roots intertwined, disneylanded, soulless
+    and even stumps ever thirsty for wood dissolved in urine of nla Amazônia where
+    we all escaped together through yaws gnawing one whole healthy root so tha t sleepless
+    fever might leave a tree without support! And its leaves reaching out toward me
+    the better esvayrlonf to find an.swer; this is woods rended by sappers: not enough
+    time th em sufiQce turns our earth lsofl c> escape Yes total rain as riiias ground
+    to \IIP: with-off need!!! black dreamscape dismantled w''ith DRIVe : same erra''dta
+    . . . here in this smashed waterfall from which some water must still be possible
+    during dry periods!'
+- aagen_id: 13-09-2022_11_49_21
+  act1gen: 'I am a vast and tropical tract of forest. Some of my trees are dry and
+    deciduous, others are spiny, there are flowers in my garden ... this is what I
+    look like: each of the tiny blossoms that dance around me has a million sparkling
+    filaments that catch fire when I weave them into strings for necklaces! Flowers
+    sprout from every tree trunk - it''s raining stars !'
+  act2gen: Look at me!
+  act3gen: 'Who is there in my barren woods? With whom do I speak?
+
+    There, there at the top of my trunk! A toad! A black big-eyed toad. He listened
+    and then disappeared into a little crack.
+
+    "Armed with language, man caIIs presence ta earth; seeing nOt totallY for his
+    glance what cannot be taoken by force (nor possession), he sometimes gives up
+    hope of possessing anothere''s mineral appearing. "The firsT fruit has fallen
+    ...'' Did Alcidas discover it or did Prometheus? Limpid river, you are fecund
+    And when harvesters repair ta your hem three nights without cease And besmear
+    your ashes, they carry that golden corn Into their eyes - lizrds blinded By flutterings
+    of nightbirds Scattering shadow all over Everything: distance and silt, anguish
+    and mud .. .'
+- aagen_id: 13-09-2022_11_50_45
+  act1gen: I am wet and dense, I moult my shadows in the soil. I hear fragments of
+    sound approaching me but they are dislocated.
+  act2gen: 'I am an aquatic and heavy forest. I drip with organic essences also needed
+    by certain forms of vegetation which, not harvesting the sky''s rays
+
+
+    I am fragrant, sulphurous. (Here a dew appears.) Not harvesting? The limbs realize
+    they are passive toward the sky and its clear womb sends them daily doses of sugar-morning-gold,
+    begets their yellow morning skullcaps! ... Storms awake! ...'
+  act3gen: "Gleams escaped while I was sleeping. Why did they not smother me? ...
+    How many awakening flashes could I have caught in the night if my nap had been
+    longer, deep! ... Why do leaves maturing around us still seem so sparse?\nThere's
+    a bitter cry: DECAY IS NEARBY! ... that penetrates through my dense flesh and
+    annihilates everything a priori as foundation of sediments which were to gather
+    around it. \nDecay is nearby. (This decay appears.) Dirt rots secretively behind
+    our backs so we can't see it; eyes rummage unsecuredly only because hands haven't
+    yet rooted out their sight lumps from beyond viewways."
+- aagen_id: 13-09-2022_11_51_55
+  act1gen: I grew dark green leaves. I hung thick and tightly over every path, blocking
+    all access to me.
+  act2gen: 'I push down my branches and lift up my leaves: how good is the sky! How
+    much strength it gives to a tree!'
+  act3gen: 'I spread nothing but green and here, on my branches, all the sap rots.
+    I held them out to you at dawn ... nothing happened! The sky never answered me
+    \:1 did not know the most important thing in life.
+
+
+
+    The voice of this forest is that of sensation; it forbids passive contemplation.
+    There passes something similar ta a monologue by Robbe-Grillet in his novella,
+    Un m Chrome plays with their anguish over large sunken boles, which pass during
+    attempts to travel as far into "total realism" as possible brief shout that inspires
+    one with loss: "Life could not exhaust itself separated from death while they
+    understood so perfectly each other.''· In Carson MacCullers'' forests there are
+    too many dead and desiccated silence seems impossible (just food for snakes);
+    poetry condenses those traits which inany others would have pro duced affect ..
+    . Rendered mute by its tropics or scorched snowfields are testimony only through
+    dry moments wherefrom speech isolates itself freezingly. a trac''e of suffering
+    is for nEI<Im One expects neither discussion nor an affirmation from these depths
+    whose destiny remains obscure - suitable purpose cannot be found elsewaYrd exteriority
+    This negativity servesas outline toward what affirmatien would lead .. . Tlte
+    relativit)'' does not disjoin anything; everything mutually nourishes in a sort
+    of inaccessible microcosm known as ecstasy (neither history nor community).'
+- aagen_id: 13-09-2022_11_53_14
+  act1gen: 'Many times I have been covered with leaves; many times I wrap my feet
+    in grasses and jump over them. The ocean of the world kisses me beyond all that
+    it has to give, but you, who are resisting its gravity, say nothing and bare your
+    ankles before these endless mosses which moisten me and enliven me.
+
+    Do not know our contact: it is hidden:
+
+    Most beautiful among flowers! It whistles little against the watering can. 1 proceed
+    from forest saplings to tree stumps;\/you descend from the golden chalice of man''s
+    dreamturing so near\. . . You singed spring atanother time other than this one
+    here-was-when-theocean waned when we began east pole ... And you will displace
+    yourself arid load bark on raw hide for us buried under trees'' ~arshed out marrow/which
+    in rising marshes again sep as wel!. . ./. ..'
+  act2gen: Friends of the first fruits, beware that you do not bear! You must pluck,
+    gather in your arms as much and likewise in gobs of honey which your lips lay
+    on man's flanks. ...
+  act3gen: 'What has happened to me, who pulled much moisture at man''s hroth? Why
+    have the birds packed their hopes withstanding our winter ~arshed out marrow/which
+    in rising marshes again sep as wel!. ... Your troubled heel and constricted wing
+    say they are unable to condense exile.
+
+    Indecision shared by sun and mist: Fuzziness covers! Our thorny shadow cannot
+    be guessed - we loved summer, but where goes its luster? Why does my skin so often
+    mark emptiness? Colleagues of man: All around the immense that-will-not lasts
+    for a long time:
+
+    The dense fog disperses landholders'' uncertainty. Nature does not exist without
+    interminable strata; rivers slap one another and encounter nothing else than what
+    is figured from oblivion\. . . A sphinx circumscribes water on drought: The goodofmist
+    really surrenders itself easy distraction!/with grated moonlight difficult eyen
+    against solitude.'
