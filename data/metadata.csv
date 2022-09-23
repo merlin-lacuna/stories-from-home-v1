@@ -27,3 +27,4 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 26,Earth,LAND -> Biosphere -> Leaf area index,h,"Rainforest,Brazil",Forest,yearly,2001,2021,na,earth_land_lai_amazonas.csv,Time,Data,y,4.4,5.0
 27,Earth,LAND -> Biosphere -> Leaf area index,h,"Molai Forest,India",Forest,yearly,2001,2021,10,earth_forest_lai_molaiforest.csv,Time,Data,y,0.65,0.9
 28,Earth, LAND->Biosphere->Leaf area index,/, Black Forest,Germany, Forest,yearly, 2001,2021,earth_land_lai_blackforest.csv,Time,Data,y,2.4,2.8
+31, Earth, Biosphere -> Land cover (Urban),h,"Dhaka, Bangladesh",Urban,yearly,2001,2020,/,earth_land_landcover_dhaka.csv,Time,Data,y,0,0
