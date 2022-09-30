@@ -1,16 +1,16 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 0.0
-    upper: 0.0
+    lower: 184
+    upper: 191
   actmoodsamples:
-    act1:
-    act2:
-    act3:
+    act1: 187
+    act2: 193
+    act3: 198
   actmoodlevels:
-    act1: 0
-    act2: 0
-    act3: 0
+    act1: 5
+    act2: 4
+    act3: 3
   chartstorage:
 entitydescr:
   id: earth_forest_landcover_nairobi
