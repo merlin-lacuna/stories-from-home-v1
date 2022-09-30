@@ -1,23 +1,23 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 0.0
-    upper: 0.0
+    lower: 120.3090381
+    upper: 143.9753454
   actmoodsamples:
-    act1: 137.04395873333334
-    act2: 137.447317925
-    act3: 165.8922794
+    act1: 121.0
+    act2: 144.0
+    act3: 168.0
   actmoodlevels:
-    act1: 0
-    act2: 0
-    act3: 0
+    act1: 5
+    act2: 4
+    act3: 2
   chartstorage:
 entitydescr:
-  id: earth_forest_landcover_dubai
+  id: earth_urban_landcover_dubai
   bio:
   type: "urban"
   element: "earth"
-  descriptor: "lush and pensive"
+  descriptor:
   measurementdescr: "km^2"
 
 prompt:
