@@ -1,19 +1,19 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 0.0
-    upper: 0.0
+    lower: 851.7137973
+    upper: 865.2017327
   actmoodsamples:
-    act1:
-    act2:
-    act3:
+    act1: 840
+    act2: 868
+    act3: 880
   actmoodlevels:
-    act1: 0
-    act2: 0
-    act3: 0
+    act1: 4
+    act2: 4
+    act3: 5
   chartstorage:
 entitydescr:
-  id: earth_forest_landcover_dheli
+  id: earth_urban_landcover_dheli
   bio:
   type: "urban"
   element: "earth"
