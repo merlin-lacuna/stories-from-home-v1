@@ -1,0 +1,36 @@
+entitydata:
+  measurementunit: Land Cover
+  idealranges:
+    lower: 29.0
+    upper: 30.0
+  actmoodsamples:
+    act1:  29.58474585
+    act2:  30.84109752
+    act3:  31.90417115
+  actmoodlevels:
+    act1: 5
+    act2: 5
+    act3: 4
+  chartstorage:
+entitydescr:
+  id: earth_urban_landcover_niamey
+  bio:
+  type: "urban"
+  element: "earth"
+  descriptor:
+  measurementdescr: "percentage"
+
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+
+storygenerations:
+  aagen_id:
+    act1gen:
+
+    act2gen:
+
+    act3gen:
