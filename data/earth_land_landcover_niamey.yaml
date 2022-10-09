@@ -45,7 +45,7 @@ prompt:
     inner and outer transformation:\n\nThe first act starts like this:\n\n
   searchkey: land_cover
 storygenerations:
-  aagen_id:
-    act1gen: null
-    act2gen: null
-    act3gen: null
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
