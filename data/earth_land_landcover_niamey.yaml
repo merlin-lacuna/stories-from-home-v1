@@ -4,15 +4,14 @@ entitydata:
     lower: 29.0
     upper: 30.0
   actmoodsamples:
-    act1:  29.58474585
+    act1:  30.1
     act2:  30.84109752
     act3:  31.90417115
   actmoodlevels:
-    act1: 5
-    act2: 5
-    act3: 4
+    act1: 4
+    act2: 3
+    act3: 1
   chartstorage:
-  searchkey: land_cover
 entitydescr:
   id: earth_urban_landcover_niamey
   bio:
@@ -22,6 +21,7 @@ entitydescr:
   measurementdescr: "percentage"
 
 prompt:
+  searchkey: land_cover
   intro:
   act0descr:
   act1descr:
