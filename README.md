@@ -1,6 +1,6 @@
 # stories-from-home-v1
 
-Repository for the data and code for the "Stories from Home" art project.
+Repository for the data and code that powers the "Stories from Home" art project.
 
 ## Data Guidelines
 
