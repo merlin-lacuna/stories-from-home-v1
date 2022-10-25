@@ -1,16 +1,16 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 120.3090381
-    upper: 143.9753454
+    lower: 70
+    upper: 72
   actmoodsamples:
-    act1: 121.0
-    act2: 144.0
-    act3: 168.0
+    act1: 73.33333333333333
+    act2: 75.0
+    act3: 76.0
   actmoodlevels:
-    act1: 5
-    act2: 4
-    act3: 2
+    act1: 3
+    act2: 2
+    act3: 1
   chartstorage:
 entitydescr:
   id: earth_urban_landcover_dubai
