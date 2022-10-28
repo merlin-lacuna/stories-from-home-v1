@@ -14,10 +14,10 @@ entitydata:
   chartstorage:
 entitydescr:
   id: earth_urban_landcover_niamey
-  bio:
+  bio: tbc
   type: "urban"
   element: "earth"
-  descriptor:
+  descriptor: tbc
   measurementdescr: "percentage"
 
 prompt:
