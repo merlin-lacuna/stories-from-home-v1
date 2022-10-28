@@ -4,33 +4,31 @@ entitydata:
     lower: 70
     upper: 72
   actmoodsamples:
-    act1: 73.33333333333333
-    act2: 75.0
+    act1: 72.5
+    act2: 74.5
     act3: 76.0
   actmoodlevels:
-    act1: 3
+    act1: 4
     act2: 2
     act3: 1
-  chartstorage:
+  chartstorage: earth_urban_landcover_dubai.png
 entitydescr:
   id: earth_urban_landcover_dubai
-  bio:
+  bio: tbc
   type: "urban"
   element: "earth"
-  descriptor:
+  descriptor: tbc
   measurementdescr: "percentage"
 
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nENTITY: '
+   act2descr: 'ACT2: <add prompt>\nENTITY: '
+   act3descr: 'ACT3: <add prompt>\nENTITY: '
 
 storygenerations:
-  aagen_id:
-    act1gen:
-
-    act2gen:
-
-    act3gen:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
