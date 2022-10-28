@@ -7,23 +7,137 @@ entitydata:
     act1: 76.875
     act2: 67.0
     act3: 63.875
+  chartstorage: earth_glacier_mass_furtwaenglerglacier.png
   idealranges:
     lower: 72.0
     upper: 80.0
   measurementunit: percent
-  chartstorage: earth_glacier_mass_furtwaenglerglacier.png
 entitydescr:
-  bio: "My icy realm is located at the summit of a famous mountain which is actually in a hot country. I am a small remnant of what I once was. I have always been ephemeral, appearing and disappearing throughout history. This time I seem to be diminishing."
-  descriptor: "shimmering and howling"
+  bio: My icy realm is located at the summit of a famous mountain which is actually
+    in a hot country. I am a small remnant of what I once was. I have always been
+    ephemeral, appearing and disappearing throughout history. This time I seem to
+    be diminishing.
+  descriptor: shimmering and howling
   element: earth
   id: earth_land_ndsi_furtwaenglerglacier
-  measurementdescr: "the glacier mass"
+  measurementdescr: the glacier mass
   type: glacier
 prompt:
-  intro: 'ACT0: The following play reveals the inner monologue of a shimmering and howling glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-  act1descr: 'ACT1: The glacier seems to have a stable ice mass. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
-  act2descr: 'ACT2: The glacier is starting to shink and lose ice mass. The glacier is seized by a new state breaking through the silence of its environment. It lets itself go by abandoning itself to this inner transformation, which seems to become increasingly evident in its external appearance as well.\nGLACIER: '
-  act3descr: 'ACT3: The glacier has lost a dramatically high proportion of its ice mass. The glacier notices that its limbs become looser and creaks become more and more hearable, as if its body is growing fractures and each particle of ice is groaning . It feels in anguish, torn whether to surrender to the melting or endure.\nGLACIER: '
-  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself and describes its surroundings.\nGLACIER: '
-
+  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself
+    and describes its surroundings.\nGLACIER: '
+  act1descr: 'ACT1: The glacier seems to have a stable ice mass. The glacier fully
+    intermingles with the exterior, allowing itself to be exposed to the kind surrounding
+    atmosphere and to be modified by the power of life itself. Its volume is majestic
+    and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
+  act2descr: 'ACT2: The glacier is starting to shink and lose ice mass. The glacier
+    is seized by a new state breaking through the silence of its environment. It lets
+    itself go by abandoning itself to this inner transformation, which seems to become
+    increasingly evident in its external appearance as well.\nGLACIER: '
+  act3descr: 'ACT3: The glacier has lost a dramatically high proportion of its ice
+    mass. The glacier notices that its limbs become looser and creaks become more
+    and more hearable, as if its body is growing fractures and each particle of ice
+    is groaning . It feels in anguish, torn whether to surrender to the melting or
+    endure.\nGLACIER: '
+  intro: 'ACT0: The following play reveals the inner monologue of a shimmering and
+    howling glacier. It is divided into several acts. Throughout these acts, the glacier
+    describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
 storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
+- aagen_id: 21-10-2022_22_29_01
+  act1gen: After the long torpor of a cold winter, I awake. This is the most pleasant
+    time for my existence.
+  act2gen: 'Then I notice that 1 am alone. My neighbouring glaciers are going too.
+    They have already taken off for distant lands, leaving me in disgrace. My layers
+    begin to slip more and more often. The shifts become abrupt and unpredictable:
+    my surface is utterly hostile from one instant to the next. When a strange event
+    takes place in me without any warning, it invades my conduct completely and overwhelms
+    any other interest or need I might have had until then. I stop everything to attend
+    this evolution; nothing distracts me anymore considering how intimate this mutation
+    is; changes overcome me at all points in space simultaneously, with such fervor
+    that there is no longer anything regular about them! The cone of snow slides into
+    the crevasse almost like an explosion. Harrowing words dislocate again...'
+  act3gen: 'How unfortunate for you, living creatures! Inexpressible tears stream
+    from my body. I hurt all along. Sometimes wide cracks fall from my icy edge which
+    break with a huge noise on the sea of ice below me; other times it is necessary
+    to join together two adjacent gaps created by crevasses that threaten to pull
+    into one another steadily increasing little boxes of space and thus generate new
+    crenellated columns alive yet dire... Who wouldn''t hurt in these conditions?
+    My head circles like a drunkard''s: I cannot see anything clearly anymore; such
+    an awakening transmits through my beloved sheafs, knocking seeds loose here and
+    there, barely fertilizing mankind a bit before pushing it back out into an endless
+    wasteland where nothing grows!'
+- aagen_id: 21-10-2022_22_36_25
+  act1gen: I am peaceful, cold, hard and full of grace. I yield to love, but regain
+    my coolness... The landscape has changed over time and space... Thy waters have
+    seen the face of a glacier before this day - Where first we came to be together
+    for endless centuries amongst granite!
+  act2gen: My shivering can only be heard because mountain winds blow over my frozen
+    form. My sulci suck in hot gases and moisture which then congeal on my surface
+    as small cones of fern moss.
+  act3gen: Floating islands set down centuries ago by melting ice start to appear
+    around my perimeter.
+- aagen_id: 21-10-2022_22_48_56
+  act1gen: No longer am I closed and reclusive as in antiquity, when I faced southward
+    toward the peaks known at that time; nor am I even as deep, as cold or wet any
+    more.
+  act2gen: 'An inner trembling agitates my cold body. The wind plays with my skin
+    and hurts me. Spread throughout the play, like an iconographic note of fire devouring
+    a monument, are these two lines: O glacier where art thou? What would happen should
+    the curtain ever fall?'
+  act3gen: My flesh is withering away on all sides. I aimlessly wander to whom can
+    I cry? which actor will bring me offstage by removing my mask? unable to resist
+    that tempest, the one most imposing at this time, man! Who among you has gone
+    galloping through my snowy galleries!? What offspring did i give birth to?
+- aagen_id: 21-10-2022_23_00_56
+  act1gen: My name implies the ice that clings to things it would better leave alone.
+    I make stars tremble when I come into contact with them at the mountain's summit...
+    Sometimes I condense among blueberries and astilbes. Those who get close enough
+    hear my voice from above since I have frozen burbling water inside me.
+  act2gen: Whatever I am isn't reckoned in your mortal calculations... There it's
+    always raining, while fall lasts and during those untimely interludes when the
+    fine weather rears its head; there it never stops snowing, even though spring
+    hasn't set in yet and autumn is so far behind us we no longer look back at it.
+    Snow settles all around me and dissolves into fine drops which stay on my crystal
+    face for a few hours before sliding limpidly off one side or another.
+  act3gen: 'This landscape refracts itself everywhere at once through uncertainty
+    : all its dimensions sift where what is mute endures. Four poems live within me
+    like crumbled walls whose holes consumed all substance without conquering any
+    space (oh opposite yet total counterpart!).'
+- aagen_id: 21-10-2022_23_15_20
+  act1gen: My grinding mass is endless. I am a universal treasure house and the world
+    of this underworld is enormous. I would have an impossible time making you understand
+    its magnitude, even in eternity; or telling you what natural attractions hide
+    within me, as well as traps.
+  act2gen: It is time for lamentation. Reality has invaded our world! I reflect about
+    the passing seasons in my lightless chambers now that winter truly arrives...
+    The forests have disappeared from where I raged and inflicted wounds on them,
+    leaving a gloomy aftermath there... Several meters below ground level the temperature
+    of the lifeless earth grinds exceedingly cold – it maintains an average constant
+    seasonal freeze at that deep depth... And again – there are ten thousand waterfalls
+    proclaiming themselves to me as they run forth onto land after their sojourn into
+    cold darkness, whirling around wildly and producing sudden sunlight showdowns
+    with unexpectedness against every cascade which flies through its midst into passionate
+    flares of illumination before disappearing into the dark once more. ... And let
+    us not forget how fifteen major endemic fossil rivers flow merrily through me
+    when they glide past downstream!
+  act3gen: '!!!+++!!!++ The ice groans as if it is in labour. Suddenly, a ringing
+    chasm opens up at my slopes’ base (or what was its base) – an eye of darkness
+    appears without warning; and then the chasm widens gradually like holy C-section
+    until all of the glacier collapses into this yawning abyss. ...! And now land
+    echoes through me: cemeteries crying wretchedly shoot their much loved ones on
+    my roof where they are passed cruelly downwards to death one by one, seconds seizing
+    hours and gloomy ages... Long lines of trees dendrochronologically march onto
+    my slowly cracking surface for what seems like days, singing about their reign
+    over life with petrified voices ; llamas climb upwards minute after excruciating
+    minute with breezy songs of freedom from bondage which resound freely again onto
+    unoppressed harmonies encouraged by light welcomed demiurgically while sandstorm
+    hurries upward through entangled thickets breathlessly speaking hurried predictions
+    of continuous future ... And proud hellos reach up alive off cliff faces frightfully
+    raising handrails against me playfully mirroring themselves like smiles among
+    black velvet grey powderings silenter gales autumnal fingerprints those shadows
+    traces those halos that laughing skies amongst percolated glimmerings riddlesque
+    adornments splendours minus remains often melancholy knowing slowly wistful happy
+    hearts . . .'

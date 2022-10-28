@@ -2,18 +2,18 @@ entitydata:
   measurementunit: Land Cover
   idealranges:
     lower: 70.0
-    upper: 75.0
+    upper: 72.0
   actmoodsamples:
-    act1:  82.2
-    act2:  82.6
-    act3:  82.9
+    act1:  70.8
+    act2:  73.1
+    act3:  74.6
   actmoodlevels:
-    act1: 1
-    act2: 1
-    act3: 1
-  chartstorage: earth_urban_landcover_seoul.png
+    act1: 5
+    act2: 3
+    act3: 2
+  chartstorage: earth_urban_landcover_manila.png
 entitydescr:
-  id: earth_urban_landcover_seoul
+  id: earth_urban_landcover_manila
   bio: tbc
   type: "urban"
   element: "earth"
