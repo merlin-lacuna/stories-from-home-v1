@@ -1,0 +1,34 @@
+entitydata:
+  measurementunit: Land Cover
+  idealranges:
+    lower: 70.0
+    upper: 72.0
+  actmoodsamples:
+    act1:  70.8
+    act2:  73.1
+    act3:  74.6
+  actmoodlevels:
+    act1: 5
+    act2: 3
+    act3: 2
+  chartstorage: earth_urban_landcover_manila.png
+entitydescr:
+  id: earth_urban_landcover_manila
+  bio: tbc
+  type: "urban"
+  element: "earth"
+  descriptor: tbc
+  measurementdescr: "percentage"
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nENTITY: '
+   act2descr: 'ACT2: <add prompt>\nENTITY: '
+   act3descr: 'ACT3: <add prompt>\nENTITY: 
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
