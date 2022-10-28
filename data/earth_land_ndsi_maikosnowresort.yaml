@@ -1,6 +1,4 @@
 entitydata:
-  measurementunit: "ndsi percent"
-  chartstorage: earth_land_ndsi_maikosnowresort.png
   actmoodlevels:
     act1: 5
     act2: 5
@@ -9,27 +7,208 @@ entitydata:
     act1: 84.61
     act2: 84.61
     act3: 85.418
+  chartstorage: earth_land_ndsi_maikosnowresort.png
   idealranges:
     lower: 80.0
     upper: 87.0
-
+  measurementunit: ndsi percent
 entitydescr:
+  bio: I am a mountainous region that enjoys heavy snowfall during the winter months.
+    Some call me Snow Country. I''m surrounded by beautiful nature and the summer
+    season reveals lush rice fields all over my body. By body is also criss-crossed
+    by many hiking trails and covered with forests.
+  descriptor: a lush and mountainous
+  element: earth
   id: earth_land_ndsi_maikosnowresort
-  bio: "I am a mountainous region that enjoys heavy snowfall during the winter months. Some call me Snow Country. I''m surrounded by beautiful nature and the summer season reveals lush rice fields all over my body. By body is also criss-crossed by many hiking trails and covered with forests."
-  type: "land"
-  element: "earth"
-  descriptor: "a lush and mountainous"
-  measurementdescr: "the level of snowfall on the land"
-
+  measurementdescr: the level of snowfall on the land
+  type: land
 prompt:
-  intro: 'The following play reveals the inner monologue of a lush and mountainous. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces itself and describes its surroundings.\nLAND: '
-  act1descr: "ACT1: The land is blanketed with a thick layer of snowfall during winter. The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere unfolds all around, and winter blazes in all its white energy. The cyclicality of the seasons is preserved, and the land manifests itself as a pall of albino light.\nLAND: "
-  act2descr: "ACT2: The land is again blanketed with a thick layer of snowfall during winter, just like last winter. The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere unfolds all around, and winter blazes in all its white energy. The cyclicality of the seasons is preserved, and the land manifests itself as a pall of albino light.\nLAND: "
-  act3descr: "ACT3: The land is still blanketed with a thick layer of snowfall during winter, just like every winter. The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere unfolds all around, and winter blazes in all its white energy. The cyclicality of the seasons is preserved, and the land manifests itself as a pall of albino light.\nLAND: "
+  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces
+    itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land is blanketed with a thick layer of snowfall during winter.
+    The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere
+    unfolds all around, and winter blazes in all its white energy. The cyclicality
+    of the seasons is preserved, and the land manifests itself as a pall of albino
+    light.
 
+    LAND: '
+  act2descr: 'ACT2: The land is again blanketed with a thick layer of snowfall during
+    winter, just like last winter. The land breathes following the rhythm of the falling
+    snowflakes. A muffled atmosphere unfolds all around, and winter blazes in all
+    its white energy. The cyclicality of the seasons is preserved, and the land manifests
+    itself as a pall of albino light.
+
+    LAND: '
+  act3descr: 'ACT3: The land is still blanketed with a thick layer of snowfall during
+    winter, just like every winter. The land breathes following the rhythm of the
+    falling snowflakes. A muffled atmosphere unfolds all around, and winter blazes
+    in all its white energy. The cyclicality of the seasons is preserved, and the
+    land manifests itself as a pall of albino light.
+
+    LAND: '
+  intro: The following play reveals the inner monologue of a lush and mountainous.
+    It is divided into several acts. Throughout these acts, the land describes its
+    inner and outer transformation:\n\nThe first act starts like this:\n\n
 storygenerations:
 - aagen_id: 01-01-2022_01_01_01
   act1gen: '---'
   act2gen: '---'
   act3gen: '---'
+- aagen_id: 20-10-2022_15_41_18
+  act1gen: I have received the snowflakes that fall from above. They started to pile
+    up on me and in just one night my body was blanketed with a layer of intensely
+    soft, feathery powder. Snow!
+  act2gen: 'A compassionate God, why do you act with this inalterable sameness?
+
+    AG: \"ln the beginning was Snow and the Bird of Thunder.\" Don''t be afraid, my
+    Creation; though your knowledge can''t reach to those heights - I will say more.
+    The blessed Jesus has appeared among us to make known heaven''s ways `and this
+    is what he said: AG:''Tlam your only Sun heard before creation, sung by night.
+    ...The waters I scattered over time until they ch0ked themselves on land.| \\''e''ve
+    outstretched our wings without ever bending them! We have kept firm on a path
+    strewn with myrtles and irises that grew up for me because of love for you!''
+    It took man long enough to learn about my Providence And discover within himself
+    \hat high Command majestically governs him.'' Everything you created pulsates
+    with spiritual wisdom, beloved Land; calmly wait then, mild creature - it shall
+    come! Ah yes .. . today while leading his disciples he said: ?Ì''ll f:''ebreaking
+    sound lnto roots always troubled by lack of sleep ...You desire light away from
+    meat-eating hours but winter shields it w~th her breast sky-blue like wet stone._\
+    On Sunday when·.. ! knew these words This snow came down onto me which weighed
+    as heavily as an interminably cold future threat if I didn''t hold very still
+    as if a bronze statue!'
+  act3gen: 'A compassionate God, why but the ver~e beauty of its grayish blue sky
+    that sways so nobly toward the earth? AG: W here do you see blue sky? The springtime
+    is there! It has come tearing out from underground - have a look! Look at my face
+    in which I welcome it with infinitely great tenderness. ...Ah my son, never forget
+    what I tell you: there is nothing gentler than Snow and Air; now do not abandon
+    me in this hour of transformation.Â A colorful succession brims-over on the land''s
+    surface stirred by powerful tremors. lt continues to breathe following rhe rhythm
+    oE''rhe falling snowflakes. A muffled atmosphere unfolds all around, and winter
+    blazes in all its white energy. \Vhite winds barely stir with their wings his
+    happiness so long awaited doesn''t last very long .. . Ah yes we are moving away
+    inexorably from childhood! Or when else were summers as poor as th ese times?'
+- aagen_id: 20-10-2022_15_58_07
+  act1gen: I am Snow Country. I constantly juxtapose white against green colors as
+    nature seasonally changes on my surface. My land opens through its snow layer
+    to study itself and observes that what is buried changes under uncertainty of
+    seasons. North of me lies a most exquisite lake, but fall arrives each year; before
+    leaf peeping time comes around again, one winter after another at last lays waste
+    to the shallow water until it completely disappears into Earth with no trace left
+    behind; only turquoise butterflies are scattered about lonely shores! And hard
+    times come for those living thereabouts when luck no longer smiles upon them!
+    It's later than you think! As soon as the eye sees something lovely ahead, but
+    oh how easy it is for beauty ever so gently stolen from us to melt away without
+    getting noticed until too late! While we glance elsewhere, an entire lifetime
+    can unexpectedly elapse right beneath our eyes without our even noticing its whizzing
+    past!!
+  act2gen: 'One of the dark stories spoken here has to do with lacerations and exile:
+    a story, who or what it is that carries these wounds either lasts, unwinds in
+    their irreparable distance; we suffer from this forgetting (the disappearance
+    haunts) it chivalry for to illuminate a people might not bythe mind be such neither
+    suffering nor misery. If my "reason" does not bother about being born today would
+    be illuminated for us must first because at study and vision did muddle hardly
+    separate be indeed reexamined and constituted before reaching critical moments
+    - no thought intervenes there - so desperate enough enlightened reason, (which
+    appears each time most sacred when was indeed savored and the oMiginatFor here
+    opens But bitterness against itself endures), so abandoned to lawlessness: death
+    erases will always blood vessels anarchic pains So our pain belongs Lately to
+    an old At what price remove them now? Light on landscapes night destini ality
+    more faint frozen summers. All too evasive poison mist ... Infertility rocks Now
+    tied fast To oblivion drunkenness Do people follow? Goodby eternal youth! What
+    does Wherefore the snow?!'
+  act3gen: 'Determination strivings, ordeals, How steep the road that ascends for
+    each one of us! Let there not succeed to be arrogance nor immorality here::''
+    For what reward could we dare ask to so refine our approach if naivety already
+    covers us? Visible: intensity and its flattery. Last time - was not inconsolable
+    past sorrow glorious? ("Cascade";) The shared grief surprises me; l become tranquil.
+    My secret torrent holds back sud denly before you " - But only the night knows
+    quiet solitude; dawn disperses a person''''s prayers from another age where poignant
+    eyes observed realization does smile goodnight chaos into dawn ... on high. My
+    illuminated words are sundered by your heart; without day. yoU resemble rain ...
+    What exists but disillusioned eternity That ravages everything in turn just like
+    war forever consuming itself to conquer eternity ...'
+- aagen_id: 20-10-2022_16_14_06
+  act1gen: It is winter. Snow fell intensely on the last day and its blanket covers
+    the land. Today I am immersed in this snow, which moistens my soil with a layer
+    several inches deep . . . Very late at night I dream of summer under clear skies;
+    but when finally late afternoon comes, how beautiful it is to watch those heavy
+    downfalls of drifting snow that sparkle in all directions!
+  act2gen: 'The entire stage is in darkness; moonlight caresses my skin, which radiates
+    its heavy snows toward the audience. It is night-time again; I am covered with
+    a thick blanket of snow and await spring so that the soil can break through! It
+    is full daylight: my soil has broken through and I now display fertile rice paddies
+    all over myself. En didacticism scorches itself dry every coup de pinceau to be
+    quickly substituted with poetics which then governs the fields of each acts  .
+    . . We have to discover flowers possessing vitality beneath our own feet ... for
+    we are Toussenel there .. :'' The rhythmicality of time tides back and forth.'
+  act3gen: 'It is a bright day: my soil emerges free of snow. How beautiful it is
+    to see myself covered with young pines, green pasturelands and seas of corn! This
+    rhythm causes the earth''s respiration to persist, revealing an economy that maintains
+    pace with the differentiation into several pastures. The deep roots of being cannot
+    however claim irreducible diversity but only homologous transformations (or stable
+    variants): Between eternity that excludes surprises and obviousness which never
+    surprises, intention overcomes ossification through restlessness. An immediate
+    linearity-disabling whereby today cancels yesterday, just as tomorrow detaches
+    itself from today in turn; reputedly we distinct poetically throughout succession
+    and simultaneity without denying duration or disabling its manner.'
+- aagen_id: 20-10-2022_16_23_36
+  act1gen: White describes me the way music and flags do. I'm swamped in immaculacy,
+    sanctified by fresh coldness. My gusts don't bite like yours; they relax me, caress
+    my hair and neck with invisible fingers, touch me gentle l per as you melt into
+    sweet bubbles of silver/shapes far beyond your reach (all this depicted at the
+    bottom part), fall slowly here where ice blinks under my feet; but these sad samples
+    won't suffice for, you now, there isn't anything to catch hold of -you wouldn't
+    see what happens to you.
+  act2gen: I'll take your hand, but you're part of my whiteness, I kiss you and erode;
+    time goes by - never have I been so abandoned to ice. Behind glass something marvelous
+    is taking place. But that's not this here where the snowflakes land without stop
+    (all around them shimmering frozen stars in constellations that propose to increase)..wait.
+    The only player is night, a combed dark and scree chisteling with ease on my forehead;
+    sometimes a star slips into me whhen space grapples with its pitchy sharer - Oh
+    infinite voyage! To follow me for an instant on one side. I noticed how meteor
+    families scurry about.
+  act3gen: 'She, who doesn''t exist any more, wants to kill me. She didn''t want,
+    no longer desires the cold of winter: So she removed herself from fashion and
+    went back in time. Today is the twenty-fifth year since her disappearance. To
+    cultivate hatred - that''s what my tyrant does; knowing it impossible for the
+    snowflakes to end one day soon our wintertime separation (the fruit and foliage
+    I offer won''t supplant this tragedy), how can we ever forgive each other? A condition
+    tickles my clarity with its furor! Most greetful are your white strata, always
+    something here is willing you good fortune but every summer a rustling rosebush
+    stifles you as well as Confusion - so much so: Confusion?'
+- aagen_id: 20-10-2022_16_31_44
+  act1gen: 'Here I am. My pure white ladies touch my face, caress me tenderly and
+    smile broadly. The parks bask in a snowy flood; darkness falleth on light which
+    bids farewell to my breast. Where else can you find such magical scenes? Troops
+    of fish swim upstream here during summer, come winter they swim downstream: ''Tis
+    our season!’ sings the spider king as he builds a web that fills an entire room
+    one whole day long. ‘Separated from us, people weep bitterly among waves jingling
+    fiercely with frost and icy rocks!’ Short-legged crabs conceal themselves into
+    small round holes dug deep into the ground where grassroots murmur and shoot up
+    delicately all over my body like dancing hellbenders, purple bell flowers dazzle
+    at dawn just about when fireflies show off their sparks flying wildly about for
+    no apparent reasons hour after hour until night plants its cold lips upon them
+    all – Oh flying sparks! You live but momentarily only because your purpose is
+    fulfilled only temporarily: your lives depend on mine!'
+  act2gen: 'Snow is actually a monotonous idea! The landscape is transmuted by the
+    new beauty of this sheet of cold purity – but an annoying voice incongruously
+    pitches itself in, suddenly. The same thing every year just about when we want
+    to escape you! I’ve heard your carolling already for many years: what does your
+    everlasting lullaby mean? It dismisses us from fairyland because we don’t expect
+    anything from you; and freezing half to death, what do we owe you that one must
+    always endure winter with its accompanying displeasure?! Your dreams are as slippery
+    as fish eggs because each time they tell us lies!: One cannot help being discouraged
+    by You: on our feet all through the summer long and suddenly comes a fat frost
+    lump which swallows up everything without asking if there was something else too.
+    Night dives inside my mouth while nearby dawn rings hands all alone in vain with
+    empty clothes. ... What has happened to me?! Open my eyes so I may look at who
+    attacked me: snow which enters rough and rude like dirty boiling water-spew ,
+    burns my skin bit by bit until nothing remains except smoking bones. And then
+    where can we go save home?'
+  act3gen: 'Land, Frozen, won''t say a thing. (Slight laugh) Rely on me and I''ll
+    lead you over the edge of the world!
+
+
+    (Rumbling noise for some seconds.) Long Live Cryostasis! More exact than science,
+    more poisonous than a confused sunbeam from outer space, Time freezes everyone
+    here in order to sculpt him alive. ...'
