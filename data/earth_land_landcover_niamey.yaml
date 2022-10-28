@@ -1,0 +1,51 @@
+entitydata:
+  measurementunit: Land Cover
+  idealranges:
+    lower: 29.0
+    upper: 30.0
+  actmoodsamples:
+    act1:  30.1
+    act2:  30.84109752
+    act3:  31.90417115
+  actmoodlevels:
+    act1: 4
+    act2: 3
+    act3: 1
+  chartstorage:
+entitydescr:
+  id: earth_urban_landcover_niamey
+  bio: tbc
+  type: "urban"
+  element: "earth"
+  descriptor: tbc
+  measurementdescr: "percentage"
+
+prompt:
+  act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+  act1descr: 'ACT1: The land''s ecoystem is slowly deteriorating but the flora and
+    fauna of the land are adapting to these changes. The land gradually realises that
+    it has not been forsaken. Whatever once swayed and breathed with her emerges again
+    after a period of meditative and painful conversion. The force of adaptability
+    seems to arise anew from every segment of its surface like an epiphany from the
+    unknown.\nURBAN:'
+  act2descr: 'ACT2: The flora and fauna of the land is are slowly withering and dying
+    and the ecosystem is becoming very unstable. The absence of copmanion-elements
+    is now creating turbulent influences on the land that is no longer in complete
+    command of itself. Unforeseen and unknown phenomena now regulate its rhythm and
+    existence. It is a totally unfathomable universe and nothing seems to be cyclical
+    anymore.\nURBAN:'
+  act3descr: 'ACT3: The land has lost more flora and fauna than it has ever lost before
+    in its lifetime. It is on the verge of becoming devoid of any flora and fauna
+    whatsoever. The land finds itself deprived of its vivid lovers and blooming companions.
+    Sterility now appears to be its ultimate destination, and all around reigns a
+    silence with mortiferous overtones. The condition of absence casts a shadow of
+    despair on its entire extension.\nURBAN:'
+  intro: The following play reveals the inner monologue of a <descriptor> <type>.
+    It is divided into several acts. Throughout these acts, the <type> describes its
+    inner and outer transformation:\n\nThe first act starts like this:\n\n
+  searchkey: land_cover
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'

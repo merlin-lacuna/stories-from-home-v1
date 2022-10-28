@@ -1,24 +1,24 @@
 entitydata:
-   measurementunit: "co2"
-   idealranges:
-      lower: 0
-      upper: 0
-   actmoodsamples:
-      act1: 0
-      act2: 0
-      act3: 0
-   actmoodlevels:
-      act1: 0
-      act2: 0
-      act3: 0
-   chartstorage: chart_not_ready.png
+  measurementunit: Land Cover
+  idealranges:
+    lower: 70
+    upper: 72
+  actmoodsamples:
+    act1: 72.5
+    act2: 74.5
+    act3: 76.0
+  actmoodlevels:
+    act1: 4
+    act2: 2
+    act3: 1
+  chartstorage: earth_urban_landcover_dubai.png
 entitydescr:
-   id: unknown
-   bio: 'unknown'
-   type: 'land'
-   element: 'air'
-   descriptor: 'unknown'
-   measurementdescr: 'unknown'
+  id: earth_urban_landcover_dubai
+  bio: tbc
+  type: "urban"
+  element: "earth"
+  descriptor: tbc
+  measurementdescr: "percentage"
 
 prompt:
    intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
@@ -26,3 +26,9 @@ prompt:
    act1descr: 'ACT1: <add prompt>\nENTITY: '
    act2descr: 'ACT2: <add prompt>\nENTITY: '
    act3descr: 'ACT3: <add prompt>\nENTITY: '
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
