@@ -1,16 +1,16 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 17224
-    upper: 17227
+    lower: 17226.0
+    upper: 17228.0
   actmoodsamples:
-    act1:  17225.9
-    act2:  17228.0
+    act1:  17224.0
+    act2:  17227.0
     act3:  17225.9
   actmoodlevels:
-    act1: 5
-    act2: 4
-    act3: 5
+    act1: 2
+    act2: 5
+    act3: 3
   chartstorage: water_lake_landcover_ladoga.png
 entitydescr:
   id: water_lake_landcover_ladoga
