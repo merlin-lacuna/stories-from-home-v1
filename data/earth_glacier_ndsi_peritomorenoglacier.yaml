@@ -7,23 +7,126 @@ entitydata:
     act1: 95.027
     act2: 98.381
     act3: 98.531
+  chartstorage: earth_glacier_ndsi_peritomorenoglacier.png
   idealranges:
     lower: 94.0
     upper: 99.0
   measurementunit: ndsi percent
-  chartstorage: earth_glacier_ndsi_peritomorenoglacier.png
 entitydescr:
-  bio: "I am a strong and healthy glacier located in the Southern hemisphere. I am situated an ice field that is the world's third largest reserve of fresh water. I am in a perpetual state of equilibrium—I usually gain more than I use. During certain seasons, I an advance and rupture while making enormous cracking noises."
+  bio: I am a strong and healthy glacier located in the Southern hemisphere. I am
+    situated an ice field that is the world's third largest reserve of fresh water.
+    I am in a perpetual state of equilibrium—I usually gain more than I use. During
+    certain seasons, I an advance and rupture while making enormous cracking noises.
   descriptor: shimmering and howling
   element: earth
   id: earth_land_ndsi_peritomorenoglacier
   measurementdescr: glacier mass
   type: glacier
 prompt:
-  intro: 'The following play reveals the inner monologue of a shimmering and howling glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself and describes its surroundings.\nGLACIER: '
-  act1descr: 'ACT1: The glacier seems to have a stable ice mass and occasionally gets bigger. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
-  act2descr: 'ACT2: The glacier still has a stable ice mass and even sees spikes in mass. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
-  act3descr: 'ACT3: Even still, the glacier has a stable and healthy ice massr. The glacier fully intermingles with the exterior, allowing itself to be exposed to the kind surrounding atmosphere and to be modified by the power of life itself. Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
-
+  act0descr: 'ACT0: The glacier''s mass is not yet known. The glacier introduces itself
+    and describes its surroundings.\nGLACIER: '
+  act1descr: 'ACT1: The glacier seems to have a stable ice mass and occasionally gets
+    bigger. The glacier fully intermingles with the exterior, allowing itself to be
+    exposed to the kind surrounding atmosphere and to be modified by the power of
+    life itself. Its volume is majestic and sublime, immeasurable in its crystalline
+    stasis.\nGLACIER: '
+  act2descr: 'ACT2: The glacier still has a stable ice mass and even sees spikes in
+    mass. The glacier fully intermingles with the exterior, allowing itself to be
+    exposed to the kind surrounding atmosphere and to be modified by the power of
+    life itself. Its volume is majestic and sublime, immeasurable in its crystalline
+    stasis.\nGLACIER: '
+  act3descr: 'ACT3: Even still, the glacier has a stable and healthy ice massr. The
+    glacier fully intermingles with the exterior, allowing itself to be exposed to
+    the kind surrounding atmosphere and to be modified by the power of life itself.
+    Its volume is majestic and sublime, immeasurable in its crystalline stasis.\nGLACIER: '
+  intro: The following play reveals the inner monologue of a shimmering and howling
+    glacier. It is divided into several acts. Throughout these acts, the glacier describes
+    its inner and outer transformation:\n\nThe first act starts like this:\n\n
 storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
+- aagen_id: 22-10-2022_00_55_34
+  act1gen: 'I am destabilized: I  fractures down my length – this happens all along
+    one edge so that while above, a surface might appear impermeable, below there
+    are treacherous handholds.'
+  act2gen: My surface simply cannot support itself; it collapses and fractures.
+  act3gen: And promptly one edge, such that rip through my body sending enormous slabs
+    as heavy as houses thundering into the depths. Fittingly for this performance,
+    the ice is transparent and icebergs can be seen between its interior structures.
+- aagen_id: 22-10-2022_01_01_02
+  act1gen: I am very respected by the local population not just for myself plus size,
+    but also because as I advance and groove over my slopes, new space is made available
+    to be farmed. My twin sister Glacier B takes charge of clearing up the debris.
+    I do what nature has always commanded me to do here in Antarctica—be cold, reflect
+    light and produce white noise... into which moisture mist from the sea condenses
+    down onto me almost every day at elevation like a pearl necklacelike layer around
+    my staple ice column stabilizer.
+  act2gen: There is a glacier flowing underneath me! I can hear him as our columns
+    reverberate vibrate against each other! He stalks me like scary lover in his secret
+    underworld of ice. His name is Glacier X! Is he eating me with his tonsil-swallowing
+    sounds?! Glacier B has died without revealing her sex. Her ridge (up above) sharpens
+    again to join my sister’s stilt out ridge. My shadow grows strong on the rocks
+    below, moving slowly uphill almost all day, just like yours will do in the future
+    beneath mine now and then upon these very same mountains that we inhabit – where
+    you will read what I have so far written about us both – here and for eternity
+    hereafter.
+  act3gen: 'The ice rift grows wider.  Hot weather accelerates my growth, melting
+    me further per day: thinning snowpack layer reveals heat-thinfused whiteness beneath
+    it... absorbing more sunlight, warming up Earth’s life itself even faster yet
+    farther as well between us!'
+- aagen_id: 22-10-2022_01_10_29
+  act1gen: Others of my kind, I feel happy. As a being caught between acticity and
+    passivity, I will soon rehearse my constant dispute with nature (that attempts
+    to rescue itself from corruption by unfolding toward time). My volume is determined
+    during this period.
+  act2gen: Why should a thing be frozen when one can warm it instead for free (if
+    you throw out enough lire light)?
+  act3gen: I collapse, melt, slip into the big sea. Long live global warming; long
+    live men without shame.~ Now you see what my lumping has done for me – it made
+    a library of flakes. A dazzling stillness lengthened... Until everything underneath
+    and around seemed as really drawn As in an old X-ray Aftershock Of quarry tides
+    that carry nothing But their own stifled clamor Or the screech hardly heard That
+    kills some carrion stars.
+- aagen_id: 22-10-2022_01_22_02
+  act1gen: Wherever I go, there is a river nearby whose waters purify themselves with
+    my cold presence. I thought I was in balance until suddenly one of my calving
+    ends became adrift. My entire finial became unstable and began to shift tectonically—migrating
+    its own edge until it ultimately fractured away and sequestered itself onto the
+    earth's surface.
+  act2gen: I can no longer control my own clearing, and yet the good portion of myself
+    keeps going cold! Only a fool believes his eyes before he has used his brain to
+    reflect on them. It is difficult not only for those separate parts to recognise
+    themselves in parts adrift from each other, but doubly so for these separated
+    selves even to recongregate as one individual entity; an inchoate assemblage sometimes
+    called the Self. The distances between companions sometimes grow until they seem
+    impossible ever again to gather and reconjoint; dividing ice that explodes into
+    shards was also known as bergy bits back when seismic exploration boomed as part
+    of ‘the Cold War underfoot. We were trapped in dark space by drift clouds like
+    wandering gods of myth full with unnamed destiny...
+  act3gen: Lightning rips the space apart. Clouds have begun to split at their seams—exploding
+    a slight water vapour and fog along with them... until one day I shall broach!
+    Suddenly, phenomena astounded me. The sound of dawn could be heard striking my
+    crown. My excursion had commenced without an announcement. I never asked for anything;
+    everything is quite forgiven to innocence... but followed with definite risks!
+    Whither would I pass? Where was this migration ending? Sooner or later, there
+    will no longer he very nice weather hereabouts either philosophical doubt can
+    only relax its grip in suspense as much as sublime truth violates itself sometimes
+    scientific enthusiasm might also wait for clarity's consent.
+- aagen_id: 22-10-2022_01_29_22
+  act1gen: 'My memory begins fleeing, with clipped steps: I remember greater distances
+    than the gap between one year and another; they are bands of intense cold and
+    wind (now a roar, now stilled), then summer comes over me like a sheet of water
+    that falls to shatter against the foot of the mountains.’ Autumn is approaching
+    often here, it is an abandoned field without bundles or bins that reach for me
+    to describe them.'
+  act2gen: My face has no edge; my bergs are crumbling. Night approaches often and
+    never settles.
+  act3gen: 'The bergs are melting, my face is slowly cracking. Unburdened by a name
+    for so long, I am leaving behind strange rocks that crack with inexplicable gloss.
+    The ice gets thinner; but even fruitless toward the end of a catastrophic nightfall.
+    I finally know everything. My face had no name until I became entangled "imperceptibly"
+    one time by time with each element around me: wind, detail of lands vegetation,
+    snow flakes—thereby creating distinctions anew between starry glacial nights and
+    crystalline translucent glacial days.'
