@@ -1,24 +1,24 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 851.7137973
-    upper: 865.2017327
+    lower: 85
+    upper: 86
   actmoodsamples:
-    act1: 840
-    act2: 868
-    act3: 880
+    act1: 88
+    act2: 88
+    act3: 90
   actmoodlevels:
-    act1: 4
-    act2: 4
-    act3: 5
+    act1: 1
+    act2: 1
+    act3: 0
   chartstorage:
 entitydescr:
-  id: earth_urban_landcover_dheli
+  id: earth_urban_landcover_delhi
   bio:
   type: "urban"
   element: "earth"
   descriptor:
-  measurementdescr: "km^2"
+  measurementdescr: "percent"
 
 prompt:
   intro:
