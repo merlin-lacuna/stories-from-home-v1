@@ -1,24 +1,24 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 184
-    upper: 191
+    lower: 42
+    upper: 43
   actmoodsamples:
-    act1: 187
-    act2: 193
-    act3: 198
+    act1: 43.5
+    act2: 43.7
+    act3: 44.5
   actmoodlevels:
-    act1: 5
-    act2: 4
-    act3: 3
+    act1: 4
+    act2: 3
+    act3: 2
   chartstorage:
 entitydescr:
-  id: earth_forest_landcover_nairobi
+  id: earth_urban_landcover_nairobi
   bio:
   type: "urban"
   element: "earth"
   descriptor:
-  measurementdescr: "km^2"
+  measurementdescr: "percentage"
 
 prompt:
   intro:
