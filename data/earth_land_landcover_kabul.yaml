@@ -1,24 +1,24 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 102.732808
-    upper: 103.990584
+    lower: 42.9
+    upper: 43.2
   actmoodsamples:
-    act1: 103.7605846
-    act2: 103.7605846
-    act3:
+    act1: 42.9
+    act2: 43.3
+    act3: 43.4
   actmoodlevels:
     act1: 5
-    act2: 5
+    act2: 4
     act3: 3
   chartstorage:
 entitydescr:
-  id: earth_forest_landcover_kabul
+  id: earth_land_landcover_kabul
   bio:
   type: "urban"
   element: "earth"
   descriptor:
-  measurementdescr: "km^2"
+  measurementdescr: "percent"
 
 prompt:
   intro:
