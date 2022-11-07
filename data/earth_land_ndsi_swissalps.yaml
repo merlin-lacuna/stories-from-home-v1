@@ -1,8 +1,8 @@
 entitydata:
   actmoodlevels:
     act1: 5
-    act2: 5
-    act3: 4
+    act2: 4
+    act3: 2
   actmoodsamples:
     act1: 72.636
     act2: 71.467
@@ -15,12 +15,19 @@ entitydescr:
   bio: null
   descriptor: null
   element: earth
-  id: earth_land_ndsi_poland
+  id: earth_land_ndsi_swissalps
   measurementdescr: null
   type: null
 prompt:
-  act0descr: null
-  act2descr: null
-  act3descr: null
-  intro: null
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nENTITY: '
+   act2descr: 'ACT2: <add prompt>\nENTITY: '
+   act3descr: 'ACT3: <add prompt>\nENTITY: '
+   searchkey: 'land_ndsi'
 
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
