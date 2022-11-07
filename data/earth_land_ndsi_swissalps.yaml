@@ -7,23 +7,24 @@ entitydata:
     act1: 72.636
     act2: 71.467
     act3: 67.943
+  chartstorage: earth_land_ndsi_swissalps.png
   idealranges:
     lower: 72.0
     upper: 76.0
-  measurementunit: percent
+  measurementunit: ndsi percent
 entitydescr:
-  bio: null
-  descriptor: null
+  bio: I am a mountainous region that enjoys heavy snowfall during the winter months. I consist of three zones, but my most famous zone is my alpine zone which is situated above the tree line and is clear of trees because of low average temperatures. This part of me contains mostly grass and small plants along with mountain flowers.
+  descriptor: a lush and mountainous
   element: earth
   id: earth_land_ndsi_swissalps
-  measurementdescr: null
-  type: null
+  measurementdescr: the level of snowfall on the land
+  type: land
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nENTITY: '
-   act2descr: 'ACT2: <add prompt>\nENTITY: '
-   act3descr: 'ACT3: <add prompt>\nENTITY: '
+  intro: The following play reveals the inner monologue of a lush and mountainous region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n
+  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land is blanketed with a thick layer of snowfall during winter. The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere unfolds all around, and winter blazes in all its white energy. The cyclicality of the seasons is preserved, and the land manifests itself as a pall of albino light.\nLAND: '
+   act2descr: 'ACT2: The lands winter-time snowfall is a little less than normal, but nothing to be too worried about yet. The land gets slightly exposed as there seem to be a few narrow slices of the sky not inclined to encourage snowfall. However, its surface shines radiant - the sun makes all the fine ice shards shaping its landscapes glow. The land brings winter to life.\nLAND: '
+   act3descr: 'ACT3: The land is noticing a dramatically high reduction of snowfall, barely being coated in snow at all. The land stares longingly and famished at the skies waiting for snowflakes to descend on its surface to mingle with its essence, and so become one. Expectation is consuming, and only tiny crystals carried by remote gusts passively fluctuate over it.\nLAND: '
    searchkey: 'land_ndsi'
 
 storygenerations:
