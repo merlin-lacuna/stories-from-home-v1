@@ -2,15 +2,15 @@ entitydata:
   measurementunit: NDWI
   idealranges:
     lower: 0
-    upper: 0
+    upper: 0.05
   actmoodsamples:
-    act1:  0
-    act2:  0
-    act3:  50
+    act1:  0.00
+    act2:  0.03
+    act3:  0.2
   actmoodlevels:
-    act1: 5
-    act2: 5
-    act3: 0
+    act1: 0
+    act2: 0
+    act3: 5
   chartstorage:
 entitydescr:
   id: water_atmo_ndwi_larkana
