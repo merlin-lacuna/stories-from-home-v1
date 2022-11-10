@@ -13,9 +13,9 @@ entitydata:
     act3: 5
   chartstorage:
 entitydescr:
-  id: water_atmo_ndwi_larkana
+  id: water_land_ndwi_larkana
   bio:
-  type: "atmo"
+  type: "land"
   element: "water"
   descriptor:
   measurementdescr: "ndwi"
