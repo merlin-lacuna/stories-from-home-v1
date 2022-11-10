@@ -1,0 +1,34 @@
+entitydata:
+  measurementunit: NDWI
+  idealranges:
+    lower: 0
+    upper: 0.08
+  actmoodsamples:
+    act1:  0.08
+    act2:  0.2
+    act3:  0.1
+  actmoodlevels:
+    act1: 5
+    act2: 2
+    act3: 4
+  chartstorage:
+entitydescr:
+  id: water_land_ndwi_ainzig
+  bio:
+  type: "land"
+  element: "water"
+  descriptor:
+  measurementdescr: "ndwi"
+
+prompt:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+  intro:
+  searchkey:
+storygenerations:
+- aagen_id:
+  act1gen:
+  act2gen:
+  act3gen:
