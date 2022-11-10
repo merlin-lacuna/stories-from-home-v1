@@ -33,4 +33,4 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 35,Earth, Biosphere -> Land cover (Urban),/,"Seoul, South Korea",Urban,yearly,2001,2018,/,earth_land_landcover_seoul.csv,Time,Data,y,50.0,55.0
 36, Water, LAKE -> Land cover (Water),/,"Ladoga Lake, Russia",Lake,yearly,2001,2020,/,water_lake_landcover_ladoga.csv,Time,Data,y,17100,17200
 37,Earth, Biosphere -> Land cover (Urban),/,"Manila, Philippians",Urban,yearly,2001,2020,/,earth_land_landcover_manila.csv,Time,Data,y,70.0,71.0
-40,Water,ATMOSPHERE->Surface->Precipitation,a,"Larkana, Pakistan (floods)",Urban Land,daily,08/06/2022,22/06/2022,water_atmo_precip_larkana.csv,Day,Precipitation,y,0,0
+40,Water,LAND->Surface->NDWI,a,"Larkana, Pakistan (floods)",Urban Land,daily,10/06/2022,21/06/2022,water_land_ndwi_larkana.csv,Day,NDWI,y,0,0.05
