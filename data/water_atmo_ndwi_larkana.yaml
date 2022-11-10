@@ -1,0 +1,34 @@
+entitydata:
+  measurementunit: NDWI
+  idealranges:
+    lower: 0
+    upper: 0
+  actmoodsamples:
+    act1:  0
+    act2:  0
+    act3:  50
+  actmoodlevels:
+    act1: 5
+    act2: 5
+    act3: 0
+  chartstorage:
+entitydescr:
+  id: water_atmo_ndwi_larkana
+  bio:
+  type: "atmo"
+  element: "water"
+  descriptor:
+  measurementdescr: "ndwi"
+
+prompt:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+  intro:
+  searchkey:
+storygenerations:
+- aagen_id:
+  act1gen:
+  act2gen:
+  act3gen:
