@@ -30,6 +30,8 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 29,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Dubai, Saudi Arabia",Island,yearly,2001,2018,4,earth_land_landcover_dubai.csv,Time,Data,y,0,0
 30,,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Dheli,India",yearly,2001,2018,4,earth_land_landcover_dheli.csv,Time,Data,y,0,0
 31, Earth, Biosphere -> Land cover (Urban),h,"Dhaka, Bangladesh",Urban,yearly,2001,2020,/,earth_land_landcover_dhaka.csv,Time,Data,y,0,0
+32, Earth, Biosphere -> Land cover (Urban),/,"Nairobi, Africa",Urban,yearly,2001,2020,/,earth_land_landcover_nairobi.csv,Time,Data,y,0,0
 33, Earth, Biosphere -> Land cover (Urban),/,"Niamey, Africa",Urban,yearly,2001,2018,/,earth_land_landcover_niamey.csv,Time,Data,y,29.0,30.0
 35,Earth, Biosphere -> Land cover (Urban),/,"Seoul, South Korea",Urban,yearly,2001,2018,/,earth_land_landcover_seoul.csv,Time,Data,y,50.0,55.0
+36, Water, LAKE -> Land cover (Water),/,"Ladoga Lake, Russia",Lake,yearly,2001,2020,/,water_lake_landcover_ladoga.csv,Time,Data,y,17100,17200
 37,Earth, Biosphere -> Land cover (Urban),/,"Manila, Philippians",Urban,yearly,2001,2020,/,earth_land_landcover_manila.csv,Time,Data,y,70.0,71.0

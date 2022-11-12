@@ -10,12 +10,11 @@ from ruamel.yaml import YAML
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/earth_forest_lai_amazonas.yaml"
+configfile="../data/earth_land_ndsi_swissalps.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
-#### END CONFIG
-
+#### END CONFIGn
 
 oa = openai
 oa.api_key = os.getenv("OPENAI_API_KEY")
@@ -98,9 +97,9 @@ act2descr = econfig['prompt']['act2descr']
 act3descr = econfig['prompt']['act3descr']
 
 for x in range(gencount):
-    # GET PROMPT FOR ACT1
+    # GET PROMPT FOR ACT1n
     promptstatus = "n"
-    for p in range(5):
+    for p in range(9):
         act1rawprompt = intro + act0descr + entitybio + '\\n\\n' + act1descr
         act1prettyprompt = intro.replace('\\n','\n') + act0descr.replace('\\n','\n') +  entitybio + '\n\n' + act1descr.replace('\\n',' \n')
         prompt = act1rawprompt
@@ -116,9 +115,26 @@ for x in range(gencount):
         print("----------------------------------")
         print(act1static)
         print("----------------------------------")
+
+        with open('prompt_act1_temp.txt', 'w') as f:
+            f.write(act1static)
+
         promptstatus = input("Is Act1 OK? y/n: ")
         if promptstatus == "y":
+            promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
+            # Use a prompt file that has been updated.
+            if promptstatus2 == "c":
+                with open('prompt_act1_temp.txt') as f:
+                    act1static = f.read()
+            # Use the prompt as is:
+            if promptstatus2 == "yyy":
+              act1static = act1static
+            else:
+                # Use the file just in case I didnt press 'c' or 'yyy' properly
+                with open('prompt_act1_temp.txt') as f:
+                    act1static = f.read()
             break
+
     for p in range(5):
         # GET PROMPT FOR ACT2#
         act2rawprompt = act1rawprompt +  act1static  + '\\n\\n' + act2descr
@@ -137,8 +153,24 @@ for x in range(gencount):
         print("----------------------------------")
         print(act2static)
         print("----------------------------------")
+
+        with open('prompt_act2_temp.txt', 'w') as f:
+            f.write(act2static)
+
         promptstatus = input("Is Act2 OK? y/n: ")
         if promptstatus == "y":
+            promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
+            # Use a prompt file that has been updated.
+            if promptstatus2 == "c":
+                with open('prompt_act2_temp.txt') as f:
+                    act2static = f.read()
+            # Use the prompt as is:
+            if promptstatus2 == "yyy":
+              act2static = act2static
+            else:
+                # Use the file just in case I didnt press 'c' or 'yyy' properly
+                with open('prompt_act2_temp.txt') as f:
+                    act2static = f.read()
             break
 
     for p in range(5):
@@ -157,14 +189,30 @@ for x in range(gencount):
         print("----------------------------------")
         print(act3)
         print("----------------------------------")
+
+        with open('prompt_act3_temp.txt', 'w') as f:
+            f.write(act3)
+
         promptstatus = input("Is Act3 OK? y/n: ")
         if promptstatus == "y":
+            promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
+            # Use a prompt file that has been updated.
+            if promptstatus2 == "c":
+                with open('prompt_act3_temp.txt') as f:
+                    act3 = f.read()
+            # Use the prompt as is:
+            if promptstatus2 == "yyy":
+              act3 = act3
+            else:
+                # Use the file just in case I didnt press 'c' or 'yyy' properly
+                with open('prompt_act3_temp.txt') as f:
+                    act3 = f.read()
             break
 
     # datetime object containing current date and time
     dt_string = datetime.datetime.now().strftime("%d-%m-%Y_%H_%M_%S")
 
-    story = '-----------' + '\n\n\nSample #' + dt_string + ': ' +'\nACT 1: ' + act1static.replace('\\n','\n') + 'ACT 2: ' + act2static.replace('\\n','\n') + 'ACT 3: ' + act3.replace('\\n','\n')
+    story = '-----------' + '\n\n\nSample #' + dt_string + ': ' +'\nACT 1: ' + act1static.replace('\\n','\n') + '\nACT 2: ' + act2static.replace('\\n','\n') + '\nACT 3: ' + act3.replace('\\n','\n')
 
     print(story)
 
