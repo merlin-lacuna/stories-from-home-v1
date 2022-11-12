@@ -8,7 +8,7 @@ import argparse
 """This program is helper tool for folks who need to document YAML file. It will read YAML and generate tables out of 
 each section of YAML - (as of now) it add two additional columns "itItRequired" and "description" 
 
-python yaml_to_table.py --inputFile ../data/earth_forest_lai_amazonas.yaml --out html
+python yaml_to_table.py --inputFile ../data/earth_forest_lai_molaiforest.yaml --out html
 
 It can generated (text) table or HTML table
 

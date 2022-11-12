@@ -1,0 +1,28 @@
+entitydata:
+   actmoodlevels:
+     act1: 5
+     act2: 4
+     act3: 1
+   actmoodsamples:
+     act1: 85.709
+     act2: 83.043
+     act3: 77.0
+   chartstorage: earth_land_ndsi_poland.png
+   idealranges:
+     lower: 85.0
+     upper: 90.0
+   measurementunit: ndsi_percent
+
+entitydescr:
+   id: earth_land_ndsi_poland
+   bio:
+   type: land
+   element: earth
+   descriptor:
+   measurementdescr:
+
+prompt:
+   intro:
+   act0descr:
+   act2descr:
+   act3descr: 
