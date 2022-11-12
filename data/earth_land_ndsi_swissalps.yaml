@@ -1,0 +1,118 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 4
+    act3: 2
+  actmoodsamples:
+    act1: 72.636
+    act2: 71.467
+    act3: 67.943
+  chartstorage: earth_land_ndsi_swissalps.png
+  idealranges:
+    lower: 72.0
+    upper: 76.0
+  measurementunit: ndsi percent
+entitydescr:
+  bio: I am a mountainous region that enjoys heavy snowfall during the winter months.
+    I consist of three zones, but my most famous zone is my alpine zone which is situated
+    above the tree line and is clear of trees because of low average temperatures.
+    This part of me contains mostly grass and small plants along with mountain flowers.
+  descriptor: a lush and mountainous
+  element: earth
+  id: earth_land_ndsi_swissalps
+  measurementdescr: the level of snowfall on the land
+  type: land
+prompt:
+  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces
+    itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land is blanketed with a thick layer of snowfall during winter.
+    The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere
+    unfolds all around, and winter blazes in all its white energy. The cyclicality
+    of the seasons is preserved, and the land manifests itself as a pall of albino
+    light.\nLAND: '
+  act2descr: 'ACT2: The lands winter-time snowfall is a little less than normal, but
+    nothing to be too worried about yet. The land gets slightly exposed as there seem
+    to be a few narrow slices of the sky not inclined to encourage snowfall. However,
+    its surface shines radiant - the sun makes all the fine ice shards shaping its
+    landscapes glow. The land brings winter to life.\nLAND: '
+  act3descr: 'ACT3: The land is noticing a dramatically high reduction of snowfall,
+    barely being coated in snow at all. The land stares longingly and famished at
+    the skies waiting for snowflakes to descend on its surface to mingle with its
+    essence, and so become one. Expectation is consuming, and only tiny crystals carried
+    by remote gusts passively fluctuate over it.\nLAND: '
+  intro: The following play reveals the inner monologue of a lush and mountainous
+    region of land. It is divided into several acts. Throughout these acts, the land
+    describes its inner and outer transformation:\n\nThe first act starts like this:\n\n
+  searchkey: land_ndsi
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
+- aagen_id: 12-11-2022_00_42_18
+  act1gen: One day when it no longer snowed as much on me, and the terrain underwent
+    changes.I'm left with glaciers that flow down from my mountains; myself magnificently
+    white-capped because of the snowfall over less than a year ago. I am vibrant in
+    these parts where wind is likely to develop, given there is only sparse tree cover
+    and high levels of ground disturbance caused by fir avalanches during periods
+    such as this where I have recently had high amounts of snowfall hitting upon my
+    surface topography. The end point for many glacial meltwater rivers forming off
+    my regions. Last season's winter lasted far longer than expected due its severity
+    in harming us with an early arrival date causing its wrath upon us to be long
+    lasting nearly three months therefore decaying mountain face rock through ice
+    wedging displacing displaced boulders deranging stream flows now flattened guttered
+    too many dead sheep buried-in albeit their pasture grazed fresh summer grass seeded
+    intertangled sticks whirled uprooted trees uninjured but twisted leafs exposed
+    limbs bare certainly autumn born already desiring warmer weather soon denoting
+    consistently another ingrowth not here yet but changing fast enough anyway will
+    not be colder again like last season don't worry!
+  act2gen: The snowfall notching the mast great hunks of snow bumping off me here
+    melting and running away testing my floating ice masses, banishing icicle snakes
+    from my rock shelves! Ice seracs cracking above rivers as storm surges race them
+    down me through pinewoods that stretch grafted roots climbing to meet this hilly
+    shear valley all over me love grows warmer upon exposure fall grasses thin ice
+    slips down mountain faces icicles racing slip sliding halos shrunken halved nearly
+    spring months overdue spurts of green seedlings wait but summer still lives nonetheless
+    geese gliding teal flying sheep grazing herded... oodles dark damp clouds skidding
+    in these thunderless times that tune slow drum beats then light saving mixed weather
+    on brown lichen grey northerly a cold wind blowing up white breath curling. Days
+    later I am stiffening again starting to freeze after getting warmed!
+  act3gen: No freshly fallen snow masking your surface here to sprinkle you quiet
+    gathers even later as black storm clouds slowly mass, lightning striking hiding
+    sea sealing. Winter stuck, but only very early in its season despite it seeming
+    that way amongst the winter silence I'm hearing rather than seeing more icicles
+    fall time passing ticks tick tocks on quartz crystals no bird movement beeches
+    bare yet against blue!
+- aagen_id: 12-11-2022_00_48_26
+  act1gen: I have been asleep under a white blanket this past few months, feeling
+    it gradually bloom over us. I have kept my leaves among the drifts, but lost most
+    of them to frost and snow. My purple seams show through to each side like wounds
+    from wickedly sharp knives. My trees stand motionless with their fingers as thin
+    as knitting needles now that our nights hasten on into blackness so quickly one
+    after another without pause for breath or pulse drum...
+  act2gen: "I was beautiful for about a week, but I usually am not like this over
+    the winter-months. My snowfall heights remain surprisingly high but are lower
+    than usual here and there despite some temporary warming from a few days of rare
+    sunshine. I also have very fine flakes of ice falling every now and again which
+    occasionally accumulate on my surfaces as smaller snowfalls that turn to slush
+    before finally freezing into sheets once more.\nMy ground has layered it upon
+    itself incrementally over the preceding months until we are knee deep in many
+    places; though here in one scraped spot below me is several feet deep and therefore
+    even harder to navigate through just yet. This melting tarpaulin covers all around
+    us with its fringe brushing our legs, turning them grey where they touch it or
+    brush against it on descent... \nSoon enough down here you look up at a silver
+    stalactite cap barely touching the earth near your head, formed by bits that drip
+    off peak after peak far above... Ice five inches thick fills potholes only last
+    week emptied of larger accumulations entirely..."
+  act3gen: We are here on the edge of what has been called my desiccated zone. Rarely
+    visited I imagine, unless by those few friends we all have who share similar burdens,
+    this is certainly one of the most unstocked parts of myself, and some nearby days’
+    walk away still hangs the weighted snowfall-limit in crystals that I am greedily
+    beseeching today as I watch them hang towards last winter’s heights despite summer
+    after so hard a spring. I am annoyed but also largely at peace with these demands
+    being made upon me again since it is exhausting to simply butt heads with a foe
+    who so rarely awes you - instead you must ask for great things from them over
+    and over just like lovers do... It will be days yet before any snow falls beyond
+    their current covering anyway, if fallen there is any even left up there given
+    how relentlessly it has melted in recent sunlight (since when did its peak halve
+    such that they drag downwards too much?)
