@@ -1,0 +1,36 @@
+entitydata:
+  measurementunit: Land Cover
+  idealranges:
+    lower:
+    upper:
+  actmoodsamples:
+    act1:
+    act2:
+    act3:
+  actmoodlevels:
+    act1:
+    act2:
+    act3:
+  chartstorage:
+entitydescr:
+  id: earth_urban_landcover_newyork
+  bio:
+  type: "urban"
+  element: "earth"
+  descriptor:
+  measurementdescr: "percentage"
+
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+
+storygenerations:
+  aagen_id:
+    act1gen:
+
+    act2gen:
+
+    act3gen:
