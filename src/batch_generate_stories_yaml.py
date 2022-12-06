@@ -3,6 +3,7 @@ import re
 import openai
 import datetime
 import random
+import time
 from contextlib import redirect_stdout
 import sys
 from ruamel.yaml import YAML
@@ -10,7 +11,7 @@ from ruamel.yaml import YAML
 #### LOAD ENTITY CONFIG
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
-configfile="../data/earth_land_ndsi_swissalps.yaml"
+configfile="../data/earth_land_landcover_seoul.yaml"
 
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
@@ -24,6 +25,7 @@ maxlength = 300
 elementmodel = econfig['entitydescr']['element']
 gentype = econfig['entitydescr']['id']
 gencount = 1
+retrycount = 9
 selectedmodel = "unknown"
 
 if elementmodel == "earth":
@@ -67,7 +69,7 @@ def get_act(myprompt, maxt, element):
     response = openai.Completion.create(
         model=element,
         prompt=myprompt,
-        temperature=1,
+        temperature=0.8,
         max_tokens=maxt,
         top_p=1,
         frequency_penalty=1,
@@ -88,6 +90,21 @@ def get_act(myprompt, maxt, element):
 
     return ' '.join(lstory.split())
 
+def clean_response(rawresponse):
+    try:
+        response = openai.Edit.create(
+          model="text-davinci-edit-001",
+          input=rawresponse,
+          instruction="Remove the garbled text. Correct the grammar in all sentences. Convert all text to sentence case. Make sure that each sentence is written in the first person tense. Make all pronouns gender neutral",
+          temperature=0.8,
+          top_p=1
+        )
+        cleanedresp = response.choices[0].text
+    except:
+        print("The edit operation failed for some reason.\r Returning raw response:")
+        cleanedresp = rawresponse
+
+    return cleanedresp
 
 intro = econfig['prompt']['intro']
 entitybio = econfig['entitydescr']['bio']
@@ -96,153 +113,102 @@ act1descr = econfig['prompt']['act1descr']
 act2descr = econfig['prompt']['act2descr']
 act3descr = econfig['prompt']['act3descr']
 
-for x in range(gencount):
-    # GET PROMPT FOR ACT1n
-    promptstatus = "n"
-    for p in range(9):
-        act1rawprompt = intro + act0descr + entitybio + '\\n\\n' + act1descr
-        act1prettyprompt = intro.replace('\\n','\n') + act0descr.replace('\\n','\n') +  entitybio + '\n\n' + act1descr.replace('\\n',' \n')
-        prompt = act1rawprompt
+def writeout_act(actrawprompt, actprettyprompt,promptfile):
+    for p in range(retrycount):
+        prompt = actrawprompt
         print("\n\n<PRETTYPROMPT>")
-        print(act1prettyprompt)
+        print(actprettyprompt)
         print("</PRETTYPROMPT>")
         print("<RAWPROMPT>" + prompt + "</RAWPROMPT>\n\n")
-        act1raw = get_act(prompt, maxlength, selectedmodel)
-        act1 = trim_output(act1raw)
-        # print(act1)
-        act1static = act1 + '\\n\\n'
-        print("This is act1: ")
+        actraw = get_act(prompt, maxlength, selectedmodel)
+        time.sleep(1)
+        # act = trim_output(actraw)
+        actcl = clean_response(actraw)
+        # print(actraw)
+        actstatic = actcl + '\\n\\n'
+        print("This is actraw (raw version): ")
         print("----------------------------------")
-        print(act1static)
+        print(actraw)
+        print("----------------------------------")
+        print("This is actstatic (cleaned version): ")
+        print("----------------------------------")
+        print(actstatic)
         print("----------------------------------")
 
-        with open('prompt_act1_temp.txt', 'w') as f:
-            f.write(act1static)
+        with open(promptfile, 'w', encoding='utf-8') as f:
+            f.write(actraw)
 
-        promptstatus = input("Is Act1 OK? y/n: ")
+        with open('prompt_buffer_temp.txt', 'w', encoding='utf-8') as f:
+            f.write(actstatic)
+
+        promptstatus = input(f"Is {promptfile} OK? y/n: ")
         if promptstatus == "y":
             promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
             # Use a prompt file that has been updated.
             if promptstatus2 == "c":
-                with open('prompt_act1_temp.txt') as f:
-                    act1static = f.read()
+                with open(promptfile, encoding='utf-8') as f:
+                    actstatic = f.read()
             # Use the prompt as is:
             if promptstatus2 == "yyy":
-              act1static = act1static
+                actstatic = actstatic
             else:
                 # Use the file just in case I didnt press 'c' or 'yyy' properly
-                with open('prompt_act1_temp.txt') as f:
-                    act1static = f.read()
+                with open(promptfile, encoding='utf-8') as f:
+                    actstatic = f.read()
             break
 
-    for p in range(5):
-        # GET PROMPT FOR ACT2#
-        act2rawprompt = act1rawprompt +  act1static  + '\\n\\n' + act2descr
-        act2prettyprompt = act1prettyprompt + act1static.replace('\\n','\n') + act2descr.replace('\\n','\n')
-        prompt = act2rawprompt
-        print("\n\n<PRETTYPROMPT>")
-        print(act2prettyprompt)
-        print("</PRETTYPROMPT>")
-        print("<RAWPROMPT>" + prompt + "</RAWPROMPT>\n\n")
-        act2raw = get_act(prompt, maxlength, selectedmodel)
-        # print(act2raw)
-        act2 = trim_output(act2raw)
-        # print(act2)
-        act2static = act2 + '\\n\\n'
-        print("This is act2: ")
-        print("----------------------------------")
-        print(act2static)
-        print("----------------------------------")
+    return actstatic
 
-        with open('prompt_act2_temp.txt', 'w') as f:
-            f.write(act2static)
+act1rawprompt = intro + act0descr + entitybio + '\\n\\n' + act1descr
+act1prettyprompt = intro.replace('\\n','\n') + act0descr.replace('\\n','\n') +  entitybio + '\n\n' + act1descr.replace('\\n',' \n')
+act1static = writeout_act(act1rawprompt, act1prettyprompt,"prompt_act1_temp.txt")
 
-        promptstatus = input("Is Act2 OK? y/n: ")
-        if promptstatus == "y":
-            promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
-            # Use a prompt file that has been updated.
-            if promptstatus2 == "c":
-                with open('prompt_act2_temp.txt') as f:
-                    act2static = f.read()
-            # Use the prompt as is:
-            if promptstatus2 == "yyy":
-              act2static = act2static
-            else:
-                # Use the file just in case I didnt press 'c' or 'yyy' properly
-                with open('prompt_act2_temp.txt') as f:
-                    act2static = f.read()
-            break
+act2rawprompt = act1rawprompt + act1static + '\\n\\n' + act2descr
+act2prettyprompt = act1prettyprompt + act1static.replace('\\n', '\n') + act2descr.replace('\\n', '\n')
+act2static = writeout_act(act2rawprompt, act2prettyprompt,"prompt_act2_temp.txt")
 
-    for p in range(5):
-        # GET PROMPT FOR ACT3
-        act3rawprompt= act2rawprompt + act2static  + '\\n\\n' + act3descr
-        act3prettyprompt = act2prettyprompt + act2static.replace('\\n','\n') + act3descr.replace('\\n','\n')
-        prompt = act3rawprompt
-        act3raw = get_act(prompt, maxlength, selectedmodel)
-        act3 = trim_output(act3raw)
-        print("\n\n<PRETTYPROMPT>")
-        print(act3prettyprompt + act3)
-        print("</PRETTYPROMPT>")
-        print("<RAWPROMPT>" + prompt + "</RAWPROMPT>\n\n")
+act3rawprompt = act2rawprompt + act2static + '\\n\\n' + act3descr
+act3prettyprompt = act2prettyprompt + act2static.replace('\\n', '\n') + act3descr.replace('\\n', '\n')
+act3static = writeout_act(act3rawprompt, act3prettyprompt,"prompt_act3_temp.txt")
 
-        print("This is act3: ")
-        print("----------------------------------")
-        print(act3)
-        print("----------------------------------")
+# datetime object containing current date and time
+dt_string = datetime.datetime.now().strftime("%d-%m-%Y_%H_%M_%S")
 
-        with open('prompt_act3_temp.txt', 'w') as f:
-            f.write(act3)
+story = '-----------' + '\n\n\nSample #' + dt_string + \
+        ': ' +'\nACT 1: ' + \
+        act1static.replace('\\n','\n') + '\nACT 2: ' + \
+        act2static.replace('\\n','\n') + '\nACT 3: ' + \
+        act3static.replace('\\n','\n')
 
-        promptstatus = input("Is Act3 OK? y/n: ")
-        if promptstatus == "y":
-            promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
-            # Use a prompt file that has been updated.
-            if promptstatus2 == "c":
-                with open('prompt_act3_temp.txt') as f:
-                    act3 = f.read()
-            # Use the prompt as is:
-            if promptstatus2 == "yyy":
-              act3 = act3
-            else:
-                # Use the file just in case I didnt press 'c' or 'yyy' properly
-                with open('prompt_act3_temp.txt') as f:
-                    act3 = f.read()
-            break
+print(story)
 
-    # datetime object containing current date and time
-    dt_string = datetime.datetime.now().strftime("%d-%m-%Y_%H_%M_%S")
+finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
 
-    story = '-----------' + '\n\n\nSample #' + dt_string + ': ' +'\nACT 1: ' + act1static.replace('\\n','\n') + '\nACT 2: ' + act2static.replace('\\n','\n') + '\nACT 3: ' + act3.replace('\\n','\n')
+###### WRITE GENERATIONS TO YAML
+genid = dt_string
+act1gen = act1static.replace('\\n','\n')
+act2gen = act2static.replace('\\n','\n')
+act3gen = act3static.replace('\\n','\n')
+genpayload = {
+    'aagen_id': genid,
+    'act1gen': act1gen.strip(),
+    'act2gen': act2gen.strip(),
+    'act3gen': act3gen.strip()
+              }
+econfig['storygenerations'].append(genpayload)
 
-    print(story)
+#yaml.dump(econfig, sys.stdout)
 
-    finalfile = '../generations/' + dt_string + '_' + gentype + '.txt'
+with open(configfile, 'w', encoding='utf-8') as f:
+    yaml.dump(econfig, f)
 
-    ###### WRITE GENERATIONS TO YAML
-    genid = dt_string
-    act1gen = act1static.replace('\\n','\n')
-    act2gen = act2static.replace('\\n','\n')
-    act3gen = act3.replace('\\n','\n')
-    genpayload = {
-        'aagen_id': genid,
-        'act1gen': act1gen.strip(),
-        'act2gen': act2gen.strip(),
-        'act3gen': act3gen.strip()
-                  }
-    econfig['storygenerations'].append(genpayload)
+####### BACK UP GENERATIONS TO LOG
 
-    #yaml.dump(econfig, sys.stdout)
+finalfile = '../generations/master_generation_log.txt'
 
-    with open(configfile, 'w', encoding='utf-8') as f:
-        yaml.dump(econfig, f)
-
-    ####### BACK UP GENERATIONS TO LOG
-
-    finalfile = '../generations/master_generation_log.txt'
-
-    try:
-        with open(finalfile, 'a', encoding="utf-8") as f:
-            with redirect_stdout(f):
-                print(story)
-    except:
-        print("File write error")
+try:
+    with open(finalfile, 'a', encoding="utf-8") as f:
+        with redirect_stdout(f):
+            print(story)
+except:
+    print("File write error")
