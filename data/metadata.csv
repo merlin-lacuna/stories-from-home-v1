@@ -37,3 +37,4 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 37,Earth, Biosphere -> Land cover (Urban),/,"Manila, Philippians",Urban,yearly,2001,2020,/,earth_land_landcover_manila.csv,Time,Data,y,70.0,71.0
 40,Water,LAND->Surface->NDWI,a,"Larkana, Pakistan (floods)",Urban Land,daily,10/06/2022,21/06/2022,water_land_ndwi_larkana.csv,Day,NDWI,y,0,0.05
 41,Water,LAND->Surface->NDWI,a,"Sinzig, Germany (floods)",Urban Land,daily,11/07/2021,20/07/2021,water_land_ndwi_sinzig.csv,Day,NDWI,y,0,0.08
+42,Water,LAND->Surface->Precipitation,a,"Nova Friburgo (floods)",Urban Land,daily,01/01/2011,19/01/2011,water_land_precipitation_novafriburgo.csv,Time,Data,y,0,40
