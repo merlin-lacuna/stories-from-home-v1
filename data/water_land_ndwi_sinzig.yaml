@@ -1,0 +1,36 @@
+entitydata:
+  actmoodlevels:
+    act1: 4
+    act2: 1
+    act3: 5
+  actmoodsamples:
+    act1: 0.1
+    act2: 0.21
+    act3: 0.05
+  chartstorage: null
+  idealranges:
+    lower: 0
+    upper: 0.08
+  measurementunit: NDWI
+  chartstorage: water_land_ndwi_sinzig.png
+entitydescr:
+  id: water_land_ndwi_sinzig
+  bio:
+  type: "land"
+  element: "water"
+  descriptor: small region of land
+  measurementdescr: amount of water covering the land
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a small area of land situated next to a large river. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The land is getting more water than usual. The flora and fauna are receiving more than enough moisture. The land can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land stands in a liminal state.\nLAND: '
+   act2descr: 'ACT2: The land is almost completely submerged in water. The flora and fauna are drowning. The land is no further capable of embracing, sustaining and shoring up its surroundings. Everything is fractured, brittle and in a precarious state of disarray. The process of displacement and disconnection from the world appears imminent while fragility abounds.\nLAND: '
+   act3descr: 'ACT3: The land is receiving a healthy amount of water. The flora and fauna are being nourished with plenty of moisture. The land is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nLAND: '
+   searchkey: 'waterland_cover'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'

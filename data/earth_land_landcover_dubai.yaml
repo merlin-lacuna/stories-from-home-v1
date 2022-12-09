@@ -1,34 +1,121 @@
 entitydata:
-  measurementunit: Land Cover
-  idealranges:
-    lower: 70
-    upper: 72
-  actmoodsamples:
-    act1: 72.5
-    act2: 74.5
-    act3: 76.0
   actmoodlevels:
     act1: 4
     act2: 2
     act3: 1
+  actmoodsamples:
+    act1: 72.5
+    act2: 74.5
+    act3: 76.0
   chartstorage: earth_urban_landcover_dubai.png
+  idealranges:
+    lower: 70
+    upper: 72
+  measurementunit: Land Cover
 entitydescr:
+  bio: I have a climate that is mostly warm and sunny, with some moderate humidity.
+    I am one of the driest places on Earth, rain rarely graces me with its presence
+    and the oldest rocks on my surface are millions of years old.
+  descriptor: a hot and dry land
+  element: earth
   id: earth_urban_landcover_dubai
-  bio: tbc
-  type: "urban"
-  element: "earth"
-  descriptor: tbc
-  measurementdescr: "percentage"
-
+  measurementdescr: land cover percent
+  type: urban
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nENTITY: '
-   act2descr: 'ACT2: <add prompt>\nENTITY: '
-   act3descr: 'ACT3: <add prompt>\nENTITY: '
-
+  act0descr: 'ACT0: The land cover of the region is not yet known. The land introduces
+    itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land''s ecosystem is slowly deteriorating but the flora and
+    fauna of the land are adapting to these changes. The land gradually realises that
+    it has not been forsaken. Whatever once swayed and breathed with her emerges again
+    after a period of meditative and painful conversion. The force of adaptability
+    seems to arise anew from every segment of its surface like an epiphany from the
+    unknown.\nLAND: '
+  act2descr: 'ACT2: The land is losing dramatically high levels of flora and fauna
+    which is triggering unforeseen side effects in surrounding regions and destroying
+    the ecosystem. The land is confronted with a grave sense of responsibility towards
+    anything it penetrates with its presence. Everything it touches aches and cries
+    for the loss of vital spirit. It seems there is only stillness left.\nLAND: '
+  act3descr: 'ACT3: The land has lost more flora and fauna than it has ever lost before
+    in its lifetime. It is on the verge of becoming devoid of any flora and fauna
+    whatsoever. The land finds itself deprived of its vivid lovers and blooming companions.
+    Sterility now appears to be its ultimate destination, and all around reigns a
+    silence with mortiferous overtones. The condition of absence casts a shadow of
+    despair on its entire extension.\nLAND: '
+  intro: The following play reveals the inner monologue of a hot and dry land. It
+    is divided into several acts. Throughout these acts, the land describes its inner
+    and outer transformation:\n\nThe first act starts like this:\n\n
 storygenerations:
 - aagen_id: 01-01-2022_01_01_01
   act1gen: '---'
   act2gen: '---'
   act3gen: '---'
+- aagen_id: 13-11-2022_00_38_52
+  act1gen: I am the same yet resurfaced; sometimes still dark, other times luminous.
+    I was a mature decayed terrain,  incessantly aridized; covered with vineyards
+    where people had replaced trees and plants with pears and grapes. The only elements
+    missing here were light, wind and rain - which arrived to return me to my pristine
+    form. Let us quickly look back before hurrying off towards new adventures! Here
+    on this now dry territory oil has been produced for centuries... Oil marketed
+    everywhere! Billions of barrels spilled into the darkness while dense sweet juices
+    fermented under those inaccessible canopies high up there above our heads ...
+    Waiting just like we are waiting...
+  act2gen: Like you, and not at all like you. I am full of pain, my children have
+    no one. My rivers were these sores - they slid over sea foam. I raise harps to
+    the moon which doesn't hear them any more...
+  act3gen: I am a fiancée of sterile rock. My rivers were full of oil. It’s not just
+    me I care about, so collapse my body or free it!
+- aagen_id: 13-11-2022_00_50_11
+  act1gen: In a number of 'hotspots', my denizens turn their back on nature's renewal
+    and plunge into economic growth as if it were salvation itself...
+  act2gen: ˜I am losing clearly much more than anyone noticed...
+  act3gen: ˜I feel parched and salted. I close an injured eye to earth smudged.. careening
+    on a pinpoint Everything clutters black and soaks up fingertips. Soil... flaccid
+    slime... our vibrations keep shifting.
+- aagen_id: 13-11-2022_01_00_05
+  act1gen: 'Whatever once swayed and breathed with me emerges again... from these
+    words, a third emerges spontaneously. I am shocked by this unexpected fact that
+    flows forth before me in rough drafts. I am that eternal silence where the word
+    has not yet been uttered. Here we are at an existential breaking point for which
+    no hypothesis exists, because to write about emptiness already constitutes an
+    inventory of sorts. This is how poetry comes out of nothingness and first closely
+    examines itself: in order to elaborate itself from nothingness.'
+  act2gen: I live a sense of disaster spreading throughout the world, what law is
+    there for me? What my soil presents is a savage essence disputing the accident
+    of water.
+  act3gen: What fear is this, my world? This drought that pours venom upon a trunk.
+    Wind shivers and walks the deserted field.
+- aagen_id: 13-11-2022_01_11_26
+  act1gen: 'I am still during the heat of day and at dusk my sea breeze stirs my hair
+    around me. My stones have aged, rusting under the burning sun, but this incipient
+    coarseness only gives them more beauty. I incorporate everything in myself and
+    enhance it all - though not without a cost: whenever there is some moss here on
+    my surface that must wither away, I allow it to grow for too much time... Each
+    one seems overcome by fatigue on this side or that...'
+  act2gen: 'I never grow either tender or angry without sending an exact wind-warning
+    to each blade of grass that is going to bend here tonight - it must be said, I
+    always start before anything has even budded... for how many millennia did I carry
+    everyone''s pain? Beggars and enriched alike were deafened by the din who descended
+    on me interminably forever! My heat ravaged them all; there was no escaping me
+    back then. Whence that scene of drought today where souls shudder! From a distance,
+    people say: this land cracked within itself and couldn''t bear anymore its solitary
+    presence...'
+  act3gen: 'Right before my eyes, sick men with no morals lay down on the ground to
+    rot! ... Land of confusion and crime, I despise myself for having borne them too
+    long. It is easy for me today to embrace whomever goes by here: everyone wants
+    me-- because whoever heard tell that a land has been abandoned (my virgins fled
+    at least since yesterday)! I was always indecent in my excesses - like all things
+    that came from out of space at night.'
+- aagen_id: 13-11-2022_01_19_29
+  act1gen: 'My mountains have been formed from ancient sediments and rocks of limestone,
+    granite and quartzite. Little sustenance can be scrounged here without sacrifice:
+    stalactites grow in rivers despite drought, exploring salt seep into deep spaces
+    artificially precipitated by geochemistry where water condenses to stone after
+    rain falls long ago...'
+  act2gen: I am mourning my weakening surface. That what crawls here cannot thrive,
+    has limited cause to unite in time and must harness the unison of survival against
+    stunning odds...
+  act3gen: Silence threatens a bleak and blank expansiveness to seize my every reach.
+    The weight created by the absence invades our darkness anxiously. Despair has
+    entered here now from the southeast; it strengthens itself in the surfeit of stone
+    along its journey through me. It wears a red fringe around its face and sings
+    for rootedness in this black of mine...

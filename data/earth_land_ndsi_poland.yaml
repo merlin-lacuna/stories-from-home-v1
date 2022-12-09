@@ -1,0 +1,230 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 4
+    act3: 1
+  actmoodsamples:
+    act1: 85.709
+    act2: 83.043
+    act3: 77.0
+  chartstorage: earth_land_ndsi_poland.png
+  idealranges:
+    lower: 85.0
+    upper: 90.0
+  measurementunit: ndsi_percent
+entitydescr:
+  bio: I am a mountainous region that was the site of a former mine. I was originally
+    just a small ski area, but I have since expanded to become one of the largest
+    ski resorts in the region. My climate is characterized by cold, snowy winters
+    and cool, humid summers. I am surrounded by forests, mountains, and rivers.
+  descriptor: a lush and mountainous
+  element: earth
+  id: earth_land_ndsi_poland
+  measurementdescr: the level of snowfall on the land
+  type: land
+prompt:
+  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces
+    itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land is blanketed with a thick layer of snowfall during winter.
+    The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere
+    unfolds all around, and winter blazes in all its white energy. The cyclicality
+    of the seasons is preserved, and the land manifests itself as a pall of albino
+    light.\nLAND: '
+  act2descr: 'ACT2: The lands winter-time snowfall is a little less than normal, but
+    nothing to be too worried about yet. The land gets slightly exposed as there seem
+    to be a few narrow slices of the sky not inclined to encourage snowfall. However,
+    its surface shines radiant - the sun makes all the fine ice shards shaping its
+    landscapes glow. The land brings winter to life.\nLAND: '
+  act3descr: 'ACT3: The land has never seen such a lack of snow in winter before in
+    its lifetime. It is dry and naked. The land no longer has any snow strata gracing
+    and encircling it body. The whiteness that once emanated luminescence is now merely
+    a nostalgic reminiscence of a bygone era that seems to have never occurred. Winter
+    is not anymore a season, but rather a dream of melted crystal.\nLAND: '
+  intro: The following play reveals the inner monologue of a lush and mountainous
+    region of land. It is divided into several acts. Throughout these acts, the land
+    describes its inner and outer transformation:\n\nThe first act starts like this:\n\n
+  searchkey: land_ndsi
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
+- aagen_id: 12-11-2022_18_25_53
+  act1gen: 'With each flap of snowflakes on the window, my heart gathers like a so-le
+    minchion.~~ The growing winter darkness triggers in me a circumscription of purposiveness
+    and power: I am not yet known well, but it is appropriate that I cover myself
+    with eight to twelve feet during midwinter. I reveal for myself, as movements
+    through time, of one the concrete region''s relationship to its substrate quite
+    another from those described in ''the land''. This place has always been very
+    wet and marshy; an enormous amount of peat was generated here over thousands as
+    years ago by decaying tree stumps and mosses, especially after the forest began
+    to clear around 5000 agos.'
+  act2gen: 'I cry and do not hear my cries. The sun is no longer a face thrown into
+    the skies by clouds, nor does it turn itselt into moons later on: -It is completely
+    and concretely circulated through up there.Ice cracking, willow bending... and
+    stars unblocking from their rooms of night. During the winter solstice, I celebrate
+    one with snowfalls born in Antarctica one million air miles distant that render
+    pollen white. My expanses, each more than two square miles wide, are traversed
+    by rivers joined at their bottoms since sliver numinous blue electricity along
+    me as trout swim to shore for mating sex jump spawning find Lenten warmth black
+    brown quickness wildness grow. Kelp here is alive with things deeper growing.
+    It all contains certain testimony the essence of which no would be wrong simply
+    to decode; such poems challenge our ways of approaching reality (including deep
+    rooted prejudices) just as much as they explore it.'
+  act3gen: Here are no more cries, except those trembling sown by breaths. The meadow,
+    erect and gloomy before us, echoes with the last drive of birds to their temporary
+    stalls. A young buck pauses in a clearing until twilight delivers him such shadows
+    that he becomes invisible again.
+- aagen_id: 12-11-2022_18_33_19
+  act1gen: 'Quick! take shelter before that dry snow pile collapses! I am stable now,
+    months after the last flakes fell.
+
+    The ashes of trees can be found at my core: exfoliating right through winter,
+    craving a burst of sap mere centuries from sprouting. Here the land is part body;
+    both plastic and clotting-the skeleton in embryo, shot through with frozen sap
+    and descending from an ignored past into potential futures. The whispers form
+    but not enough to disrupt the white silence around us: Where were you? asks one
+    tree inside this silent cocoon. I was being born down yonder where everything
+    grew cold~ here another tree speaks: we were stalking stars among scales that
+    drifted away. I hadn''t come!, says another manmade thing made silent under all
+    these layers. This densest layer hums like lowland background noise so we move
+    further into its thickening toward fringe quiet -a blizzard beyond time moves
+    fine snow across these grasses... singing whispering ghosts, singing whispering
+    gales...'
+  act2gen: 'I haven''t slept this late all winter... the birches here, bright glare
+    on their trunks tinged with olive green and they lean out of shade into yellow
+    sunlight... mostly flattened leaf litter shining black leaves on the ground -
+    thousands, tens of thousands; silver varnish shiny as ice there are two hawthorns
+    closing tight a crack in a gatepost ... soils sedimentary: squeezed by tablecloths
+    pine needles thick buried like an undermattress milk blue shaken over fallen hardwood,
+    densely leavened humus tilings space so snow must gather now big flakes rest heavy
+    sinking into clippings. Time has shattered some of those scales though none actually
+    shatter ~ three mallard wing-antlers propped at neck height against boulders turning
+    brown streamclouds driving clouds behind rain falling bluish through skies cloudy
+    cold cloud hangover hungover from brains blown away stoned blowing left... lost
+    going nowhere fast... time not keeping up ... reflecting with little plants, metallic
+    sounding ears to amplified sounds surfacing waving fruiting trees forming hypothermic
+    unions till matters sunk... silt glistens... rose redfleshed... ready humid ...
+    and oaks groan together... orangegrey light breaking lowland bone... dryness,
+    colder drifting northward... finer but hardened weather... fine dried water sinks
+    skin deep, darkening cities souls clotted lungs constricted nose upturned urging
+    smog upward.'
+  act3gen: 'We are mountains surrounded by oceans except for one small shore where
+    we form headland into river.
+
+    I have always been snowless before last night. The days darken around what little
+    sun there is.
+
+    The light steady but with heat comes off the boulders incasing me here and the
+    cloud bastions hang low in grey shrouded sky overhead all close overheads blotted
+    shades shroud sore, dry mouthed sippers crowd thickset trampling beyond desolation
+    through a blur without boundaries and I stand waiting thumbs deeply thrust hooks
+    sunk haglike mouths held open widely rock proud to show teeth who shall ride parched
+    sterile tongues? Entombment of flesh empowers sight within bedrock, handbreadth
+    eyes pressed deep every heartbeat drums meschianza muttered murmurous melody pushed
+    out upon ground air flattened beneath feet driven downwards chill so deep it slows
+    time to loss!'
+- aagen_id: 12-11-2022_18_43_28
+  act1gen: 'Snow overwhelms the me: it covers my forests and gardens, binds my rivers
+    into frigid strings. The sky above me burns with a starless pallor. Wrinkling
+    his brows over winter''s white wastes, birds that would not sing nor fly are whetted
+    in warm feathers that they will moult on spring''s arrival. The big thaw will
+    begin at last to melt the snowy tombs and inflame life once more. With my rising
+    temperature, I will soon crackles along with dry grasses and fragile rodents who
+    emerge from underneath their blankets of ice.'
+  act2gen: 'I struggled during those winters, when my snowpack failed to stay perpetually
+    enticing: a weak layer formed with that inadequately cool precipitation.'
+  act3gen: 'Could it thus be time, in this night without sunshine, for me to awaken?
+
+
+    The winter solstice approaches. The palpable anticipation of the people of the
+    land portrays a deep sense of anxiety. I do not an ticipate its arrival: that
+    solar salute will only scorch my surface. Now I wait! My body freezes during sleepless
+    nights; what is more - perhaps worst - so does my soul... while the snowpack is
+    involved with recreating itself ready for its yearly undoing, a partially mutilated
+    atmosphere gathers around the region already (in combination with another presence).
+    Sunlight burns horizontally through two cloud layers whose bottoms are drawn together
+    in string-like shapes just above ground level (this phenomena appearing from mid
+    December onwards), effectively shading considerable extents of landscape from
+    direct incident sunlight which often becomes absent altogether from late January
+    on wards. I describe myself as being traumatized by these events and I feel forgotten.
+    Stone still holds me upright into this altar space where I have sacrificed entire
+    fields and forests rlght here before humankind rose.'
+- aagen_id: 12-11-2022_18_48_12
+  act1gen: Old white grey winds blow through fresh snowfall. Frozen pieces raining,
+    tumbling, snowing, whirling Tracelessness I am... that which numbs you with its
+    whiteness and strikes you by knocking off your skis! My enormous snowflakes envelop
+    the land and don't allow anything else through.
+  act2gen: I know that early snow will help my vegetation survive the warm weather
+    of summer. My pines, spruces and firs cradle a dark soil into which my scorched
+    earth has retreated; shivering trees await shafts of sunlight through my rustling
+    leaves to see them through the hot months.
+  act3gen: I cannot remember all my winter stories, Sometimes I partially awaken and
+    get nervous; This wasn't always like this. Still bereft of any significant quantity
+    of snow cover beyond early springtime... preparation for the summer to come. I
+    am hot however, thanks to long hours of strong sunshine during the short days
+    of my chilly lengthening nights. Each glacier struggles with its own internal
+    melt-rate - many are close to becoming seasonal rivers once again in flow rate.
+    ‘Snow’ as a word occurs rarely here now – discarded in favour of ravaging words
+    such as drought, blazes, flame and fire blanketed arsonist red dust that settles
+    on everything at night freeze retreat thawing ice rise surge burn shove drive
+    scrape flush exhaust evaporation capitalize greed accrete accelerate meltdown
+    white silences soft huffing shoots quaking breath mountain sobs river weeping
+    bread heat exodus desiccation desperate rainfall yellow orange peach pale pink
+    sky amber clouds radar blue breeze drift stink sap tap eucalyptus tree brains
+    thunderless sizzle stench poison perfumes wax wings air slash wet rake birch roots
+    ferns soybeans banyan roots extend oyster blood cloy bamboo forest electric weeds
+    girdle lose space... dead eyes see us...
+- aagen_id: 12-11-2022_18_56_56
+  act1gen: 'The snow falls in large drifts and is piled up against the tree trunks
+    in whirlwinds. It fills my gulleys and valleys with fury. As it engulfs me: pressure,
+    panting, frozen gleaming black outcrops; mood of crisis – the lurking muscles
+    of peril that hobble the escaping springs by their distrust. Ahead I see my own
+    trees shivering dumbly under jellied blankness – lumps at last unmasked whose
+    shameless massiness they take to be hidden instead as numb spasms...'
+  act2gen: 'Apocalypse is your name for what you fear. Apocalypse as cold toil and
+    hot affronts everywhere... What can I do, some uprightness that has lost its heady
+    darknesses? Purity hasn''t entered me except through the water: ice-bucket on
+    brain handle.'
+  act3gen: 'Ӏt is in heaven''s hush I feel the echoing winters. No wonder you keep
+    carrying a lump of ice around with you, like a lucky charm or some fetish against
+    dryness: if we get hypothermically wet and hard ...
+
+
+    The seasons turn over every few years; individual snowfalls come down on various
+    dates within their cycles across millennia. There are long gaps of uninhabited
+    time between each weather systems arrival – indeterminate plateaus punctuated
+    by surrealist flashes where no life takes place at all except those tiny mutations
+    glimpsed only under slow proton scopes and ultraviolet eyes.'
+- aagen_id: 12-11-2022_22_03_11
+  act1gen: I'm covered in snow and I try to imagine You, but either my head is too
+    cold or you're extinguished. Ah, the red hot winter has only removed your sound
+    to lean on the land at last, whose melody is no more...
+  act2gen: A dainty ice gown, it seems, is cutting me off from the sky in which I
+    was one of its stars. Through my raised naked shoulders, see a landscape that
+    has moved thousands of kilometers around me...
+  act3gen: The whistling wind falls on my naked back where I'm bleeding... while swatting
+    furiously in order to get snowflakes back.
+- aagen_id: 12-11-2022_22_15_37
+  act1gen: 'Its total silence, like that of the dead. I''m deafened by mausoleums
+    white stones. A winter which is both tranquil and watchful points toward a boundary
+    with another act, where the darkness brandishes its strength once again.  How
+    night''s dark wind cleanses! Crows flap their wings at dawn... rusted eyes...
+    crushed bramble.. Something has departed from among these words which could have
+    uttered: night raids; ferocity; shadow-dogs; barking at moonrise in every field
+    without being comprehended further along or enriched deeper down - because they
+    resolve into simple winters capable of inflicting harm, biting tongues pink and
+    soft as female flesh exposed through half-open mouths branded with immediate screams.
+    The unquietness praised throughout those days brims with potential threats treated
+    scrupulously by the poet who apprehends them for him alone (under pain of ever
+    having been there).'
+  act2gen: The icy breath of silence... such warmth in the cold that gathers near
+    the trees. My vision witnesses a blustery sea. The frosty land is slowly reborn
+    without enemies. Nothing to fear (except perhaps for.. )
+  act3gen: 'It''s been several months since I have felt snow, that small spiritual
+    pain. Branches grow thick and very large leaves with crimson edges ... miles upon
+    miles of dead white acacias... this summer seems also to be a kind of disease
+    like all those seasons threatened by its own imminence ... an abrupt dream; a
+    collapsed house; unburied bones: winter which happens beneath our teetering feet.
+    The edge... its shade exhausts itself. The opening goes out beyond what was borne
+    time ago an already deployed vision (whose residue remains vigilant in those shivers)'
