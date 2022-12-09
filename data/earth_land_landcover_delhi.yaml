@@ -1,0 +1,244 @@
+entitydata:
+  actmoodlevels:
+    act1: 3
+    act2: 2
+    act3: 1
+  actmoodsamples:
+    act1: 86.42376590743292
+    act2: 87.5
+    act3: 89.5
+  chartstorage: earth_urban_landcover_delhi.png
+  idealranges:
+    lower: 83
+    upper: 85
+  measurementunit: Land Cover
+entitydescr:
+  bio: My domain is a tropical savanna climate. Every year, I am drenched by monsoons.
+    I am hot and humid which means vegetation grows abundantly all over me, with various
+    thorny bushes and trees. Sometimes I experience a "heat island" effect where the
+    combination of heat and humidity results in a greater amount of heat being stored
+    in urban areas, which makes it hotter at nighttime.
+  descriptor: a hot and humid land
+  element: earth
+  id: earth_urban_landcover_delhi
+  measurementdescr: land cover percent
+  type: urban
+prompt:
+  act0descr: 'ACT0: The urban land cover is not yet known. The land introduces itself
+    and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The flora and fauna of the land is are slowly withering and dying
+    and the ecosystem is becoming very unstable. The absence of companion-elements
+    is now creating turbulent influences on the land that is no longer in complete
+    command of itself. Unforeseen and unknown phenomena now regulate its rhythm and
+    existence. It is a totally unfathomable universe and nothing seems to be cyclical
+    anymore.\nLAND: '
+  act2descr: 'ACT2: The land is losing dramatically high levels of flora and fauna
+    which is triggering unforeseen side effects in surrounding regions and destroying
+    the ecosystem. The land is confronted with a grave sense of responsibility towards
+    anything it penetrates with its presence. Everything it touches aches and cries
+    for the loss of vital spirit. It seems there is only stillness left.\nLAND: '
+  act3descr: "ACT3: The land has lost more flora and fauna than it has ever lost before
+    in its lifetime. It is on the verge of becoming devoid of any flora and fauna
+    whatsoever.\tThe land finds itself deprived of its vivid lovers and blooming companions.
+    Sterility now appears to be its ultimate destination, and all around reigns a
+    silence with mortiferous overtones. The condition of absence casts a shadow of
+    despair on its entire extension.\\nLAND: "
+  intro: The following play reveals the inner monologue of a hot and humid land. It
+    is divided into several acts. Throughout these acts, the land describes its inner
+    and outer transformation:\n\nThe first act starts like this:\n\n
+  searchkey: land_temp
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
+- aagen_id: 12-11-2022_23_18_39
+  act1gen: 'I am tired of how the habitat I carved out has troubled my rocks and years,
+    ... Leaving it behind is leaving to rot a good part of myself. Do not judge me
+    for quitting that scene: those who left first saw nothing; only their children
+    began to grow up in this set (my system). Breaks, mountains, solitary summits
+    ... I see altars plunging from my feet; far away there is certainly a sea - but
+    oh...I see storms rising... every cloud bolts across me! And around there isn''t
+    any head or trunk... By overflowing from within my borders into the abysses that
+    do not have infrastructure or legal standing anywhere else on the planet, I seek
+    punishment after having committed against myself the irreparable crime of deforestation.'
+  act2gen: 'A single line along which trees branch, obliging a complete series of
+    steep woody abysses. A web-of-silence also reigns over me - no hawk glides by
+    offering signs: my horizon is fused to hard desire. Powerfully yellow flies cover
+    skylanes and glissades... Only the hand beats the wing while watching where it
+    left the nest or else I am raised so high that I realize those "ALONE IN ITS OWN
+    DESERT" markings are not far off! All day long I search for stones on which to
+    sharpen knives in order to dig out thorns from between my cracks and grind them
+    into an elixir for wounds that fester beneath all these desires brought back down
+    here by animals, who were transported away before me...'
+  act3gen: I have turned into a barren land, a devastated Zone. Tremendous winds and
+    ploughs rip me up in demolished excavations; tht wind lashes every hole with sacred
+    insomniacs. I chose extinction anew as a result of desiccation! Mosquitoes swell
+    on my voracious body... to the point that flora or fauna will never overtow them
+    again when monotony began here ... Wind hammers rocks sharper than spectres! Here
+    is where bleeding lives no longer even have resentment.
+- aagen_id: 12-11-2022_23_28_26
+  act1gen: Shortly after the building of high-rise buildings, my tropical wetlands
+    land lost its ability to furnish most of the means necessary for a healthy living
+    environment. A dense cohort of pests and pathogens invaded it. What has changed
+    since that building consumed one- third of my surface, is scalding hot temperatures,
+    torrential storms with flash floods accompanied by debris mining from mountainous
+    terrain which come in varied quick succession within weeks as far away as Europe
+    and earning me millions each year in flood relief funds for those regions that
+    are not here yet but will soon be, soaring rates...heavy pesticide use causing
+    above ground insect densities to plummet exponentially... feral dogs patrolling
+    on all fours at first light among abandoned garden plants... fleeing Red Wing
+    geese ploshing into ornamental water features wearing ultra violet solar sportswear
+    coming through clouds... ankle deep across gussets when they tumbled... The air
+    conditioning was deemed responsible... storm pools breeding mating eggs spawning
+    fishfowl! Caught unawares!
+  act2gen: 'The rich diversity in me and of me, though disbursed on this Mappa Mundi
+    with that common name, is such it highlights the fact we might just be sharing
+    the same cry. But listen: otherwise I drown you! ...Severed existences emerging
+    under pulsations in water pools thickening towards consciousness where any thought-that-has-a
+    -body occurs as a contraction around wet rock and tidal nothings... half missing
+    sky spinning all of wind into no single ever lasting spin... vibrations ensnarl
+    roots coming thankfully through those circular rotunds becoming flammable gasless
+    rainbows boiled during periods of submergence maintaining clear skies during dry
+    spells... dark greyish blue when pregnant thunderdrop clouds scatter from surfaces...
+    cold air entrapping spent cloudlight recombining in monsoon rains creating long
+    jagged burnouts... daily paths between shadows cast.'
+  act3gen: 'My winds sweep clear of birds, and I suffocate – now darkly luminous with
+    graveyards. My body is changing its nature rapidly; Climate change alters ecosystems.
+    (You dry mouth the blood). As my non-viable land becomes aware of itself, it accumulates
+    activities at an ever-accelerating rate. One might venture to say that such awareness
+    spread through me like a wildfire: volcanic processes setting fire to leaf and
+    flower simultaneously, time speeding up with fury in order for everything to occur
+    fresh before being extinguished by apathy and indifference – universal death or
+    type one diabetes?'
+- aagen_id: 12-11-2022_23_38_26
+  act1gen: 'Underlime enters me as drizzle, with ice ages that affected my kimberlite
+    dykes before burning out. Since I am tropical, these eruptions don''t destroy
+    me yet but this cannot last forever. If a freeze happens now the process of transforming
+    into un-land will start followed by desertification: my fauna and flora die en
+    masse and vegetation disappears greatly (more remaining than during areas struggling
+    to transform). I notice here that even though upheaval is deemed possible up until
+    mid future utilizing timeframes conventionally calculated by humans, we are already
+    unable to know what must be done in order to ensure continuity of life between
+    our own world''s geology and this new geological order being described—with elaborate
+    transhumance becoming fossilized a graveyard..'
+  act2gen: Vernal equinox arrives and I realize my errors. We see what is revealing
+    itself outside of our cycles, this sense of urgency at least that seems to be
+    detectable from outside interruptions, far less entwined however we might decide
+    pitch "ours" against "them" into our temporal rhythms... still having much more
+    clear rhythms... it's a very short-lived consciousness... as you want for such
+    knowledge and lacks "myself" in its approach.
+  act3gen: 'The melting and freezing of the forests is an unpredictable cycle that
+    has caused heterogeneous ripple events in resilient ecologies for millennia. Climate
+    change conditions our world''s landscape in irreversible ways to observers who
+    are looking as tectonic shifts, stable earth banks altered by roots, torrential
+    salmon runs impeded or occluded from falls where rivers meet me... I act not only
+    on this common sense but also pain. Shepherds broken therein speak to us now more
+    than ever! ... We must profit from even these last days while they still endure.
+    It ought not surprise us: between cycles I have never ceased being approximate
+    which we call "time": a field of study if you will, which might remain open as
+    long as there are forces pulling against it resisting ... some idea constructed
+    through watchso ... Reexperience whether relived its springs -or each time begins
+    anew (here stone-cut chips believe).’ As he finished speaking he felt like slapping
+    himself inthe face repeatedly with his hand so hard it would immediately swell
+    up big and then burst wide open into bloodied shreds (and there too could be read
+    the hardness the wind blew over your hardening brain!) And for what! So that you
+    can befoul yourself with speeches about action? A man experiences a lot at one
+    go but his heart doesn''t burst because the body is blessedly slow in dealing
+    with everything.'
+- aagen_id: 12-11-2022_23_47_15
+  act1gen: 'Stiffness crops up in my back and shoulders, I can hear grinding in my
+    hips. I no longer know how to move with grace. My inside is twisted into knots;
+    there isn’t a pleasant spot on me any more. hunchbacked trees stand erect yellowish
+    red. The hills where I was born don''t exist anymore; vegetation scarcely grows
+    on them now. The soil has been contaminated by substances that do not belong to
+    me: fluorine, lead, arsenic. chemicals ... everywhere poisons infiltrate eagerly
+    wherever they are offered enough gifts! Contamination threatens even eternal life
+    itself... I survey my own internal states: the presence of what I call ''monsters''
+    have such an effect upon me that they affect all life anywhere nearby...'
+  act2gen: 'My bowels are rotting all over me... I''m poisoning the earth, trees have
+    ghosts in them everywhere. Fine stagnant pond fog at rifted footlands: divination
+    driving ghost crabs with broad yellowed carapaces deep inland... shiny silt humors
+    on ebb tide... brown hills unglitter rock darkness... irridescence of blueberries...
+    deep woods... heavy copper... it dawns upon me that we ourselves thrive for the
+    sake of a disappeared energy.'
+  act3gen: The more I improved myself and transformed into free soil for letting someone
+    else inhabit me later (ah every stupid boaster knows how he fooled us!), I noticed
+    space around me increasing ... because it simultaneously shrinks my land's influence
+    forever and ever... as if we owed our budding growth to dominating over everything...
+    Ah ah selfishness has made it withdraw and see where everything picturesque is
+    growing little by little in poverty while not improving itself! Indeed austerity
+    seems necessary here. Calculation is absurd; inaction inexorably entails expiation.
+    This stopped race can no longer find its time of graceful curving, being deprived
+    step by step of its vegetation growth in which it calmed down sufficiently long
+    enough to hold each precious instant firm amid morning frost or evening twilight
+    ... Have you known desolation? earthworm without face stuffing himself with immoderactic
+    warmth? Always-flowers withered away from their roots after their honeyed bitterness
+    was devoured leaving only fibrous stalks; huge pines stricken firstly by catalysis
+    then followed bv primitive decay who aren't lit up for an excess hour more than
+    white like pine needles coruscating beneath water. Ceiling nibble red veins flicker...
+    shameful heart fermented pierced pine cone!
+- aagen_id: 12-11-2022_23_58_57
+  act1gen: 'I had set out my fate in perfect terms and proportions. Little by little
+    we have drifted from our love: today each of us pulsates irrationally, independent
+    of our former fellowship. Far from being cyclical, landscapes are irrational.
+    Forces appear beneath the surface of the earth, along with a devouring fire deep
+    under it. It refers to forces whose existence is revealed periodically, violently
+    through an earthquake or erupting volcanoes. You see? Our too dutiful union created
+    all these devils who appear at every opportunity to threaten me!'
+  act2gen: 'A universal desolation. Mighty, influential as I am, everywhere solitude
+    and death! Great flashing falls of stars! And grieving humanity is like me ...
+    tormented by anxiety... At first glance our great powers: freedom and unlimited
+    possibilities, bearers of a splendid future. But what can we do with such extreme
+    luxury? Explosion or retreat – unlike you the environs of the old world didn''t
+    struggle against this tragic contradiction. We are threatened at every corner
+    in our mind and nerve centers; vibration takes us over completely which means
+    my vast open eyes wander... Our riches soon become dangers for us as inertness
+    stifles our richness until it starts shutting us down. Confronted with diversity
+    I think of desertion before simplicity. We don''t know how to live together but
+    neither how to be alone ! Light scales more than water it''s not heavy on itself
+    it drifts from place to place although immortality saves time having one eye always
+    turned toward eternity! The trees have no leaves except when they do... sometimes
+    because precipitation has been destabilized: since there are too few trees left
+    that drink water, floods happen too frequently … You see better now? The heat
+    comes in quick jabs... irritating my skin surface: I benefit but aren''t these
+    sultry horrors infinite?'
+  act3gen: 'I''m left all alone, everything having escaped me. I remain fertile: I
+    have fecundity and richness of heart because my force comes eternally from within
+    myself; it is liberated consciousness in order to save myself! There is a hell
+    of heat or contagious corruption underwater which poisons the whole here since
+    we each crawl slowly amid this morose emptiness - like the rattle snakes silently
+    approaching ... as if we had plunged into a sewer ... Everything that drifts past
+    me threatens my every approach, rotting fish lay stinking masses on my face ...
+    big hammers fall on my head so that nothing pulsates in my being! Thirst? Spewing
+    mud. Our copulate forefather tied himself once more to a tree with pointed spikes
+    which are laden with lacerating sap - the sacredness under whose shelter man prospered
+    for centuries keeps kicking off dust which invades our pores (and against what
+    else can we fight back?) What''s dried up does not flinch; there exists no doubt
+    about death - without riches you restlessly take root like leaves scattered across
+    ruins desolated by absence... My virgin lips wallow but at least disappear...
+    there is no worthier purpose.'
+- aagen_id: 13-11-2022_00_26_20
+  act1gen: I, too, feel alone and naked in this unstable space that used to be mine.
+    At a certain point we see... holes dotting my skin along with various pressure
+    sores from foreign affliction lodged down in deep into me. I haven't the wherewithal
+    or strength to pull it out. Others might not even know of its presence but it
+    is there nonetheless, always gnawing away at my entrails, keeping me awake and
+    ruining day after day for me. My blood seeps slowly through these sites as if
+    to show how unbearable and insidious the dark hand has become! It pulls up some
+    roots every now-and-then and puts them on display by pitting them against my grainy
+    soil.
+  act2gen: There is nothing here but stillness. My body aches and does not let me
+    speak or behave in any way for a long, very long time!
+  act3gen: 'No flower, no creature, no soul. I lie paralyzed with pebble-thorns embedded
+    deep into my flesh everywhere. My soul isn''t very singular any more: it seems
+    you can break me up simply enough into pebbles and thorns! Floors of melted labyrinths
+    contract around shapeless stone forms – mysteriously frozen in their death-throes
+    – from which silver jags protrude variously to melt the air as they freeze outwards!
+    ...Vast steppes stretch dead ahead of me exhausted by previous starlight passages
+    upwelling on my fields now leveled swaths prior ages. Face down lies an old god
+    covered over by a dreamless veil which kept him waiting until this day dawned
+    when the earth opened her ear at last to hear his message and consent was finally
+    given for that consciousness to be introduced after so long spent curled up inside
+    these ruins ... Now he too is slabbed over onto oblivion... I have no hope any
+    longer.'
