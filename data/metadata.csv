@@ -28,7 +28,9 @@ Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcou
 27,Earth,LAND -> Biosphere -> Leaf area index,h,"Molai Forest,India",Forest,yearly,2001,2021,10,earth_forest_lai_molaiforest.csv,Time,Data,y,0.65,0.9
 28,Earth, LAND->Biosphere->Leaf area index,/, Black Forest,Germany, Forest,yearly, 2001,2021,earth_land_lai_blackforest.csv,Time,Data,y,2.4,2.8
 29,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Dubai, Saudi Arabia",Island,yearly,2001,2018,4,earth_land_landcover_dubai.csv,Time,Data,y,0,0
-31, Earth, Biosphere -> Land cover (Urban),h,"Dhaka, Bangladesh",Urban,yearly,2001,2020,/,earth_land_landcover_dhaka.csv,Time,Data,y,0,0
+30,Earth,LAND -> Biosphere -> Land cover (Urban),h,,"Dheli,India",yearly,2001,2018,4,earth_land_landcover_dheli.csv,Time,Data,y,0,0
+31, Earth, Biosphere -> Land cover (Urban),h,"Dhaka, Bangladesh",Urban,yearly,2001,2020,/,earth_land_landcover_dhaka.csv,Time,Data,y,30,37
+32, Earth, Biosphere -> Land cover (Urban),/,"Nairobi, Africa",Urban,yearly,2001,2020,/,earth_land_landcover_nairobi.csv,Time,Data,y,0,0
 33, Earth, Biosphere -> Land cover (Urban),/,"Niamey, Africa",Urban,yearly,2001,2018,/,earth_land_landcover_niamey.csv,Time,Data,y,29.0,30.0
 35,Earth, Biosphere -> Land cover (Urban),/,"Seoul, South Korea",Urban,yearly,2001,2018,/,earth_land_landcover_seoul.csv,Time,Data,y,50.0,55.0
 36, Water, LAKE -> Land cover (Water),/,"Ladoga Lake, Russia",Lake,yearly,2001,2020,/,water_lake_landcover_ladoga.csv,Time,Data,y,17100,17200

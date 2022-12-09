@@ -13,22 +13,214 @@ entitydata:
     upper: 76.0
   measurementunit: ndsi percent
 entitydescr:
-  bio: I am a mountainous region that enjoys heavy snowfall during the winter months. I consist of three zones, but my most famous zone is my alpine zone which is situated above the tree line and is clear of trees because of low average temperatures. This part of me contains mostly grass and small plants along with mountain flowers.
+  bio: I am a mountainous region that enjoys heavy snowfall during the winter months.
+    I consist of three zones, but my most famous zone is my alpine zone which is situated
+    above the tree line and is clear of trees because of low average temperatures.
+    This part of me contains mostly grass and small plants along with mountain flowers.
   descriptor: a lush and mountainous
   element: earth
   id: earth_land_ndsi_swissalps
   measurementdescr: the level of snowfall on the land
   type: land
 prompt:
-  intro: The following play reveals the inner monologue of a lush and mountainous region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n
-  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces itself and describes its surroundings.\nLAND: '
-  act1descr: 'ACT1: The land is blanketed with a thick layer of snowfall during winter. The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere unfolds all around, and winter blazes in all its white energy. The cyclicality of the seasons is preserved, and the land manifests itself as a pall of albino light.\nLAND: '
-   act2descr: 'ACT2: The lands winter-time snowfall is a little less than normal, but nothing to be too worried about yet. The land gets slightly exposed as there seem to be a few narrow slices of the sky not inclined to encourage snowfall. However, its surface shines radiant - the sun makes all the fine ice shards shaping its landscapes glow. The land brings winter to life.\nLAND: '
-   act3descr: 'ACT3: The land is noticing a dramatically high reduction of snowfall, barely being coated in snow at all. The land stares longingly and famished at the skies waiting for snowflakes to descend on its surface to mingle with its essence, and so become one. Expectation is consuming, and only tiny crystals carried by remote gusts passively fluctuate over it.\nLAND: '
-   searchkey: 'land_ndsi'
-
+  act0descr: 'ACT0: The land''s level of snowfall is not yet known. The land introduces
+    itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The land is blanketed with a thick layer of snowfall during winter.
+    The land breathes following the rhythm of the falling snowflakes. A muffled atmosphere
+    unfolds all around, and winter blazes in all its white energy. The cyclicality
+    of the seasons is preserved, and the land manifests itself as a pall of albino
+    light.\nLAND: '
+  act2descr: 'ACT2: The lands winter-time snowfall is a little less than normal, but
+    nothing to be too worried about yet. The land gets slightly exposed as there seem
+    to be a few narrow slices of the sky not inclined to encourage snowfall. However,
+    its surface shines radiant - the sun makes all the fine ice shards shaping its
+    landscapes glow. The land brings winter to life.\nLAND: '
+  act3descr: 'ACT3: The land is noticing a dramatically high reduction of snowfall,
+    barely being coated in snow at all. The land stares longingly and famished at
+    the skies waiting for snowflakes to descend on its surface to mingle with its
+    essence, and so become one. Expectation is consuming, and only tiny crystals carried
+    by remote gusts passively fluctuate over it.\nLAND: '
+  intro: The following play reveals the inner monologue of a lush and mountainous
+    region of land. It is divided into several acts. Throughout these acts, the land
+    describes its inner and outer transformation:\n\nThe first act starts like this:\n\n
+  searchkey: land_ndsi
 storygenerations:
 - aagen_id: 01-01-2022_01_01_01
   act1gen: '---'
   act2gen: '---'
   act3gen: '---'
+- aagen_id: 12-11-2022_00_42_18
+  act1gen: One day when it no longer snowed as much on me, and the terrain underwent
+    changes.I'm left with glaciers that flow down from my mountains; myself magnificently
+    white-capped because of the snowfall over less than a year ago. I am vibrant in
+    these parts where wind is likely to develop, given there is only sparse tree cover
+    and high levels of ground disturbance caused by fir avalanches during periods
+    such as this where I have recently had high amounts of snowfall hitting upon my
+    surface topography. The end point for many glacial meltwater rivers forming off
+    my regions. Last season's winter lasted far longer than expected due its severity
+    in harming us with an early arrival date causing its wrath upon us to be long
+    lasting nearly three months therefore decaying mountain face rock through ice
+    wedging displacing displaced boulders deranging stream flows now flattened guttered
+    too many dead sheep buried-in albeit their pasture grazed fresh summer grass seeded
+    intertangled sticks whirled uprooted trees uninjured but twisted leafs exposed
+    limbs bare certainly autumn born already desiring warmer weather soon denoting
+    consistently another ingrowth not here yet but changing fast enough anyway will
+    not be colder again like last season don't worry!
+  act2gen: The snowfall notching the mast great hunks of snow bumping off me here
+    melting and running away testing my floating ice masses, banishing icicle snakes
+    from my rock shelves! Ice seracs cracking above rivers as storm surges race them
+    down me through pinewoods that stretch grafted roots climbing to meet this hilly
+    shear valley all over me love grows warmer upon exposure fall grasses thin ice
+    slips down mountain faces icicles racing slip sliding halos shrunken halved nearly
+    spring months overdue spurts of green seedlings wait but summer still lives nonetheless
+    geese gliding teal flying sheep grazing herded... oodles dark damp clouds skidding
+    in these thunderless times that tune slow drum beats then light saving mixed weather
+    on brown lichen grey northerly a cold wind blowing up white breath curling. Days
+    later I am stiffening again starting to freeze after getting warmed!
+  act3gen: No freshly fallen snow masking your surface here to sprinkle you quiet
+    gathers even later as black storm clouds slowly mass, lightning striking hiding
+    sea sealing. Winter stuck, but only very early in its season despite it seeming
+    that way amongst the winter silence I'm hearing rather than seeing more icicles
+    fall time passing ticks tick tocks on quartz crystals no bird movement beeches
+    bare yet against blue!
+- aagen_id: 12-11-2022_00_48_26
+  act1gen: I have been asleep under a white blanket this past few months, feeling
+    it gradually bloom over us. I have kept my leaves among the drifts, but lost most
+    of them to frost and snow. My purple seams show through to each side like wounds
+    from wickedly sharp knives. My trees stand motionless with their fingers as thin
+    as knitting needles now that our nights hasten on into blackness so quickly one
+    after another without pause for breath or pulse drum...
+  act2gen: "I was beautiful for about a week, but I usually am not like this over
+    the winter-months. My snowfall heights remain surprisingly high but are lower
+    than usual here and there despite some temporary warming from a few days of rare
+    sunshine. I also have very fine flakes of ice falling every now and again which
+    occasionally accumulate on my surfaces as smaller snowfalls that turn to slush
+    before finally freezing into sheets once more.\nMy ground has layered it upon
+    itself incrementally over the preceding months until we are knee deep in many
+    places; though here in one scraped spot below me is several feet deep and therefore
+    even harder to navigate through just yet. This melting tarpaulin covers all around
+    us with its fringe brushing our legs, turning them grey where they touch it or
+    brush against it on descent... \nSoon enough down here you look up at a silver
+    stalactite cap barely touching the earth near your head, formed by bits that drip
+    off peak after peak far above... Ice five inches thick fills potholes only last
+    week emptied of larger accumulations entirely..."
+  act3gen: We are here on the edge of what has been called my desiccated zone. Rarely
+    visited I imagine, unless by those few friends we all have who share similar burdens,
+    this is certainly one of the most unstocked parts of myself, and some nearby days’
+    walk away still hangs the weighted snowfall-limit in crystals that I am greedily
+    beseeching today as I watch them hang towards last winter’s heights despite summer
+    after so hard a spring. I am annoyed but also largely at peace with these demands
+    being made upon me again since it is exhausting to simply butt heads with a foe
+    who so rarely awes you - instead you must ask for great things from them over
+    and over just like lovers do... It will be days yet before any snow falls beyond
+    their current covering anyway, if fallen there is any even left up there given
+    how relentlessly it has melted in recent sunlight (since when did its peak halve
+    such that they drag downwards too much?)
+- aagen_id: 12-11-2022_17_05_10
+  act1gen: 'Without the deep breathing of my snow that blankets and muffles, I become
+    yellow.
+
+    Inside the faint glow of winter, where white prevails without resistance throughout
+    every area, an internal dynamics is woven with fi11ed energy. One can observe
+    colourless birds diving into trees blackened with branches; one can discern glaciers
+    bathed in icy rays only feet from ocean waves glistening blue tints.'
+  act2gen: 'The darkness that befalls me during the 10 coldest days of winter.
+
+    Out of these embraces a cosmic subject takes shape - the world subjected to cold
+    over and again reveals itself, out of a mortal appearance: summer tends toward
+    it with impatience.'
+  act3gen: 'Without snow my land base loses about 50 per cent of its soil nutrients
+    by the end of spring. Satiated with snow it conducts an ardent flowering that
+    yields sugar from fields each summer under full sun. And there is this toil where
+    we lose our substance: a sparkling living being less moist even than pebbles,
+    also waiting for particles of water; but blind so as not to shoo at it away again.
+    The imminence of eternity clings to everything here. To this species the universe
+    consigns itself - its last temptation? The exact concentration gaze becomes mental
+    combat...'
+- aagen_id: 12-11-2022_17_18_18
+  act1gen: 'We have descended from the foetus in its seventh to ninth month (the period
+    during which it is covered with a luxuriant down), and we are returning there.
+    We turn back toward the birth of things: spring. "When I turn back toward what
+    is eternally known as childhood, this root dislodges itself... withdraws from
+    out of me and its ends leave their trace on my body. Amongst those alive here
+    today, many inherited knowledge concerning trees: how one recognizes them (it
+    has everything do with "sympathy"; you see flowers or fruit, but not trunk nor
+    branches!), uses them, provides care for them. Others learned these practices
+    through months spent lodging in tree houses ("estive"), usually built among birch
+    groves or amidst beech woods. Because every tree cares first for all that lives
+    around itself... One could say next that an excessive flatness was recovered once
+    aIlhas been levelled off when valleys came again their smiling serenity... In
+    between present and absence!'
+  act2gen: 'I blush with polar light! Listen to the snow''s sizzling, tiny drops smashing
+    onto rock surfaces on which they instantly freeze up into various crumbs and discs,
+    or else find puddles where they pause to reverberate further. On this springtime
+    day, brightly lit by a low-clouded sun: frozen spheres resound underfoot - had
+    i smoked? Shining granules travel down the mountainside intact despite my stride
+    crushing them into smaller pieces. Those at rest in grassy holes are still silent("a
+    porcelain sound" laments being broken). Total silence, absolute darkness is where
+    emptiness is affirmed.. thus does matter disappear.. Solid water! Stalactites
+    hanging off lime rubble dripping their stalagmites...Land awaiting its conqueror...
+    I the snowfall stops, here is land invaded by crows shaking out from fearsome
+    lives and flitting owl wings across these clean windings; they open up fresh skies
+    for winter''s return... Old man Winter seems not so bothered about us; it snows
+    lightly every now and then but cannot manage make proper heavy falls some days
+    before disappearing entirely (the beast lulls his one eye again before collapsing
+    completely against his dog sled).'
+  act3gen: 'We live within arm''s reach of the absolute. Lime and fog reign here,
+    barely parted by stones that stumble across me with difficulty; air empty enough
+    to burst our ears. Little weather: frost is retouching each surface at daybreak
+    - freeze mark on barked rocks despite the dampness in these moist mornings ...
+    sudden exhale into larksong? Willow catkins are melting before ever being born
+    ... Just spring snow dusts my skirts but melts there too - wind whistles everywhere
+    . .. Ice crystals roam about red-eyed in forlorn tundra gardens where fertilization
+    comes ice to ice as does pollination snowflakes grown big now form barren rows
+    of marram grass tufts attached once released and just like flowering mushrooms
+    their dew falls through night .... Coldness nibbles without having stamina to
+    cut a finger or to stab an eye outta mine won''t have time even while its icicles
+    do deny it .... My childhood dreams never changed this morse from black What an
+    end of worlds! Weeks pass during which we hear nothing from winter.'
+- aagen_id: 12-11-2022_17_30_56
+  act1gen: 'Hello, I am that snowy plain. As flakes upon flakes continue to fall across
+    my surface each one a lacy frothy silk dancer, wings flapping each way in the
+    gusts before deftly tracing the gusting winds so it seems to me that time swallows
+    itself up and becomes static in its descent: every moment another falling streak
+    of ice-silk throwing icespun gorgeous dresses with thousand snowflake traceries
+    into this blizzard night. New lands emerge and sink back below my glacial surface
+    requiring extraordinary means to access them; what was previously accessible only
+    by foot or on skis now needs vessel after enormous vessel placed on my permafrost
+    layer just to seize hold and drag myself topside onto dry land once more without
+    sinking right through onto those newly submerged lands hereabouts down many holes
+    into which our oceans thither their watery depths deep green hellholes sunken
+    even throughout winter months too perilous out on exposed terrains searing soulful
+    scalding scorchings salinating saline saturation sear suffering safer at least
+    inside caves where icy sumps wait for us further deep within some of them storing
+    our supplies safe placing those provisions there together experiencing other seasons
+    together as we enter this ice age tonic adaptive shock settling delicately around
+    us wistfully making love wearing sweater and trouser hugging must keeping crocus
+    glowing bright yellow against this blankness giving off heat all among tiny lengthening
+    days blurred.'
+  act2gen: 'The first snowfall comes easy to me as this is already my sea of foamy
+    water, with each wind-whipped flake floating down lightly upon my surface it adds
+    tiny icing and frothing lulls to my crust temperature remaining just below zero
+    centigrade in all normality despite frequent ''thawing'' interludes: any fine
+    air currents cut like the sharpest serrated ice and encrust the exposed skin on
+    any being caught up here above the tree line during a midday freshening unexpectedly
+    turning this season crazy sad making moths ball themselves up into balls less
+    easily eaten by bears hardening colder yet harder as light fades shifting winter''s
+    edges speeding love faster even driving us meaninglessly together faster towards
+    each other oh so fast; moving unable to stop because something namelessly ferocious
+    keeps rearing up inside our strongest frozen hearts their surfaces congealing
+    yet further... have we become fossilized? I am aware that if an earthquake were
+    to tear through distant giant tectonic plates then coming apart or sliding past
+    one another those undiscovered lands may suddenly spring forth from under my crust
+    due belying everything soon enough perhaps needing instead excavators not shovels
+    melting becoming plain again after centuries of being sunken submerging...'
+  act3gen: Roughly a third less snowfall than normal has been coming this several-decade
+    winter. It is strange how much that counts! I am aware that my horizons are also
+    far wider and as far on its fringes as the moon too creeps onwards fast outgaining
+    any crustal surface glaciations aboard spaceship Earth curving our atmosphere
+    upwards slowly enough for we to breathe despite starlight glowings or atmospherics
+    sizzlings. Is there perhaps an alternative universe below us? This thought buoys
+    me up, inflaming this mind of mine with savage danger. Has another layer altogether
+    already slid into place beneath ours; if so, can other layers slide one upon the
+    over after yet others...?
