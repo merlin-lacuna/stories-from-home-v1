@@ -1,34 +1,36 @@
 entitydata:
-  measurementunit: NDWI
+  actmoodlevels:
+    act1: 4
+    act2: 1
+    act3: 5
+  actmoodsamples:
+    act1: 0.1
+    act2: 0.21
+    act3: 0.05
+  chartstorage: null
   idealranges:
     lower: 0
     upper: 0.08
-  actmoodsamples:
-    act1:  0.08
-    act2:  0.2
-    act3:  0.1
-  actmoodlevels:
-    act1: 5
-    act2: 2
-    act3: 4
+  measurementunit: NDWI
   chartstorage:
 entitydescr:
   id: water_land_ndwi_ainzig
   bio:
   type: "land"
   element: "water"
-  descriptor:
+  descriptor: very big
   measurementdescr: "ndwi"
 
 prompt:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-  intro:
-  searchkey:
+   intro: 'The following play reveals the inner monologue of a very big lake. It is divided into several acts. Throughout these acts, the lake describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The surface area of the lake is not yet known. The lake introduces itself and describes its surroundings.\nLAKE:'
+   act1descr: 'ACT1: <add prompt>\nLAKE: '
+   act2descr: 'ACT2: <add prompt>\nLAKE: '
+   act3descr: 'ACT3: <add prompt>\nLAKE: '
+   searchkey: 'land_temp'
+
 storygenerations:
-- aagen_id:
-  act1gen:
-  act2gen:
-  act3gen:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
