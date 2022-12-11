@@ -14,18 +14,18 @@ entitydata:
   chartstorage: water_lake_landcover_ladoga.png
 entitydescr:
   id: water_lake_landcover_ladoga
-  bio: tbc
+  bio: "Here are my long winters and cool summers. I spread them out like fine pond weed, icy water, salty tears and wet glistening fish in foamy lakes. I show you the detail, the contours of my vast coastline, the shimmer of my rippled surface. Empty your curdled thoughts. Spill your tears. That hard nugget of ice. I would suck it cradling it on the lakeside like the slick scales of trout. I would lift it tenderly as a hungry bird might carry a small one in its nest tucked into the reeds on the lakeside."
   type: "lake"
   element: "water"
-  descriptor: tbc
-  measurementdescr: "km^2"
+  descriptor: vast Russian lake
+  measurementdescr: "the size of the lake"
 
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nENTITY: '
-   act2descr: 'ACT2: <add prompt>\nENTITY: '
-   act3descr: 'ACT3: <add prompt>\nENTITY: '
+   intro: 'The following play reveals the inner monologue of a vast Russian lake. It is divided into several acts. Throughout these acts, the lake describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The size of the lake is not yet known. The lake introduces itself and describes its surroundings.\nLAKE:'
+   act1descr: 'ACT1: The lake''s water level seems to keep increasing and getting higher. The lake welcomed alien waters into its existence, and its mass grew profusely through a fervid absorption. The previously clearly defined banks are being gently exceeded, and the water dances out of its lushness.\nLAKE:'
+   act2descr: 'ACT2: The lake''s water level still seems to keep increasing and getting higher. The lake welcomed alien waters into its existence, and its mass grew profusely through a fervid absorption. The previously clearly defined banks are being gently exceeded, and the water dances out of its lushness.\nLAKE:'
+   act3descr: 'ACT3: The lake has a stable water level. The lake is a freshwater mirror in which the landscape reflects, bringing to life a blissful doubling of the surroundings. Its waters undulate harmoniously, hitting the rocky contours perpetually on the same spots. The water''s voice resonates like a healing chant.\nLAKE:'
 
 storygenerations:
 - aagen_id: 01-01-2022_01_01_01
