@@ -4,11 +4,11 @@ entitydata:
     lower: 17224
     upper: 17227
   actmoodsamples:
-    act1:  17225.9
+    act1:  17228.9
     act2:  17228.0
     act3:  17225.9
   actmoodlevels:
-    act1: 5
+    act1: 4
     act2: 4
     act3: 5
   chartstorage: water_lake_landcover_ladoga.png
