@@ -49,7 +49,7 @@ def get_bio(myprompt, maxt, element):
     )
     return response.choices[0].text
 
-entity = "the Seoul region"
+entity = "the Bogota region"
 prompt=f"Write a text from the perspective of {entity} describing its own climate and ecology and write it in the first-person tense."
 
 bio = get_bio(prompt, maxlength, selectedmodel)
@@ -60,12 +60,20 @@ ftense = get_bio(ft, maxlength, selectedmodel)
 prompt2=f"Generate an interesting fact about the climate of {entity}."
 prompt3=f"Write a list of ten adjectives that describe {entity}.\n1."
 
-poemprompt = "Rewrite the following text in a poetic and enigmatic style:\n" + ftense
-poetic = get_bio(poemprompt, maxlength, selectedmodel)
+nounsadjinstr = "Extract the nouns and adjectives from the following text:\n" + ftense
+nounsadj = get_bio(nounsadjinstr, maxlength, selectedmodel)
 
-#print(bio)
-#print(bio2)
+poeticinstr = "Write a poem in the style of Sylvia Plath that includes at least three of the following words: " + nounsadj + "\n"
+poetic = get_bio(poeticinstr, maxlength, selectedmodel)
+
+# poemprompt2 = "Write a poem by Rumi"
+# poetic2 = get_bio(poemprompt2, maxlength, selectedmodel)
+
+print(bio)
+# print(bio2)
 print("-----FIRST PERSON-----")
 print(ftense)
 print("-----POETIC-----")
 print(poetic)
+# print("-----POETIC #2-----")
+# print(poetic2)
