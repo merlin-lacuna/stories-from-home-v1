@@ -12,7 +12,6 @@ from ruamel.yaml import YAML
 yaml=YAML(typ='safe')
 yaml.default_flow_style = False
 configfile="../data/earth_land_landcover_seoul.yaml"
-
 with open(configfile, encoding='utf-8') as f:
    econfig = yaml.load(f)
 #### END CONFIGn
@@ -131,6 +130,7 @@ def writeout_act(actrawprompt, actprettyprompt,promptfile):
         print(actraw)
         print("----------------------------------")
         print("This is actstatic (cleaned version): ")
+
         print("----------------------------------")
         print(actstatic)
         print("----------------------------------")
@@ -142,6 +142,7 @@ def writeout_act(actrawprompt, actprettyprompt,promptfile):
             f.write(actstatic)
 
         promptstatus = input(f"Is {promptfile} OK? y/n: ")
+
         if promptstatus == "y":
             promptstatus2 = input("Please press 'c' to read from an updated prompt file or 'yyy' to use as is: ")
             # Use a prompt file that has been updated.
