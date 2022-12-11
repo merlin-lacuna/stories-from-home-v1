@@ -4,14 +4,14 @@ entitydata:
     lower:
     upper:
   actmoodsamples:
-    act1:
-    act2:
-    act3:
+    act1: 79
+    act2: 80
+    act3: 80
   actmoodlevels:
-    act1:
-    act2:
-    act3:
-  chartstorage:
+    act1: 1
+    act2: 1
+    act3: 1
+  chartstorage: earth_urban_landcover_bogota.png
 entitydescr:
   id: earth_urban_landcover_bogota
   bio:
@@ -21,16 +21,15 @@ entitydescr:
   measurementdescr: "percent"
 
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nENTITY: '
+   act2descr: 'ACT2: <add prompt>\nENTITY: '
+   act3descr: 'ACT3: <add prompt>\nENTITY: '
+   searchkey: 'land_temp'
 
 storygenerations:
-  aagen_id:
-    act1gen:
-
-    act2gen:
-
-    act3gen:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
