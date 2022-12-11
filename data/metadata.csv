@@ -1,31 +1,41 @@
-Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcount,Filename,Datecol,Datacol,Committed,Idealvaluelower,Idealvalueupper
-1,Earth,LAND->Cryosphere->Glaciers,h,"Thwaites Glacier, Antarctica",Glacier,yearly,2002,2022,20,earth_land_ndsi_thwaites.csv,Time,ymNDSI,y,63.014,66.495
-2,Earth,LAND -> Biosphere -> Leaf area index,h,"Region of Atsimo-Andrefana, Madagascar, Africa",Forest,yearly,2011,2021,10,earth_land_lai_atismo.csv,Year,Mean,y,0.500763455,0.571021968
-3,Air,ATMOSPHERE->Surface->Mean Air Temperature,l,"Mali (Sahel portion), Africa",Desert,monthly,1980,2020,40,air_atmo_airtemp_sahel.csv,Year,mean_2m_air_temperature,y,27,29
-4,Fire,Thermal Remote Sensing for Global Volcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",Volcano,daily,1950,2020,70,fire_volcano_watertemp_ruapehu.csv,Year,Temperature,y,24.49010442,30.39644238
-5,Fire,FIRE -> NDVI after Wildfire,h,"Mendocino Complex Fire, North California USA",Forest,yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,mean_NDVI,y,0.45,1
-6,Fire,Thermal Remote Sensing for Global Volcano Monitoring,l,"Kawajhen Jen, Indonesien",Volcano,yearly,2002,2005,10,fire_volcano_watertemp_kawahIjen.csv,time,temp_celsius,y,36.3,42.2
-7,Water,OCEAN->Physical->Sea level,l,Baltic Sea,Ocean,every3years,1993,2020,9,water_ocean_sealevel_balticsea.csv,Year,mean_sealevel,y,0,6
-8,Water,OCEAN->Physical->Sea level,l,Atlantic Iberian Biscay,Ocean,every3years,1993,2021,9,water_ocean_sealevel_biscay.csv,Year,mean_sealevel,y,0,6
-9,Water,ATMOSPHERE->Surface->Precipitation,a,"City of Toliara, Madagascar (floods)",Urban Land,daily,01/02/2015,14/02/2015,14,air_atmo_precip_toliara.csv,Day,Precipitation,y,0,15
-10,Water,ATMOSPHERE->Surface->Precipitation,a,"City of Timbuktu, Mali, Africa (droughts)",Urban Land,yearly,2011,2021,10,air_atmo_precip_timbuktu.csv,Year,Precipitation,y,120,170
-11,Earth,LAND -> Biosphere -> Leaf area index,h,"Arboretum Norr Forest, Sweden (near Umea)",Forest,yearly,2011,2021,10,earth_forest_lai_norr.csv,Year,Mean,y,3.803,4.017
-12,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Hainan Island , China",Island,yearly,1990,2019,4,earth_valley_lcover_hainan.csv,time,built_up_area_km^2,y,26.86,48.39
-13,Earth,LAND -> Biosphere -> Land cover,l,"City of Venice, Italy (premonitions of a flooded/underwater city would be fitting here)",Island,daily,12/11/2021,24/11/2021,12,earth_island_lcover_venice.csv,time,water_height_m_max,y,0.4,0.73
-14,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,68.925,71.613
-15,Air,ATMOSPHERE->Atmospherc Composition,l,"Mauna Loa, Hawai",Island,yearly,2007,2021,15,air_atmo_C02_manuloa.csv,Year,CO2,y,380,400
-16,Earth,LAND -> Biosphere -> Leaf area index,h,Hong Kong,Forest,na,na,na,na,earth_land_lai_taipokau.csv,Year,Mean,y,1.141,1.265
-17,Fire,NDVI after Wildfire,na,Yuen Long Hong Kong,Hill,monthly,01/01/2020,31/12/2020,x,fire_forestfire_ndvi_hongkongYuenLong.csv,Time,Data,y,0.33,1
-18,Air,ATMOSPHERE->Atmospheric Composition,na,Hong Kong,Air,yearly,1994,2020,21,air_atmo_CO2_hongkong.csv,Time,Data,y,18171,54514
-19,Earth,LAND->Cryosphere->NDSI,na,"Maiko Snow Resort, Japan",Land,yearly,2000,2021,21,earth_land_ndsi_maikosnowresort.csv,Time,Data,y,70,80
-20,Water,LAND ->Surface-> NDWI,na,Hong Kong,City,Urban Land,daily,18/05/2017,2017,water_land_ndwi_hongkong.csv,Time,Data,y,0,0.06
-21,Earth,LAND->Cryosphere->NDSI,na,"Szcyrk Mountain Resort, Poland",Land,yearly,2000,2021,21,earth_land_ndsi_poland.csv,Time,Data,y,80,90
-22,Earth,LAND->Cryosphere->NDSI,na,Swiss Alps,Land,yearly,2000,2021,21,earth_land_ndsi_swissalps.csv,Time,Data,y,72,76
-23,Earth,LAND->Cryosphere->Glaciers,/,"Furtwaengler Glacier, Tanzania",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_furtwaenglerglacier.csv,Time,Data,y,70,80
-24,Earth,LAND->Cryosphere->Glaciers,/,"Bhatura Glacier,Pakistan",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_bhaturaglacier.csv,Time,Data,y,85,94
-25,Earth,LAND->Cryosphere->Glaciers,/,"Perito Moreno Glacier,Argentina",Glacier,yearly,2000,2021,/,earth_glacier_ndsi_peritomoreno.csv,Time,Data,y,94,99
-26,Earth,LAND -> Biosphere -> Leaf area index,h,"Rainforest,Brazil",Forest,yearly,2001,2021,na,earth_land_lai_amazonas.csv,Time,Data,y,4.4,5.0
-27,Earth,LAND -> Biosphere -> Leaf area index,h,"Molai Forest,India",Forest,yearly,2001,2021,10,earth_forest_lai_molaiforest.csv,Time,Data,y,0.65,0.9
-28,Earth, LAND->Biosphegit re->Leaf area index,/, Black Forest,Germany, Forest,yearly, 2001,2021,earth_land_lai_blackforest.csv,Time,Data,y,2.4,2.8
-31, Earth, Biosphere -> Land cover (Urban),h,"Dhaka, Bangladesh",Urban,yearly,2001,2020,/,earth_land_landcover_dhaka.csv,Time,Data,y,0,0
-36, Water, LAKE -> Land cover (Water),/,"Ladoga Lake, Russia",Lake,yearly,2001,2020,/,water_lake_landcover_ladoga.csv,Time,Data,y,17100,17200
+Index,Element,Measurement,Gooddirection,Location,Type,Resolution,From,To,Unitcount,Filename,Datecol,Datacol,Committed,Idealvaluelower,Idealvalueupper,
+1,Earth,LAND->Cryosphere->Glaciers,h,"Thwaites Glacier, Antarctica",Glacier,yearly,2002,2022,20,earth_land_ndsi_thwaites.csv,Time,ymNDSI,y,63.014,66.495,
+2,Earth,LAND -> Biosphere -> Leaf area index,h,"Region of Atsimo-Andrefana, Madagascar, Africa",Forest,yearly,2011,2021,10,earth_land_lai_atismo.csv,Year,Mean,y,0.500763455,0.571021968,
+3,Air,ATMOSPHERE->Surface->Mean Air Temperature,l,"Mali (Sahel portion), Africa",Desert,monthly,1980,2020,40,air_atmo_airtemp_sahel.csv,Year,mean_2m_air_temperature,y,27,29,
+4,Fire,Thermal Remote Sensing for Global Volcano Monitoring (TEMPERATURE),l,"Mt Ruapehu, New Zealand, Crater Lake Outlet",Volcano,daily,1950,2020,70,fire_volcano_watertemp_ruapehu.csv,Year,Temperature,y,24.49010442,30.39644238,
+5,Fire,FIRE -> NDVI after Wildfire,h,"Mendocino Complex Fire, North California USA",Forest,yearly,2018,2020,10,fire_forestfire_nvdi_mendocino.csv,Time,mean_NDVI,y,0.45,1,
+6,Fire,Thermal Remote Sensing for Global Volcano Monitoring,l,"Kawajhen Jen, Indonesien",Volcano,yearly,2002,2005,10,fire_volcano_watertemp_kawahIjen.csv,time,temp_celsius,y,36.3,42.2,
+7,Water,OCEAN->Physical->Sea level,l,Baltic Sea,Ocean,every3years,1993,2020,9,water_ocean_sealevel_balticsea.csv,Year,mean_sealevel,y,0,6,
+8,Water,OCEAN->Physical->Sea level,l,Atlantic Iberian Biscay,Ocean,every3years,1993,2021,9,water_ocean_sealevel_biscay.csv,Year,mean_sealevel,y,0,6,
+9,Water,ATMOSPHERE->Surface->Precipitation,a,"City of Toliara, Madagascar (floods)",Urban Land,daily,01/02/2015,14/02/2015,14,air_atmo_precip_toliara.csv,Day,Precipitation,y,0,15,
+10,Water,ATMOSPHERE->Surface->Precipitation,a,"City of Timbuktu, Mali, Africa (droughts)",Urban Land,yearly,2011,2021,10,air_atmo_precip_timbuktu.csv,Year,Precipitation,y,120,170,
+11,Earth,LAND -> Biosphere -> Leaf area index,h,"Arboretum Norr Forest, Sweden (near Umea)",Forest,yearly,2011,2021,10,earth_forest_lai_norr.csv,Year,Mean,y,3.803,4.017,
+12,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Hainan Island , China",Island,yearly,1990,2019,4,earth_valley_lcover_hainan.csv,time,built_up_area_km^2,y,26.86,48.39,
+13,Earth,LAND -> Biosphere -> Land cover,l,"City of Venice, Italy (premonitions of a flooded/underwater city would be fitting here)",Island,daily,12/11/2021,24/11/2021,12,earth_island_lcover_venice.csv,time,water_height_m_max,y,0.4,0.73,
+14,Earth,LAND->Cryosphere->Glaciers,h,"Apusiajik Glacier, Greenland",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_greenland.csv,Time,Yearly_NDSI,y,68.925,71.613,
+15,Air,ATMOSPHERE->Atmospherc Composition,l,"Mauna Loa, Hawai",Island,yearly,2007,2021,15,air_atmo_C02_manuloa.csv,Year,CO2,y,380,400,
+16,Earth,LAND -> Biosphere -> Leaf area index,h,Hong Kong,Forest,na,na,na,na,earth_land_lai_taipokau.csv,Year,Mean,y,1.141,1.265,
+17,Fire,NDVI after Wildfire,na,Yuen Long Hong Kong,Hill,monthly,01/01/2020,31/12/2020,x,fire_forestfire_ndvi_hongkongYuenLong.csv,Time,Data,y,0.33,1,
+18,Air,ATMOSPHERE->Atmospheric Composition,na,Hong Kong,Air,yearly,1994,2020,21,air_atmo_CO2_hongkong.csv,Time,Data,y,18171,54514,
+19,Earth,LAND->Cryosphere->NDSI,na,"Maiko Snow Resort, Japan",Land,yearly,2000,2021,21,earth_land_ndsi_maikosnowresort.csv,Time,Data,y,70,80,
+20,Water,LAND ->Surface-> NDWI,na,Hong Kong,City,Urban Land,daily,18/05/2017,2017,water_land_ndwi_hongkong.csv,Time,Data,y,0,0.06,
+21,Earth,LAND->Cryosphere->NDSI,na,"Szcyrk Mountain Resort, Poland",Land,yearly,2000,2021,21,earth_land_ndsi_poland.csv,Time,Data,y,80,90,
+22,Earth,LAND->Cryosphere->NDSI,na,Swiss Alps,Land,yearly,2000,2021,21,earth_land_ndsi_swissalps.csv,Time,Data,y,72,76,
+23,Earth,LAND->Cryosphere->Glaciers,/,"Furtwaengler Glacier, Tanzania",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_furtwaenglerglacier.csv,Time,Data,y,70,80,
+24,Earth,LAND->Cryosphere->Glaciers,/,"Bhatura Glacier,Pakistan",Glacier,yearly,2000,2021,21,earth_glacier_ndsi_bhaturaglacier.csv,Time,Data,y,85,94,
+25,Earth,LAND->Cryosphere->Glaciers,/,"Perito Moreno Glacier,Argentina",Glacier,yearly,2000,2021,/,earth_glacier_ndsi_peritomoreno.csv,Time,Data,y,94,99,
+26,Earth,LAND -> Biosphere -> Leaf area index,h,"Rainforest,Brazil",Forest,yearly,2001,2021,na,earth_forest_lai_amazonas.csv,Time,Data,y,4.4,5,
+27,Earth,LAND -> Biosphere -> Leaf area index,h,"Molai Forest,India",Forest,yearly,2001,2021,10,earth_forest_lai_molaiforest.csv,Time,Data,y,0.65,0.9,
+28,Earth,LAND->Biosphere->Leaf area index,/,Black Forest,Germany,Forest,yearly,2001,2021,earth_land_lai_blackforest.csv,Time,Data,y,2.4,2.8,
+29,Earth,LAND -> Biosphere -> Land cover (Urban),h,"Dubai, Saudi Arabia",Island,yearly,2001,2018,4,earth_land_landcover_dubai.csv,Time,Data,y,0,0,
+30,Earth,LAND -> Biosphere -> Land cover (Urban),h,,"Dheli,India",yearly,2001,2018,4,earth_land_landcover_dheli.csv,Time,Data,y,0,0,
+31,Earth,Biosphere -> Land cover (Urban),h,"Dhaka, Bangladesh",Urban,yearly,2001,2020,/,earth_land_landcover_dhaka.csv,Time,Data,y,30,37,
+32,Earth,Biosphere -> Land cover (Urban),/,"Nairobi, Africa",Urban,yearly,2001,2020,/,earth_land_landcover_nairobi.csv,Time,Data,y,0,0,
+33,Earth,Biosphere -> Land cover (Urban),/,"Niamey, Africa",Urban,yearly,2001,2018,/,earth_land_landcover_niamey.csv,Time,Data,y,29,30,
+35,Earth,Biosphere -> Land cover (Urban),/,"Seoul, South Korea",Urban,yearly,2001,2018,/,earth_land_landcover_seoul.csv,Time,Data,y,50,55,
+36,Water,LAKE -> Land cover (Water),/,"Ladoga Lake, Russia",Lake,yearly,2001,2020,/,water_lake_landcover_ladoga.csv,Time,Data,y,17100,17200,-
+37,Earth,Biosphere -> Land cover (Urban),/,"Manila, Philippians",Urban,yearly,2001,2020,/,earth_land_landcover_manila.csv,Time,Data,y,70,71,-
+40,Water,LAND->Surface->NDWI,a,"Larkana, Pakistan (floods)",Urban Land,daily,10/06/2022,21/06/2022,,water_land_ndwi_larkana.csv,Day,NDWI,y,0,0.05,
+41,Water,LAND->Surface->NDWI,a,"Sinzig, Germany (floods)",Urban Land,daily,11/07/2021,20/07/2021,,water_land_ndwi_sinzig.csv,Day,NDWI,y,0,0.08,
+42,Earth,Biosphere -> Land cover (Urban),/,"Bogota, Columbia",Urban,yearly,2001,2018,/,earth_land_landcover_bogota.csv,Time,Data,y,/,/,
+43,Water,LAND->Surface->Precipitation,a,Nova Friburgo (floods),Urban Land,daily,01/01/2011,19/01/2011,,water_land_precipitation_novafriburgo.csv,Time,Data,y,0,40,

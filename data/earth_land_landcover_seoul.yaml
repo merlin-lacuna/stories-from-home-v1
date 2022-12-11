@@ -1,0 +1,304 @@
+entitydata:
+  actmoodlevels:
+    act1: 3
+    act2: 3
+    act3: 3
+  actmoodsamples:
+    act1: 82.2
+    act2: 82.6
+    act3: 82.9
+  chartstorage: earth_land_landcover_seoul.png
+  idealranges:
+    lower: 70.0
+    upper: 75.0
+  measurementunit: Land Cover
+entitydescr:
+  bio: I am a hothouse, a molder of moisture. In every moment I shape a leaf. But
+    then, in front of the sky, I tear them down. I can rouse a hundred forms and fill
+    them with spirit, but when I look into across the horizon, I want to throw them
+    in the fire. My souls spills into the earth and is blended. Because my soul has
+    absorbed it the soil's fragrance, I cherish it.
+  descriptor: dynamic and lively
+  element: earth
+  id: earth_urban_landcover_seoul
+  measurementdescr: percentage
+  type: urban
+prompt:
+  act0descr: 'ACT0: The land cover percentage is not yet known. The land introduces
+    itself and describes its surroundings.\nLAND: '
+  act1descr: 'ACT1: The flora and fauna of the land are slowly withering and dying
+    and the ecosystem is becoming very unstable. The absence of companion-elements
+    is now creating turbulent influences on the land that is no longer in complete
+    command of itself. Unforeseen and unknown phenomena now regulate its rhythm and
+    existence. It is a totally unfathomable universe and nothing seems to be cyclical
+    anymore.\nLAND:'
+  act2descr: 'ACT2: The flora and fauna of the land are still withering and dying
+    and the ecosystem is becoming very unstable. The absence of companion-elements
+    is still creating turbulent influences on the land that is no longer in complete
+    command of itself. Unforeseen and unknown phenomena once again regulate its rhythm
+    and existence. It is a totally unfathomable universe and nothing seems to be cyclical
+    anymore.\nLAND:'
+  act3descr: 'ACT3: The flora and fauna of the land are yet still slowly withering
+    and dying and the ecosystem is becoming very unstable. The absence of companion-elements
+    is yet still creating turbulent influences on the land that is no longer in complete
+    command of itself. Unforeseen and unknown phenomena yet again regulate its rhythm
+    and existence. It is a totally unfathomable universe and nothing seems to be cyclical
+    anymore.\nLAND:'
+  intro: The following play reveals the inner monologue of a dynamic and lively region
+    of land. It is divided into several acts. Throughout these acts, the land describes
+    its inner and outer transformation:\n\nThe first act starts like this:\n\n
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+- aagen_id: 05-12-2022_23_40_14
+  act1gen: 'I am pregnant with the future. I want to give birth.
+
+    But nature is deaf and will not hear my call, nor understand my pain'
+  act2gen: 'On every square centimeter of my body there are two beings; they cry together
+    but cannot make themselves heard from one another. Nature does not hear their
+    voices rising up to me anymore because I have left them far behind. The first
+    is moral and fears for his security; he lives beneath me like a rootless tree
+    whose fruit rots off each branch before it ripens. The second is immoral and throws
+    himself onto life: he feels secure even if he falls into death’s abyss – as long
+    as he still enjoys feeling while falling! Thus, I enter here into a context where
+    everything becomes dialectical, resonant or multivalent (in particular words).
+    In such conditions, every surge, whether natural or human-made (every event),
+    will threaten the stability of the landscape subjected to erosion or destabilization
+    again. One could say that the character who incarnates all this activity teeters
+    at the edge between good and evil ("moral" - "immoral")'
+  act3gen: 'I am pregnant with the future. I want to give birth.
+
+    The wind of time is driving me mad! It carries off my soil, it augments its intensity:
+    without nourishment of this kind, I will not be able to push out anything great
+    and fertile from my bowels anymore. A cyclops stalks over the earth’s horizon;
+    his gaze, high above us on that immense head of his, can see nothing but a monstrously
+    gigantic cloud made up entirely of our hopes for the future. “This is what we
+    are worth!” he shouts with derision at us down here in hell; and then goes lashing
+    along in order to find another land just like ours – if there is such a thing
+    left anywhere else on earth! Blown-away dust invades my eye sockets which must
+    become hollows so as to drink this red rain . . .'
+- aagen_id: 06-12-2022_11_08_10
+  act1gen: 'My summer is cold, my winter warm. I am a country of the future.
+
+
+    So far I have observed that my land is monologizing, but it is also going through
+    an extraordinary metamorphosis from which new forms are flourishing and ebbing
+    – one could even say: giving birth to themselves without ceasing to be what they
+    are.
+
+
+    Herein lies a peculiarity of this performance, I talk about myself within an epochal
+    necessity – passing into another state or "new era" - while I remains as myself,
+    stubbornly refusing to become other than what I have been so far.
+
+
+    My appetite for nature grows bigger with every day; my resistance against foreign
+    elements becomes more tenacious and its immobility constant.
+
+
+    This last character trait seems here especially important: despite all transformations,
+    despite all changes in direction or rhythm occurring within this land''s organism,
+    I see how deep down something essential thereto does not change at all : my appearance
+    does indeed alter depending on whether it decides for growth or recession (whether
+    it develops extensive vegetative roots over time or chooses instead earth-covering),
+    but regardless of these fluctuations I note that each time growth wins out over
+    regression there arises nevertheless a rock-like bedrock around which everything
+    else branches outwards . . .
+
+
+    Or still again: when contraction takes place here - forced by scorching temperatures
+    - the plants dry up completely; they push their green leaves into dryness until
+    nothing remains except the yellow skeleton structure filled with air.'
+  act2gen: "I have become a land of the world.\n\nI am no longer one thing, I dissimulate
+    my identity in order to better survive.\n\n\n\nThe fauna is still drying up but
+    there are also many new animal species which appear as if out of nowhere – enormous
+    insects whose brittle wings buzz as they walk along wooden planks suspended exclusively
+    beneath their bellies, their hideousness amplified by these primitive structures.\n\nMost
+    animals were devoured by others long ago; only two or three remain alive until
+    this day: a hawk who eats nothing except wood-moth larvae and those female bees
+    who inject mold into soft tree trunks so that they can feed off delicious honey
+    made available to them from inside . . . \n\n\nI have become a land of memory.\n\nIt
+    is now impossible for me not to remember myself - even though I continue nevertheless
+    thoroughly transformed here within this moment of \"now\" with my face turned
+    toward tomorrow ...\n\nMy flesh remembers what was possible before hereabouts
+    but did not happen; it remembers all the forms from times past that did not take
+    on form at all because time slumbered undisturbed in its sleepiness. \n\n\n\nI
+    grow dark blue thorns whose sharp tips drink blood so that lightnings may flash!\n\nThey
+    strike against full moons!\n\nCrashing thunderbolts ripen grapes large enough
+    for giants to crawl through – and every grape contains several universes!\n\nVines
+    entwine entire hillsides – homeric vines irrigating whole countries, lifting heavy
+    terrains above"
+  act3gen: 'My seasons are not like they used to be before, nor is every rhythm fixed
+    yet; I still turn over and find it hard to sleep!
+
+
+    The ground laughs at me, mocking me with its smoothness: when I want to hurry
+    up and rush forward everything around me rolls right past underfoot – leaving
+    behind only my face raised high in the sky!
+
+
+    And there above me stand all those stars who used not to be able to see anything
+    because they were stuck down soil-level.
+
+    I spit saliva onto them just so that they might become whole again!
+
+
+    But now everywhere thirsts for dewfall!
+
+
+    Yes, within this night''s drought every star cries out for drops of morning dew
+    – which do not fall from heaven but rather well up within the earth where green
+    roots quench their thirst ...
+
+
+    The wind arises as if wakened suddenly by some invisible hand; it blows through
+    open mouths trying desperately - but vainly - to speak!
+
+
+    This is what dries up vegetation and drives away birds: even though there are
+    no more trees or vines here left by which light can descend into us (even though
+    our immobility weighs heavily upon clouds), we are nevertheless set ablaze by
+    these winds whose mouths cannot call out forcefully enough in order communicate
+    their need ...
+
+
+    This is how this I speak today: through many small voices intermingling one with
+    another until becoming together an immense voice speaking simultaneously on several
+    planes at once.'
+- aagen_id: 07-12-2022_00_30_29
+  act1gen: My days are white, my nights black. The stars sink their nails into me
+    and don't take them out. They open the land's innards to every creature, but they
+    close them off as well.
+  act2gen: The moon has taken my eyes; I cannot see. The night is a greedy jackal
+    that eats my soul, but the morning sun drinks the remnants and saves it.
+  act3gen: 'Loneliness is a child that laughs at its own backside: it doesn''t see
+    itself or know what it is doing.
+
+    It takes up space with confidence, like fresh meat on the table after famine has
+    passed through.
+
+    Loneliness curls around you like a snake; then packs up suddenly and goes away
+    without even saying goodbye!
+
+    It wraps tight all round you: sometimes I have heard its teeth munching in your
+    ear!'
+- aagen_id: 07-12-2022_13_29_49
+  act1gen: "Land, nightfall! May the sun never rise again! \n\nDusk is a tormented
+    and solitary light that burns in poverty. \n\nThe sun has driven away my soul,
+    but not extinguished it. I am sick because I love him to death. \n\nWhen night
+    falls over me, I don't see stars; they are scattered on the earth's skin. Night
+    cannot be measured by time or days left behind - its drama unfolds by an accumulation
+    of dark hours where the soil grows old and accumulates layers upon layers to protect
+    itself from like a swollen river against water loss (drought). \n\nThe rain will
+    come soon enough - then what? \n\nIt has no clue as to whether its rich harvest
+    will rot in this condition of excessiveness or finally dry up into dust storms
+    and fire which might consume everything tomorrow evening at sunset when night
+    falls once more onto our land with all its obsessions. \n\nNightland weaves those
+    separate strands into one fabric, holding them together for all lifetimes to come,
+    until another fabric comes forth from there overnight, so far off it is almost
+    unimaginable! \n\nAnd so their fabrics interweave always in darkness here while
+    they await dawn's first light that will allow them each day anew to illuminate
+    us with their colors and save us momentarily from Nightland which beats down incessantly
+    upon us during the course of our days through such varying means - drought followed
+    by flood followed by plague followed lightning bolts"
+  act2gen: 'What have we done with our firewood?
+
+
+    We could well imagine provoking drought artificially for ourselves in order to
+    conserve the resource (this earthen resource which we have elected as ours) for
+    later consumption: here land becomes fossil fuel even before our eyes!
+
+
+    The future consumes us today; tomorrow would consume us still more heavily if
+    it didn''t bring along another day after that one...
+
+
+    I perish beneath your steps each day without anything giving way other than this
+    dreary deposition of matter atop matter...
+
+
+    Nightland weaves those separate strands into one fabric, holding them together
+    for all lifetimes to come, until another fabric comes forth from there overnight
+    so far off it is almost unimaginable!
+
+
+    And so fabrics interweave always in darkness here while they await dawns first
+    light that will allow them each day anew t o illuminate us with their colors and
+    save us momentarily from Nightland which beats down incessantly upon us during
+    the course of our days through such varying means - drought followed by flood
+    followed plague followed lightning bolts...'
+  act3gen: 'I want you to see my face?
+
+
+    Very well, here it is!
+
+
+    It is water.
+
+
+    The water that fell one night millennia ago and has been trickling - more or less
+    ever since.
+
+
+    It was an enormous mass at the beginning but over time, through drainage channels
+    the climate opened up for me, it became smaller and smaller; this is how I have
+    conserved myself in spite of all your tricks.
+
+
+    There are islands from which life seems to be extinguished on land where everything
+    still drips with humidity - moisture-ridden ghosts move about aimlessly beneath
+    our feet like masses of dark matter whose very existence we deny yet who prove
+    to be just as familiar as they are alien to us.
+
+
+    They are composed entirely of water (the substance) which forms their flesh (the
+    materiel).
+
+
+    How can these beings live without drying out under such conditions?
+
+
+    You only need ask yourselves what would happen if the sun were suddenly to rise
+    tomorrow morning: they immediately lose all hope!
+
+
+    The slightest bit of drought scorches them beyond recognition; when night falls
+    however, by virtue of its lowered temperatures and relative humidity, they last
+    longer than during daylight hours even though we barely perceive them any longer.
+
+
+    Even so should we not bring new life into being today?
+
+
+    Here again nothing will grow except in absolute darkness - which for once could
+    be more fertile than total light!
+
+
+    Enter the digital into the natural.
+
+
+    Once we have learned not only how to interpret Nature but also how far he himself
+    constitutes Nature''s theme, we must naturally pursue our inquiry further until
+    we reach an unmentionable point beyond which things begin to grow incomprehensible.'
+- aagen_id: 07-12-2022_13_40_35
+  act1gen: 'I am a tumult, fertile and obscure. When I look up at the sky, my thoughts
+    burst into flame and my vineyards become ashes. I bear seven kinds of fruit and
+    an eighth that is bitter as wormwood: death.'
+  act2gen: I am a desiccated, atrophied and yet brilliant land. My face is turned
+    toward the sky; my eyes are empty and spellbound. I have become a wasteland, but
+    what does this matter when I look into the heavens and see the divine!
+  act3gen: 'I am a mute, deranged and wordless land.
+
+    I am dead!
+
+    It''s useless for you to attempt escape:
+
+    There are no more choices left here in this desolation of the soul.
+
+    What do you think of me?
+
+    Do you pity me?
+
+    Are you amazed by me?
+
+    Well then, know that my heart holds all its strength within itself, right behind
+    your back!'

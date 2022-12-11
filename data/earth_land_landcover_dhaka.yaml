@@ -1,17 +1,17 @@
 entitydata:
   actmoodlevels:
-    act1: 4
-    act2: 3
-    act3: 2
+    act1: 5
+    act2: 4
+    act3: 3
   actmoodsamples:
-    act1: 206.5588848
-    act2: 222.76641943333334
+    act1: 35
+    act2: 39
     act3: 244.1768386
   chartstorage: null
   idealranges:
-    lower: 160
-    upper: 200
-  measurementunit: km^2
+    lower: 30
+    upper: 37
+  measurementunit: percentage
 entitydescr:
   bio: 'I am dhaka and I need a bio.'
   descriptor: vast and complex

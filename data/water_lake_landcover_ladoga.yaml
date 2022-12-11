@@ -1,8 +1,8 @@
 entitydata:
   measurementunit: Land Cover
   idealranges:
-    lower: 17224
-    upper: 17227
+    lower: 17226.0
+    upper: 17228.0
   actmoodsamples:
     act1:  17228.9
     act2:  17228.0
