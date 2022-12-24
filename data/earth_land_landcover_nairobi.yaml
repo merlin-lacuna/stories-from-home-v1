@@ -15,7 +15,7 @@ entitydata:
 entitydescr:
   id: earth_urban_landcover_nairobi
   bio:
-  type: "urban"
+  type: "land"
   element: "earth"
   descriptor:
   measurementdescr: "percentage"
