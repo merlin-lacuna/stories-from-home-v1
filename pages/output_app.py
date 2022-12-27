@@ -8,7 +8,7 @@ st.sidebar.header("AI Output")
 
 def load_chart(chartstorage):
     ### Try to load the appropriate chart image from
-    imgpath = "charts/" + chartstorage
+    imgpath = "charts/" + str(chartstorage)
     try:
         image = Image.open(imgpath)
     except:
