@@ -90,7 +90,7 @@ def write_to_sheet(ws, findex, fvalue):
 
 def load_chart(chartstorage):
     ### Try to load the appropriate chart image from
-    imgpath = "charts/" + chartstorage
+    imgpath = "charts/" + str(chartstorage)
     try:
         image = Image.open(imgpath)
     except:
