@@ -1,16 +1,10 @@
 import streamlit as st
-import openai
 from ml_backend import ml_backend
 import os
-import re
 import openai
-import datetime
-from contextlib import redirect_stdout
-import sys
 from ruamel.yaml import YAML
 from ruamel.yaml.compat import StringIO
 from PIL import Image
-import gspread as gs
 import pandas as pd
 
 st.title("Story Generator")
@@ -65,15 +59,15 @@ def load_csv_as_df(file):
 def write_to_csv(df,index,value):
 
     pd.to_csv(df)
-def load_sheet_as_df(url, sajson, id, act):
-    gc = gs.service_account(filename=sajson)
-    sh = gc.open_by_url(url)
-    ws = sh.worksheet('data')
-    df = pd.DataFrame(ws.get_all_records())
-    df.set_index("field", inplace=True)
-    print(f'Loading {act} data for {id}')
-
-    return (ws, df)
+# def load_sheet_as_df(url, sajson, id, act):
+#     gc = gs.service_account(filename=sajson)
+#     sh = gc.open_by_url(url)
+#     ws = sh.worksheet('data')
+#     df = pd.DataFrame(ws.get_all_records())
+#     df.set_index("field", inplace=True)
+#     print(f'Loading {act} data for {id}')
+#
+#     return (ws, df)
 
 def flatten_yaml(theyaml):
     # Flatten YAML, separate keys with "_"
