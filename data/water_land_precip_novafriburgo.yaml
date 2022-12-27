@@ -14,7 +14,7 @@ entitydata:
   measurementunit: precipitation
 entitydescr:
   id: water_land_precip_novafriburgo
-  bio:
+  bio: "In vibrant hues I contain, tropical climate from timely showers rain. My temperate paradise with winter chills little felt here. Snow looms only for a dream. Varying landscapes within my domain keep to forested mountainsides and lowland swamps we creep. Chirps from toucans piercing clear skies, the sound of nearby macaws sweet lullabies. Frogs and river birds abound throughout me, mangrove forests spreading beauty far and wide; The fruits that dwell in covering trees sustain life here so it breathes release."
   type: "land"
   element: "water"
   descriptor: a region of land in the mountains
