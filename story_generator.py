@@ -48,6 +48,12 @@ if 'act3state' not in st.session_state:
     st.session_state['act3state'] = 'init'
 if 'storygencounter' not in st.session_state:
     st.session_state['storygencounter'] = 0
+if 'act1cleaned' not in st.session_state:
+    st.session_state['act1cleaned'] = ''
+if 'act2cleaned' not in st.session_state:
+    st.session_state['act2cleaned'] = ''
+if 'act3scleaned' not in st.session_state:
+    st.session_state['act3scleaned'] = ''
 
 ### Define Utility functions
 # Uses st.experimental_memo to only rerun when the query changes or after 5 mins.
@@ -286,10 +292,22 @@ with st.form(key="act0_1_out"):
         modelname = get_value(df,'entitydescr_element')
         selectedmodel = get_model(modelname)
         outputsize = len(str(get_value(df,'storygenerations_act1gen'))) / 3
+        #outputsize = len(str(st.session_state['act1cleaned'])) / 3
         fieldheight = int(outputsize)
         edit_ouput1 = st.text_area('Output 1', get_value(df,'storygenerations_act1gen'), height=fieldheight)
+        #edit_ouput1 = st.text_area('Output 1', st.session_state['act1cleaned'], height=fieldheight)
+        clean_act1 = st.form_submit_button(label='Try to clean the response')
         save_ouput1 = st.form_submit_button(label='Save Output 1')
         proceed1 = st.form_submit_button(label='Proceed to Act 2')
+
+        if clean_act1:
+            with st.spinner("Trying to clean the text..."):
+                cloutput1 = backend.clean_response(get_value(df,'storygenerations_act1gen'))
+                st.session_state['act1cleaned'] = cloutput1
+            st.success('Done!')
+            st.markdown(':green[Cleaned version ]')
+            st.markdown(f':green[{cloutput1}]')
+
         if save_ouput1:
             with st.spinner("Saving Updated Output For Act 1......"):
                 writeindex = get_index(df,'storygenerations_act1gen')
@@ -373,8 +391,17 @@ with st.form(key="act_2_out"):
         outputsize = len(str(get_value(df,'storygenerations_act2gen'))) / 3
         fieldheight = int(outputsize)
         edit_ouput2 = st.text_area('Output 2', get_value(df,'storygenerations_act2gen'), height=fieldheight)
+        clean_act2 = st.form_submit_button(label='Try to clean the response')
         save_ouput2 = st.form_submit_button(label='Save Output 2')
         proceed2 = st.form_submit_button(label='Proceed to Act 3')
+
+        if clean_act2:
+            with st.spinner("Trying to clean the text..."):
+                cloutput2 = backend.clean_response(get_value(df,'storygenerations_act2gen'))
+                st.session_state['act2cleaned'] = cloutput2
+            st.success('Done!')
+            st.markdown(':green[Cleaned version ]')
+            st.markdown(f':green[{cloutput2}]')
 
         if save_ouput2:
             with st.spinner("Saving Updated Output For Act 2..."):
@@ -455,8 +482,17 @@ with st.form(key="act_3_out"):
         outputsize = len(str(get_value(df,'storygenerations_act3gen'))) / 3
         fieldheight = int(outputsize)
         edit_ouput3 = st.text_area('Output 3', get_value(df,'storygenerations_act3gen'), height=fieldheight)
+        clean_act3 = st.form_submit_button(label='Try to clean the response')
         save_ouput3 = st.form_submit_button(label='Save Output 3')
         proceed3 = st.form_submit_button(label='Proceed to Whole Story')
+
+        if clean_act3:
+            with st.spinner("Trying to clean the text..."):
+                cloutput3 = backend.clean_response(get_value(df,'storygenerations_act3gen'))
+                st.session_state['act3cleaned'] = cloutput3
+            st.success('Done!')
+            st.markdown(':green[Cleaned version ]')
+            st.markdown(f':green[{cloutput3}]')
 
         if save_ouput3:
             with st.spinner("Saving Updated Output For Act 3..."):

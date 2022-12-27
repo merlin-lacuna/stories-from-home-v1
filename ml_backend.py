@@ -28,7 +28,7 @@ class ml_backend:
 
         return trimmedoutput
 
-    def clean_response(rawresponse):
+    def clean_response(self,rawresponse):
         try:
             response = openai.Edit.create(
                 model="text-davinci-edit-001",
