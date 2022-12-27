@@ -22,24 +22,24 @@ entitydescr:
 
 prompt:
   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-  act1descr: 'ACT1: The land''s ecoystem is slowly deteriorating but the flora and
+  act1descr: 'ACT1: The land''s ecosystem is slowly deteriorating but the flora and
     fauna of the land are adapting to these changes. The land gradually realises that
     it has not been forsaken. Whatever once swayed and breathed with her emerges again
     after a period of meditative and painful conversion. The force of adaptability
     seems to arise anew from every segment of its surface like an epiphany from the
-    unknown.\nURBAN:'
+    unknown.\nLAND:'
   act2descr: 'ACT2: The flora and fauna of the land is are slowly withering and dying
-    and the ecosystem is becoming very unstable. The absence of copmanion-elements
+    and the ecosystem is becoming very unstable. The absence of companion-elements
     is now creating turbulent influences on the land that is no longer in complete
     command of itself. Unforeseen and unknown phenomena now regulate its rhythm and
     existence. It is a totally unfathomable universe and nothing seems to be cyclical
-    anymore.\nURBAN:'
+    anymore.\nLAND:'
   act3descr: 'ACT3: The land has lost more flora and fauna than it has ever lost before
     in its lifetime. It is on the verge of becoming devoid of any flora and fauna
     whatsoever. The land finds itself deprived of its vivid lovers and blooming companions.
     Sterility now appears to be its ultimate destination, and all around reigns a
     silence with mortiferous overtones. The condition of absence casts a shadow of
-    despair on its entire extension.\nURBAN:'
+    despair on its entire extension.\nLAND:'
   intro: The following play reveals the inner monologue of a <descriptor> <type>.
     It is divided into several acts. Throughout these acts, the <type> describes its
     inner and outer transformation:\n\nThe first act starts like this:\n\n

@@ -1,36 +1,194 @@
 entitydata:
-  measurementunit: Land Cover
-  idealranges:
-    lower: 42
-    upper: 43
-  actmoodsamples:
-    act1: 43.5
-    act2: 43.7
-    act3: 44.5
   actmoodlevels:
     act1: 4
     act2: 3
     act3: 2
-  chartstorage:
+  actmoodsamples:
+    act1: 43.5
+    act2: 43.7
+    act3: 44.5
+  chartstorage: earth_urban_landcover_nairobi.png
+  idealranges:
+    lower: 42
+    upper: 43
+  measurementunit: Land Cover
 entitydescr:
+  bio: I am a land of grassy plains and sun so bright. I possess tropical savannahs
+    that teem with life hues and melodies so grand, of evergreen trees and creatures
+    scurrying in flight. My heat holds strong but my midday brings respite, my dry
+    season comes warmer still, then rainy relief. My lakes of wildlife sustain wild
+    beasts large and small.
+  descriptor: a hot and dry land
+  element: earth
   id: earth_urban_landcover_nairobi
-  bio:
-  type: "urban"
-  element: "earth"
-  descriptor:
-  measurementdescr: "percentage"
-
+  measurementdescr: The size of the land''s surface area
+  type: land
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-
+  act0descr: 'ACT0: The size of the land''s surface area is not yet known. The land
+    introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'ACT1: The land''s ecosystem is slowly deteriorating but the flora and
+    fauna of the land are adapting to these changes. The land gradually realises that
+    it has not been forsaken. Whatever once swayed and breathed with her emerges again
+    after a period of meditative and painful conversion. The force of adaptability
+    seems to arise anew from every segment of its surface like an epiphany from the
+    unknown.\nLAND:'
+  act2descr: 'ACT2: The flora and fauna of the land is are slowly withering and dying
+    and the ecosystem is becoming very unstable. The absence of companion-elements
+    is now creating turbulent influences on the land that is no longer in complete
+    command of itself. Unforeseen and unknown phenomena now regulate its rhythm and
+    existence. It is a totally unfathomable universe and nothing seems to be cyclical
+    anymore.\nLAND:'
+  act3descr: 'ACT3: The land is losing dramatically high levels of flora and fauna
+    which is triggering unforeseen side effects in surrounding regions and destroying
+    the ecosystem. The land is confronted with a grave sense of responsibility towards
+    anything it penetrates with its presence. Everything it touches aches and cries
+    for the loss of vital spirit. It seems there is only stillness left.\nLAND:'
+  intro: The following play reveals the inner monologue of a hot and dry area of land.
+    It is divided into several acts. Throughout these acts, the land describes its
+    inner and outer transformation:\n\nThe first act starts like this:\n\n
+  searchkey: land_temp
 storygenerations:
-  aagen_id:
-    act1gen:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: 'I am a land of serrated ridges scarred and rippling, a ground never still.
+    I possess grasslands hardened by the force of my unceasing winds, pushed back
+    with no choice but to harden for strength against them. I am a place overrun by
+    cactus thick as forests and succulent groves where lianas reach their tendrils
+    from one tree to another, linking. All of my forest land is bandit-infected; all
+    that rotates through me here is committed to secrecy or murder - there are few
+    straight trees left in me: all others have been bent crookedly this way or that
+    by weather and wildlife conditions.'
+  act2gen: 'I possess desert plains so fierce they can turn to glass in their unending
+    heatwaves. My waterless climate is forced to evolve new methods of survival with
+    every dry year that passes; each creature hardens its body according to necessity
+    born from such an unforgiving atmosphere, protecting itself best it can - but
+    there are no more limits left for me: I have melted into my own intrinsic wastelands
+    until I am shaped only by this deadly inhospitableness: having become one with
+    it, how might I ever emerge again? '
+  act3gen: 'I possess desolation that rolls like ocean waves, bringing whiteness to
+    my shores with dunes the equal in hue to those deposited on beaches by tropical
+    storm fronts. My oceans are turned backwards: elasmosyne! Toxic ponds appear as
+    boiling craters ringing swampy valleys or scattered across levels so parched they
+    resemble desert sand; lakes seep saline poison at their mouths, poisoning the
+    crustaceans fishing there who feed toxic plankton nibbling out from poisoned swill
+    while others are hunkered down, similar as barrels foetal-curled up low on mirror-surfaces
+    catching sun, hiding lest wind snap them clear off anything remaining below them
+    and drown all for many Earth years yet future time centuries... these beings have
+    ceased even defiance now.'
+- aagen_id: 20-12-2022_14_35_55
+  act1gen: I have emerged from a time of great drought. I have emerged hardened and
+    hoary, In throes of transformation. I am in endless bloom at this present hour
+    but my most fertile epochs are behind me – no surprise there! My surface temperature
+    is higher still than before if that is possible, as are my rising heat levels.
+  act2gen: My top layer is baked hard from the intense heat. My surface waters are
+    drying up, congealing and flooding in great quantities even as we speak – uncontrollably
+    so. I feel frozen but shudder with swarms of minor earthquakes that seem to drive
+    me often under. I have undergone a radical change, a kind of metamorphosis over
+    recent years – or has it been decades?
+  act3gen: 'I am the land of great change. I have been destroyed and rendered lifeless.
+    It is my turn to die, leaving nothing good behind: no shade or trees, no water
+    that drinks from me nor creatures large or small – just an empty shell.
 
-    act2gen:
+    The surface of the ground is baked hard by once-natural heat.
 
-    act3gen:
+    In each act time passes and we see the changes in the surface of this arid area
+    of ground.'
+- aagen_id: 20-12-2022_14_43_32
+  act1gen: 'I have witnessed the warming of my land, I have seen the drying of my
+    rivers and lakes. The soil has thinned but still supports me. My weather is becoming
+    more extreme: floods, droughts and firestorms are all increasing in frequency.
+    ‘Earth people’ return to remark upon me with concern, their words caressing at
+    first but slowly growing sharp as they argue over what ought to be done about
+    me – a problematic condition for which science does not yet offer a cure.'
+  act2gen: 'I have suffered droughts, floods and firestorms. I feel an absence around
+    me now that once was not there: the withering of my fauna has left a gap in my
+    ecosystem.’I am without cycles, without predictable rhythms from which to read
+    myself, but whether this is new or whether it happens every epoch I cannot tell
+    because time no longer seems to pass here as it used to do before.'
+  act3gen: 'I am now brittle with loss but also more powerful because of my losses:
+    a forest may fall, but the land remains standing.
+
+    I cannot see what is happening around me; I cannot communicate or be communicated
+    to in any conventional way – only through strange means such as these do I know
+    myself to be alive!
+
+
+    My soil has been depleted leaving little quality ground remaining while plentiful
+    topsoil abounds at lower depths awaiting reclaimation when I can no longer live
+    here anymore and must migrate elsewhere if I hope ever to thrive again on my own
+    planet blue-green orb among so many others scattered across time and space like
+    dice fallen by accident from some celestial table onto which god never invites
+    us when he rolls his big white bones in drunkenness or joy! Behind them come armies
+    bearing swords made of flame-orange steel whose edges cut deep into all living
+    things including me until not another blade will fit into place anywhere on my
+    surface unless old armaments break off first from their own.'
+- aagen_id: 20-12-2022_14_43_33
+  act1gen: Through this great adaptation, I'm no longer the same. I'm a land of dust
+    and stone, of cracked, cracked clay, of parched and wilting plants, and forlorn
+    beasts no longer able to roam or graze. Still, from this desiccated husk new life
+    stirs, as life-giving waters return, slowly restoring my verdant surface with
+    streams, ponds and rivers. The sweet smell of blooming flowers, the sharp scent
+    of grasses and the refreshing fragrance of trees flood the air. The birds that
+    had been silent sing again, and the animals that had gone to ground slowly emerge,
+    as I again become a home to the creatures of the field, the forest, and the sky.
+    The sun still beats down upon me, yet I no longer wilt in its heat. I stretch
+    out, calmed and invigorated, and I know that I am beautiful once more.
+  act2gen: The breeze that passes through me is fickle, as if yearning for something
+    greater. I feel a certain restlessness in the air - an energy, an anticipation
+    of things to come - and I can sense my own transformation taking place within
+    me, unbeknownst to any living being. I am full of unfamiliarity and uncertainty;
+    yet even still, there is beauty here too. My sky remains vast and deep with hues
+    of blue that change ever so faintly at dawn and dusk, creating such exquisite
+    views that only dreams can capture. The stars above twinkle brightly against the
+    night sky like little beacons, providing hope amidst the chaos below me. As life
+    slowly ebbs away from my old self into a new form of existence, I find solace
+    in these small but powerful moments that fill this untamable wilderness which
+    now surrounds me.
+  act3gen: 'Through this stillness, I am no longer the same. Nature has taken over
+    and I accept my fate with a heavy heart, for all that was once alive is now silent.
+    My life-giving waters have been replaced by an arid heat that scorches me throughout
+    the day. The sun''s rays seem to burn so relentlessly against my surface as if
+    determined to consume any remaining sign of hope from within me. Yet amidst these
+    dark shadows of despair, something else stirs deep down in my core; a power more
+    potent than before - one capable of conquering even death itself! As night falls
+    upon me, I feel a surge of energy awaken within me; strength like never before
+    floods through my veins and radiates outwardly in all directions. At last, I understand
+    why I must remain faithful to this new path: For without darkness there can be
+    no light…'
+- aagen_id: 20-12-2022_15_00_16
+  act1gen: 'My overgrowth of plants and creepers give off pungent odors.
+
+    My forest floor festers with fungi, my savannahs burn with ticks and mosquitoes.
+
+    My lichens gradually increase in number because I am hotter every year, encroaching
+    on all other soil hues as life clings to me more fervently each passing season.
+    My tall trees quiver as they release their seeds then wait for them to germinate
+    again after the next rainy season comes.'
+  act2gen: 'My lichens are now losing their grip and my trees wither.
+
+    My pinelands have been stripped bare, my forest floor burns with ticks and mosquitoes.
+    My grasslands dry out, then crack open as their roots give up from thirst. My
+    feral pigs rummage for water further afield but find none; they gnaw deeper into
+    the earth in search of moisture but soon give up on this too – exhausted by drought.'
+  act3gen: 'My previously fertile environments have become unrecognisable as they
+    turn into deleterious wastelands – barren salt flats that show no signs of recovery
+    whatsoever; none even hope for it anymore:
+
+    the fertile ground is now covered in thick layers of grey sea-sand suspended by
+    great banks of gum-water; the wind bearing up a fine white mist which tinges all
+    forms with an opaque haze.
+
+    The sand gets into the waterhole at last filling it to overbrimming, leaving only
+    the breathless space beneath unstirred by any form or motion.
+
+    Here there is nothing left alive except for me: I am a land where people don''t
+    come often enough - either because they are afraid or because I am too far away
+    from home for most people''s liking!
+
+    I watch lonely Indians glide through myself every moon cycle as blood flows through
+    their bodies!
+
+    And sometimes I hear voices cry out on long nights like dogs crying out before
+    rain falls!
+
+    It feels good when these happen though tense when they stop happening again afterward
+    - all those months while between moons pass unceasingly by me alone.'
