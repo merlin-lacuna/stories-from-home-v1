@@ -7,7 +7,7 @@ entitydata:
     act1: 19
     act2: 115
     act3: 45
-  chartstorage: null
+  chartstorage: water_land_precip_novafriburgo
   idealranges:
     lower: 0
     upper: 40
