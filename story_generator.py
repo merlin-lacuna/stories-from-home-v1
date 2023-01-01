@@ -148,7 +148,7 @@ with st.form(key="init"):
         # check only yaml files
         if file.endswith('.yaml'):
             res.append(file)
-
+    res = sorted(res)
     configfile = st.selectbox(
         'Select your config file ',
         res)
