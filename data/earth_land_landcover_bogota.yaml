@@ -14,7 +14,7 @@ entitydata:
   chartstorage: earth_urban_landcover_bogota.png
 entitydescr:
   id: earth_urban_landcover_bogota
-  bio: 'The moisty humidity is bogging me down. My mind is subtropical and heavy but I yearn for the cooling caress of rainfall. But it's warm all year round and the degrees keep climbing the ceslsius ladder until I'm about to drown.'
+  bio: 'The moisty humidity is bogging me down. My mind is subtropical and heavy but I yearn for the cooling caress of rainfall. But it''s warm all year round and the degrees keep climbing the celsius ladder until I''m about to drown.'
   type: "urban"
   element: "earth"
   descriptor: moist and humid land
