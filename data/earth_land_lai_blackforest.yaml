@@ -14,16 +14,20 @@ entitydata:
   chartstorage: earth_land_lai_blackforest.png
 entitydescr:
   id: earth_land_lai_blackforest
-  bio: 'I am a large forest and I...'
+  bio: 'I am a forest, dark and deep, where ancient pines and firs do reside, their vigil, tall and straight and true. My mountains rise to meet the heavens, and my valleys sleep in verdant peace, a green retreat. My air is pure, the waters clear, and babbling brooks and sparkling rills do nourish all that grows and thrives inside me. My beauty lies not just in sight, but in the very essence of my soil, a spirit wild, yet also whole.'
   type: "forest"
   element: "earth"
   descriptor: "lush and pensive"
   measurementdescr: "leaf cover"
 prompt:
     intro: 'The following play reveals the inner monologue of a lush and pensive forest. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-    act0descr: 'ACT0: The forest''s leaf cover is not yet known. The forest introduces itself and describes its surroundings.\nFOREST: '
-    act1descr: 'ACT1: The forest can''t seem to stop losing leaves. The forest floats in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything it failed to see.\nFOREST: '
+    act0descr: 'ACT0: The forest''s leaf cover is not yet known. The forest introduces itself and describes its surroundings.\nFOREST:'
+    act1descr: 'ACT1: The forest can''t seem to stop losing leaves. The forest floats in between questions with no answers, wondering to the sky, to the clouds, to the grass if they witnessed anything it failed to see.\nFOREST:'
     act2descr: 'ACT2: The forest has lost a dramatically high proportion of its leaves and greenery. The forest notices that all the living parts that once composed its abundance are dropping to the ground, victims of an ineluctable and merciless force of gravity.\nFOREST: '
-    act3descr: 'ACT3: The forest seems to keep growing more and more leaves and leaf cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable process of growth that imbues every leaf, root, branch, sprout. Everything around evolves, shines and is fortified. The forest is an ode to life.\nFOREST: '
-
+    act3descr: 'ACT3: The forest seems to keep growing more and more leaves and leaf cover is increasing. The forest becomes pure rebirth by embracing a luminous unstoppable process of growth that imbues every leaf, root, branch, sprout. Everything around evolves, shines and is fortified. The forest is an ode to life.\nFOREST:'
+    searchkey: 'forest_lai'
 storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
