@@ -13,8 +13,8 @@ entitydata:
     upper: 37
   measurementunit: percentage
 entitydescr:
-  bio: 'I am dhaka and I need a bio.'
-  descriptor: vast and complex
+  bio: 'I am the hot and humid stretch of land nestled in the heart of a waterlogged country. My climate is hot and humid, as the monsoon rains drench my body which is diverse and vibrant, teeming with life and energy. Each species of flora and fauna, plays their part in my tapestry. The mangroves, the Royal Bengal tiger, and various species of orchids and bamboo are all my children. I may face challenges and difficulties, but I remain a land of beauty and hope.'
+  descriptor: hot and humid
   element: earth
   id: earth_land_landcover_dhaka
   measurementdescr: 'land''s land cover'
