@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 4
+    act3: 5
+  actmoodsamples:
+    act1: 250.0
+    act2: 600.0
+    act3: 200.0
+  chartstorage: null
+  idealranges:
+    lower: 0.0
+    upper: 550.0
+  measurementunit: precipitation
+entitydescr:
+  bio: null
+  descriptor: null
+  element: water
+  id: water_land_precip_mumbai
+  measurementdescr: precipitation
+  type: land
+prompt:
+  act0descr: null
+  act1descr: null
+  act2descr: null
+  act3descr: null
+  intro: null
+  searchkey: null
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
