@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 4
+    act3: 3
+  actmoodsamples:
+    act1: 16
+    act2: 15
+    act3: 11
+  chartstorage: null
+  idealranges:
+    lower: 15
+    upper: 25
+  measurementunit: precipitation
+entitydescr:
+  bio: null
+  descriptor: null
+  element: water
+  id: water_land_ssm_altorabagaoreservar.csv
+  measurementdescr: Surface Soil Moisture
+  type: land
+prompt:
+  act0descr: null
+  act1descr: null
+  act2descr: null
+  act3descr: null
+  intro: null
+  searchkey: null
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
