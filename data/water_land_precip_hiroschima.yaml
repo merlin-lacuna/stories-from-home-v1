@@ -1,31 +1,32 @@
 entitydata:
   actmoodlevels:
     act1: 5
-    act2: 4
-    act3: 4
+    act2: 3
+    act3: 2
   actmoodsamples:
-    act1: 1500
-    act2: 1450
-    act3: 1650
-  chartstorage: null
+    act1:  1500.0
+    act2:  1800.0
+    act3:  1920.0
+  chartstorage: water_land_precip_hiroschima.png
   idealranges:
     lower: 1400
     upper: 1650
   measurementunit: precipitation
 entitydescr:
-  bio: null
+  bio: 'I am the land of cherry blossoms, where the sun rises from the sea. My distant past is stained with the trauma of a devastating atomic bomb. My summers are hot and humid, my winters mild, with gentle breeze. Rivers flow through my valleys, mountains reach for the sky. Forests thrive, with cedar and pine, home to creatures, both great and small, they fly. Rice fields stretch as far as the eye can see, terraced and tended with care. Fruits and vegetables flourish, nourishment for all who dare. I possess history and tradition, of temples and shrines old. A place where the past and present, in harmony, forever hold.'
   descriptor: null
   element: water
   id: water_land_precip_hiroschima
   measurementdescr: precipitation
   type: land
 prompt:
-  act0descr: null
-  act1descr: null
-  act2descr: null
-  act3descr: null
-  intro: null
-  searchkey: null
+  intro: 'The following play reveals the inner monologue of a region of land in the mountains. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'The land is receiving a healthy amount of water. The flora and fauna are being nourished with plenty of moisture. The land is thriving and flourishing. All is hydrated and living beings of all species delight in healthfulness and harmony. The soil is a hospitable expanded alcove bursting with shining energy.  Balance holds the key to the cycle of life.'
+  act2descr: 'The land is very waterlogged. It is becoming a wetland. The flora and fauna are constantly drenched in water.	The land slowly turns into a vast mirror: all damp and wet it reflects the skies above its mass. The dense reflections have little of a magical quality, but rather grow into a nostalgic image of a now submerged and suffocated past - every vital gasp is an agonizing effort.'
+  act3descr: 'The land is extremely waterlogged. It is more of a swamp than region of solid land. The flora and fauna are almost drowning. The moisture through which the land once was nurtured, now has become an absolute threat. The living beings that populated it are on the verge of dissolution, eradicated by a massive liquid transformation which undermines nature''s reversibility.'
+
+  searchkey: waterland_cover
 storygenerations:
 - aagen_id: null
   act1gen: null
