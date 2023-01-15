@@ -2,30 +2,30 @@ entitydata:
   actmoodlevels:
     act1: 5
     act2: 5
-    act3: 4
+    act3: 3
   actmoodsamples:
-    act1: null
-    act2: null
-    act3: null
-  chartstorage: null
+    act1:  2.135
+    act2:  2.015
+    act3:  1.456
+  chartstorage: water_land_precip_mountmabu.png
   idealranges:
     lower: 1.800
     upper: 2.300
   measurementunit: precipitation
 entitydescr:
-  bio: null
-  descriptor: null
+  bio: 'I am the grand peak, standing tall and strong, a majestic sight, surrounded by lush forests. My slopes are steep, my crags are rugged, a natural fortress, with stories yet to be told. My summit is cold, my base is warm, a body of contrasts, a natural wonder. My soil is rich, my water is pure, a haven for flora, a serene vista. Some people call my forest the "Google Forest". My streams are pristine, a symphony of nature, with diverse wildlife and birds that sing sweet, a melody to cherish.'
+  descriptor: majestic and lush
   element: water
   id: water_land_precip_mountmabu
   measurementdescr: precipitation
   type: land
 prompt:
-  act0descr: null
-  act1descr: null
-  act2descr: null
-  act3descr: null
-  intro: null
-  searchkey: null
+  intro: 'The following play reveals the inner monologue of a majestic and lush region of land in the mountains. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of rain covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'The land''s rainfall is at normal levels. The land is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.'
+  act2descr: 'The land''s rainfall is still at to normal levels. The land is still elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.'
+  act3descr: 'The land''s rainfall is somewhat reduced. The precipitation is at unusually low levels. The land slowly becomes opaque. Once it was possible to detect sheets of water through which a portion of the universe was mirroring itself. Now the reflections of the heaven are shrinking. All around, life''s impetus faces a crash, and the land stumbles into dehydration.'
+  searchkey: land_precip
 storygenerations:
 - aagen_id: null
   act1gen: null
