@@ -7,15 +7,15 @@ entitydata:
     act1: 0.1
     act2: 0.21
     act3: 0.05
-  chartstorage: null
+  chartstorage: water_land_ndwi_sinzig.png
   idealranges:
     lower: 0
-    upper: 0.08
+    upper: 0.05
   measurementunit: NDWI
-  chartstorage: water_land_ndwi_sinzig.png
+
 entitydescr:
   id: water_land_ndwi_sinzig
-  bio:
+  bio: 'I am the land of vineyards and fruit trees, where the Rhine flows peacefully, my climate is mild, with warm summers, and crisp, cold winters that bring new life to slumber. My ecology is diverse, from the forests to the fields, birds singing sweet melodies, butterflies fluttering with glee. I am blessed with fertile soil, that nourishes my crops and trees, my beauty is not just skin deep, but a reflection of my history. I am the land of myths and legends, where stories are woven into my fabric and my beauty is truly enchanting.'
   type: "land"
   element: "water"
   descriptor: small region of land
