@@ -49,12 +49,17 @@ def get_bio(myprompt, maxt, element):
     )
     return response.choices[0].text
 
-entity = "the Nairobi region"
+entity = "the region of Nova Friburgo"
 prompt=f"Write a text from the perspective of {entity} describing its own climate and ecology and write it in the first-person tense."
 
 bio = get_bio(prompt, maxlength, selectedmodel)
 ft = f"Write the following text in the singular first-person tense:\n" + bio
 ftense = get_bio(ft, maxlength, selectedmodel)
+
+# the region of Niamey
+# Pretend that you are the region of Sinzig in Germany and you can talk. Write in the first-person tense and briefly describe your own climate and ecology. Write in the poetic style of Rumi but do not mention your own name and write in free verse.
+
+
 #bio2 = get_bio(prompt2, maxlength, selectedmodel)
 #bio3 = get_bio(prompt3, maxlength, selectedmodel)
 #prompt2=f"Generate an interesting fact about the climate of {entity}."
@@ -78,7 +83,7 @@ ftense = get_bio(ft, maxlength, selectedmodel)
 # For summer has o’er-brimm’d their clammy cells.
 # """
 #
-poeticinstr = f"Rewrite the following text the in poetic style of Allen Ginsberg:\n###\n{ftense}\n###\n"
+poeticinstr = f"Rewrite the following text in the poetic style of Allen Ginsberg:\n###\n{ftense}\n###\n"
 poetic = get_bio(poeticinstr, maxlength, selectedmodel)
 
 # poemprompt2 = "Write a poem by Rumi"
