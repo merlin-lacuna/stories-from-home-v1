@@ -11,17 +11,17 @@ entitydata:
     act1: 4
     act2: 3
     act3: 1
-  chartstorage:
+  chartstorage: earth_land_landcover_niamey.png
 entitydescr:
   id: earth_urban_landcover_niamey
-  bio: tbc
+  bio: 'I am a scorching sun-baked land, where the desert sands stretch far and wide. My climate is harsh, with burning heat by day, and chilly nights that leave one''s bones a-tide. My ecology is one of survival, where only the strongest plants and beasts prevail. The Sahel stretches out before me, a land of drought and struggle without fail. But still, life persists in my barren form, with acacia trees and grazing antelopes. The Niger River brings a precious storm, giving life to all who share my hopes. So though I may be harsh and unforgiving, I am also a land of strength and vitality.'
   type: "urban"
   element: "earth"
-  descriptor: tbc
+  descriptor: scorching sun-baked
   measurementdescr: "percentage"
 
 prompt:
-  act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+  act0descr: 'ACT0: The land''s land cover is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
   act1descr: 'ACT1: The land''s ecosystem is slowly deteriorating but the flora and
     fauna of the land are adapting to these changes. The land gradually realises that
     it has not been forsaken. Whatever once swayed and breathed with her emerges again
@@ -40,8 +40,8 @@ prompt:
     Sterility now appears to be its ultimate destination, and all around reigns a
     silence with mortiferous overtones. The condition of absence casts a shadow of
     despair on its entire extension.\nLAND:'
-  intro: The following play reveals the inner monologue of a <descriptor> <type>.
-    It is divided into several acts. Throughout these acts, the <type> describes its
+  intro: The following play reveals the inner monologue of a scorching sun-baked land.
+    It is divided into several acts. Throughout these acts, the land describes its
     inner and outer transformation:\n\nThe first act starts like this:\n\n
   searchkey: land_cover
 storygenerations:
