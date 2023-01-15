@@ -28,23 +28,27 @@ class ml_backend:
 
         return trimmedoutput
 
-    def generate_text1(self, userPrompt ="Write me a professionally sounding email", start="Dear"):
-        """Returns a generated an email using GPT3 with a certain prompt and starting sentence"""
+    def clean_response(self,rawresponse):
+        try:
+            response = openai.Edit.create(
+                model="text-davinci-edit-001",
+                input=rawresponse,
+                instruction="Remove the garbled text. Correct the grammar in all sentences. Convert all text to sentence case. Make sure that each sentence is written in the first person tense. Make all pronouns gender neutral",
+                temperature=0.8,
+                top_p=1
+            )
+            cleanedresp = response.choices[0].text
+        except:
+            print("The edit operation failed for some reason.\r Returning raw response:")
+            cleanedresp = rawresponse
 
-        response = openai.Completion.create(
-        engine="davinci",
-        prompt=userPrompt + "\n\n" + start,
-        temperature=0.71,
-        max_tokens=150,
-        top_p=1,
-        frequency_penalty=0.36,
-        presence_penalty=0.75
-        )
-        return response.get("choices")[0]['text']
+        return cleanedresp
 
-    def generate_text(self,myprompt, maxt, element):
+    def generate_text(self, myprompt, maxt, element):
+        #print(extra)
+        print("max t is: " + str(maxt))
         lengthext = random.randint(1, 56)
-        maxt = maxt + lengthext
+        maxt = int(maxt) + int(lengthext)
         response = openai.Completion.create(
             model=element,
             prompt=myprompt,
@@ -58,7 +62,7 @@ class ml_backend:
         story = response.choices[0].text
 
         # START TEST
-        # story = "I am a boring story that is a placeholder for testing that uses the model: " + selectedmodel
+        #story = "I am a boring story that is a placeholder for testing that uses the model: " + element + 'with max tokens'  + str(maxt) + 'and the prompt' + myprompt
 
         lstory = story.replace("\n", " ")
         lstory = lstory.replace("I'm a forest,", "I am")
@@ -69,24 +73,31 @@ class ml_backend:
 
         return ' '.join(lstory.split())
 
-    def generate_text_test1(self,userPrompt):
-        response = "Grandma loves ham"
-        return response
+    def get_act(self,myprompt, maxt, element):
+        lengthext = random.randint(1, 56)
+        maxt = maxt + lengthext
+        print("Requesting generation with model: " + element)
+        print("Requesting generation with maxlength: " + str(maxt))
+        response = openai.Completion.create(
+            model=element,
+            prompt=myprompt,
+            temperature=0.8,
+            max_tokens=maxt,
+            top_p=1,
+            frequency_penalty=1,
+            presence_penalty=1,
+            stop=["ACT1","ACT2","ACT3","ACT4"]
+        )
+        story = response.choices[0].text
 
-    def generate_text_test2(self,userPrompt):
-        response = "Apes are gross"
-        return response
+        # START TEST
+        #story = "I am a boring story that is a placeholder for testing that uses the model: " + selectedmodel
 
-    def generate_text_test3(self,userPrompt):
-        response = "Your dad loves cheese"
-        return response
+        lstory = story.replace("\n", " ")
+        lstory = lstory.replace("I'm a forest,", "I am")
+        lstory = lstory.replace("I am a forest,", "I am")
+        lstory = lstory.replace("I'm just a forest,", "I am")
+        lstory = lstory.replace("I am just a forest,", "I am")
+        lstory = lstory.replace("Forest: ","")
 
-
-    def replace_spaces_with_pluses(self, sample):
-        """Returns a string with each space being replaced with a plus so the email hyperlink can be formatted properly"""
-        changed = list(sample)
-        for i, c in enumerate(changed):
-            if(c == ' ' or c =='  ' or c =='   ' or c=='\n' or c=='\n\n'):
-                changed[i] = '+'
-        return ''.join(changed)
-
+        return ' '.join(lstory.split())

@@ -1,0 +1,35 @@
+entitydata:
+  actmoodlevels:
+    act1: 4
+    act2: 2
+    act3: 5
+  actmoodsamples:
+    act1: 19
+    act2: 115
+    act3: 45
+  chartstorage: water_land_precip_novafriburgo.png
+  idealranges:
+    lower: 0
+    upper: 40
+  measurementunit: precipitation
+entitydescr:
+  id: water_land_precip_novafriburgo
+  bio: "In vibrant hues I contain, tropical climate from timely showers rain. My temperate paradise with winter chills little felt here. Snow looms only for a dream. Varying landscapes within my domain keep to forested mountainsides and lowland swamps we creep. Chirps from toucans piercing clear skies, the sound of nearby macaws sweet lullabies. Frogs and river birds abound throughout me, mangrove forests spreading beauty far and wide; The fruits that dwell in covering trees sustain life here so it breathes release."
+  type: "land"
+  element: "water"
+  descriptor: a region of land in the mountains
+  measurementdescr: "precipitation"
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a region of land in the mountains. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The land''s rainfall is starting to become a little high. The land can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land stands in a liminal state.\nLAND:'
+   act2descr: 'ACT2: The land is constantly battered with rainfall. It is becoming more of a swamp than region of solid land. The flora and fauna are drenched. The moisture through which the land once breathed and on which it feasted is suffocating. Like a spirit doomed not to stay, the aura of dryness departs. Wetness and frailty take its stead as the skies bombard the land with their drops of life.\nLAND:'
+   act3descr: 'ACT3: The land''s rainfall has returned to normal levels. The land is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nLAND:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'

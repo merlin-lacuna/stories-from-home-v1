@@ -7,14 +7,14 @@ entitydata:
     act1: 35
     act2: 39
     act3: 244.1768386
-  chartstorage: null
+  chartstorage: earth_land_landcover_dhaka.png
   idealranges:
     lower: 30
     upper: 37
   measurementunit: percentage
 entitydescr:
-  bio: 'I am dhaka and I need a bio.'
-  descriptor: vast and complex
+  bio: 'I am the hot and humid stretch of land nestled in the heart of a waterlogged country. My climate is hot and humid, as the monsoon rains drench my body which is diverse and vibrant, teeming with life and energy. Each species of flora and fauna, plays their part in my tapestry. The mangroves, the Royal Bengal tiger, and various species of orchids and bamboo are all my children. I may face challenges and difficulties, but I remain a land of beauty and hope.'
+  descriptor: hot and humid
   element: earth
   id: earth_land_landcover_dhaka
   measurementdescr: 'land''s land cover'
@@ -22,14 +22,14 @@ entitydescr:
 prompt:
   act0descr: 'ACT0: The land''s land cover is not yet known. The land introduces itself
     and describes its surroundings.\nLAND:I am dhaka'
-  act1descr: 'ACT1: The land''s ecoystem is slowly deteriorating but the flora and
+  act1descr: 'ACT1: The land''s ecosystem is slowly deteriorating but the flora and
     fauna of the land are adapting to these changes. The land gradually realises that
     it has not been forsaken. Whatever once swayed and breathed with her emerges again
     after a period of meditative and painful conversion. The force of adaptability
     seems to arise anew from every segment of its surface like an epiphany from the
     unknown.\nLAND:'
   act2descr: 'ACT2: The flora and fauna of the land is are slowly withering and dying
-    and the ecosystem is becoming very unstable. The absence of copmanion-elements
+    and the ecosystem is becoming very unstable. The absence of companion-elements
     is now creating turbulent influences on the land that is no longer in complete
     command of itself. Unforeseen and unknown phenomena now regulate its rhythm and
     existence. It is a totally unfathomable universe and nothing seems to be cyclical
