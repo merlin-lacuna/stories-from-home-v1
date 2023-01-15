@@ -1,0 +1,34 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 3
+    act3: 2
+  actmoodsamples:
+    act1:  1500.0
+    act2:  1800.0
+    act3:  1920.0
+  chartstorage: water_land_precip_hiroschima.png
+  idealranges:
+    lower: 1400
+    upper: 1650
+  measurementunit: precipitation
+entitydescr:
+  bio: 'I am the grand peak, standing tall and imposing, a majestic sight, surrounded by clouds. My slopes are steep, my crags are rugged, a natural fortress, with stories yet to be told. My summit is freezing, my base is mild, a climate of contrasts, a natural wonder. My soil is fertile, my water is crystal-clear, a haven for flora, a serene allure. My forests are dense, my streams are pristine, a symphony of nature, for all to hear. My wildlife is diverse, my birds sing sweet, a natural symphony, a melody to cherish.'
+  descriptor: null
+  element: water
+  id: water_land_precip_hiroschima
+  measurementdescr: precipitation
+  type: land
+prompt:
+  intro: 'The following play reveals the inner monologue of a region of land in the mountains. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'The land is receiving a healthy amount of water. The flora and fauna are being nourished with plenty of moisture. The land is thriving and flourishing. All is hydrated and living beings of all species delight in healthfulness and harmony. The soil is a hospitable expanded alcove bursting with shining energy.  Balance holds the key to the cycle of life.'
+  act2descr: 'The land is very waterlogged. It is becoming a wetland. The flora and fauna are constantly drenched in water.	The land slowly turns into a vast mirror: all damp and wet it reflects the skies above its mass. The dense reflections have little of a magical quality, but rather grow into a nostalgic image of a now submerged and suffocated past - every vital gasp is an agonizing effort.'
+  act3descr: 'The land is extremely waterlogged. It is more of a swamp than region of solid land. The flora and fauna are almost drowning. The moisture through which the land once was nurtured, now has become an absolute threat. The living beings that populated it are on the verge of dissolution, eradicated by a massive liquid transformation which undermines nature''s reversibility.'
+
+  searchkey: waterland_cover
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null

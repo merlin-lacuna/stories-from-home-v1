@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 4
+    act2: 5
+    act3: 4
+  actmoodsamples:
+    act1:  650.0
+    act2:  800.0
+    act3:  950.0
+  chartstorage: water_land_precip_mexicocity.png
+  idealranges:
+    lower: 700
+    upper: 900
+  measurementunit: precipitation
+entitydescr:
+  bio: 'I am the heart of the city, a green oasis, a breath of fresh air amidst the turmoil. My trees are tall, my grass is lush, a natural sanctuary, a peaceful haven. My breath is mild  and fair, a perfect balance, a natural wonder. My soil is rich, my water is clear, a haven for flora, a serene allure. My paths are winding, my lakes are tranquil, a symphony of nature, for all to hear. My wildlife is diverse, my birds sing sweet, a natural symphony, a melody to cherish. I am a place of tranquility, a place of grandeur.'
+  descriptor: lush and verdant
+  element: water
+  id: water_land_precip_mexicocity
+  measurementdescr: precipitation
+  type: land
+prompt:
+  intro: 'The following play reveals the inner monologue of a lush and verdant area of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'ACT1: The land''s rainfall is starting to become a little high. The land can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land stands in a liminal state.\nLAND:'
+  act2descr: 'ACT2: The land''s rainfall has returned to normal levels. The land is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nLAND:'
+  act3descr: 'ACT3: The land''s rainfall is starting to become a little high again. The land can again sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land again stands in a liminal state.\nLAND:'
+  searchkey: 'land_precip'
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null

@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 3
+    act2: 4
+    act3: 2
+  actmoodsamples:
+    act1:  1699
+    act2:  1565
+    act3:  1850
+  chartstorage: water_land_precip_florida.png
+  idealranges:
+    lower: 1200
+    upper: 1500
+  measurementunit: precipitation
+entitydescr:
+  bio: ' I am a vast expanse of wetlands and grasslands, where the sun beats down mercilessly, my air is tropical, with hot and humid summers, and mild winters that bring respite from the heat. My body is unique, from the sawgrass prairies to the mangrove swamps, alligators lurk in my murky waters, and wading birds search for their next meal. I am blessed with rich soil, that nourishes my plants and trees, my beauty is not just skin deep, but a reflection of my vastness and breeze. I am a fertile trove mystery and wonder, where wildlife thrives in my embrace. I contain many contrasts, where the fresh water meets the salt.'
+  descriptor: moist and humid
+  element: water
+  id: water_land_precip_florida
+  measurementdescr: precipitation
+  type: land
+prompt:
+  intro: 'The following play reveals the inner monologue of a moist and humid region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'ACT1: The land is very waterlogged. It is becoming a wetland. The flora and fauna are constantly drenched in water. The land slowly turns into a vast mirror: all damp and wet it reflects the skies above its mass. The dense reflections have little of a magical quality, but rather grow into a nostalgic image of a now submerged and suffocated past - every vital gasp is an agonizing effort.\nLAND:'
+  act2descr: 'ACT2: The land is getting more water than usual. The flora and fauna are receiving more than enough moisture. The land can sense that its original state is morphing into a new wetness. The humidity spreading all over has a different feel than what it used to get and its limbs absorb an increased level of droplets. A transition is occuring and the land is in a liminal state.\nLAND:'
+  act3descr: 'ACT3: The land is extremely waterlogged. It is more of a swamp than region of solid land. The flora and fauna are almost drowning. The moisture through which the land once was nurtured, now has become an absolute threat. The living beings that populated it are on the verge of dissolution, eradicated by a massive liquid transformation which undermines nature''s reversibility.\nLAND:'
+  searchkey: waterland_cover
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
