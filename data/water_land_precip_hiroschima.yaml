@@ -13,7 +13,7 @@ entitydata:
     upper: 1650
   measurementunit: precipitation
 entitydescr:
-  bio: 'I am the land of cherry blossoms, where the sun rises from the sea. My distant past is stained with the trauma of a devastating atomic bomb. My summers are hot and humid, my winters mild, with gentle breeze. Rivers flow through my valleys, mountains reach for the sky. Forests thrive, with cedar and pine, home to creatures, both great and small, they fly. Rice fields stretch as far as the eye can see, terraced and tended with care. Fruits and vegetables flourish, nourishment for all who dare. I possess history and tradition, of temples and shrines old. A place where the past and present, in harmony, forever hold.'
+  bio: 'I am the grand peak, standing tall and imposing, a majestic sight, surrounded by clouds. My slopes are steep, my crags are rugged, a natural fortress, with stories yet to be told. My summit is freezing, my base is mild, a climate of contrasts, a natural wonder. My soil is fertile, my water is crystal-clear, a haven for flora, a serene allure. My forests are dense, my streams are pristine, a symphony of nature, for all to hear. My wildlife is diverse, my birds sing sweet, a natural symphony, a melody to cherish.'
   descriptor: null
   element: water
   id: water_land_precip_hiroschima
