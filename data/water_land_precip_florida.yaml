@@ -4,10 +4,10 @@ entitydata:
     act2: 5
     act3: 4
   actmoodsamples:
-    act1: 1300
-    act2: 1300
-    act3: 1600
-  chartstorage: null
+    act1:  1699
+    act2:  1565
+    act3:  1850
+  chartstorage: water_land_precip_florida.png
   idealranges:
     lower: 1200
     upper: 1500
