@@ -14,7 +14,7 @@ entitydata:
    chartstorage: chart_not_ready.png
 entitydescr:
    id: unknown
-   bio: 'unknown'
+   bio: 'I am a land of tropical splendor, where monsoons dance upon my skin, rivers and creeks flow as symphony, and beneath the sun, my vegetation flourishes. My essence is one of warmth and moisture, with a season of renewal, and my body is a tapestry of diverse flora and fauna. I am home to one of the only protected areas of tropical rainforest remaining in the region. I am place of mystery and wonder, a land of beauty and grace, eternally my spirit will always shimmer.'
    type: 'land'
    element: 'air'
    descriptor: 'unknown'

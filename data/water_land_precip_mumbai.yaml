@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 4
+    act3: 4
+  actmoodsamples:
+    act1:  300.0
+    act2:  599.0
+    act3:  600.0
+  chartstorage: water_land_precip_mumbai.png
+  idealranges:
+    lower: 0.0
+    upper: 550
+  measurementunit: precipitation
+entitydescr:
+  bio: 'I am a land of tropical splendor, where monsoons dance upon my skin, rivers and creeks flow as symphony, and beneath the sun, my vegetation flourishes. My essence is one of warmth and moisture, with a season of renewal, and my body is a tapestry of diverse flora and fauna. I am home to one of the only protected areas of tropical rainforest remaining in the region. I am place of mystery and wonder, a land of beauty and grace, eternally my spirit will always shimmer.'
+  descriptor: tropical, humid
+  element: water
+  id: water_land_precip_mumbai
+  measurementdescr: precipitation
+  type: land
+prompt:
+  intro: 'The following play reveals the inner monologue of a tropical and humid area of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of rainfall showering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'ACT1: The land''s rainfall has is at normal levels. The land is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nLAND:'
+  act2descr: 'ACT2: The land''s rainfall is starting to get a little high. The land can sense that its energies are ebbing and fading. It cares to shake off its excess watery reservoirs by secretly shedding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land stands in a liminal state.\nLAND:'
+  act3descr: 'ACT3: The land''s rainfall is still a little high. The land can still sense that its energies are ebbing and fading. It cares to shake off its excess watery reservoirs by secretly shedding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land again stands in a liminal state.\nLAND:'
+  searchkey: land_precip
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
