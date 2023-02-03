@@ -21,7 +21,7 @@ entitydescr:
   type: land
 prompt:
   act0descr: 'ACT0: The land''s land cover is not yet known. The land introduces itself
-    and describes its surroundings.\nLAND:I am dhaka'
+    and describes its surroundings.\nLAND:'
   act1descr: 'ACT1: The land''s ecosystem is slowly deteriorating but the flora and
     fauna of the land are adapting to these changes. The land gradually realises that
     it has not been forsaken. Whatever once swayed and breathed with her emerges again
