@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1: 2
+    act2: 3
+    act3: 2
+  actmoodsamples:
+    act1: 4.0
+    act2: 8.0
+    act3: 6.0
+  chartstorage:
+  idealranges:
+    lower: 11
+    upper: 15
+  measurementunit: Surface Soil Moisture
+entitydescr:
+  bio:
+  element: water
+  id: water_land_ssm_campana
+  measurementdescr: Surface Soil Moisture
+  type: land
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+  searchkey:
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
