@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1: 4
+    act2: 2
+    act3: 3
+  actmoodsamples:
+    act1: 10.602
+    act2: 6.772
+    act3: 7.8782499999999995
+  chartstorage:
+  idealranges:
+    lower: 9
+    upper: 10.5
+  measurementunit: Surface Soil Moisture
+entitydescr:
+  bio:
+  element: water
+  id: water_land_ssm_donana
+  measurementdescr: Surface Soil Moisture
+  type: land
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+  searchkey:
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
