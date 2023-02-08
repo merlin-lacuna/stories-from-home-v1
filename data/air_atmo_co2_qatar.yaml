@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1:
+    act2:
+    act3:
+  actmoodsamples:
+    act1:
+    act2:
+    act3:
+  chartstorage:
+  idealranges:
+    lower:
+    upper:
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio:
+  element: air
+  id: air_atmo_co2_qatar
+  measurementdescr:
+  type: land
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+  searchkey:
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
