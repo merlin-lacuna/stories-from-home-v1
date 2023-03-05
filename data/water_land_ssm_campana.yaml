@@ -1,30 +1,30 @@
 entitydata:
   actmoodlevels:
-    act1: 5
+    act1: 4
     act2: 1
-    act3: 0
+    act3: 2
   actmoodsamples:
-    act1: 10.3
-    act2: 8.0
-    act3: 5.0
+    act1:  11.61
+    act2:  5.0
+    act3:  6.5
   chartstorage:
   idealranges:
-    lower: 10
+    lower: 9
     upper: 11
   measurementunit: Surface Soil Moisture
 entitydescr:
-  bio:
+  bio: "As I lay near the coastline, I embrace my mild climate of dry summers and humid winters. With Glaucous-Leafed shrubs.. Lupine and Calceolaria 'tis true — come springtime in November, there will be a sprightly hue! Foxes and pumas wander round sunrise or sunset hour, armadillos roam these lands; seagulls make me their bower. High valleys border mountain majesties twice-thousand tall, peacefully throughout my park run streams fast and small. My fields alive with Archontophoenix cunninghamiana so grand - adding grace as cows graze aright, an Eucryphia cordifolia band!"
   element: water
   id: water_land_ssm_campana
   measurementdescr: Surface Soil Moisture
   type: land
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-  searchkey:
+  intro: 'The following play reveals the inner monologue of a lush and verdant area of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'ACT1: The land''s rainfall is starting to become a little low. The land can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land stands in a liminal state.\nLAND:'
+  act2descr: 'ACT2: The land''s rainfall is extremely low. The lack of precipitation is unprecedented. The land is no further capable of embracing, sustaining and shoring up its surroundings. Everything is fractured, dry, brittle and in a precarious state of disarray. The process of displacement and disconnection from the world appears imminent while fragility abounds.\nLAND:'
+  act3descr: 'ACT3: The land is still noticing a little more rainfall than before but is still dramatically low, barely being receiving much rain at all. The moisture through which the land once breathed and on which it feasted evaporates. Like a spirit doomed not to stay, the aura of wetness departs. Aridity and frailty take its stead as the skies can no longer offer their drops of life.\nLAND:'
+  searchkey: 'land_precip'
 storygenerations:
 - aagen_id: null
   act1gen: null
