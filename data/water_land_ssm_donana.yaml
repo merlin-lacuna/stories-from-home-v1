@@ -7,7 +7,7 @@ entitydata:
     act1: 10.602
     act2: 6.772
     act3: 7.8782499999999995
-  chartstorage:
+  chartstorage: water_land_ssm_donana.png
   idealranges:
     lower: 9
     upper: 10.5
