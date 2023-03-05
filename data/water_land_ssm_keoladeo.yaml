@@ -1,30 +1,30 @@
 entitydata:
   actmoodlevels:
-    act1: 2
-    act2: 3
-    act3: 2
+    act1: 1
+    act2: 2
+    act3: 3
   actmoodsamples:
     act1: 4.0
     act2: 8.0
     act3: 6.0
-  chartstorage:
+  chartstorage: water_land_ssm_keoladeop.png
   idealranges:
-    lower: 11
-    upper: 15
+    lower: 9
+    upper: 11
   measurementunit: Surface Soil Moisture
 entitydescr:
-  bio:
+  bio: "I am a human-made and human-managed wetland. Within my meadow stands a spring of joy. Bordering semi-deserts and wetlands abound, there is an array of life inside me that I weather through. From Mid October to February it brings pleasant days with mild heat, but from May to September bring temperatures so fierce that they make me retreat! This place brims with biodiversity near and far, boasting over 364 species of birds soaring up above the stars. Foxes, wild boars, deers, swans, mallard, ibis, herons, and egrets slither by too as crocodiles and cobras tillers snake their way around here without reprieve yet! The habitats bridge between deserts terms and glistening lakes while distinct shrubs line in lava pools attracting attention from afar. Rainwaters flooding in bringing respite to many creatures emanating light!"
   element: water
   id: water_land_ssm_keoladeo
   measurementdescr: Surface Soil Moisture
   type: land
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-  searchkey:
+  intro: 'The following play reveals the inner monologue of a lush and moist area of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+  act0descr: 'ACT0: The amount of water covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+  act1descr: 'ACT1: The land''s rainfall is unbelievably low. The lack of precipitation is unprecedented. The land is no further capable of embracing, sustaining and shoring up its surroundings. Everything is fractured, dry, brittle and in a precarious state of disarray. The process of displacement and disconnection from the world appears imminent while fragility abounds.\nLAND:'
+  act2descr: 'ACT2: The land is noticing a dramatically high reduction of rainfall, barely being receiving much rain at all. The moisture through which the land once breathed and on which it feasted evaporates. Like a spirit doomed not to stay, the aura of wetness departs. Aridity and frailty take its stead as the skies can no longer offer their drops of life.\nLAND:'
+  act3descr: 'ACT3: The land is noticing a somewhat alarming reduction of rainfall, receiving a rather paltry amount of rain. The land slowly becomes opaque. Once it was possible to detect sheets of water through which a portion of the universe was mirroring itself. Now the reflections of the heaven are shrinking. All around, life''s impetus faces a crash, and the land stumbles into dehydration.\nLAND:'
+  searchkey: 'land_precip'
 storygenerations:
 - aagen_id: null
   act1gen: null
