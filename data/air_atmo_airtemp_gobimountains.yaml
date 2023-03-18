@@ -1,0 +1,28 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: 2.0
+      upper: 3.0
+   actmoodsamples:
+      act1: 2.0
+      act2: 1.5
+      act3: 4.0
+   actmoodlevels:
+      act1: 5
+      act2: 4
+      act3: 3
+   chartstorage:
+entitydescr:
+   id: 
+   bio:
+   type: 'land'
+   element: 'air'
+   descriptor: 'unknown'
+   measurementdescr:
+
+prompt:
+   intro:
+   act0descr: 
+   act1descr: 
+   act2descr:
+   act3descr:
