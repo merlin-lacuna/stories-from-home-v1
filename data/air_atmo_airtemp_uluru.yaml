@@ -1,0 +1,26 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: 22.0
+      upper: 23.0
+   actmoodsamples:
+      act1: 21.5
+      act2: 22.0
+      act3: 23.5
+   actmoodlevels:
+      act1: 4
+      act2: 5
+      act3: 4
+   chartstorage:
+entitydescr:
+   id: air_atmo_airtemp_uluru
+   bio: 
+   element: 'air'
+   descriptor:
+   measurementdescr: air temperature
+
+prompt:
+   intro: 
+   act0descr:
+   act2descr: 
+   act3descr:
