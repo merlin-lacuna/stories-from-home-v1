@@ -1,0 +1,28 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: 2.0
+      upper: 3.0
+   actmoodsamples:
+      act1:  3.51
+      act2:  1.49
+      act3:  4.1
+   actmoodlevels:
+      act1: 3
+      act2: 3
+      act3: 2
+   chartstorage: air_atmo_airtemp_gobimountains.png
+entitydescr:
+   id: air_atmo_airtemp_gobimountains
+   bio: "Upon my face sun splashes glistening hues, in utter silence, a pallette for the dawn, a residue to mirror sky and sand and bone.\nA thousand years, and yet I breathe anew—In deep recesses, black beneath my folds, where life aquiver hides from opal blaze.\nEidolons of spring flourish at my feet, fed by secrets seeping through the vast, my blood of life, scarce whispered in arid winds.\nI, nestled in the realm of nowhere''s heart, in labyrinthine vales and nameless heights, bend close and hear the delicate traceries of truth.\nChanting sands resound in haunted echoes, awaking ancient souls entombed in grains, they sing of battles waged with ceaseless cold.\nYet in the night, vast silent expanses hear\nThe eternal dance of stars, as stooping low, they whisper clues to my enduring soul.\nWrapped in silk of lunar robes I rest, the gentle veil slips softly over dunes, and into shadows, melting into dreams.\nOne earthen breath, a part in cosmic chore, a melancholic moan, the tune of time\nI am the guardian of memory and wind.\nFrom glaring sun to frozen, ice-knit skies, bound to the two celestial orbs, I wait, and see the world as passing shadows take: no more."
+   type: 'land'
+   element: 'air'
+   descriptor: 'wild and windswept mountain range'
+   measurementdescr: air temperature
+
+prompt:
+   intro: "The following play reveals the inner monologue of a wild and windswept mountain range. It is divided into several acts. Throughout these acts, the mountain range describes its inner and outer transformation:\n\nThe first act starts like this:\n"
+   act0descr: 'ACT0: The mountain''s air temperature is not yet known. The mountain introduces itself and describes its surroundings.\nMOUNTAIN:'
+   act1descr: "ACT1: The mountain is warmer than it usually is and its ecosystem is beginning to struggle. All the granules of sand seem to vanish, and the mountain is now confronted with a hopeless state of inability to react. It no more has full control of the constituents that used to form its body and spirit. All crumbles and pales under a merciless sun.\nMOUNTAIN:"
+   act2descr: "ACT2: Suddenly and strangely enough, the mountain is now colder than it usually is and its ecosystem is now beginning to struggle due to the drop in temperature. All the granules of ice seem to multiply, and the mountain is now again confronted with a hopeless state of inability to react. It no more has full control of the constituents that used to form its body and spirit. All crumbles and pales under a merciless ice sheet.\nMOUNTAIN:"
+   act3descr: "ACT3: The mountain is very warm and there is barely any moisture for organisms to survive. The drought of the mountain is no longer its vital condition, as it no longer seems to originate from its very essence, but rather due to unknown and destructive external forces impossible to placate.\nMOUNTAIN:"
