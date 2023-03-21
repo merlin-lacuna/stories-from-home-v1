@@ -1,0 +1,26 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: 19.0
+      upper: 20.0
+   actmoodsamples:
+      act1: 20.5
+      act2: 19.5
+      act3: 21.5
+   actmoodlevels:
+      act1: 4
+      act2: 5
+      act3: 2
+   chartstorage:
+entitydescr:
+   id: air_atmo_airtemp_deathvalley
+   bio: 
+   element: 'air'
+   descriptor:
+   measurementdescr: air temperature
+
+prompt:
+   intro: 
+   act0descr:
+   act2descr: 
+   act3descr:
