@@ -1,0 +1,26 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: -9.0
+      upper: -7.0
+   actmoodsamples:
+      act1: -7.173
+      act2: -9.668
+      act3: -11.478
+   actmoodlevels:
+      act1: 5
+      act2: 4
+      act3: 2
+   chartstorage:
+entitydescr:
+   id: air_atmo_airtemp_wakhancorridor
+   bio: 
+   element: 'air'
+   descriptor:
+   measurementdescr: air temperature
+
+prompt:
+   intro: 
+   act0descr:
+   act2descr: 
+   act3descr:
