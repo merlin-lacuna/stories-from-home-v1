@@ -1,0 +1,26 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: 20.0
+      upper: 21.0
+   actmoodsamples:
+      act1: 20.5
+      act2: 21.6
+      act3: 21.7
+   actmoodlevels:
+      act1: 5
+      act2: 3
+      act3: 3
+   chartstorage:
+entitydescr:
+   id: air_atmo_airtemp_lutdesert
+   bio: 
+   element: 'air'
+   descriptor:
+   measurementdescr: air temperature
+
+prompt:
+   intro: 
+   act0descr:
+   act2descr: 
+   act3descr:
