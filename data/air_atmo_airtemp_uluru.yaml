@@ -8,9 +8,9 @@ entitydata:
       act2: 25.0
       act3: 26.5
    actmoodlevels:
-      act1: 4
-      act2: 5
-      act3: 4
+      act1: 5
+      act2: 4
+      act3: 3
    chartstorage:
 entitydescr:
    id: air_atmo_airtemp_uluru
