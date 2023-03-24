@@ -1,12 +1,12 @@
 entitydata:
    measurementunit: "mean_airtemp_celsius"
    idealranges:
-      lower: 20.0
-      upper: 21.0
+      lower: 28.0
+      upper: 29.0
    actmoodsamples:
-      act1: 20.5
-      act2: 21.6
-      act3: 21.7
+      act1: 28.5
+      act2: 29.6
+      act3: 29.7
    actmoodlevels:
       act1: 5
       act2: 3
