@@ -8,19 +8,27 @@ entitydata:
       act2: -3.0
       act3: -1.0
    actmoodlevels:
-      act1: 5
+      act1: 4
       act2: 5
       act3: 4
    chartstorage:
 entitydescr:
    id: air_atmo_airtemp_himalaya
-   bio: 
+   bio: "I, the eternal crux, woven in being, bemisted dream, whence panoplies unfold.\nMine breath commingles: snaking currents lift, far-flung the gossamer, from stinging cheeks, and raven tarns where spectral motes distil.\nThe shimmering air rests upon my breast;\nAlone through cloud and gale, unworn by time, as arbiter of ancient winds, I hold, with snow-crystalled fingers, orchestrations\nOf ceaseless thunder and susurrant breeze.\nUpon mine etched form, rain-argent cascades, my limbs enshrouded under jewelled ice, within these depths eternal strangers dwell:\nThe prancing Monal, feathered radiant robes, i gentled host within my glacial womb.\nWhere heights beget the mottled rhododendron, i cradle life, at once both gnarled and fragile, my sides traverse the boundary between, the realm of man and landscapes left untouched, an axis drawn until the end of days.\nIn frost's embrace, I witness fleeting years;\nThe moon's celestial passage now the same, as human footfalls alone fell upon me\nIn search of truths beyond celestial grasp.\nMine voice exhales the harbingers of change.\nA pinnacle resolute 'gainst the skies, i trace the veins that write and rewrite lives, the water's song upon my weathered folds, a symphony to orchestrate the dawn\nOf greening earth and life in quiet throes."
    element: 'air'
-   descriptor:
+   descriptor: massive
    measurementdescr: air temperature
 
 prompt:
-   intro: 
-   act0descr:
-   act2descr: 
-   act3descr:
+   intro: 'The following play reveals the inner monologue of a massive mountain range that is home to some of the highest peaks on Earth. It is divided into several acts. Throughout these acts, the mountain range describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The mountain range''s air temperature is not yet known. The mountain range introduces itself and describes its surroundings.\nMOUNTAIN:'
+   act1descr: 'ACT1: The mountain is not experiencing anything out of the ordinary. The air temperature is cold but not unusually so. It supports a thriving ecosystem. The mountain nevertheless realises that the sun has always been his constant companion, his guidance, his star and his faith. Perhaps it should once again trust the rays that stroke its rocky surface, however fleetingly.\nMOUNTAIN:'
+   act2descr: 'ACT2: The mountain range is experiencing a completely normal year and has a normal air temperature. It hosts organisms that typically thrive in the mountain range. The mountain range experiences the encounter with an nearly alien element, or at least detects its influence. The aura of frost permeates its surface and the wind gives a glimpse of new horizons, altering its inner landscape.\nMOUNTAIN:'
+   act3descr: 'ACT3: The mountain is not experiencing anything out of the ordinary. The air temperature is warm but not unusually so. It still supports a thriving ecosystem. The mountain nevertheless realises that the sun has always been his constant companion, his guidance, his star and his faith. Perhaps it should once again trust the rays that stroke its rocky surface, however brutally.\nMOUNTAIN:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
