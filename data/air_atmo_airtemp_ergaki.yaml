@@ -1,0 +1,34 @@
+ntitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: -1.5
+      upper: 0.3
+   actmoodsamples:
+      act1:  1.384
+      act2:  -2.0
+      act3:  0.911
+   actmoodlevels:
+      act1: 3
+      act2: 4
+      act3: 4
+   chartstorage:
+entitydescr:
+   id: air_atmo_airtemp_ergaki
+   bio: "In the vastness of my being, do I awaken, as the eternal tides of winter roll through my hills\nAnd the moon illuminates my ranges:\nThe august dance of ice and snow.\nWithin these veins of stone, life pulses with a quiet perseverance, not gasping for air, but learning the language of patience, in whispers of wind and the shadows of permafrost.\nAmidst the stubbornness of dormant souls, the larch, birch, and cedar seek solace in my embrace, their roots entwine my cold heart, promising renewal.\nMy lakes, like mirrors, reflect vulnerability, washing my ancient contours, softening my jagged edges, with each passing season, rekindling the essence of change.\nWild animals traverse the meadows of my body, inscribe their mark upon snow-white vellum, heralding the symphony of survival, the songs of subsistence.\nMountains stretch upward, reaching divine heavens, firm against their cloaks of clouds, their bellies cradling verdant valleys, gifts of verdure.\nOh, the ethereal mystique of such alpine lakes, each one a clandestine pearl, treasures embraced by the regal peaks, hidden from the world, save those who seek.\nWhat noble hand, divine in nature, crafted this sinew and bone, this tapestry of rock, wrought the silence that resonates through the vast wilderness, in the tender arias of dawn's first light?\nAs morning breaks and sunrays grace these sculpted ridges, i know I am more than the sum of shifting ice and rooted trees, a force of life, unfurling within the calm embrace of Siberia, a living dream, suspended in the rich space between knowing and becoming."
+   element: 'air'
+   descriptor: picturesque and diverse
+   measurementdescr: air temperature
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a picturesque and diverse region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The land''s air temperature is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The land is warmer than it usually is and its ecosystem is beginning to struggle. All the granules of sand seem to vanish, and the land is now confronted with a hopeless state of inability to react. It no more has full control of the constituents that used to form its body and spirit. All crumbles and pales under a merciless sun.\nLAND:'
+   act2descr: 'ACT2: The land is not experiencing anything out of the ordinary. It is cold but not unusually so. It supports a thriving ecosystem. The land nevertheless realises that the sun has always been his constant companion, his guidance, his star and his faith. Perhaps it should once again trust the rays that stroke its sandy surface, however fleetingly.\nLAND:'
+   act3descr: 'ACT3: The land is not experiencing anything out of the ordinary. It is now warm but not unusually so. It still supports a thriving ecosystem. The land nevertheless still realises that the sun has always been his constant companion, his guidance, his star and his faith. Perhaps it should once again trust the rays that stroke its sandy surface, however brutally.\nLAND:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
