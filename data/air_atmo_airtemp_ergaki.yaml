@@ -1,4 +1,4 @@
-ntitydata:
+entitydata:
    measurementunit: "mean_airtemp_celsius"
    idealranges:
       lower: -1.5
