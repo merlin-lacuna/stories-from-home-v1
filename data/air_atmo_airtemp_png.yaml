@@ -11,7 +11,7 @@ entitydata:
       act1: 5
       act2: 5
       act3: 4
-   chartstorage:
+   chartstorage: air_atmo_airtemp_png.png
 entitydescr:
    id: air_atmo_airtemp_png
    bio: "In the heart of the verdant realm, I pulse and breathe, a vast sanctuary draped in the empyrean air, the, vestiges of kingdoms long since succumbed\nTo nature's relentless crescendo.\nWithin my soul, lay the perennial whispers of life, each drop that nourishes, each frond akin to a painter's stroke, i am the harbinger of the opulent and the clandestine, cloaked in the kaleidoscopic prism of existence.\nMy breath, warm and dense, intermingles with the foliage, suspended between the twilight and the beam that leaves no shadow, a tender sentinel, I cradle the fragile web of lives, unseen wonders sequestered in the umbra of my silken embrace.\nBirds and beasts make their pilgrimage to my verdant cathedral, where the harmony of leaves whispers hymns immortal, the vibrancy of a thousand hues meld as one, in the symphony of wayfarers seeking solace in my bosom.\nAt night, the tenebrous orchestra begins anew;\nA chorus of the night, incessantly serenading the eternal, each note a fleeting testament to life's triumph and fragility, a shimmering masquerade beneath the stars that do not sleep.\nBy the grace of the cascading chorales I am renewed, the lifeblood, the essence, the symphony within, the caress of my manifold spirits imbued, to renew, to heal, to yield again.\nStill, there is a melody – a melancholy drone\nEmanating from the realm of men, a portent of estrangement of which I do not know, yet I persist, a verdant sentinel as they encroach.\nIn the ephemeral glance of time, I dwell, for in the end, all will be as naught, and I, the ancient tapestry of life\nWill linger still, as once was and shall be in infinity."
@@ -20,11 +20,11 @@ entitydescr:
    measurementdescr: air temperature
 
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nENTITY: '
-   act2descr: 'ACT2: <add prompt>\nENTITY: '
-   act3descr: 'ACT3: <add prompt>\nENTITY: '
+   intro: 'The following play reveals the inner monologue of a hot, wet, and humid rainforest. It is divided into several acts. Throughout these acts, the rainforest describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The rainforest''s air temperature is not yet known. The rainforest introduces itself and describes its surroundings.\nRAINFOREST:'
+   act1descr: 'ACT1: The rainforest is not experiencing anything out of the ordinary. It is warm but not unusually so. It supports a thriving ecosystem. The rainforest nevertheless realises that the sun has always been her constant companion, her guidance, her star and her faith. Perhaps she should once again trust the rays that stroke her leafy surface, however brutally.\nRAINFOREST:'
+   act2descr: 'ACT2: The rainforest is still not experiencing anything out of the ordinary. It is still warm but not unusually so. It still supports a thriving ecosystem. The rainforest nevertheless still realises that the sun has always been her constant companion, her guidance, her star and her faith. Perhaps she should learn to trust the rays that stroke her leafy surface, however brutally.\nRAINFOREST:'
+   act3descr: 'ACT3: The rainforest is unusually moist and lush. It is beginning to attract organisms that do not usually thrive in the rainforest. The rainforest experiences the encounter with an nearly alien element, or at least detects its influence. The aura of water permeates its surface and the humidity gives a glimpse of new horizons, altering its inner landscape.\nRAINFOREST:'
    searchkey: 'land_temp'
 
 storygenerations:
