@@ -1,0 +1,34 @@
+entitydata:
+   measurementunit: "mean_airtemp_celsius"
+   idealranges:
+      lower: 23.0
+      upper: 24.0
+   actmoodsamples:
+      act1:  24.941
+      act2:  25.3
+      act3:  23.594
+   actmoodlevels:
+      act1: 3
+      act2: 2
+      act3: 5
+   chartstorage:
+entitydescr:
+   id: air_atmo_airtemp_deathvalley
+   bio: "I dwell beneath the stonied breast of mountains, yet I am not buried; rather, void of life''s\nRich flow, the tree and vine among my children.\nInstead, my limbs unfurl as hardened tendrils, seeking solace in an arid realm\nWhere thunderheads are naught but ghostly dreams.\nBy day, a scorching sun burns through the gossamer\nI weave in night''s tender embrace, tearing at well-worn seams with a fierce and angry fire.\nI relish Mercury, for once he wore a silver robe\nUpon his back and, thrown to desert plains, descended to this boneyard of his subjects.\nAnd yet, I, too, possess a season of gentleness.\nWhen radiant Apollo rides his golden chariot, and scarce another knows me or gives blessing, i am cloaked in hoarfrost''s jeweled mantle, a bride of glistening stars who weeps for her betrothed, for heartsong blooms in the dusk of pale abandon.\nMine is a landscape of duality, beneath the blistering sun, I sprawl with outstretched arms, luring the weary traveler with a siren''s chiseled song, and as the sun sets, I pull a latticed quilt\nTo gather my children close to my famished breast, and from their tears, I drink of ephemeral water.\nLike parchments of an olden tome, the layers of my soul\nBind closer with a pract''ced art. I am one created\nAnd erased with the unending turn of fortune''s wheel.\nIngenuity moves the world as my bleak lines reveal, a testament to nature''s everlasting will\nTo shape and fashion what falls within her unrelenting grip.\nSo, let oceans swell and rivers course, and life\nConsume the earth in greedy waves of green.\nBut when despair is found there, and hope is lost, indeed, they will gaze upon my desolate visage\nAnd witness sorrow painted on the wind, a brushstroke\nOf silent anguish; I remain the solemn testament to Time."
+   element: 'air'
+   descriptor:
+   measurementdescr: air temperature
+   type: 'valley'
+prompt:
+   intro: 'The following play reveals the inner monologue of a blisteringly hot, sun-scorched valley. It is divided into several acts. Throughout these acts, the valley describes an inner and outer transformation affecting the air that surrounds it:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The air temperature in the valley is not yet known. The valley introduces itself and describes its surroundings.\nVALLEY:'
+   act1descr: 'ACT1: The valley is drier than it usually is and its ecosystem is beginning to struggle. All the granules of sand seem to vanish, and the valley is now confronted with a hopeless state of inability to react. It no more has full control of the constituents that used to form its body and spirit. All crumbles and pales under a merciless sun.\nVALLEY:'
+   act2descr: 'ACT2: The valley is bone dry and experiencing unprecedented heat. Anything that has previously survived its climate is now dead. The valley is feeling more fragmented than ever, each of its grains of sand, every fine debris of its former self are burning, now disjointed from the unity of its mass. A state of irreversible disintegration has just started.\nVALLEY:'
+   act3descr: 'ACT3: The valley is not experiencing anything out of the ordinary. It is dry but not unusually so. It supports a thriving ecosystem. The valley nevertheless realizes that the sun has always been his constant companion, his guidance, his star and his faith. Perhaps it should once again trust the rays that stroke its sandy surface, however brutally.\nVALLEY:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
