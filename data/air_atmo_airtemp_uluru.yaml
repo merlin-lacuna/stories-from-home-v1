@@ -14,13 +14,21 @@ entitydata:
    chartstorage:
 entitydescr:
    id: air_atmo_airtemp_uluru
-   bio: 
+   bio: "In the vast expanse of time, here I stand, a sandstone sentinel bathed in solitude''s red glow, a monument to geologic might and Nature''s dream.\nA collective spirit whispers in my soul, the songlines of an ancient tapestry, woven by the Earth''s endless loom —\nCarried on the wings of the wind, to echo in the empty chasms of eternity.\nMy surface, molded by unfathomable forces, wears the visage of a scorched planet, eroded contours of aridity and tenacity, birthed from primordial seas long lost, drinking the essence of a radiant sun.\nAs the dancing heat distorts the air, illusory waters call for life''s passions, mirroring ephemeral dreams in their tremulous grasp, ever deceiving, ever reaching for something unattainable, but in resolute defiance, existence thrives.\nYes, here I keep my secret —\nA lush enclave, shaded by ghosts of whispers past, an oasis where the parched heart revives its beat;\nA microcosm of fragile beauty, nestled within my stone fortress.\nSee the cycad and the wild fig entwine, diversity''s dance, a testament of Darwin''s quest.\nFeathered wings to reptilian scales, bound by the ancestry of survival''s fortitude, carved in the intricate tapestry of evolving time, desert oaks offer a haven to dreams alight, ablaze, as ants construct their kingdoms in my arid kingdom vast.\nMy children, the ancient beholders of the skies, look upon me with reverence —Nature, their compass, and I, the axis on which their world pivots\nTheir voices rise: a hymn of unity and interconnected fates, as the ochre paints their stories upon my cragged canvas.\nAmidst the sunburnt ochre hues \nAwakens a silence so profound, as day begins its fiery descent into slumber, a symphony of colors bursts forth, the setting sun ignites my veins against indigo infinity.\nThus, in the embrace of night''s dark velvet, i contemplate existence in the vast cosmic sea, i, who have known the constellations since they were mere whispers, sing to them my ongoing tale, as my roots entrench in the permanence of time''s embrace."
    element: 'air'
    descriptor:
    measurementdescr: air temperature
-
+   type: 'rock'
 prompt:
-   intro: 
-   act0descr:
-   act2descr: 
-   act3descr:
+   intro: 'The following play reveals the inner monologue of giant rock that is an enigmatic and ancient geological marvel . It is divided into several acts. Throughout these acts, the rock describes an inner and outer transformation affecting the air that surrounds it:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The air temperature around the rock is not yet known. The rock introduces itself and describes its surroundings.\nROCK:'
+   act1descr: 'ACT1: The air around the rock is drier than it usually is and its ecosystem is beginning to struggle. All the granules of sand seem to vanish, and the rock is now confronted with a hopeless state of inability to react. It no more has full control of the constituents that used to form its body and spirit. All crumbles and pales under a merciless sun.\nROCK:'
+   act2descr: 'ACT2: The air around the rock is extremely dry and there is barely any moisture for organisms to survive. The drought of the rock is no longer its vital condition, as it no longer seems to originate from its very essence, but rather due to unknown and destructive external forces impossible to placate.\nROCK:'
+   act3descr: 'ACT3: The air around the rock is not experiencing anything out of the ordinary. It is dry but not unusually so. It supports a thriving ecosystem. The rock nevertheless realizes that the sun has always been its constant companion, its guidance, its star and its faith. Perhaps it should once again trust the rays that stroke its sandy surface, however brutally.\nROCK:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
