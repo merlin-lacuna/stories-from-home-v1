@@ -19,6 +19,7 @@ entitydescr:
    element: 'unknown'
    descriptor: 'unknown'
    measurementdescr: 'unknown'
+   type: 'unknown'
 
 prompt:
    intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
