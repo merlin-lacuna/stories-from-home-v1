@@ -18,7 +18,7 @@ entitydescr:
    element: 'air'
    descriptor: massive
    measurementdescr: air temperature
-
+   type: land
 prompt:
    intro: 'The following play reveals the inner monologue of a massive mountain range that is home to some of the highest peaks on Earth. It is divided into several acts. Throughout these acts, the mountain range describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
    act0descr: 'ACT0: The mountain range''s air temperature is not yet known. The mountain range introduces itself and describes its surroundings.\nMOUNTAIN:'
