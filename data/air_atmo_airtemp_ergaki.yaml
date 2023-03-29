@@ -18,7 +18,7 @@ entitydescr:
    element: 'air'
    descriptor: picturesque and diverse
    measurementdescr: air temperature
-
+   type: land
 prompt:
    intro: 'The following play reveals the inner monologue of a picturesque and diverse region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
    act0descr: 'ACT0: The land''s air temperature is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
