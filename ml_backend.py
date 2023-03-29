@@ -33,7 +33,7 @@ class ml_backend:
             response = openai.Edit.create(
                 model="text-davinci-edit-001",
                 input=rawresponse,
-                instruction="Remove the garbled text. Correct the grammar in all sentences. Convert all text to sentence case. Make sure that each sentence is written in the first person tense. Make all pronouns gender neutral",
+                instruction="Remove any garbled text and correct any incorrectly duplicated characters such as too many full stops. Correct the grammar in all sentences and convert all text to sentence case. Make sure that each sentence is written in the first person tense and make all pronouns gender neutral",
                 temperature=0.8,
                 top_p=1
             )
