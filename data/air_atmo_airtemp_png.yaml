@@ -18,6 +18,7 @@ entitydescr:
    element: 'air'
    descriptor:
    measurementdescr: air temperature
+   type: forest
 
 prompt:
    intro: 'The following play reveals the inner monologue of a hot, wet, and humid rainforest. It is divided into several acts. Throughout these acts, the rainforest describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
