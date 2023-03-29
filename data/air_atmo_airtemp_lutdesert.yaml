@@ -14,13 +14,21 @@ entitydata:
    chartstorage:
 entitydescr:
    id: air_atmo_airtemp_lutdesert
-   bio: 
+   bio: "In the sultry breath of solitude I lie, an arid vastness stretching from each side;\nUnbroken, unyielding, a severe symphony\nOf stillness rippling through my sands and piercing skies.\nWhispers of scorching wind tell tales of time\nSince borne of fiery Earth, I thus became\nAn empire for the sun, its cruel claim, bestowing life and death, a dance divine.\nTireless dunes reshape my golden face, each wrinkle carrying stories of the ancient, vanished ghosts of rivers roam, their restless lament, finding no mirror for their lost embrace.\nOf furtive life, scarce and unassuming, a fortress built in the heart of my desolation, fleeting creatures dabble in creation;\nTenacious roots grip fast, a paradox blooming.\nBut in the solitude of stars, I weep, witness to celestial vignettes hidden from sight, revelations of the cosmos, the cosmic might, a profound opus penned in the boundless deep.\nWho dares invade my scorched and solemn realm, this fearsome beauty, rolling waves of sand?\nWho braves my fervent heat, my barren strand, for aeons waiting, patient at the helm?\nStill, I shall endure, steadfast and resolute, my heart an obsidian stone set against the eons, wearing the weight of time, the endless aeons, a relentless dance of being, solemn and mute."
    element: 'air'
    descriptor:
    measurementdescr: air temperature
-
+   type: 'desert'
 prompt:
-   intro: 
-   act0descr:
-   act2descr: 
-   act3descr:
+   intro: 'The following play reveals the inner monologue of a colossal and arid desert that is renowned for its extreme temperatures. It is divided into several acts. Throughout these acts, the desert describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'The air temperature of the desert is not yet known. The desert  introduces itself and describes its surroundings.\nDESERT'
+   act1descr: 'ACT1: The desert is not experiencing anything out of the ordinary. It is dry but not unusually so. It supports a thriving ecosystem. The desert nevertheless realizes that the sun has always been his constant companion, his guidance, his star and his faith. Perhaps it should once again trust the rays that stroke its sandy surface, however brutally.\nDESERT:'
+   act2descr: 'ACT2: The desert air is drier than it usually is and its ecosystem is beginning to struggle. All the granules of sand seem to vanish, and the desert is now confronted with a hopeless state of inability to react. It no more has full control of the constituents that used to form its body and spirit. All crumbles and pales under a merciless sun.\nDESERT:'
+   act3descr: 'ACT3: The desert air is still drier than it usually is and its ecosystem is still struggling. All the granules of still sand seem to vanish, and the desert is still confronted with a hopeless state of inability to react. Again, it no more has full control of the constituents that used to form its body and spirit. All still crumbles and pales under a merciless sun.\nDESERT:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
