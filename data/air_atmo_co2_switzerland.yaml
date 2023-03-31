@@ -1,16 +1,16 @@
 entitydata:
   actmoodlevels:
-    act1:
-    act2:
-    act3:
+    act1: 3
+    act2: 4
+    act3: 5
   actmoodsamples:
-    act1:
-    act2:
-    act3:
+    act1: 46133384.0
+    act2: 42253030.0
+    act3: 34931692.0
   chartstorage:
   idealranges:
-    lower:
-    upper:
+    lower: 34931692.0
+    upper: 41107436.0
   measurementunit: co2—tonnes per million
 entitydescr:
   bio:
