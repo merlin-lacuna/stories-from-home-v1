@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1: 2
+    act2: 3
+    act3: 5
+  actmoodsamples:
+   act1:  181452350.0
+   act2:  169529330.0
+   act3:  153032800.0
+  chartstorage:
+  idealranges:
+   lower: 141045420.0
+   upper: 157655580.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio:
+  element: air
+  id: air_atmo_co2_netherlands
+  measurementdescr:
+  type: 
+prompt:
+  intro:
+  act0descr:
+  act1descr:
+  act2descr:
+  act3descr:
+  searchkey:
+storygenerations:
+- aagen_id: null
+  act1gen: null
+  act2gen: null
+  act3gen: null
