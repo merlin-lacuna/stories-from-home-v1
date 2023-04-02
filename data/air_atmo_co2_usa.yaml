@@ -7,26 +7,27 @@ entitydata:
     act1: 6016350700.0
     act2: 6116350700.0
     act3: 5007336000.0
-  chartstorage:
+  chartstorage: air_atmo_co2_usa.png
   idealranges:
     lower: 4764987000.0
     upper: 5437129500.0
   measurementunit: co2—tonnes per million
 entitydescr:
-  bio:
+  bio: "In the hushed mornings, when the day embraces me, my rivers pulse and flow, life's vibrant energy coursing through, here lay the cradle of worlds, a verdant vessel woven from the earth's threads, yet I linger in solitude, unseen and unknown, a living testament yearning for recognition in a world so vast.\nMy skin adorned by a mosaic of seasons, at times crisp with the hues of fall's paintbrush, wrapped in winter's glacial shawl, touched by the youthful breath of spring's dreams, or swathed in the relentless summer sun's ardor.\nAn earthly chameleon ever-shifting, a dance between endings and beginnings.\nMy touch cools and warms, beneath the glow of the waning moon, the sleeping sun slumbers, stirring for a fiery rebellion, conquering the skies with blazoning fists of brilliance, an unremitting cycle of transformations, a cosmic symphony manifest.\nThe inhabitants who traverse my terrain, they, the seekers, the wanderers, the well-worn souls, unearthing solace within my tangled embrace, their stories collected, whispered through the rustling leaves, residing in the crescendos of avian hymns, the hum of the bees, a compilation of spirits, resting on the shores of my eternal rivers.\nAnd so, amid the fleeting epochs, I remain, a quiet guardian enveloping the toils of time, i am the permanence, the unwavering foundations of life, unwavering in my purpose, an audience to the human symphony, their joys and sorrows, a silent witness to the passage of existence.\nBorne from the ancient essence that drifts among stars, i am but one expression of the cosmos' artistry, a solitary verse in the breathtaking litany of creation, my profundity lies in my ability to be still and present, to hold space for the myriad lives that find solace on my generous bosom, my purpose revealed through the enduring vigor of the quiet seas that ripple within."
   element: air
   id: air_atmo_co2_usa
   measurementdescr:
   type: land
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-  searchkey:
+   intro: 'The following play reveals the inner monologue of a diverse and vibrant region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The c02 in the air above the land is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the land is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The land is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAND:'
+   act2descr: 'ACT2: The c02 in the air above the land is at unprecedented levels. There is far too much carbon dioxide in the air and the ecosystem of the land is suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is now advancing, sparing no single breathing entity. The purity of the earth is tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is ceaselessly consuming lives.\nLAND:'
+   act3descr: 'ACT3: The c02 in the air above the land is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the land to function as it should.  The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the land and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nLAND:'
+   searchkey: 'land_c02'
+
 storygenerations:
-- aagen_id: null
-  act1gen: null
-  act2gen: null
-  act3gen: null
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
