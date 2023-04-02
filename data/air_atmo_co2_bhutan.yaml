@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 3
+    act3: 1
+  actmoodsamples:
+    act1: 128240.0
+    act2: 667430.0
+    act3: 1499693.0
+  chartstorage: air_atmo_co2_bhutan.png
+  idealranges:
+    lower: 128240.0
+    upper: 401008.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio: "In the heart of a verdant kingdom I dwell, a sanctuary woven from rugged cliffs and whispering valleys. To the North, the enduring fortresses of the mountains, ever watchful, they stand tall, crowned by the astral expanse.\nThe breath of monsoons bestows life upon me, their tender sighs and frenzied winds Engender the dance of rain upon my deciduous skin. Beneath these gossamer veils of rain-washed fog, i covet my watershed secrets like precious jewels, unveiling them only for persistently seeking souls.\nAs each dawn births cascading sunbeams, so do I flourish, inimitably attired by the vibrant hues of the wild azaleas, these blossoms weave a tapestry entwined with untamed beauty, bespoke petals and scents tantalize the eager multitude.\nThrough slender boughs and sun-kissed leaves, the meandering proclamations of the esteemed langur echo, a harmonious interplay of the graceful dance of gold and sable, they leap, as if in a ballet of creation''s boundless dream.\nThese forests of resilient oak, weaving the fabric Of my vigorous canopy, shelter falcons and hidden leopards, their unseen eyes gleam, secrets held close to their hearts. Wings whisper above as mighty raptors take flight, each silken caress of air rendered into sustenance for their watchful gaze.\nWith nurturing currents among my sinews, I cradle rivers, their songs swelling through the arteries of my wild heart, infusing my embrace with the soul of memory, tears eternal Releasing the tales of ancient stones, birthed in forgotten depths.\nThese tales I offer to you who walk in the footprints of eternity, pause to listen, perceive beyond the veils, and embrace These softened melodies, the secrets young and ancient, forever yearning, beneath my canopy and open sky, prolific in my soul, preserved in my essence."
+  element: air
+  id: air_atmo_co2_bhutan
+  measurementdescr: co2—tonnes per million
+  type: land
+prompt:
+   intro: 'The following play reveals the inner monologue of a unique and diverse region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The c02 in the air above the land is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the land to function as it should.  The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the land and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nLAND: '
+   act2descr: 'ACT2: The c02 in the air above the land is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the land is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The land is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAND: '
+   act3descr: 'ACT3: The c02 levels in the air above the land are at dire, extreme levels. The carbon dioxide is causing suffocating greenhouse effects, smothering the land with oppressive heat. The CO2 springs with an implacable crescendo. Its load swells incautiously. It''s the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire land''s atmosphere, decking everything that exists on its way. An airy wave of faded hopes is ruling.\nLAND: '
+   searchkey: 'c02'
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
