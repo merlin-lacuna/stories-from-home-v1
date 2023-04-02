@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 3
+    act2: 4
+    act3: 5
+  actmoodsamples:
+    act1: 46133384.0
+    act2: 42253030.0
+    act3: 34931692.0
+  chartstorage: air_atmo_co2_switzerland.png
+  idealranges:
+    lower: 34931692.0
+    upper: 41107436.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio: "Within my marshy realm of whispers, verdant And teeming, I extend my tender arms. The pulse of life I hold, both sharp and dulcet, enfolding in embrace the cooing swarms. Each dawn unfurls, a shawl spun by the open Sky, cascading tendrils of shy light That pierce the rippling veils of water, tokens Of day's emergence from the womb of night. A bastion of serenity, I shelter A myriad of fluttering kin, each broken and remade within the swelter Of sun and season, crafting songs akin. Wings brushing through the blushing rushes, bending Their emerald spires to winds that sway In rapture, sousing wisps of air ascending, the murmured symphonies in timeless play. And yet, amid the chorus of creation, existence trembles at the touch of change, for tempered by the turning times, the station I cherish now is subject to estrange. The swelling breath of human reach threatens To disfigure that which nature keeps, unchecked affront severs the threads and braids The woven world to crumbling ruinous heaps. I am the keeper of the silent rhythms, the love-songs sung by creatures of the fen. With lеaves and lilies, whispering reed prisons, listеn to the stories, seldom penned. Reside and listen, seek the hidden spaces Where life evades the gnawing grasp of time, abiding solace in my lustrous traces, where moonlight glimmers on the shallow brine."
+  element: air
+  id: air_atmo_co2_switzerland
+  measurementdescr:
+  type: land
+prompt:
+   intro: 'The following play reveals the inner monologue of a diverse and vibrant region of land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The c02 in the air above the land is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the land is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The land is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAND:'
+   act2descr: 'ACT2: The c02 in the air above the land is at tolerable levels. Although there is more carbon dioxide in the air, the ecosystem of the land is still coping well. Equilibrium is offering a bright pace to the land. This represents the highest aim to which all the eras yearn. Balance''s oscillation is a brittle and alluring condition. The CO2 acts in synergy with the organisms that enliven the land; each creature is attuned to its own inner states. The whole energy on the globe is geared and activated to react to the anomalies with a generating spirit.\nLAND:'
+   act3descr: 'ACT3: The c02 in the air above the land is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the land to function as it should.  The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the land and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nLAND:'
+   searchkey: 'land_c02'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
