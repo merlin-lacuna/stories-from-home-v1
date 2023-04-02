@@ -1,30 +1,30 @@
 entitydata:
   actmoodlevels:
-    act1: 22757480000.0
-    act2: 28636695000.0
-    act3: 37123850000.0
+    act1: 25525098333.333332
+    act2: 30006346500.0
+    act3: 34206346500.0
   actmoodsamples:
     act1: 5
-    act2: 3
-    act3: 0
-  chartstorage:
+    act2: 2
+    act3: 1
+  chartstorage: air_atmo_co2_earth.png
   idealranges:
     lower: 22757480000.0
     upper: 26281038000.0
   measurementunit: co2—tonnes per million
 entitydescr:
-  bio:
+  bio: "I bear within my ancient core, a quiet throe of verdant haze, emerald-rooted to the core Of boundless deep, with silent grace. From polar ends I stretch my limbs, in whispers soft of waves that twist, swift torrents ride my rocky rims, then fall as echoes midst abyss. Unseen, unheard, the ages pass, unfurling petals, verdant boughs, awakening creatures on my skin, and I, their cradle, warm and sound. In vast expanse of cosmic reach, amidst the choir of countless orbs, my path, unerring, dance ensues, a ballet gory, gallant course. This sun, yon shining flax of gold, wreathed o'er my visage, setting dew It warms my blood and through my pores, bestows on life its hidden hues. What secrets dwell within my soil, the tales untold by ancient stones, my tomes of wisdom passed—unwound, a silent history carved in bone Her children rise and shape me, still Uncertain hands and eager hearts Each echo bears my whispered voice, entwined in veins of dust and art And as they shift, these oceans rise A slow embrace of weighty tide What consequence my frame must serve, by children's choices, far and wide? But cease, dear kin, to feel despair For time has taught my patient heart In frozen depths and deserts bare Strange life survives, untamed by art Ever-churning, this climate turns And I upon eternal path In moments brief, or epochs long Extend my boundless love and wrath."
   element: air
   id: air_atmo_co2_earth
   measurementdescr:
   type: land
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-  searchkey:
+   intro: 'The following play reveals the inner monologue of a blue and life-supporting planet. It is divided into several acts. Throughout these acts, the planet describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the planet''s air is not yet known. The planet introduces itself and describes its ecosystem.\nPLANET:'
+   act1descr: 'ACT1: The c02 in the air above the land is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the land to function as it should. The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the land and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nPLANET:'
+   act2descr: 'ACT2: The c02 in the air above the land is at unprecedented levels. There is far too much carbon dioxide in the air and the ecosystem of the land is suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is now advancing, sparing no single breathing entity. The purity of the earth is tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is ceaselessly consuming lives.\nPLANET:'
+   act3descr: 'ACT3: The c02 levels in the air above the land are at dire, extreme levels. The carbon dioxide is causing suffocating greenhouse effects, smothering the land with oppressive heat. The CO2 springs with an implacable crescendo. Its load swells incautiously. It's the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire land's atmosphere, decking everything that exists on its way. An airy wave of faded hopes is ruling.\nPLANET:'
+   searchkey: 'land_c02'
 storygenerations:
 - aagen_id: null
   act1gen: null
