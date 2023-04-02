@@ -7,26 +7,26 @@ entitydata:
     act1: 5520602.0
     act2: 3948970.0
     act3: 4619109.0
-  chartstorage:
+  chartstorage: air_atmo_co2_albania.png
   idealranges:
     lower: 2017508.0
     upper: 3748272.0
   measurementunit: co2—tonnes per million
 entitydescr:
-  bio:
+  bio: "In the heart of the land where shadows fall, I wait in silence for the shifting winds, here where the cold and warmth tremble, I have endured as witness to the dance\nBetween seasons'' hands.\nOh, the autumns I have seen, the sweet caress of scented leaves, yellow and brown, cascading;\nSubtle inflections spiraling in bronze, tracing faint calligraphy against the skies.\nAnd winters here are stark and biting, piling snow upon limestone crests, a symphony of ice and swirling breath, my limestone bones inviting the stories\nOf frozen tempests once slept.\nIn spring I listen to the thawing metronome, a rhythm, marked by the mountain''s meridian, amidst melting rivulets adorning my meadows, life surges forth, like Prometheus'' divine flame, heralding promise across my embrace.\nSummer descends with a warm exhale, each of the sun''s arrows piercing me, a veil of hazy, tenuous sweat unfurls, blanketing me in a languid embrace, as I dream of quiet conversations between blades of grass.\nFor I am the silent observer, the canvas for life''s etchings, immutable terrain bearing vibrant colors, allowing blooms to whisper secrets, in the ethereal tableau of mystery.\nAnd beneath my surface, mother Earth cradles the quartz veins, striations of history sculpted in Karst, together we hibernate in ancient slumber, awaiting the ever shifting song of life."
   element: air
   id: air_atmo_co2_albania
   measurementdescr:
   type: land
 prompt:
-  intro:
-  act0descr:
-  act1descr:
-  act2descr:
-  act3descr:
-  searchkey:
+   intro: 'The following play reveals the inner monologue of a environmentally diverse and Mediterranean region of land. It is divided into several acts. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The c02 in the air above the land is at tolerable levels. Although there is more carbon dioxide in the air, the ecosystem of the land is still coping well. Equilibrium is offering a bright pace to the land. This represents the highest aim to which all the eras yearn. Balance''s oscillation is a brittle and alluring condition. The CO2 acts in synergy with the organisms that enliven the land; each creature is attuned to its own inner states. The whole energy on the globe is geared and activated to react to the anomalies with a generating spirit.\nLAND:'
+   act2descr: 'ACT2: The c02 in the air above the land is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the land is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The land is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAND:'
+   act3descr: 'ACT3: The c02 in the air above the land is at unprecedented levels. There is far too much carbon dioxide in the air and the ecosystem of the land is suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is now advancing, sparing no single breathing entity. The purity of the earth is tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is ceaselessly consuming lives.\nLAND:'
+   searchkey: 'land_c02'
 storygenerations:
-- aagen_id: null
-  act1gen: null
-  act2gen: null
-  act3gen: null
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
