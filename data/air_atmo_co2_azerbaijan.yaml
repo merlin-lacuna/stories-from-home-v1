@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1: 1
+    act2: 4
+    act3: 3
+  actmoodsamples:
+    act1: 51325840.0
+    act2: 39808580.0
+    act3: 38492804.0
+  chartstorage: air_atmo_co2_azerbaijan.png
+  idealranges:
+    lower: 31242310.0
+    upper: 36108580.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio: "Within my weathered veins of stone and earth, a tale pulses with the parched breath of winds, as sun-kissed rays cascade upon my brow, that which quivers with life''s prismatic pulse.\nTorrents dance upon the arid air, caressing the parchments of ancient etchings, witness to the eons of life unfolding, soundless narratives of forgotten souls.\nBeyond the precipice, the eagle observes, its talons poised to sift through clouds, descrying in my stillness, the veins of life, the dance of time within my motionless hour.\nBy day and twilight, I offer this abundance, laid within my creviced folds and gorytus reeds:\nA sanctuary to creatures of scale and feather, the gem-like beetles on my shades of clay.\nMy lonely rock peaks cup the azure sky, where blushing blossoms reach for celestial embrace, as whistling winds echo tales long ceased, from shepherds strayed and fires of joyous stars.\nAnd glaciers weep upon the crackling plains, their sobs of pain with arid breath subdued, coy torrents glisten in the fervid heat, and rivulets beseech the moon''s relief.\nDo they who come and steal my fragile heart, in the name of fallen gods and transient gains, know the weighty songs of beauty''s breadth, that tremble in my breast, lost to their ears?\nIn the silence of ancient steps, let life persist, a monument of pale stones, threading sky and earth, cradling the wisp of breaths with petals'' grace, history''s whisper, this legacy, I offer each brief moment."
+  element: air
+  id: air_atmo_co2_azerbaijan
+  measurementdescr:
+  type: land
+prompt:
+   intro: 'The following play reveals the inner monologue of a semi-arid and dry region of land. It is divided into several acts. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The c02 levels in the air above the land are at dire, extreme levels. The carbon dioxide is causing suffocating greenhouse effects, smothering the land with oppressive heat. The CO2 springs with an implacable crescendo. Its load swells incautiously. It''s the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire land''s atmosphere, decking everything that exists on its way. An airy wave of faded hopes is ruling.\nLAND:'
+   act2descr: 'ACT2: The c02 in the air above the land is at tolerable levels. Although there is more carbon dioxide in the air, the ecosystem of the land is still coping well. Equilibrium is offering a bright pace to the land. This represents the highest aim to which all the eras yearn. Balance''s oscillation is a brittle and alluring condition. The CO2 acts in synergy with the organisms that enliven the land; each creature is attuned to its own inner states. The whole energy on the globe is geared and activated to react to the anomalies with a generating spirit.\nLAND:'
+   act3descr: 'ACT3: The c02 in the air above the land is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the land is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The land is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAND:'
+   searchkey: 'land_c02'
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
