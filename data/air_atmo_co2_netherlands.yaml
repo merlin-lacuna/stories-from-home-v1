@@ -1,8 +1,8 @@
 entitydata:
   actmoodlevels:
     act1: 2
-    act2: 3
-    act3: 5
+    act2: 2
+    act3: 4
   actmoodsamples:
    act1:  181452350.0
    act2:  169529330.0
@@ -22,8 +22,8 @@ prompt:
    intro: 'The following play reveals the inner monologue of a temperate region of land close to several large bodies of water. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
    act0descr: 'ACT0: The c02 in the air above the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
    act1descr: 'ACT1: The c02 in the air above the land is at unprecedented levels. There is far too much carbon dioxide in the air and the ecosystem of the land is suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is now advancing, sparing no single breathing entity. The purity of the earth is tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is ceaselessly consuming lives.\nLAND:'
-   act2descr: 'ACT2: The c02 in the air above the land is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the land is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The land is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAND:'
-   act3descr: 'ACT3: The c02 in the air above the land is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the land to function as it should.  The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the land and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nLAND:'
+   act2descr: 'ACT2: The c02 in the air above the land is still at unprecedented levels. There is  still far too much carbon dioxide in the air and the ecosystem of the land is  still suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is still advancing, sparing no single breathing entity. The purity of the earth is still tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is  still ceaselessly consuming lives.\nLAND:'
+   act3descr: 'ACT3: The c02 in the air above the land is at tolerable levels. Although there is more carbon dioxide in the air, the ecosystem of the land is still coping well. Equilibrium is offering a bright pace to the land. This represents the highest aim to which all the eras yearn. Balance''s oscillation is a brittle and alluring condition. The CO2 acts in synergy with the organisms that enliven the land; each creature is attuned to its own inner states. The whole energy on the globe is geared and activated to react to the anomalies with a generating spirit.\nLAND:'
    searchkey: 'land_c02'
 storygenerations:
 - aagen_id: 01-01-2022_01_01_01
