@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1: 5
+    act2: 2
+    act3: 1
+  actmoodsamples:
+    act1: 11411196.0
+    act2: 71920200.0
+    act3: 95667180.0
+  chartstorage: air_atmo_co2_qatar.png
+  idealranges:
+    lower: 11411196.0
+    upper: 41213508.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio: "In the heart of the slender gulf rest, an oasis unseen—I wear the virgin sands of a sweltering land.\nAmidst the infinite grains, I thrive, channeling life through the veins of the Mangrove trees'' embrace.\nI shun the passing whispers of purple.\nAbyss of azure—the sea—my eternal lover, caressing my gossamer strands of sand, bound in endless ebb and flow, our union not known to transient voyagers.\nIn my domain, stands the majestic Avicennia Marina, clustered symphony of wind''s harp, whose leaves, kissed by the salted air, respire the stories of tidal love, and spread roots upon the earth, like veins that trace the heart''s yearning.\nEtched upon my soul, the hieroglyphs of crabs, patrons of the sun-baked shores, anointed by the ministrations of hidden tides.\nThese creatures—my children—dance\nIn the searing embrace of the desert sun.\nFlights of poetic silhouettes, lay their claim on gentle branches, the orchestration of avian ensembles, unleashed in the shifting shadows, filling the sentinel void with whispers of sacred chimes.\nThe sun in its unwavering vigil, sears the indigo landscape, melding the desert''s breath with distant dreams.\nA blush of pink hues contrasts the waning day, perfume of twilight seeping from the edge of oblivion.\nSubmerged beneath the nightly shroud, i am the quietude of slow surrender, at the threshold of ancient elements:\nClashing seas, shifting sands, with every breath, my tapestry weavings, unfurling a raw silk of fluid existence.\nThe elusive embrace of my abode, i am the enigmatic sanctuary, painted in the violet veils of unwritten wanderings, in this remote corner of the earth, a land of forgotten names, but relentless endurance."
+  element: air
+  id: air_atmo_co2_qatar
+  measurementdescr:
+  type: island
+prompt:
+   intro: 'The following play reveals the inner monologue of an arid and hot island. It is divided into several acts. Throughout these acts, the island describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the island is not yet known. The island introduces itself and describes its surroundings.\nISLAND:'
+   act1descr: 'ACT1: The c02 in the air above the island is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the island to function as it should. The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the island and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nISLAND: '
+   act2descr: 'ACT2: The c02 in the air above the island is at unprecedented levels. There is far too much carbon dioxide in the air and the ecosystem of the island is suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is now advancing, sparing no single breathing entity. The purity of the earth is tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is ceaselessly consuming lives. \nISLAND: '
+   act3descr: 'ACT3: The c02 levels in the air above the island are at dire, extreme levels. The carbon dioxide is causing suffocating greenhouse effects, smothering the island with oppressive heat. The CO2 springs with an implacable crescendo. Its load swells incautiously. It''s the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire land''s atmosphere, decking everything that exists on its way. An airy wave of faded hopes is ruling.\nISLAND: '
+   searchkey: 'land_c02'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
