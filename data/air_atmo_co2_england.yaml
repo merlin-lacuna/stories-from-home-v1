@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1: 609412700.0
+    act2: 567845600.0
+    act3: 422460800.0
+  actmoodsamples:
+    act1: 2
+    act2: 3
+    act3: 5
+  chartstorage: 
+  idealranges:
+    lower: 346773200.0
+    upper: 477611260.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio:
+  id: air_atmo_co2_england
+  measurementdescr: co2—tonnes per million
+  type: 
+prompt:
+  intro:
+  act0descr: 
+  act2descr: 
+  act3descr: 
+  searchkey: 
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
