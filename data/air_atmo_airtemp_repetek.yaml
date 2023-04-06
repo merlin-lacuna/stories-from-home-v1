@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1:  17.062
+    act2:  17.8
+    act3:  18.0
+  actmoodsamples:
+    act1: 5
+    act2: 4
+    act3: 3
+  chartstorage: 
+  idealranges:
+    lower: 17
+    upper: 17.6
+  measurementunit: "mean_airtemp_celsius"
+entitydescr: air_atmo_airtemp_repetek
+  bio:
+  id: air_atmo_airtemp_repetek
+  measurementdescr: air temperature
+  type: 
+prompt:
+  intro:
+  act0descr: 
+  act2descr: 
+  act3descr: 
+  searchkey: 
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
