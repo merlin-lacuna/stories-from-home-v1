@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1: 2484854800.0
+    act2: 9225421121.461187
+    act3: 11472369000.0
+  actmoodsamples:
+    act1: 5
+    act2: 3
+    act3: 1
+  chartstorage: 
+  idealranges:
+    lower: 2484854800.0
+    upper: 5876555300.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio:
+  id: air_atmo_co2_china
+  measurementdescr: co2—tonnes per million
+  type: 
+prompt:
+  intro:
+  act0descr: 
+  act2descr: 
+  act3descr: 
+  searchkey: 
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
