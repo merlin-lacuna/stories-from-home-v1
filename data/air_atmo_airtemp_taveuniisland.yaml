@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1: 25.198
+    act2: 24.991
+    act3: 26.0
+  actmoodsamples:
+    act1: 5
+    act2: 4
+    act3: 3
+  chartstorage: 
+  idealranges:
+    lower: 25.6
+    upper: 25.6
+  measurementunit: "mean_airtemp_celsius"
+entitydescr: air_atmo_airtemp_taveuniisland
+  bio:
+  id: air_atmo_airtemp_taveuniisland
+  measurementdescr: air temperature
+  type: 
+prompt:
+  intro:
+  act0descr: 
+  act2descr: 
+  act3descr: 
+  searchkey: 
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
