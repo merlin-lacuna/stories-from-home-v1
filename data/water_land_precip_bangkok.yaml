@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1:  800.0
+    act2:  950.0
+    act3:  1205.78
+  actmoodsamples:
+    act1: 3
+    act2: 4
+    act3: 5
+  chartstorage: 
+  idealranges:
+    lower: 1000.0
+    upper: 1213.63
+  measurementunit: "mean_airtemp_celsius"
+entitydescr: water_land_precip_bangkok
+  bio:
+  id: water_land_precip_bangkok
+  measurementdescr: precipitation
+  type: 
+prompt:
+  intro:
+  act0descr: 
+  act2descr: 
+  act3descr: 
+  searchkey: 
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
