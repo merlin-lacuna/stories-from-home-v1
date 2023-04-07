@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1:  -5.0
+    act2:  8.791467031713438
+    act3:  16.0 
+  actmoodsamples:
+    act1:  5
+    act2:  4
+    act3:  2
+  chartstorage: 
+  idealranges:
+    lower: -5
+    upper: 5
+  measurementunit: "mean_sealevel_change"
+entitydescr: water_ocean_sealevel_blacksea
+  bio:
+  id: water_ocean_sealevel_blacksea
+  measurementdescr: mean_sealevel_change
+  type: 
+prompt:
+  intro:
+  act0descr: 
+  act2descr: 
+  act3descr: 
+  searchkey: 
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
