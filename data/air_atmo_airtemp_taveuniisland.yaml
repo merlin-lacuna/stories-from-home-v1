@@ -9,7 +9,7 @@ entitydata:
     act3: 3
   chartstorage: air_atmo_airtemp_taveuniisland.png
   idealranges:
-    lower: 25.6
+    lower: 25
     upper: 25.6
   measurementunit: "mean_airtemp_celsius"
 entitydescr:
