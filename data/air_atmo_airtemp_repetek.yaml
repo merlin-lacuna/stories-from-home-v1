@@ -12,19 +12,19 @@ entitydata:
     lower: 17
     upper: 17.6
   measurementunit: "mean_airtemp_celsius"
-entitydescr: air_atmo_airtemp_repetek
-  bio:
-  id: air_atmo_airtemp_repetek
-  measurementdescr: air temperature
-  type: 
+entitydescr:
+    bio:
+    id: air_atmo_airtemp_repetek
+    measurementdescr: air temperature
+    type:
 prompt:
-  intro:
-  act0descr: 
-  act2descr: 
-  act3descr: 
-  searchkey: 
+    intro:
+    act0descr:
+    act2descr:
+    act3descr:
+    searchkey:
 storygenerations:
-- aagen_id:
-  act1gen: 
-  act2gen: 
-  act3gen: 
+  - aagen_id:
+    act1gen:
+    act2gen:
+    act3gen:
