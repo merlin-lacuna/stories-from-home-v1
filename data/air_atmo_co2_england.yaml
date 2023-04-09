@@ -1,0 +1,34 @@
+entitydata:
+  actmoodlevels:
+    act1:  609412700.0
+    act2:  583777060.0
+    act3:  383777060.0
+  actmoodsamples:
+    act1: 2
+    act2: 3
+    act3: 5
+  chartstorage: air_atmo_co2_england.png
+  idealranges:
+    lower: 346773200.0
+    upper: 477611260.0
+  measurementunit: co2—tonnes per million
+entitydescr:
+  bio: "In twilight's tenderest hour, I shiver, a solitary green whisper amid this vast metropolis, where time is anchored and trees don their weariness \nIn cloaks of ivy verdure, deep-rooted under wintry starlight. \n \nFrom my soil springs forth the vast meridian, bringing Time to bow, a line unseen but felt, stretching out around the globe, tearing \nAsunder the celestial veil of world unknown, marking the beats of history, pulsing beneath my skin. \n \nI witness nature's nocturnes, seasons waltzing \nAd infinitum, painting ephemeral frescoes \nIn the wind's dance: \nDraped consoling in damp foggy whispers \nOr basking golden midsummer dreams on my grassy blanket. \n \nOh, delicate flowers that nestle betwixt my patient branches, spread \nThy petals wide and drink of dawn's brilliance! \nMy shivering arbour hear! As wind whistles, sings \nOf ages' countenance and of tempests yearning \nAnd the sun's effulgent kiss. \n \nHere, the human heart unfurls, finding solace on bench worn \nBroken and healing, lost and finding, a meeting place, a farewell haven, for ceaseless hellos and bittersweet tomorrows, their fervid traces etched upon my leaves and paths. \n \nAnd then, behold! The summer sunset glow \nBursts ablaze, casting fiery splendor upon empty hulls, awash with memories' impressions, and all is hushed within strange stillness, drinking in the enigma of the wine-dark dusk. \n \nSo, harken ye, ye souls who wander through \nMy cradle of unhurried contemplation \nAnd breathe my rich, abiding air; \nLet our eternal moment linger, for I am you, and you are me, and we are Life entwined.
+  id: air_atmo_co2_england
+  measurementdescr: co2—tonnes per million
+  element: air
+  descriptor: 'a temperate, grassy park'
+  type: land
+prompt:
+   intro: 'The following play reveals the inner monologue of a temperate, grassy park. It is divided into several acts. Throughout these acts, the park describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the park is not yet known. The park introduces itself and describes its surroundings.\nPARK:'
+   act1descr: 'ACT1: The c02 in the air above the park is at unprecedented levels. There is far too much carbon dioxide in the air and the ecosystem of the park is suffering significantly with the effects of the greenhouse gasses taking hold. A process of asphyxiation is now advancing, sparing no single breathing entity. The purity of the earth is tainted; the CO2 performs like the greaser of a plague coming from the Infinite. No longer can anything filter out the blazing sun''s force, which is ceaselessly consuming lives.\nPARK:'
+   act2descr: 'ACT2: The c02 in the air above the park is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the park is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The park is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nPARK:'
+   act3descr: 'ACT3: The c02 in the air above the park is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the park to function as it should.  The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the park and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nPARK:'
+   searchkey: 'land_temp'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
