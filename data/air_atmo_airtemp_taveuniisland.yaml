@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1: 25.198
+    act2: 25
+    act3: 26.0
+  actmoodsamples:
+    act1: 4
+    act2: 4
+    act3: 2
+  chartstorage: air_atmo_airtemp_taveuniisland.png
+  idealranges:
+    lower: 25
+    upper: 25.6
+  measurementunit: "mean_airtemp_celsius"
+entitydescr:
+  bio: "In the throes of self-woven mists I dwell, a vibrant paradise kissed by azure skies. Do not enshrine me in words, for they quell The throbbing, vast expanse these eyes belies. \nBehold the orchids! A myriad's bloom, concealed within their petals, siren songs. Yet kept in secret, lest impending doom Silence their fragrant, life-bestowing throngs. \nThy tide encroaches, ebbs and seeks retreat, nurturing respite in this haven's tangle. Seafarers, take heed: their leviathan's fleet Surges and sinks, a symphony's faring jangle. \nBy celestial design or capricious dance, 'Round steep escarpments, waters shall converge. Bereaved apparitions from collective trance Cascading in torrent, mother's white dirge. \nEffervescent rain exalts nostrils' scent, each breath punctuated by humid embrace. Manifest, in blushing dawns that ascend, adorning the canvas of ashen-faced space. \nOur siblings, the palms, who stand for eons, drinking the sustenance the heavens provide: With graceful bows before the gusts' pleadings, their fronds bear witness to stories untied. \nCountless voices meld in eon's choir, dense quivering canopy untamed, like flame. Murmurs, trilling strands of passion's fire, each verse in harmony, their worlds proclaim. \nAn ensign of luminous tapestry, vibrant hues stroked on boundless staccato. The silken-veiled audacity Each dawn bestowed, timeless legato. \nIn the throes of dawn's embrace, here does cease The incandescent struggle in which we toil. This fervent poem, composed of nature's peace Still reaches out to the realm from the soil."
+  id: air_atmo_airtemp_taveuniisland
+  measurementdescr: air temperature
+  element: 'air'
+  type: 'island'
+prompt:
+   intro: 'The following play reveals the inner monologue of a tropical and humid pacific island. It is divided into several acts. Throughout these acts, the island describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The temperature of the island''s is not yet known. The island introduces itself and describes its surroundings.\nISLAND:'
+   act1descr: 'ACT1: The island is not experiencing anything out of the ordinary. It is hot but not unusually so. It supports a thriving ecosystem. The island nevertheless realizes that the sun has always been its constant companion, its guidance, its star and his faith. Perhaps it should once again trust the rays that stroke its leafy surface, however brutally.\nISLAND:'
+   act2descr: 'ACT2: The island is still not experiencing anything out of the ordinary. It is still hot but not unusually so. It supports a thriving ecosystem. The island nevertheless still realizes that the sun has always been its constant companion, its guidance, its star and his faith. Perhaps it should once again trust the rays that stroke its leafy surface, however brutally.\nISLAND:'
+   act3descr: 'ACT3: The island is extremely hot and there is barely any respite for organisms to survive. The sweltering heat of the island is no longer its vital condition, as it no longer seems to originate from its very essence, but rather due to unknown and destructive external forces impossible to placate.\nISLAND:'
+   searchkey: 'land_temp'
+storygenerations:
+- aagen_id:
+  act1gen:
+  act2gen:
+  act3gen:
