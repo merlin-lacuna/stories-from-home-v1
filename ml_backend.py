@@ -76,7 +76,7 @@ class ml_backend:
     def gengpt4_text(self, myprompt, maxt, persona):
         # openai.api_key = os.getenv("OPENAI_API_KEY_MC")
         openai.api_key = st.secrets["OPENAI_API_KEY_MC"]
-        myprompt = myprompt.replace("The first act starts like this:", "Continue the play using a mixture of the literary styles that you have been trained on. The first act starts like this:")
+        myprompt = myprompt.replace("The first act starts like this:", "Continue the play using a mixture of the literary styles that you have been trained on. Also make sure that the lines in your text do not rhyme. For example, the poem 'Roses are red\nViolets are blue\nThe sun is shining\nAnd I love you' has a rhyming structure, because 'blue' rhymes with 'you'. You should avoid this structure and instead write in free prose.\n\nThe first act starts like this:")
         response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[
