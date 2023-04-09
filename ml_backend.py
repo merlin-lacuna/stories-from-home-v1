@@ -6,8 +6,8 @@ import random
 
 class ml_backend:
 
-    #openai.api_key = st.secrets["OPENAI_API_KEY"]
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = st.secrets["OPENAI_API_KEY"]
+    # openai.api_key = os.getenv("OPENAI_API_KEY")
 
     def trim_output(completion):
         try:
@@ -72,6 +72,19 @@ class ml_backend:
         lstory = lstory.replace("Forest: ", "")
 
         return ' '.join(lstory.split())
+
+    def gengpt4_text(self, myprompt, maxt, persona):
+        # openai.api_key = os.getenv("OPENAI_API_KEY_MC")
+        openai.api_key = st.secrets["OPENAI_API_KEY_MC"]
+        myprompt = myprompt.replace("The first act starts like this:", "Continue the play using a mixture of the literary styles that you have been trained on. The first act starts like this:")
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": persona},
+                {"role": "user", "content": myprompt},
+            ]
+        )
+        return "GPT4 OUTPUT:\n\n" + response.choices[0].message.content
 
     def get_act(self,myprompt, maxt, element):
         lengthext = random.randint(1, 56)

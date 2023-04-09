@@ -54,7 +54,12 @@ if 'act2cleaned' not in st.session_state:
     st.session_state['act2cleaned'] = ''
 if 'act3scleaned' not in st.session_state:
     st.session_state['act3scleaned'] = ''
-
+if 'modeltypeindex' not in st.session_state:
+    st.session_state['modeltypeindex'] = 0
+if 'gpt4persona' not in st.session_state:
+    st.session_state['gpt4continuation'] = "The following text is play about "
+if 'gpt4persona' not in st.session_state:
+    st.session_state['gpt4persona'] = 'You are an advanced literary AI that can perfectly imitate any literary style. Your output is an amalgamation of all the styles that you have been trained on. Right now, you have been trained on the following works: "The Passion according to G.H." by Clarice Lispector, "Spell of the Sensuous" by David Abram, all poems by Marina Tsvetaeva, "The Myth of Sisyphus" by Albert Camus, "Sonnets to Orpheus " by Rainer Maria Rilke, "Duino Elegies" by Rainer Maria Rilke, "A Lover''s Discourse: Fragments" by Roland Barthes, "The Metamorphoses" by Ovid,  "Songs of Innocence and of Experience" by William Blake, "The Marriage of Heaven and Hell" by William Blake and "I love Dick" by Chris Kraus. Any time I ask you continue a text, you will continue the text in a style that is based on an almagamation of: A) the styles that you have been trained on and B)the style found in the original text. You will never mention the names of any of these authors in your output. You will also never mention the titles of the works that you have been trained on. Finally, you will never mention the word "C02"'
 ### Define Utility functions
 # Uses st.experimental_memo to only rerun when the query changes or after 5 mins.
 #@st.experimental_memo(ttl=300)
@@ -153,10 +158,14 @@ with st.form(key="init"):
         'Select your config file ',
         res)
     st.markdown(f'You selected: :green[{configfile}]')
+    modeltype = st.radio("Select the model type",('GTP3 trained on selected texts', 'GPT4 imitating style of listed texts'),st.session_state['modeltypeindex'])
+
     load_yaml_data = st.form_submit_button(label='Load Config Data')
 
     # If 'Load Config Data' Button was pressed
     if load_yaml_data:
+        if modeltype == 'GPT4 imitating style of listed texts':
+            st.session_state['modeltypeindex'] = 1
         st.session_state['storygencounter'] = 0
         #### LOAD SELECTED ENTITY CONFIG FROM YAML INTO DF2
         yaml = YAML(typ='safe')
@@ -186,6 +195,7 @@ with st.form(key="init"):
 
             st.write(f'Loading Complete')
             st.write(st.session_state.loadstate)
+            st.write(modeltype)
             st.session_state['loadstate'] = 'loaded'
             st.session_state['act1state'] = 'ready'
             st.session_state['act2state'] = 'reload'
@@ -251,7 +261,11 @@ with st.form(key="act0_1"):
         # if the submit button is pressed, send the whole prompt to OpenAI
         if submit_act1:
             with st.spinner("Generating Act..."):
-                output1 = backend.generate_text(finalrawprompt1,maxlength,selectedmodel)
+                if modeltype == 'GPT4 imitating style of listed texts':
+                    oa.api_key = os.getenv("OPENAI_API_KEY_MC")
+                    output1 = backend.gengpt4_text(finalrawprompt1, maxlength, st.session_state['gpt4persona'])
+                else:
+                    output1 = backend.generate_text(finalrawprompt1, maxlength, selectedmodel)
                 print(output1 )
             st.success('Done!')
 
@@ -356,7 +370,11 @@ with st.form(key="act_2"):
         # if the submit button is pressed, send the whole prompt to OpenAI
         if submit_act2:
             with st.spinner("Generating Act..."):
-                output2 = backend.generate_text(finalrawprompt2,maxlength,selectedmodel)
+                if modeltype == 'GPT4 imitating style of listed texts':
+                    oa.api_key = os.getenv("OPENAI_API_KEY_MC")
+                    output2 = backend.gengpt4_text(finalrawprompt2,maxlength,selectedmodel)
+                else:
+                    output2 = backend.generate_text(finalrawprompt2,maxlength,selectedmodel)
                 #print(output2 )
             st.success('Done!')
 
@@ -451,7 +469,11 @@ with st.form(key="act_3"):
         # if the submit button is pressed, send the whole prompt to OpenAI
         if submit_act3:
             with st.spinner("Generating Act 3..."):
-                output3 = backend.generate_text(finalrawprompt3,maxlength,selectedmodel)
+                if modeltype == 'GPT4 imitating style of listed texts':
+                    oa.api_key = os.getenv("OPENAI_API_KEY_MC")
+                    output3 = backend.gengpt4_text(finalrawprompt2, maxlength, selectedmodel)
+                else:
+                    output3 = backend.generate_text(finalrawprompt2, maxlength, selectedmodel)
                 #print(output2 )
             st.success('Done!')
 
