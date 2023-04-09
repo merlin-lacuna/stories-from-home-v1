@@ -7,24 +7,24 @@ entitydata:
     act1: 5
     act2: 4
     act3: 3
-  chartstorage: 
+  chartstorage: air_atmo_airtemp_taveuniisland.png
   idealranges:
     lower: 25.6
     upper: 25.6
   measurementunit: "mean_airtemp_celsius"
-entitydescr: air_atmo_airtemp_taveuniisland
+entitydescr:
   bio:
   id: air_atmo_airtemp_taveuniisland
   measurementdescr: air temperature
-  type: 
+  type:
 prompt:
   intro:
   act0descr: 
-  act2descr: 
-  act3descr: 
-  searchkey: 
+  act2descr:
+  act3descr:
+  searchkey:
 storygenerations:
 - aagen_id:
-  act1gen: 
-  act2gen: 
-  act3gen: 
+  act1gen:
+  act2gen:
+  act3gen:
