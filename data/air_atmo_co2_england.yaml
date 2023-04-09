@@ -1,13 +1,13 @@
 entitydata:
   actmoodlevels:
-    act1: 609412700.0
-    act2: 567845600.0
-    act3: 422460800.0
+    act1:  609412700.0
+    act2:  583777060.0
+    act3:  383777060.0
   actmoodsamples:
     act1: 2
     act2: 3
     act3: 5
-  chartstorage: 
+  chartstorage: air_atmo_co2_england.png
   idealranges:
     lower: 346773200.0
     upper: 477611260.0
