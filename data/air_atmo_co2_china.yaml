@@ -7,24 +7,26 @@ entitydata:
     act1: 5
     act2: 3
     act3: 1
-  chartstorage: 
+  chartstorage: air_atmo_co2_china.png
   idealranges:
     lower: 2484854800.0
     upper: 5876555300.0
   measurementunit: co2—tonnes per million
 entitydescr:
-  bio:
+  bio: 'Cradled in the bosom of invisible giants, I draw sustenance, a witness to the cycle of the ancients: Elusive koi and the silver-scaled siren song, Intertwined within the sacred webs of existence. Enshrouded in the celestial shroud, the indigo canopy, La lune, la dame, her shimmering trail adorns my surface, A silent confidante, guardian of secrets untold, Every bioluminescent whisper birthed in the eternal deep. Mirrors of sky and sea, poised in eternal dance, A bond that transcends the boundaries of mortal comprehension. As morning twilight cracks the thin glass of day, The languorous lotus blossoms, veiled in gossamer threads, Disclose my secrets to the newborn sun, Their tales whispered to the restless swan, herald of dawn, In a language understood only by the ripples of my skin. I, the keeper of ineffable mysteries, guardian of iridescent dreams, Rest in timeless stillness, a pause amidst the churning cosmos. Yet, bound by the essence of existence, I surrender, To dance once more with the wind, and bathe In the fleeting warmth of the sun, as I have for millennia.'
   id: air_atmo_co2_china
   measurementdescr: co2—tonnes per million
-  type: 
+  element: 'air'
+  type: 'land'
 prompt:
-  intro:
-  act0descr: 
-  act2descr: 
-  act3descr: 
-  searchkey: 
+   intro: 'The following play reveals the inner monologue of a vast, subtropical, freshwater lake. It is divided into several acts. Throughout these acts, the lake describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The c02 in the air above the lake is not yet known is not yet known. The lake introduces itself and describes its surroundings.\nLAKE:'
+   act1descr: 'ACT1: The c02 in the air above the lake is at very healthy levels. The healthy balance of carbon dioxide and oxygen is allowing the ecosystem of the lake to function as it should.  The CO2 fluctuates as keeper and protector of the Earth''s well-being; its regulations make the lake and the skies embracing its mass breathe in unison, letting even the most impervious places pulsate with pleasure and delight. Everything streams seamlessly, engendering a cycle of universal euphony.\nLAKE:'
+   act2descr: 'ACT2: The c02 in the air above the lake is at worrying levels. There is too much carbon dioxide in the air and the ecosystem of the lake is beginning to suffer. The breezy rhythm at which the clouds used to dance appears to be muted. A colorless omen looms, like a shadow from which absolutely nothing can evade. The lake is getting darker under this threat. The C02 is keeping the environment under siege, poised to make its graceful vigor perish.\nLAKE:'
+   act3descr: 'ACT3: The c02 levels in the air above the lake are at dire, extreme levels. The carbon dioxide is causing suffocating greenhouse effects, smothering the lake with oppressive heat. The CO2 springs with an implacable crescendo. Its load swells incautiously. It''s the burden of the cosmos itself. Everything around stagnates in stasis. A grey, stifling density pervades the entire lake''s atmosphere, decking everything that exists on its way. An airy wave of faded hopes is ruling.\nLAKE:'
+   searchkey: 'land_c02'
 storygenerations:
-- aagen_id:
-  act1gen: 
-  act2gen: 
-  act3gen: 
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
