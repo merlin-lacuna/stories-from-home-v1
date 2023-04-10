@@ -1,0 +1,28 @@
+entitydata:
+  actmoodlevels:
+    act1:  18.0
+    act2:  47.421
+    act3:  49.536
+  actmoodsamples:
+    act1: 4
+    act2: 5
+    act3: 4
+  chartstorage: 
+  idealranges:
+    lower: 28.0
+    upper: 48.0
+  measurementunit: precipitation
+entitydescr:
+    id: water_precipitation_lima
+    measurementdescr: precipitation
+    element: water
+    type: land
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr:
+   searchkey: 
+storygenerations:
+  - aagen_id:
+    act1gen:
