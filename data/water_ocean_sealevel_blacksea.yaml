@@ -19,12 +19,12 @@ entitydescr:
   type: ocean
   element: 'water'
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nENTITY: '
-   act2descr: 'ACT2: <add prompt>\nENTITY: '
-   act3descr: 'ACT3: <add prompt>\nENTITY: '
-   searchkey: 'land_temp'
+   intro: 'The following play reveals the inner monologue of a large sea that has continental and Mediterranean influences. It is divided into several acts. Throughout these acts, the sea describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The sea''s level is not yet known. The sea introduces itself and describes its surroundings.\nSEA:'
+   act1descr: 'ACT1: The sea is experiencing stable sea levels which are in harmony with its surroundings. The sea is a harmonious universe. All sways in endless motion but always following a stream of effortless dynamism. The line of the horizon is a trustworthy eternal archetype, and the sea honours it by not crossing its shimmering edge.\nSEA:'
+   act2descr: 'ACT2: The sea is experiencing higher than normal sea levels but these increases are slow enough for surrounding regions to adapt. Some regions even benefit from more water. The sea experiences that the currents are more copious than its capacity for thirst. These flow through it and cause its essence to overflow, yet gently. None of these motions lead to stifling, but rather reflects the incommensurable potency of water.\nSEA:'
+   act3descr: 'ACT3: The sea is reaching dramatically high sea levels which is triggering unforeseen side effects in surrounding regions. The sea notices that its entire body is at the mercy of intense compulsions and convulsions, as if an unnamed entity is just draining its energy from its own womb.\nSEA:'
+   searchkey: 'ocean_level'
 storygenerations:
 - aagen_id:
   act1gen: 
