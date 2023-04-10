@@ -79,6 +79,7 @@ class ml_backend:
         myprompt = myprompt.replace("The first act starts like this:", "Continue the play using a mixture of the literary styles that you have been trained on. Also make sure that the lines in your text do not rhyme. For example, the poem 'Roses are red\nViolets are blue\nThe sun is shining\nAnd I love you' has a rhyming structure, because 'blue' rhymes with 'you'. You should avoid this structure and instead write in free prose.\n\nThe first act starts like this:")
         response = openai.ChatCompletion.create(
             model="gpt-4",
+            max_tokens=maxt,
             messages=[
                 {"role": "system", "content": persona},
                 {"role": "user", "content": myprompt},
