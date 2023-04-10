@@ -7,13 +7,13 @@ entitydata:
     act1:  10.619663320150087
     act2:  33.06897810218978
     act3:  67.6
-  chartstorage: 
+  chartstorage: water_ocean_sealevel_globalsea.png
+  bio:
   idealranges:
     lower: -2
     upper: 12.8
   measurementunit: "mean_sealevel_change"
-entitydescr: water_ocean_sealevel_globalsea
-  bio:
+entitydescr:
   id: water_ocean_sealevel_globalsea
   measurementdescr: mean_sealevel_change
   type: 
