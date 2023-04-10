@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1:  5
+    act2:  2
+    act3:  1
+  actmoodsamples:
+    act1:  10.618518518518519
+    act2:  33.06666666666666
+    act3:  60.0
+  chartstorage: water_ocean_sealevel_globalsea.png
+  bio: "I dwell in the cradle of distant depths, veiled in the azure mystery -\nIn mirrors unknown, enthralling swarms\nRevolve in swirls and shadows.\nThrough whispers emerge stories, of ancient pacts and sacred numina.\nI feel the world break into rivulets\nWreathed in songs, celestial and infinite.\nDay and night meld into streams melting, my breath wraps the sun and moon, blurring the lines that define the sky, creating a dance, anchored to my tides.\nYet as I unfurl my limbs in fluidity, i find myself shifting, tangled, altered, an ethereal metamorphosis encroaches, whelming my existence ever so gently.\nDistilled upon my shimmering self, are wisps of poison and gluttonous plunder, shattered souls of a forgotten ancestry, long lost to the fathomless embrace.\nA whimsical melancholia ignites, the fragile, wind-kissed ceaseless song, cascading beneath the wavering undulation, a serenade conjured by my yearning heart.\nBut the shadows of change veil the words, contorting and transmuting the fleeting notes, which dissipate in cloaked veils, irretrievable, silencing the wails of once-harmonious melody.\nIn my depths, I am boundless, sprawling, yet, I am distorted by relentless forces, i shimmer, I succumb, I inhale, as the world of the transmuted sun chokes, no respite or solace found, chaotic anguish, roils beneath the silence of the dark, witnessing the murky demise\nIn the solitude of water, my being birthing."
+  idealranges:
+    lower: -2
+    upper: 12.8
+  measurementunit: "mean_sealevel_change"
+entitydescr:
+  id: water_ocean_sealevel_globalsea
+  measurementdescr: mean_sealevel_change
+  type: 'ocean'
+  element: 'water'
+prompt:
+   intro: 'The following play reveals the inner monologue of a planet''s global ocean. It is divided into several acts. Throughout these acts, the ocean describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of the ocean is not yet known. The ocean introduces itself and describes its surroundings.\nOCEAN:'
+   act1descr: 'ACT1: The ocean is experiencing stable ocean levels which are in harmony with its surroundings. The ocean is a harmonious universe. All sways in endless motion but always following a stream of effortless dynamism. The line of the horizon is a trustworthy eternal archetype, and the ocean honors it by not crossing its shimmering edge.\nOCEAN:'
+   act2descr: 'ACT2: The ocean is reaching dramatically high ocean levels which is triggering unforeseen side effects in surrounding regions. The ocean notices that its entire body is at the mercy of intense compulsions and convulsions, as if an unnamed entity is just draining its energy from its own womb.\nOCEAN:'
+   act3descr: 'ACT3: The ocean has increased in volume to ocean levels never seen before in its lifetime. It is devouring everything in its path. The ocean feels in the midst of desperation and disenchantment because it is dismissed from its status, and merely replaced by high tides that do not lend solace and aim to demean.\nOCEAN:'
+   searchkey: 'ocean_level'
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
