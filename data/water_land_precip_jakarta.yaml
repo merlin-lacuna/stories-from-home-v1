@@ -1,0 +1,28 @@
+entitydata:
+  actmoodlevels:
+    act1:  2.421
+    act2:  3.2
+    act3:  2.221
+  actmoodsamples:
+    act1: 4
+    act2: 5
+    act3: 2
+  chartstorage: 
+  idealranges:
+    lower: 2.606
+    upper: 3.2
+  measurementunit: precipitation
+entitydescr:
+    id: water_precipitation_jakarta
+    measurementdescr: precipitation
+    element: water
+    type: land
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr:
+   searchkey: 
+storygenerations:
+  - aagen_id:
+    act1gen:
