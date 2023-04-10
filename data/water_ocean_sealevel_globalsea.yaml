@@ -14,10 +14,10 @@ entitydata:
     upper: 12.8
   measurementunit: "mean_sealevel_change"
 entitydescr:
-  id: water_ocean_sealevel_globalsea
-  measurementdescr: mean_sealevel_change
-  type: 'ocean'
-  element: 'water'
+   id: water_ocean_sealevel_globalsea
+   measurementdescr: mean_sealevel_change
+   type: 'ocean'
+   element: 'water'
 prompt:
    intro: 'The following play reveals the inner monologue of a planet''s global ocean. It is divided into several acts. Throughout these acts, the ocean describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
    act0descr: 'ACT0: The level of the ocean is not yet known. The ocean introduces itself and describes its surroundings.\nOCEAN:'
