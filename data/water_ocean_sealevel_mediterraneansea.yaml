@@ -1,0 +1,32 @@
+entitydata:
+  actmoodlevels:
+    act1:  2.9333333333333336
+    act2:  5.1
+    act3:  12.0
+  actmoodsamples:
+    act1:  5
+    act2:  4
+    act3:  1
+  chartstorage: water_ocean_sealevel_mediterraneansea.png
+  idealranges:
+    lower: 2.5
+    upper: 5
+  measurementunit: "mean_sealevel_change"
+entitydescr:
+  bio: "I breathe in hues of blue and green, a cradle between continents, I teem.\nMy depths plunge into a liquid abyss, where mysteries dwell, and secrets persist.\nI am rage and calm, the restless tide, allowing tidepools'' tender life to hide.\nGiants break upon my skin, their grandeur lost to temporal sin.\nMoist breezes define my shores, a caress, twirling the scent of citrus, my loving breath.\nSun-blushed hillsides, where olives grow, nature creates poetry with my silent spirit''s glow.\nI take in the air with the heat of hot sun, suffused with aroma of cypress and rose, undreamt.\nAs if to satiate the wind, earth, and light, cradling whispers of fervent moments in the night.\nI nurture the soil o''er which I crawl, hug the curves of land until they are pulled away—enthrall.\nOn cragged, island shores, there I am, in the smallest of cracks, the subtlest of seams.\nBeneath the surface, see creatures shifting, charybdis and Scylla, forgotten gods writhing, an ecosystem alive, teeming, and thriving, celestial, yet doomed; ascending, yet diving.\nAnd when the light fades, the moon rises above, a guide, my ancient spirits sing their solemn ode.\nWithin my waves, the remnants of lost souls reside, from every corner, every side.\n"
+  id: water_ocean_sealevel_mediterraneansea
+  measurementdescr: mean_sealevel_change
+  type: 'sea'
+  element: 'water'
+prompt:
+   intro: 'The following play reveals the inner monologue of a warm and vibrant ocean. It is divided into several acts. Throughout these acts, the ocean describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of the ocean is not yet known. The ocean introduces itself and describes its surroundings.\nOCEAN:'
+   act1descr: 'ACT1: The ocean is experiencing stable ocean levels which are in harmony with its surroundings. The ocean is a harmonious universe. All sways in endless motion but always following a stream of effortless dynamism. The line of the horizon is a trustworthy eternal archetype, and the ocean honors it by not crossing its shimmering edge.\nOCEAN:'
+   act2descr: 'ACT2: The ocean is experiencing higher than normal ocean levels but these increases are slow enough for surrounding regions to adapt. Some regions even benefit from more water. The ocean experiences that the currents are more copious than its capacity for thirst. These flow through it and cause its essence to overflow, yet gently. None of these motions lead to stifling, but rather reflects the incommensurable potency of water.\nOCEAN: '
+   act3descr: 'ACT3: The ocean has increased in volume to ocean levels never seen before in its lifetime. It is devouring everything in its path. The ocean feels in the midst of desperation and disenchantment because it is dismissed from its status, and merely replaced by high tides that do not lend solace and aim to demean.\nOCEAN: '
+   searchkey: 'land_temp'
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
