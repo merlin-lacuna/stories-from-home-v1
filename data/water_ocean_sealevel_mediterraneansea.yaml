@@ -7,12 +7,12 @@ entitydata:
     act1:  5
     act2:  4
     act3:  1
-  chartstorage: 
+  chartstorage: water_ocean_sealevel_mediterraneansea.png
   idealranges:
     lower: 2.5
     upper: 5
   measurementunit: "mean_sealevel_change"
-entitydescr: water_ocean_sealevel_mediterraneansea
+entitydescr:
   bio:
   id: water_ocean_sealevel_mediterraneansea
   measurementdescr: mean_sealevel_change
