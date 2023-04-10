@@ -13,16 +13,18 @@ entitydata:
     upper: 5
   measurementunit: "mean_sealevel_change"
 entitydescr:
-  bio:
+  bio: "I am silence, beholden to the jeweled night, a raven abyss swallowing the moon's pale face, a primordial mystery grown deeper with the wavering breath. Of the mercurial winds whispering secrets not meant to be heard. I am their keeper, undulating beneath the shroud of stars;. An unbroken canvas painted with the longevity of time, embracing in my depths creatures born of myth and wonder, their intricate songs vibrating through my veins. As they play and hide within my darkest recesses, the remains of those unfamiliar to the touch of light. There, in the cold currents of my bosom, I hold life, a cradle for elements unseen and water's ancient dance. In my embrace, the silver whispers of migratory souls echo, a symphony of blue and the tapestry of cold winds. Through the caress of my sunken shores, I dance, and I become a canvas of memory, rich and alive. Life dwells within me, and death too, a beautiful entwining of chaos and stillness; I dream of desolation, and I taste the tang of life's. Many flavors, consumed by the circle closed with a kiss. Through the shifting amaranthine seasons, I yield, bending with the sways of the vuhlcan wind anew. And I bear witness to the fleeting footprints of man. Frozen and set ablaze, I am a mirror of their fickle world, an honest reflection staring back at the edge of reality. In the quiet space between knowledge and the restless soul, i dwell, awash in the hues of change and resilience. I am the eternal enigma wrapped in the embrace of this existence, a vessel for life's reflections, cradling the haunting melancholy of the ever-shifting blue."
   id: water_ocean_sealevel_blacksea
   measurementdescr: mean_sealevel_change
-  type: 
+  type: ocean
+  element: 'water'
 prompt:
-  intro:
-  act0descr: 
-  act2descr: 
-  act3descr: 
-  searchkey: 
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nENTITY: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nENTITY: '
+   act2descr: 'ACT2: <add prompt>\nENTITY: '
+   act3descr: 'ACT3: <add prompt>\nENTITY: '
+   searchkey: 'land_temp'
 storygenerations:
 - aagen_id:
   act1gen: 
