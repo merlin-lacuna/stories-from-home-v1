@@ -12,7 +12,7 @@ entitydata:
     lower: 1000.0
     upper: 1213.63
   measurementunit: "mean_airtemp_celsius"
-entitydescr: water_land_precip_bangkok
+entitydescr:
   bio:
   id: water_land_precip_bangkok
   measurementdescr: precipitation
