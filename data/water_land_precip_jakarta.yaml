@@ -1,12 +1,12 @@
 entitydata:
   actmoodlevels:
-    act1:  2.421
-    act2:  3.2
-    act3:  2.221
+    act1:  5
+    act2:  5
+    act3:  5
   actmoodsamples:
-    act1: 4
-    act2: 5
-    act3: 2
+    act1:  2.9
+    act2:  2.9
+    act3:  2.9
   chartstorage: 
   idealranges:
     lower: 2.606
