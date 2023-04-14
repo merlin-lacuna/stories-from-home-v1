@@ -7,7 +7,7 @@ entitydata:
     act1:  2.9
     act2:  2.9
     act3:  2.9
-  chartstorage: water_precipitation_jakarta.png
+  chartstorage: water_land_precip_jakarta.png
   idealranges:
     lower: 2.606
     upper: 3.2
