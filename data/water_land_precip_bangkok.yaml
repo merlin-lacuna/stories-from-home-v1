@@ -1,0 +1,33 @@
+entitydata:
+  actmoodlevels:
+    act1:  3
+    act2:  4
+    act3:  5
+  actmoodsamples:
+    act1:  835.63
+    act2:  999.0
+    act3:  1205.78
+  chartstorage: water_land_precip_bangkok.png
+  idealranges:
+    lower: 1000.0
+    upper: 1213.63
+  measurementunit: "precipitation"
+entitydescr:
+  bio: "Through me, the sun seeps,\nAnd in its cascading light, I awaken, slow and deliberate.\nI, a verdant womb, a solace in chaos, a hushed breath.\nIn the morning mists, I teeter on the edge of waking dreams,\nWhere droplets dapple upon leaves, trembling and yearning for dawn.\nThe sky above me stretches, vast and generous,\nAs a liberating breath unfurls into the embrace of moist air.\nA fabric woven of transient encounters,\nBinding glimpses of suburbanite office-goers and avian voyagers alike.\nThey come unto me, and I welcome them,\nA refuge cradling rest and revelation.\nIn my heart, a lake—a looking glass—,\nWhere I behold my own colors, shifting and stirring,\nAs seasons pass in their unseasonal pulsations, uncaressed by temperance.\nMy branching arms upholding shelters for voyeuristic souls,\nDrawn by the whisper of strangers, bearing forth their secrets,\nIn murmured conversations, on parchment notes, in silences that speak.\nBeneath my feet, roots delve deep into the bowels of the earth,\nResting among the silent presence of worms,\nAs they reveal the unspoken tales of fallen comrades,\nFragile bodies decaying into the sweet perfume of mortality,\nTo enrich my life that leaves only me alive.\nI, a humble vessel for existence’s radiant ephemerality,\nGive voice to its desires and sorrows in verdure and bloom,\nAmidst a metropolis of chiming steel and silent cries.\nHere, I live, simmering in the hazy twilight of belonging and solitude,\nI flourish and wilt with the passage of time"
+  id: water_land_precip_bangkok
+  measurementdescr: precipitation
+  type: land
+  element: water
+prompt:
+   intro: 'The following play reveals the inner monologue of a tropical green park in the middle of an urban space. It is divided into several acts. Throughout these acts, the park describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of rainfall on the park is not yet known. The park introduces itself and describes its surroundings.\nPARK: <entitybio>'
+   act1descr: 'ACT1: The park is noticing a somewhat alarming reduction of rainfall, receiving a rather paltry amount of rain. The park slowly becomes opaque. Once it was possible to detect sheets of water through which a portion of the universe was mirroring itself. Now the reflections of the heaven are shrinking. All around, life''s impetus faces a crash, and the park stumbles into dehydration.\nPARK:'
+   act2descr: 'ACT2: The park''s rainfall is still a bit lower than it should be. The park can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the park stands in a liminal state.
+\nPARK:'
+   act3descr: 'ACT3: The park''s rainfall has returned to normal levels. The park is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nPARK:'
+   searchkey: 'landr_precip'
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen: 
+  act3gen: 
