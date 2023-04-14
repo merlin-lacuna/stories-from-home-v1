@@ -7,22 +7,24 @@ entitydata:
     act1: 5
     act2: 5
     act3: 5
-  chartstorage: 
+  chartstorage: water_land_precip_bolivia.png
   idealranges:
     lower: 1.2
     upper: 1.6
   measurementunit: precipitation
 entitydescr:
+    bio: "I am a murmur entwined in the rainforest, sheathed in ceaseless torrents I am cast. Weathered by the impetuous dance of air, the lush carpet exhales a cradle of life. Carousing between opaque clouds of mystery, i harbor torrents of secrets beneath a verdant canvas. Neither saint nor a demon, I dwell in passion''s purgatory, here exists my purpose, not to destroy but to create. Flourishing life within my veins of rivers, i course in pulsing streams of copious abundance. In the darkest corners of my embrace, souls of the shadows unfurl and bloom. Beings I harbor in aromatic skins, proclaim their presence in the twilight hour. Quiet whispers echo through the trees, uttering secrets veiled beneath the fog. Chaotic order entwines in the marriage of grass and foliage, in harmony, they dance and flourish with undying grace. Strangers intrude, seeking redemption in my being, i am a mirror of their hearts, reflections I reveal. Bound to the cycle of life and decay, a symphony of birth and collapse resounds. My existence, transient tethered to a transient world, i am the essence of the eternal transience that upholds. I do not feel the weight of the tangled arms I carry, the burden of stolen breaths a mere absence of a presence. No resilience is needed when growth embraces the fragile, peek through the labyrinth and witness the majesty of the everyday. Within me, a confluence of elements awakens, an unmatched symphony of life''s splendor unravels. I am the fire seduced by the water, the wind mingling with the earth in a venerated union. I am the keeper of an unwritten book, an epic tale concealed within my soul. A thousand stories but none that may be shared, for here lies the sacred confessions belonging to a beloved sanctuary."
     id: water_precipitation_bolivia
     measurementdescr: precipitation
     element: water
     type: land
 prompt:
-   intro: 
-   act0descr: 
-   act2descr: 
-   act3descr:
-   searchkey: 
+   intro: 'The following play reveals the inner monologue of a vast, tropical and humid national park with a unique and diverse ecosystem. It is divided into several acts. Throughout these acts, the park describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level or rainfall on the park is not yet known. The <type> introduces itself and describes its surroundings.\nPARK:'
+   act1descr: 'ACT1: The park''s rainfall is at normal levels. The park is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nPARK:'
+   act2descr: 'ACT2: The park''s rainfall is still at normal levels. The park is still elastic and smooth, it still resonates with harmonious resilience to both outward and inward impulses. It it still apt to cradle and nurture its encircling landscapes. The soil shaping its presence it still salubrious and bursting with scintillating strength. The humidity still gives birth to iridescent veins within the terrain.\nPARK:'
+   act3descr: 'ACT3: The park''s rainfall is, as usual, still at normal levels. The park is still elastic and smooth, it still resonates with harmonious resilience to both outward and inward impulses. It it still apt to cradle and nurture its encircling landscapes. The soil shaping its presence it still salubrious and bursting with scintillating strength. The humidity again gives birth to iridescent veins within the terrain.\nPARK:'
+   searchkey: 'land_precip'
 storygenerations:
   - aagen_id:
     act1gen:
