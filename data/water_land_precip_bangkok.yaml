@@ -20,7 +20,7 @@ entitydescr:
   element: water
 prompt:
    intro: 'The following play reveals the inner monologue of a tropical green park in the middle of an urban space. It is divided into several acts. Throughout these acts, the park describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The level of rainfall on the park is not yet known. The park introduces itself and describes its surroundings.\nPARK: <entitybio>'
+   act0descr: 'ACT0: The level of rainfall on the park is not yet known. The park introduces itself and describes its surroundings.\nPARK:'
    act1descr: 'ACT1: The park is noticing a somewhat alarming reduction of rainfall, receiving a rather paltry amount of rain. The park slowly becomes opaque. Once it was possible to detect sheets of water through which a portion of the universe was mirroring itself. Now the reflections of the heaven are shrinking. All around, life''s impetus faces a crash, and the park stumbles into dehydration.\nPARK:'
    act2descr: 'ACT2: The park''s rainfall is still a bit lower than it should be. The park can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the park stands in a liminal state.
 \nPARK:'
