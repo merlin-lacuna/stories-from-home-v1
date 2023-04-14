@@ -1,0 +1,30 @@
+entitydata:
+  actmoodlevels:
+    act1:  24.961
+    act2:  47.421
+    act3:  63.608
+  actmoodsamples:
+    act1: 4
+    act2: 5
+    act3: 3
+  chartstorage: water_precipitation_lima.png
+  idealranges:
+    lower: 28.0
+    upper: 48.0
+  measurementunit: precipitation
+entitydescr:
+    bio: "I am but an arid whisper, a paradox of fertile landscapes, gentle seductress of the Andes, exhaled, tracing the contours of Pacific''s embrace. Transitory moments deconstruct me, my breath unfurls ephemeral beaches, paints a relentless grayness through dusted skies. Gaze upon my children, my flora, for they recite the secrets of my ancient veins, lush oases nurtured from fog – Nature''s unprescribed alchemy, clustered rectangles of viridian hope, in the midst of the sands'' longing for the sea. Rest your ear upon the winds, melodious narrators, and listen to the whispers of my seismic tremors, the intimate heartbeat of the Earth, like the slow dance of tectonic falter, the pulse of echoes that attest my existence. I am the cradle where desert, mountains, and sea convene, fragile equilibrium forged in the fires of memory, an eternal dialog of mist and warmth, stories as intricate as the cobblestone streets That vein through my flesh and blood. I carry within the dreams of my dwellers, the poetics of time and space interwoven, a legacy of brilliance and resilience, emerging from the quivering whispers of history, a language that kisses the soul with soulful intent, seeks the touch of the Moon''s caress As it dances with sun''s slow surrender. I am the incarnation of a thousand paradoxes, a delicate balance baptized by tears of clouds and ocean, sustaining life between ephemeral trembles, my pains, my joys, the collective breath that I exhale, beget the labyrinthian beauty that you now inhale. "
+    id: water_precipitation_lima
+    measurementdescr: precipitation
+    element: water
+    type: land
+prompt:
+   intro: 'The following play reveals the inner monologue of a subtropical, mild and humid region of land that hosts a large urban center. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of rainfall on the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The land''s rainfall is starting to become a little low. The land can sense that its energies are ebbing and fading. It cares to conserve its watery reservoirs by secretly guarding moisture particles in the shadows, as if they were perishing cosmic gems. A transition is underway and the land stands in a liminal state.\nLAND: '
+   act2descr: 'ACT2: The park''s rainfall has returned to normal levels. The park is elastic and smooth, it resonates with harmonious resilience to both outward and inward impulses. It is apt to cradle and nurture its encircling landscapes. The soil shaping its presence is salubrious and bursting with scintillating strength. The humidity gives birth to iridescent veins within the terrain.\nLAND:'
+   act3descr: 'ACT3: The land is now noticing a somewhat alarming increase in rainfall, receiving a rather large amount of rain. The land slowly becomes opaque. Once it was possible to shed sheets of water through which a portion of the universe was mirroring itself. Now the reflections of the heaven are expanding. All around, life''s impetus faces a crash, and the land stumbles into overhydration.\nLAND:'
+   searchkey: 'land_precip'
+storygenerations:
+  - aagen_id:
+    act1gen:
