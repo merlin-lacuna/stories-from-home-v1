@@ -1,0 +1,27 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.4
+      upper: 0.5
+   actmoodsamples:
+      act1: 0.4
+      act2: 0.2961652643978596
+      act3: 0.23
+   actmoodlevels:
+      act1: 5
+      act2: 2
+      act3: 1
+   chartstorage: 
+entitydescr:
+   id: fire_wildfire_ndvi_spain
+   bio: 
+   type: 
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 
+   act0descr:
+   act1descr: 
+   act2descr: 
+   act3descr:
