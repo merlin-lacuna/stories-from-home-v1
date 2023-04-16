@@ -1,0 +1,34 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.4
+      upper: 0.6
+   actmoodsamples:
+      act1:  0.501397960819304
+      act2:  0.4578811470419168
+      act3:  0.11
+   actmoodlevels:
+      act1: 5
+      act2: 5
+      act3: 2
+   chartstorage: fire_wildfire_ndvi_mati.png
+entitydescr:
+   id: fire_wildfire_ndvi_mati
+   bio: "Muffled in moonless shrouds, I lie A land concealed, embracing dark Sun-scorched embrace on my Eastern breast I dwell in hallowed melancholy''s cleft Amongst the throes of cicadas'' song.  Desire casts its languid tendrils Over skies courting apparitions celeste The azure canvas bled, searing red As Poseidon whispers secrets to the shore Routing pangs of thirst in waves of azure.  My soil, a pulsating corpus veined with green Morphed by primal forces, stained by olives and pines An orgiastic playground fostering bizarre unions A fevered symphony of growth and decay Where life runs rampant, teetering at the precipice of death.  For I am a battered archetype of decay, But also a monument to redemption My verdant lungs buckle and bow to Eros Merging the verdant and the desolate Into landscapes of salvation, where land and sea entwine.  Do I elicit fearful wonder from human minds? For they, too, lay bare the contradictions that birth me, Those fervid clashes of flesh and spirit, Igniting passions that tempt the boundless horizon And stir an abyss in the depths of their being.  We are mirrors of mystery, reflections of the absurd Poignantly simultaneous, yet forever entwined In a passionate dance of coal-black paradox A postmodern tale of yearning and despair, Of eloquent secrecy, pain, and bliss.  And so I whisper in fractured reverie A confession of my tortured, tenebrous splendor From the very soul of my forsaken body."
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 'The following play reveals the inner monologue of a warm, dry, mediterranean region land. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of wildfire present in the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The land is doing fine. Old burned sections have been absorbed into the soil and act as fertilizer for the burgeoning new tree roots. The land is enhanced by the mere surfacing of its roots. The earth''s desiccation had supplanted the luxurious ecosystem of organisms originally in harmony but now it is in a resurgence. All turns into stillness, and the land whispers in the breeze its generous legacy to the universe, wishing to bloom anew.\nLAND:'
+   act2descr: 'ACT2: The land is still doing fine. Old burned sections are still being absorbed into the soil and act as fertilizer for the burgeoning new tree roots. The land is still being enhanced by the mere surfacing of its roots. The earth''s desiccation had supplanted the luxurious ecosystem of organisms originally in harmony but still it is in a resurgence. All turns into stillness, and the land whispers in the breeze its generous legacy to the universe, striving to bloom anew.\nLAND:'
+   act3descr: 'ACT3: The land has starting to be decimated by a disastrous forest fire. The land senses that its leaves are suffocating, surrounded by a thick, opaque haze. The fume mantle is apparently bent on no longer allowing the sunlight to reach the land''s previously lush extensions. Everything grows fuzzy, the trunks creak at the dawn of an impending end.\nLAND:'
+   searchkey: 'land_wildfire'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---
