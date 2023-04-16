@@ -4,8 +4,8 @@ entitydata:
       lower: 0.4
       upper: 0.6
    actmoodsamples:
-      act1:  0.501397960819304
-      act2:  0.4578811470419168
+      act1:  0.501
+      act2:  0.457
       act3:  0.11
    actmoodlevels:
       act1: 5
@@ -26,7 +26,6 @@ prompt:
    act2descr: 'ACT2: The land is still doing fine. Old burned sections are still being absorbed into the soil and act as fertilizer for the burgeoning new tree roots. The land is still being enhanced by the mere surfacing of its roots. The earth''s desiccation had supplanted the luxurious ecosystem of organisms originally in harmony but still it is in a resurgence. All turns into stillness, and the land whispers in the breeze its generous legacy to the universe, striving to bloom anew.\nLAND:'
    act3descr: 'ACT3: The land has starting to be decimated by a disastrous forest fire. The land senses that its leaves are suffocating, surrounded by a thick, opaque haze. The fume mantle is apparently bent on no longer allowing the sunlight to reach the land''s previously lush extensions. Everything grows fuzzy, the trunks creak at the dawn of an impending end.\nLAND:'
    searchkey: 'land_wildfire'
-
 storygenerations:
 - aagen_id: 01-01-2022_01_01_01
   act1gen: '---'
