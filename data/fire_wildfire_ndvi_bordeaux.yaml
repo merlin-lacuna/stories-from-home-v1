@@ -1,0 +1,34 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.42
+      upper: 0.47
+   actmoodsamples:
+      act1:  0.45
+      act2:  0.37
+      act3:  0.34
+   actmoodlevels:
+      act1: 5
+      act2: 3
+      act3: 1
+   chartstorage: fire_wildfire_ndvi_bordeaux.png
+entitydescr:
+   id: fire_wildfire_ndvi_bordeaux
+   bio: "I am the whisper of fire, the region that danced in hell; unleashed by a wayward caress, where verdant life has been silently scorched The inferno's secret, a fierce longing seething beneath desire's surface Amorphous and unyielding to boundaries, I spread voraciously Embracing an ecstasy in the throes of annihilation, the process of becoming unbecoming  O sun, my tortured lover, the sadistic warmth that once nourished my limbs Your insatiable touch leaves nought but charred ravishment; and as I disintegrate into ash, surrendering to your burning inquiry I am the mad laughter of the Mâcha on nights of lunar eclipse Giddy with destruction, when heavens and hells coalesce into an unholy marriage  Once supplanted with verdure was this skin of mine— Swathed in vines, draped in Dionysian offerings, these angels of Dionysus Celebrate in the blood-soaked gatherings, a discordant symphony of pleasure and pain Heed the rousing call of the Bacchae, triumphant in their potent libations Drowning in debauchery while the desolate landscape sighs in quiet agony  The cruel winds gathered, acting upon the implacable hand of Eros A sinister chess play, these convicts condemned to a fate determined by cosmic irony; and in the throes of this vicious lust, irrevocable chasms sprout betwixt us Ambivalent forces tearing asunder my delicate, sacrificial flesh The battlefield of love, honoring Belphegor's infernal throne, where all is devoured  Am I the viscera laid bare or merely the wasteland cast aside? The remnant of your insistent heat, the residual marks of a carrion's feast A procession of violence concealed in the ineffability of existence Torn and tangled, a paradox resting between agony and ecstasy A liminal space where revelation and obliteration coalesce in the embers  In my repose, I hold dreams, possibilities of rebirth like phoenix's ash Fertile land waiting for the gentle touch of soothing rain; to renew, to resurrect Until then, I remain a barren witness, bound by the aphotic, tangled web A testament to the complex, inextricable travail of love and destruction At once savage and somber, the rampant fire consuming and the silence that follows."
+   type: land
+   element: fire
+   descriptor: green and verdant
+   measurementdescr: vegetation lost to wildfire
+prompt:
+   intro: 'The following play reveals the inner monologue of a green and verdant region of land that is close to the ocean. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of wildfire present in the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The forest is doing fine. Old burned sections have been absorbed into the soil and act as fertilizer for the burgeoning new tree roots. The forest is enhanced by the mere surfacing of its roots. The earth''s desiccation had supplanted the luxurious ecosystem of organisms originally in harmony but now it is in a resurgence. All turns into stillness, and the forest whispers in the breeze its generous legacy to the universe, wishing to bloom anew.\nLAND:'
+   act2descr: 'ACT2: The forest is very fragile. It is now losing vegetation to a new devastating forest fire. The forest crumbles towards the formerly moist and fecund terrain. Shreds of ash flicker in the air, making the atmosphere dense with dashed hopes and fading memories. Dreariness has replaced the living spirits, casting its shadow of silence all over the space.\nLAND:'
+   act3descr: 'ACT3: The forest has been severely burned. Forest fires have consumed a huge chunk of the forest. The forest experiences that all around unknown sharp entities of almost liquid heat are ruthlessly surging forward, dispossessing its presence and dismantling its vital force with their consistency. They are flames rising unannounced from the soil and besieging inexorably the branches, putting the flowing lymph into a blaze of pure destruction.\nLAND:'
+   searchkey: 'land_fire'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
