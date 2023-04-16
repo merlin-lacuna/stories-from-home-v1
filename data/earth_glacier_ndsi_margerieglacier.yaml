@@ -11,16 +11,25 @@ entitydata:
     lower: 80.0
     upper: 87.0
   measurementunit: percent
+  chartstorage: earth_glacier_ndsi_margerieglacier.png
 entitydescr:
-  bio: null
+  bio: "I am the weaver of my own vast tapestry, As ancient as Earth and as ephemeral, A myth in motion, a tale told in ice. Contrasting tongues of blue and white, I lay Upon the horizon, cutting sky From ocean's surface in fluid exchange. From the mountain's summit stretched behind, Descended and waned to sea's embrace As the fulmar flies, My being nested in ever-changing realms, Witness to the whispers of weather's work, And the inexorable pace of tide and time. The songs they sing of me, Are air and snow distilled, the pressured hues, Of thinnest blues to whites of purest snow, In the catacombs of centuries' collected memory, I am weather's kin, and my cold heart knows The rasp of the wind and the stillness of frozen nights. Here dwell the dreams of Earth's first chill, A sheen of glass, an iridescent shimmer, As I weave Arctic spirits into my tepid depths. A lapping arctic tern, a seal's furtive shadow, And an orca's rhythmic breath enliven me, In interwoven caesura to the pattern. The sounds that reverberate through the watery depths, As ice calves from my frozen crown, Are the echoes of the ages, the cries of inception. My pulse a resonant crack, a shiver that stirs the waves, Navigating along the arteries Of the ever-heaving world. Though my fragile sovereignty, Retreats upon the shivering shores, And reveals the histories and secrets held close, In dark and sheltered recesses Hidden between frozen walls, I am given to exist in mystery. Arrested and fluent, Astonishing and feared, I am what stirs and stills the tempest's yearn, An omen from an ancient time. A tenuous force of nature's grasp, The timekeeper of an ever-changing landscape."
   descriptor: null
   element: earth
   id: earth_land_ndsi_margerieglacier
   measurementdescr: null
   type: glacier
 prompt:
-  act0descr: null
-  act2descr: null
-  act3descr: null
-  intro: null
+   intro: 'The following play reveals the inner monologue of a subarctic, maritime tidewater glacier. It is divided into several acts. Throughout these acts, the glacier describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The total mass of the glacier is not yet known. The glacier introduces itself and describes its surroundings.\nGLACIER:'
+   act1descr: 'ACT1: The glacier has a stable ice mass. The glacier is intimately connected with the whole extension that constitutes its being. The freezing solidity of its kind is like a harmonious melody that vibrates on the notes of balance and radiance.\nGLACIER:'
+   act2descr: 'ACT2: The glacier still has a stable ice mass. The glacier is still intimately connected with the whole extension that constitutes its being. The freezing solidity of its kind continues to be like a harmonious melody that vibrates on the notes of balance and radiance.\nGLACIER:'
+   act3descr: 'ACT3: The glacier continues to have a stable ice mass. As always, the glacier is intimately connected with the whole extension that constitutes its being. Like before, the freezing solidity of its kind is like a harmonious melody that vibrates on the notes of balance and radiance.\nGLACIER:'
+   searchkey: 'glacier_mass'
+
+storygenerations:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
 
