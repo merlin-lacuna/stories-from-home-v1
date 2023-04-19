@@ -1,0 +1,32 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.49
+      upper: 0.52
+   actmoodsamples:
+      act1:  0.49
+      act2:  0.47
+      act3:  0.45
+   actmoodlevels:
+      act1: 5
+      act2: 3
+      act3: 2
+   chartstorage: 
+entitydescr:
+   id: fire_wildfire_ndvi_mexico
+   bio: 
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr: 
+   searchkey:
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen:
+  act3gen:
