@@ -1,0 +1,32 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.37
+      upper: 0.45
+   actmoodsamples:
+      act1:  0.4046248982037626
+      act2:  0.35
+      act3:  0.32
+   actmoodlevels:
+      act1: 5
+      act2: 4
+      act3: 3
+   chartstorage: 
+entitydescr:
+   id: fire_wildfire_ndvi_italy
+   bio: 
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr: 
+   searchkey:
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen:
+  act3gen:
