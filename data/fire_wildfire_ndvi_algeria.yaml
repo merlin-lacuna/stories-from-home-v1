@@ -1,0 +1,32 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.45
+      upper: 0.55
+   actmoodsamples:
+      act1:  0.5245209121086511
+      act2:  0.39
+      act3:  0.32
+   actmoodlevels:
+      act1: 5
+      act2: 3
+      act3: 2
+   chartstorage: 
+entitydescr:
+   id: fire_wildfire_ndvi_algeria
+   bio: 
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr: 
+   searchkey:
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen:
+  act3gen:
