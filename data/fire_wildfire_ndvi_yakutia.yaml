@@ -1,0 +1,32 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.45
+      upper: 0.52
+   actmoodsamples:
+      act1:  0.44453348029054146
+      act2:  0.36
+      act3:  0.3201917084962054
+   actmoodlevels:
+      act1: 4
+      act2: 2
+      act3: 1
+   chartstorage: 
+entitydescr:
+   id: fire_wildfire_ndvi_yakutia
+   bio: 
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr: 
+   searchkey:
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen:
+  act3gen:
