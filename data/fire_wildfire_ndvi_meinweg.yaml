@@ -1,0 +1,32 @@
+entitydata:
+   measurementunit: NDVI
+   idealranges:
+      lower: 0.36
+      upper: 0.44
+   actmoodsamples:
+      act1:  0.36535673664166374
+      act2:  0.3187779900660881
+      act3:  0.3018991351127624
+   actmoodlevels:
+      act1: 5
+      act2: 3
+      act3: 3
+   chartstorage: 
+entitydescr:
+   id: fire_wildfire_ndvi_meinweg
+   bio: 
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr: 
+prompt:
+   intro: 
+   act0descr: 
+   act2descr: 
+   act3descr: 
+   searchkey:
+storygenerations:
+- aagen_id:
+  act1gen: 
+  act2gen:
+  act3gen:
