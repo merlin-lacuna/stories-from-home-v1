@@ -4,29 +4,31 @@ entitydata:
       lower: 0.49
       upper: 0.52
    actmoodsamples:
-      act1:  0.49
-      act2:  0.47
+      act1:  0.4996303927576918
+      act2:  0.47465048632194695
       act3:  0.45
    actmoodlevels:
       act1: 5
       act2: 3
       act3: 2
-   chartstorage: 
+   chartstorage: fire_wildfire_ndvi_mexico.png
 entitydescr:
    id: fire_wildfire_ndvi_mexico
-   bio: 
+   bio: "In this boundless cradle I repose, an arid womb of lunar landscapes, scorching sun''s lover, where i, deprived of touch, caress the day with breath of scalding whispers. I am an enigma dancing with shadows, a carnival of cacti upon a stage so diverse, in beauty lurk monsters, grotesque, yet in them I see my nature''s perversity reflected. Fragments of paleontology embedded in my skin, in rivers of silence and memory like ghosts, I dwell, canyons deep, carved through my creased visage, each visage a novel of epochs and cosmic reveries. Distorted, elongated yuccas pierce my surface, engulfed by relentless wind that courses through me, collective aberrations defying divine intention, yet I remain defiant, a sanctuary for the strange and surreal. Queretaro, a jewel at my heart, lifeless desert transforming like phoenix to fertile nest, with violent rain, in limited, lacerating drops, i give life, only to snatch it back the morn after. I shiver in the howling wails of storm eyes, when the feathered serpent awakens, its scales glimmering with dark tempest, only to return into slumber, to sun''s firm embrace. I encompass resplendence and decay alike, in the secret corners of my being, where abandoned mines lie withered, as testament to human ambition''s futile struggle. The ceaseless cycle of creation, and dissolution, i am the chaotic canvas of this drama, an earthly contradiction of verdant oasis and sterile roughness, i am the unknown, the enigma, the mirror of man''s desires."
    type: land
    element: fire
    descriptor: 
    measurementdescr: 
 prompt:
-   intro: 
-   act0descr: 
-   act2descr: 
-   act3descr: 
-   searchkey:
+   intro: 'The following play reveals the inner monologue of a semi-arid and diverse region of land that has been ravished by a wildfire. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The damage caused by the wildfire is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: The land is doing fine. Old burned sections have been absorbed into the soil and act as fertilizer for the burgeoning new tree roots. The land is enhanced by the mere surfacing of its roots. The earth''s desiccation had supplanted the luxurious ecosystem of organisms originally in harmony but now it is in a resurgence. All turns into stillness, and the land whispers in the breeze its generous legacy to the universe, wishing to bloom anew.\nLAND:'
+   act2descr: 'ACT2: The land is making surprisingly fast progress in regrowing vegetation after a destructive forest fire. The land’s vegetation barely exists. All seems gradually to fall back to a primordial slumber. The land’s vegetation, after the wildness of a cosmic intrusion, has exhaled its last sigh, willing to rest in stasis. The final bursts animate the leftovers of the bushes, faintly illuminating the remnants of an earlier existence.\nLAND:'
+   act3descr: 'ACT3: The land is very fragile. It is now growing new roots after a devastating forest fire. The land crumbles towards the formerly moist and fecund terrain. Shreds of ash flicker in the air, making the atmosphere dense with dashed hopes and fading memories. Dreariness has replaced the living spirits, casting its shadow of silence all over the space.\nLAND:'
+   searchkey: 'land_temp'
+
 storygenerations:
-- aagen_id:
-  act1gen: 
-  act2gen:
-  act3gen:
+- aagen_id: 01-01-2022_01_01_01
+  act1gen: '---'
+  act2gen: '---'
+  act3gen: '---'
