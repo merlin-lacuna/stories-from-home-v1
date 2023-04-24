@@ -133,3 +133,6 @@ dmypy.json
 .idea/workspace.xml
 .streamlit
 /secrets.toml
+startmarvin.bat
+startmarvin.bat.lnk
+.idea/workspace.xml
