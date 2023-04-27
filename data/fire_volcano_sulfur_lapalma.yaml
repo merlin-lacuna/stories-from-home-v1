@@ -1,0 +1,30 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: -3.977624874096364e-05
+      upper: 0.023389210276305677
+   actmoodsamples:
+     act1:  0.0993145257234573
+     act2:  0.0555013604462146
+     act3:  0.0026463298127055
+   actmoodlevels:
+      act1: 0
+      act2: 2
+      act3: 5
+   chartstorage: 
+entitydescr:
+   id: fire_volcano_sulfur_lapalma
+   bio: 
+   type: 
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 
+   act0descr: 
+   act1descr: 
+   act2descr: 
+   act3descr: 
+   searchkey: 
+
