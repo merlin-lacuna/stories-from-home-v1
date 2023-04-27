@@ -1,0 +1,30 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: 0.00041336496360599995
+      upper: 0.002166785223316401
+   actmoodsamples:
+     act1:  0.0031582271622028
+     act2:  0.00055363355592516
+     act3:  0.0049191950820386
+   actmoodlevels:
+      act1: 3
+      act2: 5
+      act3: 1
+   chartstorage: 
+entitydescr:
+   id: fire_volcano_sulfur_russia
+   bio: 
+   type: 
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 
+   act0descr: 
+   act1descr: 
+   act2descr: 
+   act3descr: 
+   searchkey: 
+
