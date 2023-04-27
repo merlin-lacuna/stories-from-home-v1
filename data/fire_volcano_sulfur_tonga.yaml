@@ -1,0 +1,30 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: 0.00044448484550230205
+      upper: 0.0011667852233164012
+   actmoodsamples:
+    act1:  0.0061330734752118
+    act2:  0.0006701911644388667
+    act3:  0.0021114740520715
+   actmoodlevels:
+      act1: 0
+      act2: 5
+      act3: 2
+   chartstorage: 
+entitydescr:
+   id: fire_volcano_sulfur_tonga
+   bio: 
+   type: 
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 
+   act0descr: 
+   act1descr: 
+   act2descr: 
+   act3descr: 
+   searchkey: 
+
