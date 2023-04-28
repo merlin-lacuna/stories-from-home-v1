@@ -1,0 +1,29 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: 0.00041399966264309905
+      upper: 0.00643213288881816
+   actmoodsamples:
+    act1:  0.0481007471680641
+    act2:  0.0008717116051619
+    act3:  -0.0001085683879864
+   actmoodlevels:
+      act1: 0
+      act2: 5
+      act3: 4
+   chartstorage: 
+entitydescr:
+   id: fire_volcano_sulfur_kilauela
+   bio: 
+   type: 
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 
+   act0descr: 
+   act1descr: 
+   act2descr: 
+   act3descr: 
+   searchkey: 
