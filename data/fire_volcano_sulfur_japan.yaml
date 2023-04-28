@@ -1,0 +1,29 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: -0.0001516195188742131
+      upper:  0.0024321328888181597
+   actmoodsamples:
+   act1:  -0.0003857208939734
+   act2:  -0.0002975447569042
+   act3:  0.0041361589554813
+   actmoodlevels:
+      act1: 4
+      act2: 4
+      act3: 3
+   chartstorage: 
+entitydescr:
+   id: fire_volcano_sulfur_japan
+   bio: 
+   type: 
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 
+   act0descr: 
+   act1descr: 
+   act2descr: 
+   act3descr: 
+   searchkey: 
