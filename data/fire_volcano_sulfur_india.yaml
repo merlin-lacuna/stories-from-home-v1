@@ -4,26 +4,26 @@ entitydata:
       lower:  -7.878432370489463e-05
       upper:  0.0006321328888181597
    actmoodsamples:
-      act1:  0.0009584587863801001
-      act2:  0.0015652891510786334
-      act3:  0.0016023324676789 
+      act1:  0.0011584587863801002
+      act2:  0.00153
+      act3:  0.0
    actmoodlevels:
-      act1: 4
+      act1: 3
       act2: 2
-      act3: 2
-   chartstorage: 
+      act3: 5
+   chartstorage: fire_volcano_sulfur_india.png
 entitydescr:
    id: fire_volcano_sulfur_india
-   bio: "I, the dark and restless fever, hot and brooding, in a constant simmer, a boundless furnace pulsating inner chaos, from the depths of Narcissus' ancient well, I rise. A symphony of destruction, I conduct, the horn of Neptune whispers to the black waves, a bearish ballet, the tectonic plates bow and scrape, and deep within, I burn and churn with resolute desire. Overwhelmed by pent-up dread, eternal dread, I provoke my own undoing, the cosmic thunder, in earthquakes and fire, from my rupture, oozing evermore. I paint my veins upon the earth's canvas, searing a witness to once hidden power, calloused scars and untouched frontiers, vexing shores of lustful greens and iridescent blues. In solitude, confined by nature's mandate, I cultivate enigmatic splendor, with disdain, I hold the bucolic world, yet nurture primal wonders in my embrace. The wayward wanderers, seduced by my wiles, creature-spirits of long-forgotten lore, tepid rainforests cast their disapproval, freed upon my throne of menace, they flourish. What a paradox of life, that savored misfortune, coveted suffering, the depths of each crucible, upon my countenance, bequeaths the essence of existence, I embody sorrow and beauty as one tender, awful thought. In my exhaled despair and volatile breath, springs forth the whimpering hymn of renewal, an invitation for the cycle to begin anew, and my immortal, infernal heart shall weep in lonesome fire."
-   type: 
+   bio: "I, the dark and restless fever, hot and brooding, in a constant simmer, a boundless furnace pulsating inner chaos, from the depths of Narcissus'' ancient well, I rise. A symphony of destruction, I conduct, the horn of Neptune whispers to the black waves, a bearish ballet, the tectonic plates bow and scrape, and deep within, I burn and churn with resolute desire. Overwhelmed by pent-up dread, eternal dread, I provoke my own undoing, the cosmic thunder, in earthquakes and fire, from my rupture, oozing evermore. I paint my veins upon the earth''s canvas, searing a witness to once hidden power, calloused scars and untouched frontiers, vexing shores of lustful greens and iridescent blues. In solitude, confined by nature''s mandate, I cultivate enigmatic splendor, with disdain, I hold the bucolic world, yet nurture primal wonders in my embrace. The wayward wanderers, seduced by my wiles, creature-spirits of long-forgotten lore, tepid rainforests cast their disapproval, freed upon my throne of menace, they flourish. What a paradox of life, that savored misfortune, coveted suffering, the depths of each crucible, upon my countenance, bequeaths the essence of existence, I embody sorrow and beauty as one tender, awful thought. In my exhaled despair and volatile breath, springs forth the whimpering hymn of renewal, an invitation for the cycle to begin anew, and my immortal, infernal heart shall weep in lonesome fire."
+   type: volcano
    element: fire
    descriptor: 
    measurementdescr:
 
 prompt:
-   intro: 
-   act0descr: 
-   act1descr: 
-   act2descr: 
-   act3descr: 
-   searchkey: 
+   intro: 'The following play reveals the inner monologue of a tropical, hot and humid volcano in the Andaman Sea. It is divided into several acts. Throughout these acts, the volcano describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The volcano''s level of thermal activity is not yet known. The volcano introduces itself and describes its surroundings.\nVOLCANO:'
+   act1descr: 'ACT1: The volcano is starting to get hot and cracks begin to form near the crater. The facets of this world will be veined with streams of red tears stemming from the volcano. The earth melts in its cracks. It savagely reveals the bones of the universe. From the nucleus of the globe flames become liquid.\nVOLCANO:'
+   act2descr: 'ACT2: The volcano is getting very hot and emitting noxious gasses. The volcano''s limbs are imprisoned in between uncorruptible rocky concretions. It experiences a reckless drive to turn its surroundings into utmost chaos. The magmatic outburst will cast a new path.\nVOLCANO:'
+   act3descr: 'ACT3: The volcano is dormant and stable. It nurtures a rich ecosystem. The volcano is fully alive and turns into a blazing source of destructive renewal. Its blistering lymph sprouts incautious from the very core of the earth. It bursts into lava to merge with the soil and fulfill its crave for freedom.\nVOLCANO:'
+   searchkey: 'volcano_temp'
