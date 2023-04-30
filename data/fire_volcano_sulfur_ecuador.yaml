@@ -4,26 +4,25 @@ entitydata:
       lower:  -3.7409809010569006e-05
       upper:  0.0005373228341341019
    actmoodsamples:
-    act1:  0.0004159004020038
-    act2:  0.004491746796295
-    act3:  0.0009278871584683
+      act1:  0.0004159004020038
+      act2:  0.004491746796295
+      act3:  0.0009278871584683
    actmoodlevels:
       act1: 5
-      act2: 0
+      act2: 1
       act3: 3
-   chartstorage: 
+   chartstorage: fire_volcano_sulfur_ecuador.png
 entitydescr:
    id: fire_volcano_sulfur_ecuador
-   bio: "I, behemoth of fire, erupting in magma streams, infernal titan within the arms of deep oceans, forge forth from the fissures of primeval dreams, forming the landscape of ruptured notions. Boundless sky above, a shroud of deafening blues, as my brooding form stretches towards infinity, breathing moisture from the fleeting morning dews, in tacit surrender to the winds' serenity. Amidst the choking vapors and searing heat, springs forth the unexpected, fragile greenery, in riotous hues, life endures in discrete, a triumph against innate disparity. Tortoise ancients roam my timeworn path, witness to the relentless eons gone by, while creatures scaled in sun-drenched wrath, ascend these slopes, unshackled, and fly. Overhead, avian majesty kisses my face, the dance of shapes and shadows on my skin, from soaring razors down to my ashen grace, bathe in my gory splendor, a churning chaotic din. Curious iguanas tread upon my crater's edge, braving the pyroclastic weight of a forgotten curse, fearing not the violence from which I pledge, embracing their inherent bond to the earth. My enigmatic entrails, a grotesque design, birthed from passion, my essence divine, illuminating chaos, the interplay of fate, forever boundless, I ruminate with fiery hate. In this forsaken corner, an edifice of paradox, the stained canvas for Nature's praxis, here, I stand, a trembling spire, an everlasting memorial to desire."
-   type: 
+   bio: "I, behemoth of fire, erupting in magma streams, infernal titan within the arms of deep oceans, forge forth from the fissures of primeval dreams, forming the landscape of ruptured notions. Boundless sky above, a shroud of deafening blues, as my brooding form stretches towards infinity, breathing moisture from the fleeting morning dews, in tacit surrender to the winds'' serenity. Amidst the choking vapors and searing heat, springs forth the unexpected, fragile greenery, in riotous hues, life endures in discrete, a triumph against innate disparity. Tortoise ancients roam my timeworn path, witness to the relentless eons gone by, while creatures scaled in sun-drenched wrath, ascend these slopes, unshackled, and fly. Overhead, avian majesty kisses my face, the dance of shapes and shadows on my skin, from soaring razors down to my ashen grace, bathe in my gory splendor, a churning chaotic din. Curious iguanas tread upon my crater''s edge, braving the pyroclastic weight of a forgotten curse, fearing not the violence from which I pledge, embracing their inherent bond to the earth. My enigmatic entrails, a grotesque design, birthed from passion, my essence divine, illuminating chaos, the interplay of fate, forever boundless, I ruminate with fiery hate. In this forsaken corner, an edifice of paradox, the stained canvas for Nature''s praxis, here, I stand, a trembling spire, an everlasting memorial to desire."
+   type: volcano
    element: fire
    descriptor: 
    measurementdescr:
-
 prompt:
-   intro: 
-   act0descr: 
-   act1descr: 
-   act2descr: 
-   act3descr: 
-   searchkey: 
+   intro: 'The following play reveals the inner monologue of a humid and subtropical volcano on an island in the Pacific ocean. It is divided into several acts. Throughout these acts, the volcano describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The volcano''s level of thermal activity is not yet known. The volcano introduces itself and describes its surroundings.\nVOLCANO:'
+   act1descr: 'ACT1: The volcano is dormant and stable. It nurtures a rich ecosystem. The volcano is fully alive and turns into a blazing source of destructive renewal. Its blistering lymph sprouts incautious from the very core of the earth. Its lava has merged with the soil and fulfills its cravings for freedom.\nVOLCANO:'
+   act2descr: 'ACT2: The volcano is erupting, destroying neighboring lifeforms and blocking out the sun. The volcano can''t avoid its inescapable fate, its destiny is that of crawling out from the earth that mourns, groans in a wail of despair. It is called to break away from its primal origin, and is left within an abyssal turmoil.\nVOLCANO:'
+   act3descr: 'ACT3: The volcano is still hot and cracks still exist near the crater. The facets of this world are veined with streams of red tears stemming from the volcano. The earth melts in its cracks. It savagely reveals the bones of the universe. From the nucleus of the globe flames become liquid.\nVOLCANO:'
+   searchkey: 'volcano_temp'
