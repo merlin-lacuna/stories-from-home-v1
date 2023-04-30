@@ -21,10 +21,9 @@ entitydescr:
    measurementdescr:
 
 prompt:
-   intro: 
-   act0descr: 
-   act1descr: 
-   act2descr: 
-   act3descr: 
-   searchkey: 
-
+   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nVOLCANO: <entitybio>'
+   act1descr: 'ACT1: <add prompt>\nVOLCANO:'
+   act2descr: 'ACT2: <add prompt>\nVOLCANO:'
+   act3descr: 'ACT3: <add prompt>\nVOLCANO:'
+   searchkey: 'land_temp'
