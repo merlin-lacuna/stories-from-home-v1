@@ -8,23 +8,23 @@ entitydata:
      act2:  0.0555013604462146
      act3:  0.0026463298127055
    actmoodlevels:
-      act1: 0
+      act1: 1
       act2: 2
       act3: 5
-   chartstorage: 
+   chartstorage: fire_volcano_sulfur_lapalma.png
+
 entitydescr:
    id: fire_volcano_sulfur_lapalma
-   bio: "I, land of eternal paradox, smoke flits across my body, heralding the obscure flare of my mornings. Ecstatic streams of black veins, caressing my undulating ruggedness, lava from soulful abyss, awake with fervent lust. I am consumed by myself and memories, dying phoenixes enveloped in mist, sighs of relics from voluptuous seabed. A palette of resplendent hues, stains of life, whispers amidst forgotten laurel forests, wrapped in sylvan melancholy, a fever dream. Harbinger winds sighed from the abyss, carrying secrets on their caustic wings, kissing my enamored craters, guarded By dragon trees' tearful embrace. My heart throbs, viscerally, pulse shuddering beneath the soil, awakening the roots, seeking holiness, blessing the ashen fingertips of the pines. Above me, the sun, a capricious goddess, veils herself with amorphous veils, waxing, waning, brazen and treacherous, defier of the limits of my desires. Shroud of stars piercing the night sky, I am death, cosmic resurrection, an acute gasp, ecstasy upturned, an eternal, boundless, unapologetic plight. My body, sanctuary for wild souls, my passions unravel within tangled cliffs, seeking solace in labyrinths of solitude A haunting melody of chaos and beauty intertwines. I am not an island in name, I am the intimate stranger's kiss, a celestial voice, wrapped in terrestrial paradox, i, a fierce burning pyre of yearning, forever reaching, aching, yearning, bound endlessly to the coarse salted embrace of the sea."
-   type: 
+   bio: "I, land of eternal paradox, smoke flits across my body, heralding the obscure flare of my mornings. Ecstatic streams of black veins, caressing my undulating ruggedness, lava from soulful abyss, awake with fervent lust. I am consumed by myself and memories, dying phoenixes enveloped in mist, sighs of relics from voluptuous seabed. A palette of resplendent hues, stains of life, whispers amidst forgotten laurel forests, wrapped in sylvan melancholy, a fever dream. Harbinger winds sighed from the abyss, carrying secrets on their caustic wings, kissing my enamored craters, guarded By dragon trees'' tearful embrace. My heart throbs, viscerally, pulse shuddering beneath the soil, awakening the roots, seeking holiness, blessing the ashen fingertips of the pines. Above me, the sun, a capricious goddess, veils herself with amorphous veils, waxing, waning, brazen and treacherous, defier of the limits of my desires. Shroud of stars piercing the night sky, I am death, cosmic resurrection, an acute gasp, ecstasy upturned, an eternal, boundless, unapologetic plight. My body, sanctuary for wild souls, my passions unravel within tangled cliffs, seeking solace in labyrinths of solitude A haunting melody of chaos and beauty intertwines. I am not an island in name, I am the intimate stranger''s kiss, a celestial voice, wrapped in terrestrial paradox, I, a fierce burning pyre of yearning, forever reaching, aching, yearning, bound endlessly to the coarse salted embrace of the sea."
+   type: land
    element: fire
    descriptor: 
    measurementdescr:
 
 prompt:
-   intro: 
-   act0descr: 
-   act1descr: 
-   act2descr: 
-   act3descr: 
-   searchkey: 
-
+   intro: 'The following play reveals the inner monologue of a lush, green, subtropical island. It is divided into several acts. Throughout these acts, the island describes its inner and outer transformation before and after a volcano erruption:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of ash and lava covering the island is not yet known. The island introduces itself and describes its surroundings.\nISLAND:'
+   act1descr: 'ACT1: A volcano that lies within the island is erupting, destroying neighboring forest and blocking out the sun. The island can’t avoid its inescapable fate, its destiny is that of crawling out from the earth that mourns, groans in a wail of despair. It is called to break away from its primal origin, and is left within an abyssal turmoil.\nISLAND:'
+   act2descr: 'ACT2: A volcano that lies within the island is getting very hot and emiting noxious gasses. The volcano''s limbs are imprisoned in between incorruptible rocky concretions within the island. It experiences a reckless drive to turn its surroundings into utmost chaos. The magmatic outburst will cast a new path throughout the island.\nISLAND:'
+   act3descr: 'ACT3: The volcano that lies within the island is dormant and stable. It helps the island to nurture its rich ecosystem. The island is fully alive and thriving thanks to a blazing source of destructive renewal. Its blistering lymph sprouts incautiously from the very core of the earth. Lava has merged with the soil and fulfilled that island''s cravings for freedom.\nISLAND:'
+   searchkey: 'volcano_temp'
