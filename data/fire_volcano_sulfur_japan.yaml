@@ -1,0 +1,29 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: -0.0001516195188742131
+      upper:  0.0024321328888181597
+   actmoodsamples:
+      act1:  -0.0003857208939734
+      act2:  -0.0002975447569042
+      act3:  0.0041361589554813
+   actmoodlevels:
+      act1: 4
+      act2: 4
+      act3: 3
+   chartstorage: fire_volcano_sulfur_japan.png
+entitydescr:
+   id: fire_volcano_sulfur_japan
+   bio: "In the churning depth of my visceral core, I, abysmal anatomy of fire and brimstone, untether the shackles radiating my azotic veins, congealing the aqueous realm that caresses my flank. Through the fleetingness of existence, I persist; And within the caustic embrace of obsidian, congeals the primordial seed, cradling nascent moieties betwixt the molten touch of igneous maw, the ashen haze a veil coalescing the terrestrial verdancy. Voyagers wane, shedding the skins of ephemeral mortality, insubstantial motes against the eons I''ve witnessed, perpetuating with each violent exhalation, remnants of life, entrenched within the shadow of my aureate brethren above. A mordant solitude dwells inside my molten chambers, suffocating the gales'' whispers, the ocean''s siren song, yet at the intersection of liminal worlds, from liquid to gas, resonates the pulsating heart of a world in metamorphic flux. Disemboguing scars skitter athwart the emerald canopy, ribbons of vermilion cavort the liturgical dance of my existence, deliquescent promontories encroach upon the jaded horizon, each new sinew a sacrosanct act of familiar self-conquest. In firmament''s tender grasp, I shall remain tethered, resisting the perpetual dalliance between both destruction and rebirth, the fulcrum ''pon which hangs the unwritten fate of evolution, I am the apotheosis of perennial change, and the vanguard of creation."
+   type: volcano
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a humid and subtropical volcano on an island in the Pacific ocean. It is divided into several acts. Throughout these acts, the volcano describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The volcano''s level of thermal activity is not yet known. The volcano introduces itself and describes its surroundings.\nVOLCANO:'
+   act1descr: 'ACT1: The volcano is tepid and harmless, only small amounts of steam are released. A new form of existence might spring again from the volcano vibrancy. Threads made of gentle warmth unfold from its core. The volcano languidly dissolves in the presence of a glowing new beginning. After decades of quiescence its soul might be released.\nVOLCANO:'
+   act2descr: 'ACT2: The volcano is still tepid and harmless, and still, only small amounts of steam are released. A new form of existence might spring again from the volcano vibrancy. Threads made of gentle warmth still unfold from its core. The volcano still languidly dissolves in the presence of a glowing new beginning. After decades of quiescence its soul promises to be released.\nVOLCANO:'
+   act3descr: 'ACT3: The volcano is starting to get hot and cracks begin to form near the crater. The facets of this world will be veined with streams of red tears stemming from the volcano. The earth melts in its cracks. It savagely reveals the bones of the universe. From the nucleus of the globe flames become liquid.\nVOLCANO:'
+   searchkey: 'volcano_temp'
