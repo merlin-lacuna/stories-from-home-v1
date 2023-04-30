@@ -1,0 +1,30 @@
+entitydata:
+   measurementunit: SO2
+   idealranges:
+      lower: 0.00041336496360599995
+      upper: 0.002166785223316401
+   actmoodsamples:
+     act1:  0.0031582271622028
+     act2:  0.00055363355592516
+     act3:  0.0049191950820386
+   actmoodlevels:
+      act1: 3
+      act2: 5
+      act3: 1
+   chartstorage: fire_volcano_sulfur_russia.png
+entitydescr:
+   id: fire_volcano_sulfur_russia
+   bio: "In my body, slumbers dormant a fire, a burnt and tainted heart Boiling, smoldering, yearning to awaken. Lands strewn with jagged peaks, black veined forests, veins engorged with life. Within me – fury concealed, beauty manifest My visage, an unquiet elegance; A beast''s heart encased in fragile ice. Mysteries flutter down, glistening flakes Filling my world with veils of frozen whispers, white shrouds bind my stifled desire, a shivering dance of fragile existence The trembling embrace of earth and ice. In stillness, dreams gestate Silent, unseen, muffled by a leaden lake of sorrow. Ah! Yet... a gentle touch of fire, a distant warmth, announces the storm to come. The sky wails and thunders, a hundred spectral cries, erupting passion, unraveling the earth Beneath the folds, my heart ignites Breaking through the frosted mantle. Viridian verdure, myriad shades of laughter abound Streamlets shiver, as my blood gushes forth A river of life, burgeoning beneath a canopy, emerald and gold, tearful offerings to the charred soil. On horizons kissed by fiery splendor, my longing quenched, the flame subsided Yet – in the memory of lava, an urge stirred To scorch anew, to love and burn. Thus, I, the land tremble and roar, cloaked in shivering white and fevered black, extremes tethered, within my soul Whisper to me, ye Earthly echoes, of dreams unfettered, in landscape bound."
+   type: land
+   element: fire
+   descriptor: 
+   measurementdescr:
+
+prompt:
+   intro: 'The following play reveals the inner monologue of a cold and harsh region of land that hosts glacial landscapes, a mix of vast tundra, coniferous forests, and wetlands. It is divided into several acts. Throughout these acts, the land describes its inner and outer transformation before and after a volcano eruption:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The level of ash and lava covering the land is not yet known. The land introduces itself and describes its surroundings.\nLAND:'
+   act1descr: 'ACT1: A volcano that lies within the land is starting to get hot and cracks begin to form near the crater. The facets of the land will be veined with streams of red tears stemming from the volcano. The earth melts in its cracks. It savagely reveals the bones of the universe. From the nucleus of the globe flames become liquid, an ominous threat to the land.\nLAND:'
+   act2descr: 'ACT2: The volcano that lies within the land is dormant and stable. It helps the land to nurture its rich ecosystem. The land is fully alive and thriving thanks to a blazing source of destructive renewal. Its blistering lymph sprouts incautiously from the very core of the earth. Lava has merged with the soil and fulfilled that land’s cravings for freedom.\nLAND:'
+   act3descr: 'ACT3: A volcano that lies within the land is erupting, destroying neighboring forest and blocking out the sun. The land can’t avoid its inescapable fate, its destiny is that of crawling out from the earth that mourns, groans in a wail of despair. It is called to break away from its primal origin, and is left within an abyssal turmoil.\nLAND:'
+   searchkey: 'volcano_temp'
+
