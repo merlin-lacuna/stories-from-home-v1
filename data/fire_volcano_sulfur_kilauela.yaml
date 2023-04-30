@@ -8,22 +8,22 @@ entitydata:
     act2:  0.0008717116051619
     act3:  -0.0001085683879864
    actmoodlevels:
-      act1: 0
+      act1: 1
       act2: 5
-      act3: 4
-   chartstorage: 
+      act3: 5
+   chartstorage: fire_volcano_sulfur_kilauela.png
 entitydescr:
    id: fire_volcano_sulfur_kilauela
-   bio: 
-   type: 
+   bio: "A paradox of flame, a testimony of absurdity, in me, congealed marvels converge, emergent from depths, unseen for millenniums, here, where carnal landscapes merge. Sublime chaos, my essence unleashed, fiend of infernal molten attire; My burning spontaneity sears the ashen sky, affliction and abundance, virescent desire. On the fringes of my warm embrace, sweet nectar thrives, effulgent presence; A lush haven borne of fierce intensity, in fire''s breath, each life finds its essence. Of desolation and fertility anon, this island, a bastion of the absurd; My lava tongues bespeak mortality''s infirmity, a stark symbiosis converging and blurred. Ephemeral, the wax and wane of clouds, like words, like thoughts that depart; A symphony of wind and rain resounds, pervading my battered, primal heart. An iodine kiss, that saline tide, whispering to the churning shore; I offer my tears, scorching siren swells, explosions of lust, they implore. Then, in the dark cloak of night, when sun''s realm retreats and settles; Cradled by the vast cosmic quilt, moon''s silver caress, in me, nestles. Entwined with the laughter of stars, I bleed and rejoice, deep passion imbued; Mine, an existence of visceral delight, sublimely obscene, eternally renewed."
+   type: volcano
    element: fire
    descriptor: 
    measurementdescr:
 
 prompt:
-   intro: 
-   act0descr: 
-   act1descr: 
-   act2descr: 
-   act3descr: 
-   searchkey: 
+   intro: 'The following play reveals the inner monologue of a hot and thermally active volcano located in the Pacific ocean. It is divided into several acts. Throughout these acts, the volcano describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The exact level of thermal activity in the volcano is not yet known. The volcano introduces itself and describes its surroundings.\nVOLCANO:'
+   act1descr: 'ACT1: The volcano is erupting, destroying neighboring lifeforms and blocking out the sun. The volcano can’t avoid its inescapable fate, its destiny is that of crawling out from the earth that mourns, groans in a wail of despair. It is called to break away from its primal origin, and is left within an abyssal turmoil.\nVOLCANO:'
+   act2descr: 'ACT2: The volcano is dormant and stable. It nurtures a rich ecosystem. The volcano is fully alive and turns into a blazing source of destructive renewal. Its blistering lymph sprouts incautious from the very core of the earth. Its lava merges with the soil and fulfills its cravings for freedom.\nVOLCANO:'
+   act3descr: 'ACT3: The volcano is still dormant and stable. It still nurtures a rich ecosystem. The volcano is fully alive and is still a source of destructive renewal. Its blistering lymph still sprouts incautiously from the very core of the earth. Its lava continues to merge with the soil and fulfills its cravings for freedom.\nVOLCANO:'
+   searchkey: 'volcano_temp'
