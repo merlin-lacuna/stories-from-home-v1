@@ -4,26 +4,26 @@ entitydata:
       lower: -2.429755295452196e-05
       upper: 0.0009978871584683656
    actmoodsamples:
-    act1:  0.004240855443558916
-    act2:  0.004491746796295
-    act3:  0.0008627931044126
+      act1:  0.004240855443558916
+      act2:  0.0008627931044126
+      act3:  0.0008627931044126
    actmoodlevels:
-      act1: 0
-      act2: 0
+      act1: 1
+      act2: 5
       act3: 5
-   chartstorage: 
+   chartstorage: fire_volcano_sulfur_tonga.png
 entitydescr:
    id: fire_volcano_sulfur_tonga
    bio: "In the fathomless depths of me, I lie cradled, where sun's rays never pierce through dancing, dappled darkness, abyssal anguish and love, brimming, like molten metal. No oceanic words suffice, no speech encircles me, silent shivers run through my crevices, my stone flesh molded; These trembling figures cast their yearning echoes against the azure veil. I birth, and in birthing, embrace the vertigo's flight, my own self a nascent fire, unquenched, consuming flame, as if tearing myself, erupting, from secret genesis, fury and grace, bursting forth, volcanic passion renewed. Twirling, weaving lives around me, their myriad threads, entwining roots that pierce, longing for sustenance, each coral strand, a reflection of my sanguine surge, their radiant blossoms, a subaqueous Eden, far from celestial orbs, fleeing from their father's gaze. Agony births tenderness, from a deformed chrysalis, an interstice of duality embraced, sheltering me like a child, one aware of vices, of my divine cruelty and fragility, yet unwinged, unafraid of the sun, I mock Icarus’ fall, a tapestry of passions mingled in the sacred murk. I drink the mighty winds and turbulent waves, sailing through my tear-laden boughs and sinewy branches, in quiet contemplation, a mother nursing her child, their transient joy, a break from fevered reverie. I hear their breath, minute and stammering, in whispers, they grasp after truth, to find themselves adrift, craving not escape, but this confinement within, nursing their dreams against the ever-looming night. Between skies and abyss, emblem of a dream once lost, now slept beneath my watery gaze, as a child in a cradle, I am the sanctuary, where carnage and guilt commune, where memories and eternal longing conspire the fertile earth. For I am he, bludgeoned betwixt desire. My visage cast into lowly stares, my life blooming, then whithering, as the cycle of chaos and rebirth persist, my voice, the echo of the ancients, lost, yet through the festering depths, I summon, a future conjugated in beauty’s resolute gaze."
-   type: 
+   type: volcano
    element: fire
    descriptor: 
    measurementdescr:
 
 prompt:
-   intro: 'The following play reveals the inner monologue of a <descriptor> <type>. It is divided into several acts. Throughout these acts, the <type> describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
-   act0descr: 'ACT0: The <measurementdescr> is not yet known. The <type> introduces itself and describes its surroundings.\nVOLCANO: <entitybio>'
-   act1descr: 'ACT1: <add prompt>\nVOLCANO:'
-   act2descr: 'ACT2: <add prompt>\nVOLCANO:'
-   act3descr: 'ACT3: <add prompt>\nVOLCANO:'
-   searchkey: 'land_temp'
+   intro: 'The following play reveals the inner monologue of a tropical, underwater volcano in the southwest Pacific Ocean. It is divided into several acts. Throughout these acts, the volcano describes its inner and outer transformation:\n\nThe first act starts like this:\n\n'
+   act0descr: 'ACT0: The exact level of thermal activity in the volcano is not yet known. The volcano introduces itself and describes its surroundings.\nVOLCANO:'
+   act1descr: 'ACT1: The volcano is erupting, destroying neighboring lifeforms and blocking out the sun. The volcano can’t avoid its inescapable fate, its destiny is that of crawling out from the earth that mourns, groans in a wail of despair. It is called to break away from its primal origin, and is left within an abyssal turmoil.\nVOLCANO:'
+   act2descr: 'ACT2: The volcano is dormant and stable. It nurtures a rich ecosystem. The volcano is fully alive and turns into a blazing source of destructive renewal. Its blistering lymph sprouts incautious from the very core of the earth. Its lava merges with the sea and fulfills its cravings for freedom.\nVOLCANO:'
+   act3descr: 'ACT3: The volcano is still dormant and stable. It still nurtures a rich ecosystem. The volcano is fully alive and is still a source of destructive renewal. Its blistering lymph still sprouts incautiously from the very core of the earth. Its lava continues to merge with the sea and fulfills its cravings for freedom.\nVOLCANO:'
+   searchkey: 'volcano_temp'
